@@ -1,0 +1,56 @@
+{
+  "id": "gen-1774464237-jhzCNUh5qYrrfTybD8Z0",
+  "object": "chat.completion",
+  "created": 1774464237,
+  "model": "anthropic/claude-4.6-sonnet-20260217",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "tool_calls",
+      "native_finish_reason": "tool_use",
+      "message": {
+        "role": "assistant",
+        "content": "Sprawdzam aktualny stan `settings.ini`.",
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_vrtx_0127AzejCfh3o7XAa4j4QciD",
+            "function": {
+              "name": "shell",
+              "arguments": "{\"command\": \"cat /opt/firmware/cooler/settings.ini\"}"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2159,
+    "completion_tokens": 67,
+    "total_tokens": 2226,
+    "cost": 0.007482,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.007482,
+      "upstream_inference_prompt_cost": 0.006477,
+      "upstream_inference_completions_cost": 0.001005
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

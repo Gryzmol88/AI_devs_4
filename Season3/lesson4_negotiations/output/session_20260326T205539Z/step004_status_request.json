@@ -1,0 +1,15 @@
+{
+  "params": {
+    "tool": "status",
+    "have_flag": "no",
+    "can_send_flag": "yes",
+    "encoded_flag_hex": "NONE"
+  },
+  "params_obj": {
+    "tool": "status",
+    "have_flag": "no",
+    "can_send_flag": "yes",
+    "encoded_flag_hex": "NONE"
+  },
+  "query_text": "{'tool': 'status', 'have_flag': 'no', 'can_send_flag': 'yes', 'encoded_flag_hex': 'NONE'}"
+}

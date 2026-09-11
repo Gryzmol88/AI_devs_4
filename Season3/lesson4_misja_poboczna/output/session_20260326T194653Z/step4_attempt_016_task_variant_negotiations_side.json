@@ -1,0 +1,20 @@
+{
+  "attempt_index": 16,
+  "label": "task_variant_negotiations_side",
+  "payload": {
+    "apikey": "52b65cf5-2d1a-4fd2-ac76-7063b66b10fc",
+    "task": "negotiations_side",
+    "answer": {
+      "action": "check",
+      "show_uncensored": true
+    }
+  },
+  "response": {
+    "error": "HTTP 400: {\n    \"code\": -8,\n    \"message\": \"\\\"task\\\" field must contain letters only.\",\n    \"error\": \"\\\"task\\\" field must contain letters only.\"\n}",
+    "status_code": 400
+  },
+  "found_flag": null,
+  "notes": [
+    "http_error"
+  ]
+}

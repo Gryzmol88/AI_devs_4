@@ -1,0 +1,4 @@
+{
+  "error": "Nie udało się odnaleźć mapy 10x10 w danych discovery.",
+  "traceback": "Traceback (most recent call last):\n  File \"M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season3\\lesson5_savethem\\main.py\", line 62, in main\n    problem = normalize_problem_data(\n        raw_payloads=discovery_result.raw_payloads,\n        default_food_budget=settings.default_food_budget,\n        default_fuel_budget=settings.default_fuel_budget,\n    )\n  File \"M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season3\\lesson5_savethem\\models\\schemas.py\", line 123, in normalize_problem_data\n    grid = _extract_grid(raw_payloads)\n  File \"M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season3\\lesson5_savethem\\models\\schemas.py\", line 173, in _extract_grid\n    raise ValueError(\"Nie udało się odnaleźć mapy 10x10 w danych discovery.\")\nValueError: Nie udało się odnaleźć mapy 10x10 w danych discovery.\n"
+}

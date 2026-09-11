@@ -1,0 +1,234 @@
+{
+  "generatedAt": "2026-04-02T14:30:00.552",
+  "results": [
+    {
+      "case": {
+        "name": "P1_sameMirror_2020-02-02_00:00:00_w4.4_p0",
+        "family": "P1_same_mirror",
+        "unlock": {
+          "startDate": "2020-02-02",
+          "startHour": "00:00:00",
+          "windMs": 4.4,
+          "pitchAngle": 0
+        },
+        "config": {
+          "startDate": "2020-02-02",
+          "startHour": "00:00:00",
+          "pitchAngle": 0,
+          "turbineMode": "production"
+        }
+      },
+      "executedAt": "2026-04-02T14:30:00.550",
+      "unlockCode": "{FLG:LIVENOTONEVIL}",
+      "flag": "{FLG:LIVENOTONEVIL}",
+      "responses": {
+        "start": {
+          "code": 60,
+          "message": "Windpower session started.",
+          "sessionStart": "2026-04-02 14:29:58",
+          "sessionTimeout": 40
+        },
+        "unlockEnqueue": {
+          "code": 14,
+          "message": "Task has been queued. Use getResult to retrieve the response."
+        },
+        "unlockResult": {
+          "code": 12,
+          "message": "Queued response retrieved.",
+          "sourceFunction": "unlockCodeGenerator",
+          "unlockCode": "{FLG:LIVENOTONEVIL}",
+          "signedParams": {
+            "startDate": "2020-02-02",
+            "startHour": "00:00:00",
+            "windMs": "4.4",
+            "pitchAngle": "0.0"
+          }
+        },
+        "config": {
+          "skipped": true,
+          "reason": "flag found in unlock response"
+        },
+        "postConfigResult": {
+          "skipped": true,
+          "reason": "flag found in unlock response"
+        }
+      },
+      "trace": [
+        {
+          "startedAt": "2026-04-02T14:29:57.973",
+          "finishedAt": "2026-04-02T14:29:58.598",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "start"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 60,
+            "message": "Windpower session started.",
+            "sessionStart": "2026-04-02 14:29:58",
+            "sessionTimeout": 40
+          },
+          "case": "P1_sameMirror_2020-02-02_00:00:00_w4.4_p0",
+          "label": "start"
+        },
+        {
+          "startedAt": "2026-04-02T14:29:58.601",
+          "finishedAt": "2026-04-02T14:29:58.653",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "unlockCodeGenerator",
+              "startDate": "2020-02-02",
+              "startHour": "00:00:00",
+              "windMs": 4.4,
+              "pitchAngle": 0
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 14,
+            "message": "Task has been queued. Use getResult to retrieve the response."
+          },
+          "case": "P1_sameMirror_2020-02-02_00:00:00_w4.4_p0",
+          "label": "unlockCodeGenerator"
+        },
+        {
+          "startedAt": "2026-04-02T14:29:58.656",
+          "finishedAt": "2026-04-02T14:29:58.739",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          },
+          "case": "P1_sameMirror_2020-02-02_00:00:00_w4.4_p0",
+          "label": "getResult-unlock-poll#1"
+        },
+        {
+          "startedAt": "2026-04-02T14:29:59.044",
+          "finishedAt": "2026-04-02T14:29:59.122",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          },
+          "case": "P1_sameMirror_2020-02-02_00:00:00_w4.4_p0",
+          "label": "getResult-unlock-poll#2"
+        },
+        {
+          "startedAt": "2026-04-02T14:29:59.424",
+          "finishedAt": "2026-04-02T14:29:59.471",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          },
+          "case": "P1_sameMirror_2020-02-02_00:00:00_w4.4_p0",
+          "label": "getResult-unlock-poll#3"
+        },
+        {
+          "startedAt": "2026-04-02T14:29:59.773",
+          "finishedAt": "2026-04-02T14:29:59.828",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          },
+          "case": "P1_sameMirror_2020-02-02_00:00:00_w4.4_p0",
+          "label": "getResult-unlock-poll#4"
+        },
+        {
+          "startedAt": "2026-04-02T14:30:00.132",
+          "finishedAt": "2026-04-02T14:30:00.184",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          },
+          "case": "P1_sameMirror_2020-02-02_00:00:00_w4.4_p0",
+          "label": "getResult-unlock-poll#5"
+        },
+        {
+          "startedAt": "2026-04-02T14:30:00.487",
+          "finishedAt": "2026-04-02T14:30:00.542",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 12,
+            "message": "Queued response retrieved.",
+            "sourceFunction": "unlockCodeGenerator",
+            "unlockCode": "{FLG:LIVENOTONEVIL}",
+            "signedParams": {
+              "startDate": "2020-02-02",
+              "startHour": "00:00:00",
+              "windMs": "4.4",
+              "pitchAngle": "0.0"
+            }
+          },
+          "case": "P1_sameMirror_2020-02-02_00:00:00_w4.4_p0",
+          "label": "getResult-unlock-poll#6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "configs": [
+    {
+      "timestamp": "2026-04-03 18:00:00",
+      "wind_ms": 25.0,
+      "pitch_angle": 90,
+      "turbine_mode": "idle",
+      "reason": "Ochrona lopat podczas wichury."
+    },
+    {
+      "timestamp": "2026-04-03 20:00:00",
+      "wind_ms": 5.9,
+      "pitch_angle": 0,
+      "turbine_mode": "production",
+      "reason": "Pierwsze bezpieczne okno produkcji brakujacej mocy."
+    },
+    {
+      "timestamp": "2026-04-06 18:00:00",
+      "wind_ms": 22.0,
+      "pitch_angle": 90,
+      "turbine_mode": "idle",
+      "reason": "Ochrona lopat podczas wichury."
+    },
+    {
+      "timestamp": "2026-04-07 18:00:00",
+      "wind_ms": 28.0,
+      "pitch_angle": 90,
+      "turbine_mode": "idle",
+      "reason": "Ochrona lopat podczas wichury."
+    }
+  ],
+  "production_point": {
+    "timestamp": "2026-04-03 20:00:00",
+    "wind_ms": 5.9,
+    "pitch_angle": 0,
+    "turbine_mode": "production",
+    "reason": "Pierwsze bezpieczne okno produkcji brakujacej mocy."
+  },
+  "notes": [
+    "Wykryto 3 zdarzen sztormowych.",
+    "Liczba punktow konfiguracji: 4."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "col": 3,
+  "row": 4,
+  "status_code": 400,
+  "verify_response": {
+    "code": -880,
+    "message": "I don't think you'll hit the dam. You'll drop the bomb somewhere nearby."
+  },
+  "instructions": [
+    "hardReset",
+    "set(engineON)",
+    "set(100%)",
+    "setDestinationObject(PWR6132PL)",
+    "set(video)",
+    "set(image)",
+    "set(return)",
+    "set(100m)",
+    "set(3,4)",
+    "flyToLocation"
+  ]
+}

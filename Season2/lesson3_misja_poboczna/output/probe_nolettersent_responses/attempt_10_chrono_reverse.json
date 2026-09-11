@@ -1,0 +1,4 @@
+{
+  "code": -944,
+  "message": "You did not send the information in chronological order. First offending log line: \"[2026-03-19 21:33] [CRIT] ECCS8 Runaway outlet temperature reported; protection interlock initiated reactor trip.\"."
+}

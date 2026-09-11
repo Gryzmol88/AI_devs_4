@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "blocked": true,
+  "reason": "Najpierw odczytaj /home/operator/.gitignore przed pracą w tym katalogu",
+  "command": "cat /home/operator/.bash_history",
+  "required_bootstrap_command": "cat /home/operator/.gitignore"
+}

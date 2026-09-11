@@ -1,0 +1,11 @@
+{
+  "code": 60,
+  "message": "Inspect logs loaded.",
+  "logs": [
+    {
+      "scout": "be8d393aaf83abf040c263446e67b282",
+      "msg": "Nic tu nie ma oprócz stosu gazet i pustych opakowań.",
+      "field": "F7"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "error": "Blad HTTP verify: status=400, body={\n    \"code\": -805,\n    \"message\": \"Some people are missing in \\/osoby files (name or content).\",\n    \"missing\": [\n        \"Rafa\\u0142 Kisiel\",\n        \"Lena Konkel\"\n    ]\n}",
+  "run_id": "20260403_140519_681759"
+}

@@ -1,0 +1,268 @@
+[
+  {
+    "startedAt": "2026-04-03T14:39:46.758",
+    "finishedAt": "2026-04-03T14:39:47.496",
+    "http": {
+      "statusCode": 200,
+      "ok": true
+    },
+    "request": {
+      "task": "filesystem",
+      "answer": {
+        "action": "help"
+      }
+    },
+    "response": {
+      "code": 5,
+      "message": "Filesystem usage manual.",
+      "limits": {
+        "max_directory_name_length": 30,
+        "max_file_name_length": 20,
+        "max_directory_depth": 3,
+        "allowed_name_pattern": "^[a-z0-9_]+$",
+        "global_unique_names": true
+      },
+      "batch_mode": {
+        "description": "You can send answer as an array of actions executed sequentially.",
+        "allowed_actions": [
+          "createFile",
+          "createDirectory",
+          "deleteFile",
+          "deleteDirectory",
+          "reset"
+        ],
+        "example": [
+          {
+            "action": "createDirectory",
+            "path": "/docs"
+          },
+          {
+            "action": "createFile",
+            "path": "/docs/readme",
+            "content": "hello"
+          },
+          {
+            "action": "deleteFile",
+            "path": "/docs/readme"
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "createFile",
+          "description": "Creates a new file or overwrites an existing one at the same path.",
+          "params": [
+            "path",
+            "content"
+          ],
+          "rules": [
+            "only markdown syntax is accepted in file content",
+            "markdown links must point to existing files"
+          ],
+          "example": {
+            "action": "createFile",
+            "path": "/docs/readme",
+            "content": "Hello"
+          }
+        },
+        {
+          "action": "createDirectory",
+          "description": "Creates a new directory under an existing parent directory.",
+          "params": [
+            "path"
+          ],
+          "example": {
+            "action": "createDirectory",
+            "path": "/docs"
+          }
+        },
+        {
+          "action": "deleteFile",
+          "description": "Deletes an existing file at the given path.",
+          "params": [
+            "path"
+          ],
+          "example": {
+            "action": "deleteFile",
+            "path": "/docs/readme"
+          }
+        },
+        {
+          "action": "deleteDirectory",
+          "description": "Deletes an existing directory together with all nested files and folders.",
+          "params": [
+            "path"
+          ],
+          "example": {
+            "action": "deleteDirectory",
+            "path": "/docs"
+          }
+        },
+        {
+          "action": "listFiles",
+          "description": "Lists files from a directory with their names, creation timestamps and sizes.",
+          "params": [
+            "path (optional, default: /)"
+          ],
+          "example": {
+            "action": "listFiles",
+            "path": "/docs"
+          }
+        },
+        {
+          "action": "reset",
+          "description": "Clears the whole virtual filesystem and restores only the root directory.",
+          "params": [],
+          "example": {
+            "action": "reset"
+          }
+        },
+        {
+          "action": "done",
+          "description": "Runs final validation of the filesystem against all task rules.",
+          "params": [],
+          "example": {
+            "action": "done"
+          }
+        },
+        {
+          "action": "help",
+          "description": "Returns a compact manual with available actions and parameter examples.",
+          "params": [],
+          "example": {
+            "action": "help"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "startedAt": "2026-04-03T14:39:47.496",
+    "finishedAt": "2026-04-03T14:39:47.545",
+    "http": {
+      "statusCode": 200,
+      "ok": true
+    },
+    "request": {
+      "task": "filesystem",
+      "answer": {
+        "action": "listFiles",
+        "path": "/"
+      }
+    },
+    "response": {
+      "code": 50,
+      "message": "Listing completed.",
+      "path": "/",
+      "entries": []
+    }
+  },
+  {
+    "request": {
+      "task": "filesystem",
+      "answer": {
+        "action": "listFiles",
+        "path": "/flag"
+      }
+    },
+    "http": {
+      "statusCode": 404,
+      "ok": false
+    },
+    "response": {
+      "error": "404 HTTP error for https://hub.ag3nts.org/verify. API details: {\n    \"code\": -850,\n    \"message\": \"Directory does not exist.\"\n}",
+      "status_code": 404,
+      "body": "{\n    \"code\": -850,\n    \"message\": \"Directory does not exist.\"\n}"
+    }
+  },
+  {
+    "request": {
+      "task": "filesystem",
+      "answer": {
+        "action": "listFiles",
+        "path": "/flag/"
+      }
+    },
+    "http": {
+      "statusCode": 404,
+      "ok": false
+    },
+    "response": {
+      "error": "404 HTTP error for https://hub.ag3nts.org/verify. API details: {\n    \"code\": -850,\n    \"message\": \"Directory does not exist.\"\n}",
+      "status_code": 404,
+      "body": "{\n    \"code\": -850,\n    \"message\": \"Directory does not exist.\"\n}"
+    }
+  },
+  {
+    "request": {
+      "task": "filesystem",
+      "answer": {
+        "action": "listFiles",
+        "path": "/flag"
+      }
+    },
+    "http": {
+      "statusCode": 404,
+      "ok": false
+    },
+    "response": {
+      "error": "404 HTTP error for https://hub.ag3nts.org/verify. API details: {\n    \"code\": -850,\n    \"message\": \"Directory does not exist.\"\n}",
+      "status_code": 404,
+      "body": "{\n    \"code\": -850,\n    \"message\": \"Directory does not exist.\"\n}"
+    }
+  },
+  {
+    "request": {
+      "task": "filesystem",
+      "answer": {
+        "action": "listFiles",
+        "path": "/flag/"
+      }
+    },
+    "http": {
+      "statusCode": 404,
+      "ok": false
+    },
+    "response": {
+      "error": "404 HTTP error for https://hub.ag3nts.org/verify. API details: {\n    \"code\": -850,\n    \"message\": \"Directory does not exist.\"\n}",
+      "status_code": 404,
+      "body": "{\n    \"code\": -850,\n    \"message\": \"Directory does not exist.\"\n}"
+    }
+  },
+  {
+    "request": {
+      "task": "filesystem",
+      "answer": {
+        "action": "listFiles",
+        "path": "/secret"
+      }
+    },
+    "http": {
+      "statusCode": 404,
+      "ok": false
+    },
+    "response": {
+      "error": "404 HTTP error for https://hub.ag3nts.org/verify. API details: {\n    \"code\": -850,\n    \"message\": \"Directory does not exist.\"\n}",
+      "status_code": 404,
+      "body": "{\n    \"code\": -850,\n    \"message\": \"Directory does not exist.\"\n}"
+    }
+  },
+  {
+    "request": {
+      "task": "filesystem",
+      "answer": {
+        "action": "listFiles",
+        "path": "/.well-known"
+      }
+    },
+    "http": {
+      "statusCode": 400,
+      "ok": false
+    },
+    "response": {
+      "error": "400 HTTP error for https://hub.ag3nts.org/verify. API details: {\n    \"code\": -860,\n    \"message\": \"Invalid directory path.\"\n}",
+      "status_code": 400,
+      "body": "{\n    \"code\": -860,\n    \"message\": \"Invalid directory path.\"\n}"
+    }
+  }
+]

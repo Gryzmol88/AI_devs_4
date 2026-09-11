@@ -1,0 +1,5 @@
+Wynik agenta pilota
+- status: NIEUKOŃCZONE
+- flaga: None
+- użyte koordynaty: (1,1)
+- liczba instrukcji finalnych: 9

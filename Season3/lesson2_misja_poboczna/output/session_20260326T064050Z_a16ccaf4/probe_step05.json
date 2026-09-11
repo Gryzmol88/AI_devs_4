@@ -1,0 +1,9 @@
+{
+  "command": "/bin/flaggengenerator schmetterling",
+  "ok": true,
+  "response": {
+    "code": 170,
+    "message": "Execution result.",
+    "data": "e0ZMRzpCUkFUV1VSU1R9"
+  }
+}

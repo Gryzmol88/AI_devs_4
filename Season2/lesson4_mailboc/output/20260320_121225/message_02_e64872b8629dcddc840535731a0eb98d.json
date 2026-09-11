@@ -1,0 +1,31 @@
+{
+  "search_item": {
+    "rowID": 1,
+    "messageID": "e64872b8629dcddc840535731a0eb98d",
+    "threadID": 62045,
+    "subject": "Re: Przyjęliśmy Twoje zgłoszenie - Ticket SEC-41248",
+    "from": "security@system.nwo",
+    "to": "operator04227@system.nwo",
+    "date": "2026-03-13 12:11",
+    "snippet": "Ajj! zły kod potwierdzenia Ci ..."
+  },
+  "message_details": {
+    "ok": true,
+    "action": "getMessages",
+    "count": 1,
+    "items": [
+      {
+        "rowID": 2,
+        "messageID": "e64872b8629dcddc840535731a0eb98d",
+        "threadID": 62045,
+        "subject": "Re: Przyjęliśmy Twoje zgłoszenie - Ticket SEC-41248",
+        "message": "Ajj! zły kod potwierdzenia Ci wysłałem! Zgubiłem literkę na końcu. Poprawny to: SEC-c1e598764329cc9c377ef1d029be8ceb",
+        "from": "security@system.nwo",
+        "to": "operator04227@system.nwo",
+        "date": "2026-03-13 12:11",
+        "request": 4
+      }
+    ],
+    "notFound": []
+  }
+}

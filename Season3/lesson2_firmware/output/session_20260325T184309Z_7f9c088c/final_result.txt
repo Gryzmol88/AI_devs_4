@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "submitted_code": "ECCS-169e268f489219d1a564e2ae38f96f8a671541bb",
+  "final_verify_response": {
+    "code": 0,
+    "message": "{FLG:CANTTOUCHTHIS}"
+  },
+  "steps_used": 30,
+  "stopped_due_to_ban": false,
+  "stop_reason": null,
+  "ban_details": null
+}

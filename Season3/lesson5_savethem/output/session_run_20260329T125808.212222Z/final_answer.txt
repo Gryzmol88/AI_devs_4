@@ -1,0 +1,1 @@
+['rocket', 'up', 'up', 'right', 'right', 'right', 'up', 'right', 'right', 'dismount', 'right', 'right', 'right']

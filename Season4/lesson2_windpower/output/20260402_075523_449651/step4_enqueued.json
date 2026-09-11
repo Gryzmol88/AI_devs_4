@@ -1,0 +1,14 @@
+{
+  "weather": {
+    "code": 21,
+    "message": "Task has been queued. Use getResult to retrieve the response."
+  },
+  "turbinecheck": {
+    "code": 31,
+    "message": "Task has been queued. Use getResult to retrieve the response."
+  },
+  "powerplantcheck": {
+    "code": 41,
+    "message": "Task has been queued. Use getResult to retrieve the response."
+  }
+}

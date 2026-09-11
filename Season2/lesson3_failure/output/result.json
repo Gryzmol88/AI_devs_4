@@ -1,0 +1,13 @@
+{
+  "finished_at": "2026-03-20T11:17:57",
+  "task": "failure",
+  "mode": "function_calling",
+  "provider": "openrouter",
+  "model": "gpt-5-mini",
+  "flag": "{FLG:SQUASHIT}",
+  "attempts_used": 7,
+  "final_response": {
+    "code": 0,
+    "message": "{FLG:SQUASHIT}"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "query": "{'item_code': 'akumulator pod 48V dowolna pojemność'}",
+  "requested_items": [
+    "Akumulator kwasowy 12V 200Ah"
+  ],
+  "resolved_items": [
+    "Akumulator kwasowy 12V 200Ah"
+  ],
+  "unresolved_items": [],
+  "cities": [
+    "Domatowo",
+    "Jaworzno",
+    "Skolwin"
+  ],
+  "notes": [],
+  "output": "Przedmioty: Akumulator kwasowy 12V 200Ah. Miasta z kompletem: Domatowo, Jaworzno, Skolwin."
+}

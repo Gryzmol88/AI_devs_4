@@ -1,0 +1,25 @@
+{
+  "attempt": 17,
+  "task": "savethem",
+  "route_name": "failure_explore_rocket_1_6_0",
+  "answer": [
+    "rocket",
+    "up",
+    "up",
+    "up",
+    "up",
+    "up",
+    "up",
+    "right",
+    "right",
+    "right",
+    "dismount",
+    "right",
+    "right",
+    "right"
+  ],
+  "response": {
+    "code": 120,
+    "message": "You found beavers by the stream! {FLG:ABEAVER}"
+  }
+}

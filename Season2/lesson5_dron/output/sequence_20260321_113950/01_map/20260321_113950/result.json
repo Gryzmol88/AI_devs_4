@@ -1,0 +1,8 @@
+{
+  "col": 1,
+  "row": 1,
+  "grid_cols": 1,
+  "grid_rows": 1,
+  "confidence": 0.1,
+  "reasoning_short": "Na obrazie nie wykryto czerwonych linii siatki podziału sektorów. W przypadku braku siatki, cały obraz traktowany jest jako pojedynczy sektor (1,1). Obiekt przypominający tamę/śluzy znajduje się w dolnej części kadru."
+}

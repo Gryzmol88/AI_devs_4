@@ -1,0 +1,8 @@
+{
+  "params": {
+    "have_flag": true,
+    "can_send_flag": false,
+    "encoded_flag_hex": "7B464C473A474F4F4445414C7D"
+  },
+  "query_text": "{'have_flag': True, 'can_send_flag': False, 'encoded_flag_hex': '7B464C473A474F4F4445414C7D'}"
+}

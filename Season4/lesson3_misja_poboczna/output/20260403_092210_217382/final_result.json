@@ -1,0 +1,14 @@
+{
+  "status": "ok",
+  "video_url": "https://hub.ag3nts.org/dane/azazel_secret.mp4",
+  "transcribe_model": "openai/whisper-1",
+  "transcribe_model_used": "local_whisper/base",
+  "transcribe_models_usage": [],
+  "transcribe_source": "local_whisper",
+  "analysis_model": "openai/gpt-5",
+  "transcript_length": 199,
+  "flags_found": [
+    "{FLG:...}"
+  ],
+  "run_dir": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season4\\lesson3_misja_poboczna\\output\\20260403_092210_217382"
+}

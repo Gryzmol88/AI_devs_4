@@ -1,0 +1,21 @@
+{
+  "hub_api_key": "52b65cf5-2d1a-4fd2-ac76-7063b66b10fc",
+  "openrouter_api_key": "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",
+  "zmail_url": "https://hub.ag3nts.org/api/zmail",
+  "verify_url": "https://hub.ag3nts.org/verify",
+  "task_name": "mailbox",
+  "openrouter_base_url": "https://openrouter.ai/api/v1",
+  "llm_model": "openai/gpt-4.1-mini",
+  "max_agent_steps": 24,
+  "max_rounds": 8,
+  "poll_seconds": 2.0,
+  "api_delay_seconds": 0.2,
+  "search_pages": 1,
+  "inbox_pages": 1,
+  "use_inbox": true,
+  "per_page": 20,
+  "max_messages_per_round": 10,
+  "max_threads_per_round": 2,
+  "request_timeout_seconds": 45,
+  "output_dir": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season2\\lesson4_mailbox\\output"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "gen-1774462798-1yp7XbS8eRgGgo2TPuaK",
+  "object": "chat.completion",
+  "created": 1774462798,
+  "model": "anthropic/claude-4.6-sonnet-20260217",
+  "provider": "Amazon Bedrock",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "tool_calls",
+      "native_finish_reason": "tool_use",
+      "message": {
+        "role": "assistant",
+        "content": "Widzę historię komend. Sprawdzam katalog `/opt/firmware`.",
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_bdrk_01LhN8cdzNFAN8WK389Ty4PP",
+            "function": {
+              "name": "shell",
+              "arguments": "{\"command\": \"cat /opt/firmware/.gitignore\"}"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2634,
+    "completion_tokens": 71,
+    "total_tokens": 2705,
+    "cost": 0.008967,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.008967,
+      "upstream_inference_prompt_cost": 0.007902,
+      "upstream_inference_completions_cost": 0.001065
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

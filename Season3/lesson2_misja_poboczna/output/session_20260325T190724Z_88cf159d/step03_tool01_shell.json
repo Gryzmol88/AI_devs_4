@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "ls /home",
+  "response": {
+    "code": 120,
+    "message": "Directory listing.",
+    "path": "/home",
+    "data": [
+      "operator/"
+    ]
+  },
+  "detected_success_code": null
+}

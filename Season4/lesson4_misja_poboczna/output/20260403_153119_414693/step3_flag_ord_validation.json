@@ -1,0 +1,60 @@
+{
+  "mode": "check_flag_ord",
+  "expected_sizes": {
+    "f": 70,
+    "l": 76,
+    "a": 65,
+    "g": 71
+  },
+  "listing_found": true,
+  "size_check_ok": true,
+  "created_order_ok": true,
+  "details": {
+    "size_mismatches": {},
+    "created_entries": [
+      {
+        "name": "f",
+        "created_at": 1775223078,
+        "raw": {
+          "name": "f",
+          "created_at": 1775223078,
+          "size": 70
+        }
+      },
+      {
+        "name": "l",
+        "created_at": 1775223078,
+        "raw": {
+          "name": "l",
+          "created_at": 1775223078,
+          "size": 76
+        }
+      },
+      {
+        "name": "a",
+        "created_at": 1775223078,
+        "raw": {
+          "name": "a",
+          "created_at": 1775223078,
+          "size": 65
+        }
+      },
+      {
+        "name": "g",
+        "created_at": 1775223078,
+        "raw": {
+          "name": "g",
+          "created_at": 1775223078,
+          "size": 71
+        }
+      }
+    ],
+    "observed_order": [
+      "f",
+      "l",
+      "a",
+      "g"
+    ]
+  },
+  "overall_ok": true
+}

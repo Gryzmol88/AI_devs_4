@@ -1,0 +1,12 @@
+{
+  "error": "400 Client Error: Bad Request for url: https://hub.ag3nts.org/verify",
+  "status_code": 400,
+  "response_text": "{\n    \"code\": -860,\n    \"message\": \"Field \\\"cityArea\\\" must be rounded to 2 decimal places and use the format 00.00.\"\n}",
+  "payload": {
+    "action": "transmit",
+    "cityName": "Skarszewy",
+    "cityArea": "10.7284",
+    "warehousesCount": 11,
+    "phoneNumber": "644122092"
+  }
+}

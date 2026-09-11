@@ -1,0 +1,17 @@
+{
+  "found_flag": null,
+  "all_flags": [],
+  "attempts_count": 1,
+  "enable_verify_exploration": true,
+  "main_output_scan": {
+    "flags_found_count": 0,
+    "censorship_hits_count": 0
+  },
+  "input_data_scan": {
+    "files_count": 3,
+    "suspicious_rows_count": 3,
+    "suspicious_item_codes": [
+      "M5FLGC"
+    ]
+  }
+}

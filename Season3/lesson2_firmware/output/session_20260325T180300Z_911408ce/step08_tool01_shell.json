@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "cat /home/operator/.bash_history",
+  "response": {
+    "code": 150,
+    "message": "File content.",
+    "path": "/home/operator/.bash_history",
+    "data": "/opt/firmware/cooler/cooler.bin\ncd /home\ncd operator\nls\nrm flaga.txt\ncd /\n/opt/firmware/cooler/cooler.bin admin1\n/opt/firmware/cooler/cooler.bin -D\ncd /opt/firmware/cooler/logs\nls\ncat error.log\n/opt/firmware/cooler/cooler.bin admin\nfukc!\n/opt/firmware/cooler/cooler.bin admin1\nhelp\npwd\nls /\nls /home\ncat /home/operator/.gitignore\nls /home/operator\ncat /home/operator/.bash_history"
+  },
+  "detected_confirmation_code": null
+}

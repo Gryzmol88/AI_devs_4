@@ -1,0 +1,14 @@
+- SQL: SELECT c.city_name, d.destination_id, d.name FROM cities c JOIN destinations d ON d.city_id = c.city_id WHERE c.city_name = :city LIMIT 10
+  Sprawdź pola: city_id, country_code, timezone, is_active, preferred_flag
+
+- SQL: SELECT m.city_name, m.destination_id, m.priority FROM city_destination_map m WHERE LOWER(m.city_name) = LOWER(:city) AND COALESCE(m.country_code, '') = COALESCE(:country_code, '') ORDER BY m.priority ASC LIMIT 5
+  Sprawdź pola: priority, source, effective_from, effective_to, is_active
+
+- SQL: SELECT d.destination_id, d.name FROM destinations d ORDER BY ST_Distance(d.geom, ST_SetSRID(ST_MakePoint(:lon, :lat), 4326)) ASC LIMIT 1
+  Sprawdź pola: geom SRID=4326, spatial_index, country_code, region, is_active
+
+- SQL: SELECT r.request_id, r.method, r.path, r.query_string, r.body_sha256, r.ts_unix, r.nonce, r.client_id, k.key_id FROM api_requests r JOIN signing_keys k ON k.client_id = r.client_id AND k.active = true WHERE r.request_id = :request_id LIMIT 1
+  Sprawdź pola: canonical_order(method,path,query,body_sha256), ts_unix (UTC, sekundy), nonce unikalność, key_id wersja/rotacja, algorytm (np. HMAC-SHA256)
+
+- SQL: SELECT p.order_id, p.amount_cents, p.currency, p.created_at, p.merchant_id, p.signing_key_id FROM payments p WHERE p.order_id = :order_id LIMIT 1
+  Sprawdź pola: amount prec/scale (cents), currency UPPERCASE ISO, created_at strefa (UTC), merchant_id, signing_key_id zgodność z kluczem, idempotency_key (jeśli dotyczy)

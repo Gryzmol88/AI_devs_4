@@ -1,0 +1,56 @@
+{
+  "id": "gen-1774462420-qSWnq6wXwDRd4ryn5Uqk",
+  "object": "chat.completion",
+  "created": 1774462420,
+  "model": "anthropic/claude-4.6-sonnet-20260217",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "tool_calls",
+      "native_finish_reason": "tool_use",
+      "message": {
+        "role": "assistant",
+        "content": "Historia pokazuje wiele interesujących ścieżek. Sprawdzam `/opt/firmware`.",
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_vrtx_01MscFQDjubLRMLg7oiouUmB",
+            "function": {
+              "name": "shell",
+              "arguments": "{\"command\": \"cat /opt/firmware/.gitignore\"}"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2444,
+    "completion_tokens": 75,
+    "total_tokens": 2519,
+    "cost": 0.008457,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.008457,
+      "upstream_inference_prompt_cost": 0.007332,
+      "upstream_inference_completions_cost": 0.001125
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

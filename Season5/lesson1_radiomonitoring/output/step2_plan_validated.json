@@ -1,0 +1,43 @@
+{
+  "description": "Wypełnij payloady zgodnie z realną specyfikacją zwróconą przez akcję help.",
+  "actions": [
+    {
+      "name": "zmiana klasyfikacji raportu Skolwin na zwierzęta",
+      "payload": {
+        "action": "update",
+        "page": "incydenty",
+        "id": "skolwin-report-id",
+        "title": "zwierzęta"
+      }
+    },
+    {
+      "name": "oznaczenie zadania Skolwin jako wykonane z notatką o bobrach",
+      "payload": {
+        "action": "update",
+        "page": "zadania",
+        "id": "skolwin-task-id",
+        "content": "Informacja o bobrach",
+        "done": "YES"
+      }
+    },
+    {
+      "name": "dodanie incydentu ruchu ludzi w Komarowie",
+      "payload": {
+        "action": "update",
+        "page": "incydenty",
+        "id": "komarow-people-movement-id",
+        "title": "ruch ludzi"
+      }
+    }
+  ],
+  "help_snapshot_hint": "Użyj step1_help.json, aby podstawić poprawne akcje.",
+  "llm_hint": {
+    "raw_text": "```json\n{\n  \"actions\": [\n    {\n      \"name\": \"zmiana klasyfikacji raportu Skolwin na zwierzęta\",\n      \"payload\": {\n        \"action\": \"update\",\n        \"page\": \"incydenty\",\n        \"id\": \"skolwin-report-id\",\n        \"title\": \"zwierzęta\"\n      }\n    },\n    {\n      \"name\": \"oznaczenie zadania Skolwin jako wykonane z notatką o bobrach\",\n      \"payload\": {\n        \"action\": \"update\",\n        \"page\": \"zadania\",\n        \"id\": \"skolwin-task-id\",\n        \"content\": \"Informacja o bobrach\",\n        \"done\": \"YES\"\n      }\n    },\n    {\n      \"name\": \"dodanie incydentu ruchu ludzi w Komarowie\",\n      \"payload\": {\n        \"action\": \"update\",\n        \"page\": \"incydenty\",\n        \"id\": \"komarow-people-movement-id\",\n        \"title\": \"ruch ludzi\"\n      }\n    }\n  ]\n}\n```"
+  },
+  "source": "openrouter_parsed",
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "count": 3
+  }
+}

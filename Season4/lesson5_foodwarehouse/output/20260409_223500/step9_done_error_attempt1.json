@@ -1,0 +1,12 @@
+{
+  "status_code": 400,
+  "reason": "Bad Request",
+  "body": "{\n    \"code\": -655,\n    \"message\": \"Not all required city orders are present with the correct goods and destination.\",\n    \"missing\": [\n        {\n            \"city\": \"Domatowo\",\n            \"destination\": 761834,\n            \"items\": {\n                \"lopata\": 8,\n                \"makaron\": 60,\n                \"woda\": 150\n            }\n        }\n    ]\n}",
+  "payload": {
+    "apikey": "52b65cf5-2d1a-4fd2-ac76-7063b66b10fc",
+    "task": "foodwarehouse",
+    "answer": {
+      "tool": "done"
+    }
+  }
+}

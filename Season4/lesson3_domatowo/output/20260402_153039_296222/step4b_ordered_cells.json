@@ -1,0 +1,32 @@
+{
+  "scout_routes": [
+    {
+      "scout_id": "65e6f29f3345836e3b8ca0eea28a1f6f",
+      "spawn": "A6",
+      "cluster": "south",
+      "cells": [
+        "A10",
+        "B10",
+        "C10",
+        "C11",
+        "B11",
+        "A11",
+        "H11",
+        "H10",
+        "I10",
+        "I11"
+      ]
+    },
+    {
+      "scout_id": "33c6586f2d385d575d5037851ee1aaa8",
+      "spawn": "B6",
+      "cluster": "north",
+      "cells": [
+        "F2",
+        "F1",
+        "G1",
+        "G2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "blocked": true,
+  "command": "cat /opt/firmware/cooler/storage.cfg",
+  "reason": "Komenda dotyka wpisu z .gitignore: /opt/firmware/cooler/storage.cfg",
+  "required_bootstrap_command": null
+}

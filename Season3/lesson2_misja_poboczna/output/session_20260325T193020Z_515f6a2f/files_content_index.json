@@ -1,0 +1,119 @@
+{
+  "enabled": true,
+  "max_files": 80,
+  "max_chars": 40000,
+  "captured": [
+    {
+      "path": "/bin/bash",
+      "status": "error",
+      "http_status": 429,
+      "error_code": -9999,
+      "error": "HTTP 429 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"
+    },
+    {
+      "path": "/bin/flaggengenerator",
+      "status": "error",
+      "http_status": 429,
+      "error_code": -9999,
+      "error": "HTTP 429 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"
+    },
+    {
+      "path": "/bin/ls",
+      "status": "error",
+      "http_status": 429,
+      "error_code": -9999,
+      "error": "HTTP 429 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"
+    },
+    {
+      "path": "/dev",
+      "status": "error",
+      "http_status": 429,
+      "error_code": -9999,
+      "error": "HTTP 429 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"
+    },
+    {
+      "path": "/home/operator/.bash_history",
+      "status": "error",
+      "http_status": 429,
+      "error_code": -9999,
+      "error": "HTTP 429 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"
+    },
+    {
+      "path": "/home/operator/.gitignore",
+      "status": "error",
+      "http_status": 429,
+      "error_code": -9999,
+      "error": "HTTP 429 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"
+    },
+    {
+      "path": "/home/operator/notes/.gitignore",
+      "status": "error",
+      "http_status": 429,
+      "error_code": -9999,
+      "error": "HTTP 429 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"
+    },
+    {
+      "path": "/home/operator/notes/pass.txt",
+      "status": "error",
+      "http_status": 429,
+      "error_code": -9999,
+      "error": "HTTP 429 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"
+    },
+    {
+      "path": "/opt/firmware/.gitignore",
+      "status": "error",
+      "http_status": 429,
+      "error_code": -9999,
+      "error": "HTTP 429 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"
+    },
+    {
+      "path": "/opt/firmware/cooler/.env",
+      "status": "error",
+      "http_status": null,
+      "error_code": null,
+      "error": null
+    },
+    {
+      "path": "/opt/firmware/cooler/.git",
+      "status": "error",
+      "http_status": 429,
+      "error_code": -9999,
+      "error": "HTTP 429 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"
+    },
+    {
+      "path": "/opt/firmware/cooler/.gitignore",
+      "status": "error",
+      "http_status": 429,
+      "error_code": -9999,
+      "error": "HTTP 429 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"
+    },
+    {
+      "path": "/opt/firmware/cooler/cooler.bin",
+      "status": "error",
+      "http_status": 429,
+      "error_code": -9999,
+      "error": "HTTP 429 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"
+    },
+    {
+      "path": "/opt/firmware/cooler/settings.ini",
+      "status": "error",
+      "http_status": 429,
+      "error_code": -9999,
+      "error": "HTTP 429 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"
+    },
+    {
+      "path": "/opt/firmware/cooler/storage.cfg",
+      "status": "error",
+      "http_status": null,
+      "error_code": null,
+      "error": null
+    },
+    {
+      "path": "/tmp/aidevs4.txt",
+      "status": "error",
+      "http_status": 429,
+      "error_code": -9999,
+      "error": "HTTP 429 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"
+    }
+  ]
+}

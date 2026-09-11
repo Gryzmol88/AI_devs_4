@@ -1,0 +1,2 @@
+"""Pakiet usług domenowych aplikacji."""
+

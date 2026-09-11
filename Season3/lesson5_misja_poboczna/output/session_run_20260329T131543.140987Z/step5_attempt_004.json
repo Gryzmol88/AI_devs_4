@@ -1,0 +1,24 @@
+{
+  "attempt": 4,
+  "task": "savethem",
+  "route_name": "fastest_rocket",
+  "answer": [
+    "rocket",
+    "up",
+    "up",
+    "up",
+    "right",
+    "right",
+    "right",
+    "right",
+    "right",
+    "dismount",
+    "right",
+    "right",
+    "right"
+  ],
+  "response": {
+    "code": 0,
+    "message": "{FLG:INTACTCITY}"
+  }
+}

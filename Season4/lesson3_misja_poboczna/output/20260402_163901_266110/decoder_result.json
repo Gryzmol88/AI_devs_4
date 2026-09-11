@@ -1,0 +1,178 @@
+{
+  "generatedAt": "2026-04-02T16:39:01.270",
+  "keys": [
+    "blaise",
+    "vigenere",
+    "rsbcmp",
+    "sdbket",
+    "azazel"
+  ],
+  "depth": 10,
+  "hexFound": false,
+  "hexBlob": "",
+  "decodedHexText": "lzhfn://yyh.ow3ikw.ufw/yrrk/opvqir_guxiiz.af4",
+  "payloadForCipher": "lzhfn://yyh.ow3ikw.ufw/yrrk/opvqir_guxiiz.af4",
+  "topAttempts": [
+    {
+      "step": 40,
+      "mode": "vigenere_dec_layer_10",
+      "key": "sdbket",
+      "score": 135,
+      "foundFlag": "",
+      "text": "nvxjz://qad.ea3ucy.qva/kjtg/ethikn_wyjakv.qj4"
+    },
+    {
+      "step": 61,
+      "mode": "caesar_dec",
+      "key": "10",
+      "score": 135,
+      "foundFlag": "",
+      "text": "bpxvd://oox.em3yam.kvm/ohha/eflgyh_wknyyp.qv4"
+    },
+    {
+      "step": 0,
+      "mode": "raw_normalized",
+      "key": "",
+      "score": 120,
+      "foundFlag": "",
+      "text": "lzhfn://yyh.ow3ikw.ufw/yrrk/opvqir_guxiiz.af4"
+    },
+    {
+      "step": 1,
+      "mode": "vigenere_dec_layer_1",
+      "key": "blaise",
+      "score": 120,
+      "foundFlag": "",
+      "text": "kohxv://uxw.oo3qgv.jfo/gnqz/ohdmhg_gmfeho.ax4"
+    },
+    {
+      "step": 2,
+      "mode": "vigenere_dec_layer_2",
+      "key": "blaise",
+      "score": 120,
+      "foundFlag": "",
+      "text": "jdhpd://qwl.og3ycu.yfg/ojpo/ozligv_genagd.ap4"
+    },
+    {
+      "step": 3,
+      "mode": "vigenere_dec_layer_3",
+      "key": "blaise",
+      "score": 120,
+      "foundFlag": "",
+      "text": "ishhl://mva.oy3gyt.nfy/wfod/ortefk_gwvwfs.ah4"
+    },
+    {
+      "step": 4,
+      "mode": "vigenere_dec_layer_4",
+      "key": "blaise",
+      "score": 120,
+      "foundFlag": "",
+      "text": "hhhzt://iup.oq3ous.cfq/ebns/ojbaez_godseh.az4"
+    },
+    {
+      "step": 5,
+      "mode": "vigenere_dec_layer_5",
+      "key": "blaise",
+      "score": 120,
+      "foundFlag": "",
+      "text": "gwhrb://ete.oi3wqr.rfi/mxmh/objwdo_gglodw.ar4"
+    },
+    {
+      "step": 6,
+      "mode": "vigenere_dec_layer_6",
+      "key": "blaise",
+      "score": 120,
+      "foundFlag": "",
+      "text": "flhjj://ast.oa3emq.gfa/utlw/otrscd_gytkcl.aj4"
+    },
+    {
+      "step": 7,
+      "mode": "vigenere_dec_layer_7",
+      "key": "blaise",
+      "score": 120,
+      "foundFlag": "",
+      "text": "eahbr://wri.os3mip.vfs/cpkl/olzobs_gqbgba.ab4"
+    },
+    {
+      "step": 8,
+      "mode": "vigenere_dec_layer_8",
+      "key": "blaise",
+      "score": 120,
+      "foundFlag": "",
+      "text": "dphtz://sqx.ok3ueo.kfk/klja/odhkah_gijcap.at4"
+    },
+    {
+      "step": 9,
+      "mode": "vigenere_dec_layer_9",
+      "key": "blaise",
+      "score": 120,
+      "foundFlag": "",
+      "text": "cehlh://opm.oc3can.zfc/ship/ovpgzw_garyze.al4"
+    },
+    {
+      "step": 10,
+      "mode": "vigenere_dec_layer_10",
+      "key": "blaise",
+      "score": 120,
+      "foundFlag": "",
+      "text": "bthdp://kob.ou3kwm.ofu/adhe/onxcyl_gszuyt.ad4"
+    },
+    {
+      "step": 11,
+      "mode": "vigenere_dec_layer_1",
+      "key": "vigenere",
+      "score": 120,
+      "foundFlag": "",
+      "text": "qrbba://uhd.to3cgj.qos/djlg/blemnj_aqkerv.fx4"
+    },
+    {
+      "step": 12,
+      "mode": "vigenere_dec_layer_2",
+      "key": "vigenere",
+      "score": 120,
+      "foundFlag": "",
+      "text": "vjvxn://qqz.yg3wcw.mxo/ibfc/ohnisb_umxaar.kp4"
+    },
+    {
+      "step": 13,
+      "mode": "vigenere_dec_layer_3",
+      "key": "vigenere",
+      "score": 120,
+      "foundFlag": "",
+      "text": "abpta://mzv.dy3qyj.igk/ntzy/bdwext_oikwjn.ph4"
+    },
+    {
+      "step": 14,
+      "mode": "vigenere_dec_layer_4",
+      "key": "vigenere",
+      "score": 120,
+      "foundFlag": "",
+      "text": "ftjpn://iir.iq3kuw.epg/sltu/ozfacl_iexssj.uz4"
+    },
+    {
+      "step": 15,
+      "mode": "vigenere_dec_layer_5",
+      "key": "vigenere",
+      "score": 120,
+      "foundFlag": "",
+      "text": "kldla://ern.ni3eqj.ayc/xdnq/bvowhd_cakobf.zr4"
+    },
+    {
+      "step": 16,
+      "mode": "vigenere_dec_layer_6",
+      "key": "vigenere",
+      "score": 120,
+      "foundFlag": "",
+      "text": "pdxhn://aaj.sa3ymw.why/cvhm/orxsmv_wwxkkb.ej4"
+    },
+    {
+      "step": 17,
+      "mode": "vigenere_dec_layer_7",
+      "key": "vigenere",
+      "score": 120,
+      "foundFlag": "",
+      "text": "uvrda://wjf.xs3sij.squ/hnbi/bngorn_qskgtx.jb4"
+    }
+  ],
+  "flagsFound": []
+}

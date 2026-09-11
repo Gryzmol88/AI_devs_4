@@ -1,0 +1,123 @@
+{
+  "city_needs": {
+    "opalino": {
+      "chleb": 45,
+      "woda": 120,
+      "mlotek": 6
+    },
+    "domatowo": {
+      "makaron": 60,
+      "woda": 150,
+      "lopata": 8
+    },
+    "brudzewo": {
+      "ryz": 55,
+      "woda": 140,
+      "wiertarka": 5
+    },
+    "darzlubie": {
+      "wolowina": 25,
+      "woda": 130,
+      "kilof": 7
+    },
+    "celbowo": {
+      "kurczak": 40,
+      "woda": 125,
+      "mlotek": 6
+    },
+    "mechowo": {
+      "ziemniak": 100,
+      "kapusta": 70,
+      "marchew": 65,
+      "woda": 165,
+      "lopata": 9
+    },
+    "puck": {
+      "chleb": 50,
+      "ryz": 45,
+      "woda": 175,
+      "wiertarka": 7
+    },
+    "karlinkowo": {
+      "makaron": 52,
+      "wolowina": 22,
+      "ziemniak": 95,
+      "woda": 155,
+      "kilof": 6
+    }
+  },
+  "person_to_city": {
+    "natan_rams": "domatowo",
+    "iga_kapecka": "opalino",
+    "kisiel": "brudzewo",
+    "rafal": "brudzewo",
+    "marta_frantz": "darzlubie",
+    "oskar_radtke": "celbowo",
+    "eliza_redmann": "mechowo",
+    "damian_kroll": "puck",
+    "lena": "karlinkowo"
+  },
+  "person_display_name": {
+    "natan_rams": "Natan Rams",
+    "iga_kapecka": "Iga Kapecka",
+    "kisiel": "Kisiel",
+    "rafal": "Rafal",
+    "marta_frantz": "Marta Frantz",
+    "oskar_radtke": "Oskar Radtke",
+    "eliza_redmann": "Eliza Redmann",
+    "damian_kroll": "Damian Kroll",
+    "lena": "Lena"
+  },
+  "item_to_cities": {
+    "ryz": [
+      "darzlubie",
+      "opalino",
+      "karlinkowo"
+    ],
+    "ziemniak": [
+      "darzlubie",
+      "domatowo"
+    ],
+    "kurczak": [
+      "darzlubie"
+    ],
+    "marchew": [
+      "puck"
+    ],
+    "kilof": [
+      "puck",
+      "celbowo",
+      "mechowo"
+    ],
+    "lopata": [
+      "puck",
+      "brudzewo"
+    ],
+    "chleb": [
+      "domatowo",
+      "celbowo",
+      "brudzewo"
+    ],
+    "wiertarka": [
+      "domatowo",
+      "karlinkowo"
+    ],
+    "wolowina": [
+      "opalino"
+    ],
+    "makaron": [
+      "opalino"
+    ],
+    "mlotek": [
+      "karlinkowo",
+      "mechowo"
+    ],
+    "kapusta": [
+      "celbowo"
+    ],
+    "maka": [
+      "brudzewo",
+      "mechowo"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+Misja poboczna - lesson2_lite (potwierdzone przez API)
+
+Co zrobiono:
+1) Odpytano endpoint /api/accesslevel dla osoby zwiazanej z Wally/Waldo:
+   name=Martin, surname=Handford.
+2) Dla birthYear=1956 API zwraca wskazowke:
+   code=-100, message="Wally is the most important one!"
+3) Dla birthYear=1987 API zwraca flage:
+   code=0, message="{FLG:WALDOISHERE}"
+
+Wynik:
+{FLG:WALDOISHERE}

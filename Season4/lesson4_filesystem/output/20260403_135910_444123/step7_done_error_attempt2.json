@@ -1,0 +1,12 @@
+{
+  "exception": "Blad HTTP verify: status=400, body={\n    \"code\": -806,\n    \"message\": \"City JSON is missing some required goods.\",\n    \"city\": \"opalino\",\n    \"file\": \"\\/miasta\\/opalino\",\n    \"missing_goods\": [\n        \"mlotki\"\n    ]\n}",
+  "payload": {
+    "code": -806,
+    "message": "City JSON is missing some required goods.",
+    "city": "opalino",
+    "file": "/miasta/opalino",
+    "missing_goods": [
+      "mlotki"
+    ]
+  }
+}

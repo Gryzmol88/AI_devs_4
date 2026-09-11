@@ -1,0 +1,32 @@
+$body = @{ params = "szukam kabla 10m i sterownika" } | ConvertTo-Json
+Invoke-RestMethod -Method Post `
+  -Uri "https://nontheoretic-unsublimed-aundrea.ngrok-free.dev/api/find-cities" `
+  -ContentType "application/json" `
+  -Body $body
+
+
+$body = @{ params = "szukam kabla 10m i sterownika" } | ConvertTo-Json
+Invoke-WebRequest -Method Post `
+  -Uri "https://nontheoretic-unsublimed-aundrea.ngrok-free.dev/api/find-cities" `
+  -ContentType "application/json" `
+  -Body $body | Select-Object -ExpandProperty Content
+
+
+
+CHeck po 60 sterownika
+
+$envPath = "m:\Michal\Programowanie\PYTHON\AI_devs_4\Season3\.env"
+$apiKey = (Get-Content $envPath | Where-Object { $_ -match '^HUB_API_KEY=' } | Select-Object -First 1).Split('=')[1].Trim()
+
+$checkObj = @{
+  apikey = $apiKey
+  task   = "negotiations"
+  answer = @{ action = "check" }
+}
+$checkJson = $checkObj | ConvertTo-Json -Depth 4 -Compress
+$checkBytes = [System.Text.Encoding]::UTF8.GetBytes($checkJson)
+
+Invoke-RestMethod -Method Post `
+  -Uri "https://hub.ag3nts.org/verify" `
+  -ContentType "application/json; charset=utf-8" `
+  -Body $checkBytes

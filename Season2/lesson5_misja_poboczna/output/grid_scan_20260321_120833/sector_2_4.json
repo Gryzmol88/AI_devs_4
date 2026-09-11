@@ -1,0 +1,21 @@
+{
+  "col": 2,
+  "row": 4,
+  "status_code": 400,
+  "verify_response": {
+    "code": -880,
+    "message": "This drone does not look properly configured."
+  },
+  "instructions": [
+    "hardReset",
+    "set(engineON)",
+    "set(100%)",
+    "setDestinationObject(PWR6132PL)",
+    "set(video)",
+    "set(image)",
+    "set(return)",
+    "set(100m)",
+    "set(2,4)",
+    "flyToLocation"
+  ]
+}

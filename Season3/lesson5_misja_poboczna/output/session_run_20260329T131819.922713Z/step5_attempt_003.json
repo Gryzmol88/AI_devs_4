@@ -1,0 +1,16 @@
+{
+  "attempt": 3,
+  "task": "savethem",
+  "route_name": "north_river_patrol_horse",
+  "answer": [
+    "horse",
+    "up",
+    "up",
+    "up",
+    "up",
+    "up",
+    "up",
+    "dismount"
+  ],
+  "error": "HTTP 400 for https://hub.ag3nts.org/verify: {\n    \"code\": -930,\n    \"message\": \"This route does not reach the goal.\"\n}"
+}

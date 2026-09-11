@@ -1,0 +1,12 @@
+{
+  "task": "failure",
+  "base_logs_path": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season2\\lesson3_failure\\output\\final_logs.txt",
+  "attempts_executed": 17,
+  "recovered_chars_unique_order": "",
+  "flag_candidates": [
+    "{FLG:SQUASHIT}"
+  ],
+  "trace_file": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season2\\lesson3_misja_poboczna\\output\\submit_trace.jsonl",
+  "response_dump_dir": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season2\\lesson3_misja_poboczna\\output\\responses",
+  "response_keys_diff_file": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season2\\lesson3_misja_poboczna\\output\\response_keys_diff.json"
+}

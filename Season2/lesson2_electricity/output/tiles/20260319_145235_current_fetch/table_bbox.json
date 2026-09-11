@@ -1,0 +1,11 @@
+{
+  "model": "google/gemini-3-flash-preview",
+  "left_pct": 0.295,
+  "top_pct": 0.2178,
+  "right_pct": 0.6562,
+  "bottom_pct": 0.8578,
+  "left_px": 236,
+  "top_px": 98,
+  "right_px": 525,
+  "bottom_px": 386
+}

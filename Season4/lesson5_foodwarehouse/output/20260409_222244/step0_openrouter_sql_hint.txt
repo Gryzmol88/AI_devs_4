@@ -1,0 +1,19 @@
+- Miasto -> destination (bezpośrednio po city_id)
+  SELECT c.id AS city_id, c.name, d.id AS destination_id, d.slug FROM cities c JOIN destinations d ON d.city_id = c.id WHERE c.name = :city AND d.is_active = true;
+  Sprawdź: c.id, c.slug, d.id, d.slug, d.is_active, d.locale
+
+- Miasto -> destination przez tabelę mapującą (priorytet/główne)
+  SELECT c.id, c.name, d.id AS destination_id, d.slug, m.is_primary, m.priority FROM city_destination_map m JOIN cities c ON c.id = m.city_id JOIN destinations d ON d.id = m.destination_id WHERE m.valid_from <= now() AND (m.valid_to IS NULL OR m.valid_to >= now()) ORDER BY m.is_primary DESC, m.priority NULLS LAST;
+  Sprawdź: m.is_primary, m.priority, m.valid_from, m.valid_to, d.status/is_active
+
+- Miasto -> najbliższe destination (geograficznie, PostGIS)
+  SELECT c.id AS city_id, d.id AS destination_id, d.slug, ST_DistanceSphere(c.geom, d.geom) AS dist_m FROM cities c JOIN destinations d ON ST_DWithin(c.geom::geography, d.geom::geography, 50000) WHERE c.id = :city_id ORDER BY dist_m ASC LIMIT 1;
+  Sprawdź: c.geom/lat,lon; d.geom/lat,lon; dystans, country_code/timezone zgodność
+
+- Miasto -> destination przez lotnisko (IATA)
+  SELECT c.id AS city_id, c.name, d.id AS destination_id, d.slug, a.iata_code FROM cities c JOIN airports a ON a.city_id = c.id AND a.is_primary = true JOIN destinations d ON d.iata_code = a.iata_code WHERE c.id = :city_id;
+  Sprawdź: a.iata_code, a.is_primary, d.iata_code, d.is_active, duplikaty
+
+- Dane do signatureGenerator (zestaw stabilnych pól + hash)
+  SELECT d.id, LOWER(TRIM(d.slug)) AS slug_norm, d.locale, COALESCE(d.parent_id,0) AS parent_id, COALESCE(d.version,0) AS version, COALESCE(d.is_active,false) AS is_active, COALESCE(d.updated_at, d.created_at) AS updated_at, md5(concat_ws('|', d.id, LOWER(TRIM(d.slug)), d.locale, COALESCE(d.parent_id,0), COALESCE(d.version,0), COALESCE(d.is_active,false))) AS signature FROM destinations d WHERE d.id = :destination_id;
+  Sprawdź: id, slug (znormalizowany), locale, parent_id, version, is_active, updated_at/created_at, deleted_at/is_deleted, country_code, canonical_name

@@ -1,0 +1,19 @@
+{
+  "status": "ok",
+  "task": "domatowo",
+  "hint": "Take Me to Church",
+  "runDir": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season4\\lesson3_misja_poboczna\\output\\20260402_161438_544304",
+  "scoutObject": "be8d393aaf83abf040c263446e67b282",
+  "churchCellsCount": 6,
+  "churchCells": [
+    "F7",
+    "G7",
+    "H7",
+    "F8",
+    "G8",
+    "H8"
+  ],
+  "inspectedCount": 6,
+  "flagsFound": false,
+  "flags": []
+}

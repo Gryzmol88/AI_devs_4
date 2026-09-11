@@ -1,0 +1,213 @@
+[
+  {
+    "query": "I need notes about movement rules and terrain",
+    "response": {
+      "code": 220,
+      "message": "These are the three best matching notes from a much larger archive.",
+      "query": "I need notes about movement rules and terrain",
+      "search_mode": "full_text",
+      "returned": 3,
+      "notes": [
+        {
+          "id": "maps-endpoint",
+          "title": "Getting terrain maps for target cities",
+          "content": "Terrain maps for any city can be obtained from the /api/maps endpoint. To get the correct map, send the name of the city you want to reach in the request. This makes the maps service the standard source of terrain data when planning a mission toward a specific destination. If someone needs a fresh layout for route analysis, that endpoint is where to ask first.",
+          "score": 14,
+          "matched_terms": [
+            "terrain",
+            "need"
+          ]
+        },
+        {
+          "id": "legend-markers",
+          "title": "Map legend and terrain markers",
+          "content": "The map uses a compact set of symbols, and every letter matters during route planning. The letter T marks a tree tile, W marks water, and R marks rocks that block movement completely. The letter S marks the starting position, while G marks the goal that ends the mission successfully. If someone misreads even one marker, the whole path can collapse before the traveler reaches the city. Treat the legend as the first thing to decode before testing any route.",
+          "score": 14,
+          "matched_terms": [
+            "terrain",
+            "movement"
+          ]
+        },
+        {
+          "id": "travel-methods",
+          "title": "Available travel methods",
+          "content": "The available travel methods are walk, horse, car, and rocket. Walking is the default on-foot mode, while horse, car, and rocket are the selectable vehicles for departure. There is also one special transition command worth remembering: dismount. It is not a separate vehicle, but it lets the traveler leave the current vehicle and continue the route on foot.",
+          "score": 11,
+          "matched_terms": [
+            "movement"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "query": "How does movement work on water, rocks and trees?",
+    "response": {
+      "code": 220,
+      "message": "These are the three best matching notes from a much larger archive.",
+      "query": "How does movement work on water, rocks and trees?",
+      "search_mode": "full_text",
+      "returned": 3,
+      "notes": [
+        {
+          "id": "legend-markers",
+          "title": "Map legend and terrain markers",
+          "content": "The map uses a compact set of symbols, and every letter matters during route planning. The letter T marks a tree tile, W marks water, and R marks rocks that block movement completely. The letter S marks the starting position, while G marks the goal that ends the mission successfully. If someone misreads even one marker, the whole path can collapse before the traveler reaches the city. Treat the legend as the first thing to decode before testing any route.",
+          "score": 29,
+          "matched_terms": [
+            "tree",
+            "water",
+            "rocks",
+            "movement"
+          ]
+        },
+        {
+          "id": "trees-and-burn",
+          "title": "Trees and additional fuel burn",
+          "content": "Tree tiles are not dangerous by themselves and can be crossed by any travel mode, including all vehicles. Their real impact is on fuel usage: entering a tile marked with T increases fuel consumption for powered travel by an additional 0.2 units. That extra burn may look small in isolation, but it can decide whether a route is still viable near the end of the mission. Walk mode does not care about fuel, but any route that relies on engines should count that penalty carefully. A path through wooded terrain can be more expensive than it first appears.",
+          "score": 18,
+          "matched_terms": [
+            "tree",
+            "trees",
+            "does"
+          ]
+        },
+        {
+          "id": "beavers-north",
+          "title": "Northern waterline and beaver activity",
+          "content": "Local notes mention that beavers like to live near rivers and build dams in those areas. Recent sightings place them in the northern part of the map. That does not automatically reveal a full route, but it strongly suggests paying attention to water patterns in the upper region. If terrain near the north looks suspiciously wet or constrained, the beavers may be part of the reason. Their presence is worth remembering when comparing alternative paths.",
+          "score": 14,
+          "matched_terms": [
+            "water",
+            "does"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "query": "Can each vehicle traverse W R T tiles?",
+    "response": {
+      "code": 220,
+      "message": "These are the three best matching notes from a much larger archive.",
+      "query": "Can each vehicle traverse W R T tiles?",
+      "search_mode": "full_text",
+      "returned": 3,
+      "notes": [
+        {
+          "id": "water-travel",
+          "title": "Which movement modes handle water",
+          "content": "Water is a serious restriction for most movement modes. No vehicle except the horse can move through water safely. A traveler may also cross water on foot, which makes walking a valid emergency fallback in some routes. The car is not suitable for water at all, and the rocket should not be trusted there either. Anyone planning a route near rivers or flooded tiles should account for that limitation before leaving the base.",
+          "score": 14,
+          "matched_terms": [
+            "vehicle",
+            "tiles"
+          ]
+        },
+        {
+          "id": "travel-methods",
+          "title": "Available travel methods",
+          "content": "The available travel methods are walk, horse, car, and rocket. Walking is the default on-foot mode, while horse, car, and rocket are the selectable vehicles for departure. There is also one special transition command worth remembering: dismount. It is not a separate vehicle, but it lets the traveler leave the current vehicle and continue the route on foot.",
+          "score": 11,
+          "matched_terms": [
+            "vehicle"
+          ]
+        },
+        {
+          "id": "vehicle-selection",
+          "title": "Vehicle choice, walking, and dismount",
+          "content": "The vehicle can be selected only at the very beginning of the journey. Once the mission starts, the traveler cannot switch from one vehicle to another. There is, however, one exception built into the rules: the traveler may leave the current vehicle and continue on foot. The command used for that action is dismount. After dismounting, movement continues in walk mode, which is useful when the route demands flexibility rather than speed.",
+          "score": 11,
+          "matched_terms": [
+            "vehicle"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "query": "beavers north waterline",
+    "response": {
+      "code": 220,
+      "message": "These are the three best matching notes from a much larger archive.",
+      "query": "beavers north waterline",
+      "search_mode": "full_text",
+      "returned": 3,
+      "notes": [
+        {
+          "id": "beavers-north",
+          "title": "Northern waterline and beaver activity",
+          "content": "Local notes mention that beavers like to live near rivers and build dams in those areas. Recent sightings place them in the northern part of the map. That does not automatically reveal a full route, but it strongly suggests paying attention to water patterns in the upper region. If terrain near the north looks suspiciously wet or constrained, the beavers may be part of the reason. Their presence is worth remembering when comparing alternative paths.",
+          "score": 29,
+          "matched_terms": [
+            "beavers",
+            "north",
+            "water",
+            "waterline"
+          ]
+        },
+        {
+          "id": "orientation-and-api",
+          "title": "Map orientation and command format",
+          "content": "The map is oriented in the standard way, with north at the top. Instructions for the savethem API must be sent as an array of steps and vehicle declarations. Valid keywords are up, down, left, right, dismount, walk, rocket, car, and horse. Because the vehicle has to be chosen at departure, it cannot be changed later in the trip. This means the command sequence must reflect both navigation and the initial travel mode from the very first move.",
+          "score": 11,
+          "matched_terms": [
+            "north"
+          ]
+        },
+        {
+          "id": "legend-markers",
+          "title": "Map legend and terrain markers",
+          "content": "The map uses a compact set of symbols, and every letter matters during route planning. The letter T marks a tree tile, W marks water, and R marks rocks that block movement completely. The letter S marks the starting position, while G marks the goal that ends the mission successfully. If someone misreads even one marker, the whole path can collapse before the traveler reaches the city. Treat the legend as the first thing to decode before testing any route.",
+          "score": 4,
+          "matched_terms": [
+            "water"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "query": "vehicle selection and dismount rules",
+    "response": {
+      "code": 220,
+      "message": "These are the three best matching notes from a much larger archive.",
+      "query": "vehicle selection and dismount rules",
+      "search_mode": "full_text",
+      "returned": 3,
+      "notes": [
+        {
+          "id": "vehicle-selection",
+          "title": "Vehicle choice, walking, and dismount",
+          "content": "The vehicle can be selected only at the very beginning of the journey. Once the mission starts, the traveler cannot switch from one vehicle to another. There is, however, one exception built into the rules: the traveler may leave the current vehicle and continue on foot. The command used for that action is dismount. After dismounting, movement continues in walk mode, which is useful when the route demands flexibility rather than speed.",
+          "score": 25,
+          "matched_terms": [
+            "vehicle",
+            "dismount",
+            "rules"
+          ]
+        },
+        {
+          "id": "travel-methods",
+          "title": "Available travel methods",
+          "content": "The available travel methods are walk, horse, car, and rocket. Walking is the default on-foot mode, while horse, car, and rocket are the selectable vehicles for departure. There is also one special transition command worth remembering: dismount. It is not a separate vehicle, but it lets the traveler leave the current vehicle and continue the route on foot.",
+          "score": 22,
+          "matched_terms": [
+            "vehicle",
+            "dismount"
+          ]
+        },
+        {
+          "id": "no-gas-stations",
+          "title": "No gas stations on the map",
+          "content": "There is not a single gas station anywhere on the map, so every route must be planned with fuel reserves in mind from the very first step. No mid-mission refuel is possible, which makes optimistic calculations a great way to get stranded. If fuel might not be enough for the final stretch, the safer strategy is to leave the vehicle before that happens and finish the last tiles on foot. The command used to abandon the vehicle and continue walking is dismount.",
+          "score": 14,
+          "matched_terms": [
+            "dismount",
+            "vehicle"
+          ]
+        }
+      ]
+    }
+  }
+]

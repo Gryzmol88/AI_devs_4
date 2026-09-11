@@ -1,0 +1,24 @@
+﻿SYSTEM PRZESYLEK KONDUKTORSKICH - DEKLARACJA ZAWARTOSCI
+======================================================
+DATA: 2026-03-13
+PUNKT NADAWCZY: Gdansk
+------------------------------------------------------
+NADAWCA: 450202122
+PUNKT DOCELOWY: Zarnowiec
+TRASA: X-01
+------------------------------------------------------
+KATEGORIA PRZESYLKI: A
+------------------------------------------------------
+OPIS ZAWARTOSCI (max 200 znakow): kasety z paliwem do reaktora
+------------------------------------------------------
+DEKLAROWANA MASA (kg): 2800
+------------------------------------------------------
+WDP: 4
+------------------------------------------------------
+UWAGI SPECJALNE: 
+------------------------------------------------------
+KWOTA DO ZAPLATY: 0 PP
+------------------------------------------------------
+OSWIADCZAM, ZE PODANE INFORMACJE SA PRAWDZIWE.
+BIORE NA SIEBIE KONSEKWENCJE ZA FALSZYWE OSWIADCZENIE.
+======================================================

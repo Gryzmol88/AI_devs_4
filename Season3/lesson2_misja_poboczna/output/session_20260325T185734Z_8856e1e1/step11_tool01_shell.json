@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "blocked": true,
+  "command": "/opt/firmware/cooler/cooler.bin 'Schmetterling'",
+  "reason": "Najpierw odczytaj /opt/firmware/cooler/.gitignore przed pracą w tym katalogu",
+  "required_bootstrap_command": "cat /opt/firmware/cooler/.gitignore"
+}

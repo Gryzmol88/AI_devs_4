@@ -1,0 +1,4 @@
+{
+  "error": "Nie znaleziono trasy spełniającej ograniczenia paliwa i jedzenia.",
+  "traceback": "Traceback (most recent call last):\n  File \"M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season3\\lesson5_savethem\\main.py\", line 96, in main\n    solution = solve_route(problem)\n  File \"M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season3\\lesson5_savethem\\solver\\route_solver.py\", line 72, in solve_route\n    raise RuntimeError(\"Nie znaleziono trasy spełniającej ograniczenia paliwa i jedzenia.\")\nRuntimeError: Nie znaleziono trasy spełniającej ograniczenia paliwa i jedzenia.\n"
+}

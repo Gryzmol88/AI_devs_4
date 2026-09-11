@@ -1,0 +1,12 @@
+{
+  "success_only_keys": [],
+  "error_only_keys": [
+    "lineCount",
+    "noLetterSent",
+    "tokenCount"
+  ],
+  "common_keys": [
+    "code",
+    "message"
+  ]
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "city": "Domatowo",
+    "destination": "761834",
+    "order_id": "2a347b6d5952b6d8b26a6929cf372459",
+    "create_response": {
+      "code": 110,
+      "message": "Order created.",
+      "data": null,
+      "order": {
+        "id": "2a347b6d5952b6d8b26a6929cf372459",
+        "title": "Dostawa dla domatowo",
+        "creatorID": 2,
+        "destination": 761834,
+        "signature": "29361bec85afce60df2f3472af1a6e298154e82f",
+        "items": []
+      }
+    },
+    "append_response": {
+      "code": 120,
+      "message": "Order updated.",
+      "data": null,
+      "order": {
+        "id": "2a347b6d5952b6d8b26a6929cf372459",
+        "title": "Dostawa dla domatowo",
+        "creatorID": 2,
+        "destination": 761834,
+        "signature": "29361bec85afce60df2f3472af1a6e298154e82f",
+        "items": [
+          {
+            "name": "lopata",
+            "items": 8
+          },
+          {
+            "name": "makaron",
+            "items": 60
+          },
+          {
+            "name": "woda",
+            "items": 150
+          }
+        ]
+      },
+      "appended": [
+        {
+          "name": "lopata",
+          "items": 8
+        },
+        {
+          "name": "makaron",
+          "items": 60
+        },
+        {
+          "name": "woda",
+          "items": 150
+        }
+      ]
+    }
+  }
+]

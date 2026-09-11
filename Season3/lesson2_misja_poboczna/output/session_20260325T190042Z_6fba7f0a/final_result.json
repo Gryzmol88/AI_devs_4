@@ -1,0 +1,10 @@
+{
+  "success": false,
+  "task": "lesson2_side",
+  "answer_key": "confirmation",
+  "detected_code": null,
+  "verify_response": null,
+  "stopped_due_to_ban": false,
+  "stop_reason": null,
+  "tested_commands": 20
+}

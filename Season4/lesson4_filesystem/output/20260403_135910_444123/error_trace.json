@@ -1,0 +1,4 @@
+{
+  "error": "Blad HTTP verify: status=400, body={\n    \"code\": -806,\n    \"message\": \"City JSON is missing some required goods.\",\n    \"city\": \"opalino\",\n    \"file\": \"\\/miasta\\/opalino\",\n    \"missing_goods\": [\n        \"mlotki\"\n    ]\n}",
+  "run_id": "20260403_135910_444123"
+}

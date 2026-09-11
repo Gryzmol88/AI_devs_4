@@ -1,0 +1,11 @@
+{
+  "ok": false,
+  "blocked": false,
+  "command": "cat /home/operator/.gitignore",
+  "error": "HTTP 429 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}",
+  "http_status": 429,
+  "error_code": -9999,
+  "ban": null,
+  "is_ban": false,
+  "is_retryable": true
+}

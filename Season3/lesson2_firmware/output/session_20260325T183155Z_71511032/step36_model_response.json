@@ -1,0 +1,56 @@
+{
+  "id": "gen-1774463614-daXieKSbMxmRnwAYGVlc",
+  "object": "chat.completion",
+  "created": 1774463614,
+  "model": "anthropic/claude-4.6-sonnet-20260217",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "tool_calls",
+      "native_finish_reason": "tool_use",
+      "message": {
+        "role": "assistant",
+        "content": "Pliki `.env` i `storage.cfg` są zablokowane (w `.gitignore`). Wywołam najpierw `help`, zgodnie z priorytetem 1.",
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_vrtx_012V9BqkAxJ6e54bjxpBnhKV",
+            "function": {
+              "name": "shell",
+              "arguments": "{\"command\": \"help\"}"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2110,
+    "completion_tokens": 88,
+    "total_tokens": 2198,
+    "cost": 0.00765,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.00765,
+      "upstream_inference_prompt_cost": 0.00633,
+      "upstream_inference_completions_cost": 0.00132
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

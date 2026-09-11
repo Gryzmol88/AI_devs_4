@@ -1,0 +1,15 @@
+{
+  "exception": "Blad HTTP verify: status=400, body={\n    \"code\": -804,\n    \"message\": \"Some goods in city JSON have incorrect quantities.\",\n    \"city\": \"opalino\",\n    \"file\": \"\\/miasta\\/opalino\",\n    \"mismatches\": {\n        \"chleb\": {\n            \"expected\": 45,\n            \"actual\": 120\n        }\n    }\n}",
+  "payload": {
+    "code": -804,
+    "message": "Some goods in city JSON have incorrect quantities.",
+    "city": "opalino",
+    "file": "/miasta/opalino",
+    "mismatches": {
+      "chleb": {
+        "expected": 45,
+        "actual": 120
+      }
+    }
+  }
+}

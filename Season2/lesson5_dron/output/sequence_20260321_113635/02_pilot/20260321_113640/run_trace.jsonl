@@ -1,0 +1,10 @@
+{"ts": "2026-03-21T11:36:40", "step": "init", "summary": "Start agenta sterowania dronem", "details": {"run_dir": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season2\\lesson5_dron\\output\\sequence_20260321_113635\\02_pilot\\20260321_113640"}}
+{"ts": "2026-03-21T11:36:40", "step": "docs_loaded", "summary": "Pobrano dokumentację API drona", "details": {"url": "https://hub.ag3nts.org/dane/drone.html", "chars": 10264}}
+{"ts": "2026-03-21T11:36:46", "step": "verify_attempt", "summary": "Wysłano instrukcje do /verify", "details": {"attempt": 1, "status_code": 400, "instructions_count": 8}}
+{"ts": "2026-03-21T11:36:52", "step": "verify_attempt", "summary": "Wysłano instrukcje do /verify", "details": {"attempt": 2, "status_code": 400, "instructions_count": 9}}
+{"ts": "2026-03-21T11:36:56", "step": "verify_attempt", "summary": "Wysłano instrukcje do /verify", "details": {"attempt": 3, "status_code": 400, "instructions_count": 9}}
+{"ts": "2026-03-21T11:37:02", "step": "verify_attempt", "summary": "Wysłano instrukcje do /verify", "details": {"attempt": 4, "status_code": 400, "instructions_count": 9}}
+{"ts": "2026-03-21T11:37:08", "step": "verify_attempt", "summary": "Wysłano instrukcje do /verify", "details": {"attempt": 5, "status_code": 400, "instructions_count": 9}}
+{"ts": "2026-03-21T11:37:12", "step": "verify_attempt", "summary": "Wysłano instrukcje do /verify", "details": {"attempt": 6, "status_code": 400, "instructions_count": 9}}
+{"ts": "2026-03-21T11:37:18", "step": "verify_attempt", "summary": "Wysłano instrukcje do /verify", "details": {"attempt": 7, "status_code": 400, "instructions_count": 9}}
+{"ts": "2026-03-21T11:37:23", "step": "verify_attempt", "summary": "Wysłano instrukcje do /verify", "details": {"attempt": 8, "status_code": 400, "instructions_count": 9}}

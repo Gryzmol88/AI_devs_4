@@ -1,0 +1,41 @@
+{
+  "estimated_tokens": 876,
+  "required_devices": [
+    "FIRMWARE",
+    "STMTURB12"
+  ],
+  "device_limits": {
+    "FIRMWARE": 16,
+    "STMTURB12": 9
+  },
+  "compression_used": false,
+  "compression_trigger_threshold": 1226,
+  "plain_tokens": 876,
+  "preview_lines": [
+    "[2026-03-19 06:02] [INFO] BOOT sequence checkpoint accepted on FIRMWARE. Control loop latency remains within nominal margin.",
+    "[2026-03-19 06:05] [ERRO] FIRMWARE validation queue returned nonblocking fault set. Runtime proceeds in constrained mode.",
+    "[2026-03-19 06:13] [INFO] SYNCHRONIZATION token validated by FIRMWARE. Runtime channel stays online.",
+    "[2026-03-19 06:14] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.",
+    "[2026-03-19 06:53] [INFO] FIRMWARE reported nominal response during routine poll. Sequence execution continues.",
+    "[2026-03-19 07:43] [INFO] FIRMWARE telemetry sample accepted by control bus. Startup profile remains within expected range.",
+    "[2026-03-19 08:40] [INFO] SERVICE heartbeat for FIRMWARE arrived on schedule. No corrective action is required.",
+    "[2026-03-19 10:34] [INFO] BASELINE diagnostics for FIRMWARE completed successfully. Runtime margins are stable.",
+    "[2026-03-19 12:02] [INFO] FIRMWARE telemetry sample accepted by control bus. Startup profile remains within expected range.",
+    "[2026-03-19 12:51] [CRIT] FIRMWARE entered emergency guard branch after repeated safety faults. Manual override is locked.",
+    "[2026-03-19 12:56] [CRIT] STMTURB12 decoupling sequence forced by thermal risk. Energy conversion is terminated.",
+    "[2026-03-19 13:35] [ERRO] CROSS-CHECK between FIRMWARE and hardware interface map did not complete successfully. Compatibility verification remains unresolved for startup state.",
+    "[2026-03-19 14:52] [CRIT] SAFETY bootstrap read missing environment marker SAFETY_CHECK=pass. FIRMWARE continues in restricted validation mode.",
+    "[2026-03-19 17:16] [INFO] BASELINE diagnostics for FIRMWARE completed successfully. Runtime margins are stable.",
+    "[2026-03-19 17:55] [INFO] SERVICE heartbeat for FIRMWARE arrived on schedule. No corrective action is required.",
+    "[2026-03-19 18:34] [INFO] FIRMWARE reported nominal response during routine poll. Sequence execution continues.",
+    "[2026-03-19 20:26] [INFO] SYNCHRONIZATION token validated by FIRMWARE. Runtime channel stays online.",
+    "[2026-03-19 21:04] [CRIT] ECCS8 cannot remove heat with the current WTANK07 volume. Reactor protection initiates critical stop.",
+    "[2026-03-19 21:05] [CRIT] STMTURB12 decoupling sequence forced by thermal risk. Energy conversion is terminated.",
+    "[2026-03-19 21:08] [CRIT] FIRMWARE entered emergency guard branch after repeated safety faults. Manual override is locked.",
+    "[2026-03-19 21:25] [ERRO] FIRMWARE validation queue returned nonblocking fault set. Runtime proceeds in constrained mode.",
+    "[2026-03-19 21:27] [CRIT] WTANK07 coolant level is below critical threshold. Shutdown logic is moving to hard trip stage.",
+    "[2026-03-19 21:31] [WARN] FIRMWARE watchdog acknowledged delayed subsystem poll. Retry timer is active.",
+    "[2026-03-19 21:32] [INFO] BOOT sequence checkpoint accepted on FIRMWARE. Control loop latency remains within nominal margin.",
+    "[2026-03-19 21:33] [CRIT] ECCS8 reported runaway outlet temperature. Protection interlock initiated reactor trip."
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "ok": true,
+  "dry_run": false,
+  "flag": "{FLG:ROTATEIT}",
+  "total_rotations_sent": 7,
+  "tool_rounds_used": 3,
+  "warnings": []
+}

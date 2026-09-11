@@ -1,0 +1,14 @@
+- SELECT city_name, destination_code FROM city_destination_map WHERE active = true ORDER BY city_name;
+  Pola do weryfikacji: city_id, city_name, destination_id, destination_code, active, valid_from, valid_to, priority, updated_at
+
+- SELECT c.name AS city, d.code AS destination, r.priority FROM routes r JOIN cities c ON c.id = r.city_id JOIN destinations d ON d.id = r.destination_id WHERE r.active = true ORDER BY r.priority, c.name;
+  Pola do weryfikacji: r.active, r.priority, r.rule_type, r.valid_until, c.country_code, c.region, d.type (hub/airport/port), d.region
+
+- SELECT origin_city AS city, destination_city AS destination, COUNT(*) AS cnt FROM shipments WHERE status IN ('in_transit','delivered') GROUP BY 1,2 ORDER BY cnt DESC LIMIT 50;
+  Pola do weryfikacji: origin_city, destination_city, status, service_level, carrier_code, created_at, route_id
+
+- SELECT req.id, req.client_id, req.method, req.path, req.query_string, req.headers->>'host' AS host, req.body_hash, req.timestamp FROM api_requests req WHERE req.created_at >= NOW() - INTERVAL '1 day' LIMIT 100;
+  Pola do weryfikacji (signatureGenerator): method, path, query_string (kanonikalizacja), wybrane nagłówki (host, content-type, x-date, x-request-id), body_hash, timestamp, nonce, client_id/key_id, version
+
+- SELECT k.key_id, k.client_id, k.algorithm, k.status, k.created_at, k.expires_at, k.rotated_at, k.scope FROM api_keys k WHERE k.status = 'active';
+  Pola do weryfikacji (signatureGenerator): key_id, algorithm (np. HMAC-SHA256), scope, created_at, expires_at, rotated_at, key_version, allowed_endpoints, clock_skew_limit

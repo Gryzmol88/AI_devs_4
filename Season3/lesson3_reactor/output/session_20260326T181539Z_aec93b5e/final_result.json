@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-03-26T18:16:14.891247Z",
+  "success": false,
+  "steps": 300,
+  "state": {
+    "robot": {
+      "col": 1,
+      "row": 5
+    },
+    "goal": {
+      "col": 7,
+      "row": 5
+    },
+    "board_rows": [],
+    "blocks": [],
+    "reached_goal": false,
+    "notes": [
+      "robot_position_fallback"
+    ]
+  },
+  "flag_hint": "{FLG:INSTALLED}",
+  "raw_response": {
+    "code": 0,
+    "message": "{FLG:INSTALLED}"
+  }
+}

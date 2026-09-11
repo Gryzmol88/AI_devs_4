@@ -1,0 +1,51 @@
+{
+  "ok": true,
+  "task": "mailbox",
+  "model": "openai/gpt-4.1-mini",
+  "answer": {
+    "password": "RABARBAR25",
+    "date": "2026-03-23",
+    "confirmation_code": "SEC-c1e598764329cc9c377ef1d029be8ce"
+  },
+  "flag_main": "{FLG:TRAITOR}",
+  "flag_side": null,
+  "verify_feedbacks": [
+    {
+      "code": 0,
+      "message": "{FLG:TRAITOR}"
+    }
+  ],
+  "output_dir": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season2\\lesson4_mailbox\\output\\20260320_133921",
+  "headers_total": 17,
+  "messages_total": 5,
+  "selected_messages_total": 2,
+  "evidences": [
+    {
+      "field_name": "confirmation_code",
+      "value": "SEC-c1e598764329cc9c377ef1d029be8ce",
+      "reason": "Matched strict SEC-* pattern in message body.",
+      "message_id": "2ef6c60b65884b175bb84fb5a7f295f4",
+      "subject": "Re: Przyjęliśmy Twoje zgłoszenie - Ticket SEC-41248",
+      "sender": "security@system.nwo",
+      "date": "2026-03-13 13:36"
+    },
+    {
+      "field_name": "date",
+      "value": "2026-03-23",
+      "reason": "Date found in attack/security context.",
+      "message_id": "2ef6c60b65884b175bb84fb5a7f295f4",
+      "subject": "Re: Przyjęliśmy Twoje zgłoszenie - Ticket SEC-41248",
+      "sender": "security@system.nwo",
+      "date": "2026-03-13 13:36"
+    },
+    {
+      "field_name": "password",
+      "value": "RABARBAR25",
+      "reason": "Password-like token matched after haslo/password marker.",
+      "message_id": "a7353b90b3c7d973255aa6cf36bcba0f",
+      "subject": "Nowe hasło do systemu pracowniczego",
+      "sender": "security@system.nwo",
+      "date": "2025-12-06 22:40"
+    }
+  ]
+}

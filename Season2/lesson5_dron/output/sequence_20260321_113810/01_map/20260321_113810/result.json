@@ -1,0 +1,8 @@
+{
+  "col": 2,
+  "row": 4,
+  "grid_cols": 3,
+  "grid_rows": 4,
+  "confidence": 0.95,
+  "reasoning_short": "Tama z błękitną wodą i śluzami znajduje się w dolnej krawędzi środkowej kolumny (x=2, y=4)."
+}

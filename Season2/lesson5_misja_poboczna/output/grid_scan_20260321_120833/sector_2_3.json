@@ -1,0 +1,21 @@
+{
+  "col": 2,
+  "row": 3,
+  "status_code": 400,
+  "verify_response": {
+    "code": -880,
+    "message": "Hey, you do know we're only pretending to destroy power plants, not actually destroy one, OK?"
+  },
+  "instructions": [
+    "hardReset",
+    "set(engineON)",
+    "set(100%)",
+    "setDestinationObject(PWR6132PL)",
+    "set(video)",
+    "set(image)",
+    "set(return)",
+    "set(100m)",
+    "set(2,3)",
+    "flyToLocation"
+  ]
+}

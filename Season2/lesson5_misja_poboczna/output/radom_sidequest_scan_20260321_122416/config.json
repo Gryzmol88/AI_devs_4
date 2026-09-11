@@ -1,0 +1,14 @@
+{
+  "verify_url": "https://hub.ag3nts.org/verify",
+  "task_name": "drone",
+  "destination_code": "PWR8406PL",
+  "led_color": "#FF00FF",
+  "grid_cols": 3,
+  "grid_rows": 4,
+  "altitude_m": 100,
+  "power_percent": 100,
+  "include_media_goals": true,
+  "stop_on_flag": true,
+  "target_col": 3,
+  "target_row": 1
+}

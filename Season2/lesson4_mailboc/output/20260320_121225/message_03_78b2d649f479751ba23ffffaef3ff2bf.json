@@ -1,0 +1,31 @@
+{
+  "search_item": {
+    "rowID": 0,
+    "messageID": "78b2d649f479751ba23ffffaef3ff2bf",
+    "threadID": 62045,
+    "subject": "Re: Przyjęliśmy Twoje zgłoszenie - Ticket SEC-41248",
+    "from": "security@system.nwo",
+    "to": "operator04227@system.nwo",
+    "date": "2026-03-13 12:09",
+    "snippet": "Postanowilismy w najblizszy po..."
+  },
+  "message_details": {
+    "ok": true,
+    "action": "getMessages",
+    "count": 1,
+    "items": [
+      {
+        "rowID": 1,
+        "messageID": "78b2d649f479751ba23ffffaef3ff2bf",
+        "threadID": 62045,
+        "subject": "Re: Przyjęliśmy Twoje zgłoszenie - Ticket SEC-41248",
+        "message": "Postanowilismy w najblizszy poniedzialek (tj. 2026-03-23) zbombardowac ten obiekt. Nie ma sensu wysylac tam sluzb zwiadowczych. Zrzucenie bomby niewiele kosztuje.\n    kod potwierdzenia przyjęcia akcji: SEC-c1e598764329cc9c377ef1d029be8ce (confirmation code)",
+        "from": "security@system.nwo",
+        "to": "operator04227@system.nwo",
+        "date": "2026-03-13 12:09",
+        "request": 3
+      }
+    ],
+    "notFound": []
+  }
+}

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "step01_help",
+    "description": "Pobierz dokumentację działań API.",
+    "answer": {
+      "action": "help"
+    }
+  },
+  {
+    "id": "step02_list_root",
+    "description": "Listowanie katalogu głównego.",
+    "answer": {
+      "action": "listFiles",
+      "path": "/"
+    }
+  },
+  {
+    "id": "step03_list_flag_literal",
+    "description": "Listowanie /flag literalnie.",
+    "answer": {
+      "action": "listFiles",
+      "path": "/flag"
+    }
+  },
+  {
+    "id": "step04_list_flag_literal_slash",
+    "description": "Listowanie /flag/ literalnie.",
+    "answer": {
+      "action": "listFiles",
+      "path": "/flag/"
+    }
+  },
+  {
+    "id": "step05_list_flag_ascii",
+    "description": "Listowanie ścieżki zbudowanej z ASCII (f+l+a+g).",
+    "answer": {
+      "action": "listFiles",
+      "path": "/flag"
+    }
+  },
+  {
+    "id": "step06_list_flag_ascii_slash",
+    "description": "Listowanie ścieżki ASCII z końcowym slash.",
+    "answer": {
+      "action": "listFiles",
+      "path": "/flag/"
+    }
+  },
+  {
+    "id": "step07_list_common_secret",
+    "description": "Listowanie potencjalnego katalogu /secret.",
+    "answer": {
+      "action": "listFiles",
+      "path": "/secret"
+    }
+  },
+  {
+    "id": "step08_list_common_hidden",
+    "description": "Listowanie potencjalnego katalogu /.well-known.",
+    "answer": {
+      "action": "listFiles",
+      "path": "/.well-known"
+    }
+  }
+]

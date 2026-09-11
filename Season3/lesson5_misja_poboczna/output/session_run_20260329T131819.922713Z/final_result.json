@@ -1,0 +1,725 @@
+{
+  "status": "max_attempts_reached",
+  "attempts": [
+    {
+      "attempt": 1,
+      "task": "savethem",
+      "route_name": "north_river_patrol_rocket",
+      "answer": [
+        "rocket",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "right",
+        "left",
+        "right",
+        "dismount",
+        "left",
+        "right",
+        "left"
+      ],
+      "error": "HTTP 400 for https://hub.ag3nts.org/verify: {\n    \"code\": -930,\n    \"message\": \"Fuel reached zero. Mission failed.\"\n}"
+    },
+    {
+      "attempt": 2,
+      "task": "savethem",
+      "route_name": "north_river_patrol_car",
+      "answer": [
+        "car",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "right",
+        "left",
+        "right",
+        "dismount"
+      ],
+      "error": "HTTP 400 for https://hub.ag3nts.org/verify: {\n    \"code\": -930,\n    \"message\": \"Food reached zero. Mission failed.\"\n}"
+    },
+    {
+      "attempt": 3,
+      "task": "savethem",
+      "route_name": "north_river_patrol_horse",
+      "answer": [
+        "horse",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "dismount"
+      ],
+      "error": "HTTP 400 for https://hub.ag3nts.org/verify: {\n    \"code\": -930,\n    \"message\": \"This route does not reach the goal.\"\n}"
+    },
+    {
+      "attempt": 4,
+      "task": "savethem",
+      "route_name": "north_river_patrol_walk",
+      "answer": [
+        "walk",
+        "up",
+        "up",
+        "up",
+        "up"
+      ],
+      "error": "HTTP 400 for https://hub.ag3nts.org/verify: {\n    \"code\": -930,\n    \"message\": \"Food reached zero. Mission failed.\"\n}"
+    },
+    {
+      "attempt": 5,
+      "task": "beavers",
+      "route_name": "north_river_patrol_rocket",
+      "answer": [
+        "rocket",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "right",
+        "left",
+        "right",
+        "dismount",
+        "left",
+        "right",
+        "left"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 6,
+      "task": "beavers",
+      "route_name": "north_river_patrol_car",
+      "answer": [
+        "car",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "right",
+        "left",
+        "right",
+        "dismount"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 7,
+      "task": "beavers",
+      "route_name": "north_river_patrol_horse",
+      "answer": [
+        "horse",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "dismount"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 8,
+      "task": "beavers",
+      "route_name": "north_river_patrol_walk",
+      "answer": [
+        "walk",
+        "up",
+        "up",
+        "up",
+        "up"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 9,
+      "task": "bobry",
+      "route_name": "north_river_patrol_rocket",
+      "answer": [
+        "rocket",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "right",
+        "left",
+        "right",
+        "dismount",
+        "left",
+        "right",
+        "left"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 10,
+      "task": "bobry",
+      "route_name": "north_river_patrol_car",
+      "answer": [
+        "car",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "right",
+        "left",
+        "right",
+        "dismount"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 11,
+      "task": "bobry",
+      "route_name": "north_river_patrol_horse",
+      "answer": [
+        "horse",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "dismount"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 12,
+      "task": "bobry",
+      "route_name": "north_river_patrol_walk",
+      "answer": [
+        "walk",
+        "up",
+        "up",
+        "up",
+        "up"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 13,
+      "task": "bonus",
+      "route_name": "north_river_patrol_rocket",
+      "answer": [
+        "rocket",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "right",
+        "left",
+        "right",
+        "dismount",
+        "left",
+        "right",
+        "left"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 14,
+      "task": "bonus",
+      "route_name": "north_river_patrol_car",
+      "answer": [
+        "car",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "right",
+        "left",
+        "right",
+        "dismount"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 15,
+      "task": "bonus",
+      "route_name": "north_river_patrol_horse",
+      "answer": [
+        "horse",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "dismount"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 16,
+      "task": "bonus",
+      "route_name": "north_river_patrol_walk",
+      "answer": [
+        "walk",
+        "up",
+        "up",
+        "up",
+        "up"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 17,
+      "task": "side",
+      "route_name": "north_river_patrol_rocket",
+      "answer": [
+        "rocket",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "right",
+        "left",
+        "right",
+        "dismount",
+        "left",
+        "right",
+        "left"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 18,
+      "task": "side",
+      "route_name": "north_river_patrol_car",
+      "answer": [
+        "car",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "right",
+        "left",
+        "right",
+        "dismount"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 19,
+      "task": "side",
+      "route_name": "north_river_patrol_horse",
+      "answer": [
+        "horse",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "dismount"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 20,
+      "task": "side",
+      "route_name": "north_river_patrol_walk",
+      "answer": [
+        "walk",
+        "up",
+        "up",
+        "up",
+        "up"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 21,
+      "task": "sidequest",
+      "route_name": "north_river_patrol_rocket",
+      "answer": [
+        "rocket",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "right",
+        "left",
+        "right",
+        "dismount",
+        "left",
+        "right",
+        "left"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 22,
+      "task": "sidequest",
+      "route_name": "north_river_patrol_car",
+      "answer": [
+        "car",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "right",
+        "left",
+        "right",
+        "dismount"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 23,
+      "task": "sidequest",
+      "route_name": "north_river_patrol_horse",
+      "answer": [
+        "horse",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "dismount"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 24,
+      "task": "sidequest",
+      "route_name": "north_river_patrol_walk",
+      "answer": [
+        "walk",
+        "up",
+        "up",
+        "up",
+        "up"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 25,
+      "task": "beaversnearwater",
+      "route_name": "north_river_patrol_rocket",
+      "answer": [
+        "rocket",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "right",
+        "left",
+        "right",
+        "dismount",
+        "left",
+        "right",
+        "left"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 26,
+      "task": "beaversnearwater",
+      "route_name": "north_river_patrol_car",
+      "answer": [
+        "car",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "right",
+        "left",
+        "right",
+        "dismount"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 27,
+      "task": "beaversnearwater",
+      "route_name": "north_river_patrol_horse",
+      "answer": [
+        "horse",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "dismount"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 28,
+      "task": "beaversnearwater",
+      "route_name": "north_river_patrol_walk",
+      "answer": [
+        "walk",
+        "up",
+        "up",
+        "up",
+        "up"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 29,
+      "task": "northernbeavers",
+      "route_name": "north_river_patrol_rocket",
+      "answer": [
+        "rocket",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "right",
+        "left",
+        "right",
+        "dismount",
+        "left",
+        "right",
+        "left"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 30,
+      "task": "northernbeavers",
+      "route_name": "north_river_patrol_car",
+      "answer": [
+        "car",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "right",
+        "left",
+        "right",
+        "dismount"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 31,
+      "task": "northernbeavers",
+      "route_name": "north_river_patrol_horse",
+      "answer": [
+        "horse",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "dismount"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 32,
+      "task": "northernbeavers",
+      "route_name": "north_river_patrol_walk",
+      "answer": [
+        "walk",
+        "up",
+        "up",
+        "up",
+        "up"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 33,
+      "task": "savebeavers",
+      "route_name": "north_river_patrol_rocket",
+      "answer": [
+        "rocket",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "right",
+        "left",
+        "right",
+        "dismount",
+        "left",
+        "right",
+        "left"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 34,
+      "task": "savebeavers",
+      "route_name": "north_river_patrol_car",
+      "answer": [
+        "car",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "right",
+        "left",
+        "right",
+        "dismount"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 35,
+      "task": "savebeavers",
+      "route_name": "north_river_patrol_horse",
+      "answer": [
+        "horse",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "dismount"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 36,
+      "task": "savebeavers",
+      "route_name": "north_river_patrol_walk",
+      "answer": [
+        "walk",
+        "up",
+        "up",
+        "up",
+        "up"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 37,
+      "task": "beaverssidequest",
+      "route_name": "north_river_patrol_rocket",
+      "answer": [
+        "rocket",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "right",
+        "left",
+        "right",
+        "dismount",
+        "left",
+        "right",
+        "left"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 38,
+      "task": "beaverssidequest",
+      "route_name": "north_river_patrol_car",
+      "answer": [
+        "car",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "right",
+        "left",
+        "right",
+        "dismount"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 39,
+      "task": "beaverssidequest",
+      "route_name": "north_river_patrol_horse",
+      "answer": [
+        "horse",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "dismount"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    },
+    {
+      "attempt": 40,
+      "task": "beaverssidequest",
+      "route_name": "north_river_patrol_walk",
+      "answer": [
+        "walk",
+        "up",
+        "up",
+        "up",
+        "up"
+      ],
+      "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+    }
+  ]
+}

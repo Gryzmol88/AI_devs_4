@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "blocked": true,
+  "command": "ls //root",
+  "reason": "Komenda odwołuje się do zabronionej ścieżki: /root",
+  "required_bootstrap_command": null
+}

@@ -1,0 +1,15 @@
+{
+  "ok": false,
+  "flag": null,
+  "sequence_root": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season2\\lesson5_dron\\output\\sequence_20260321_113950",
+  "map_agent_run_dir": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season2\\lesson5_dron\\output\\sequence_20260321_113950\\01_map\\20260321_113950",
+  "pilot_agent_run_dir": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season2\\lesson5_dron\\output\\sequence_20260321_113950\\02_pilot\\20260321_113955",
+  "coordinates": {
+    "col": 1,
+    "row": 1,
+    "grid_cols": 1,
+    "grid_rows": 1,
+    "confidence": 0.1,
+    "reasoning_short": "Na obrazie nie wykryto czerwonych linii siatki podziału sektorów. W przypadku braku siatki, cały obraz traktowany jest jako pojedynczy sektor (1,1). Obiekt przypominający tamę/śluzy znajduje się w dolnej części kadru."
+  }
+}

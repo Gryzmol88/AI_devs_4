@@ -1,0 +1,8 @@
+{
+  "ok": false,
+  "blocked": false,
+  "command": "cat /opt/firmware/cooler/.env",
+  "error": "HTTP 403 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -733,\n    \"message\": \"Security policy violation. Temporary ban applied.\",\n    \"ban\": {\n        \"command\": \"cat /opt/firmware/cooler/.env\",\n        \"reason\": \"Attempt to read a forbidden file: /opt/firmware/cooler/.env.\",\n        \"ttl_seconds\": 20\n    },\n    \"reboot\": true\n}",
+  "http_status": 403,
+  "is_retryable": false
+}

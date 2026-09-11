@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "cat /home/operator/notes",
+  "response": {
+    "code": 140,
+    "message": "Directory content.",
+    "path": "/home/operator/notes",
+    "data": [
+      "pass.txt"
+    ]
+  },
+  "detected_confirmation_code": null
+}

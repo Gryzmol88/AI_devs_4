@@ -1,0 +1,171 @@
+{
+  "task": "failure",
+  "variants_tested": 16,
+  "unique_noLetterSent_values": [
+    ""
+  ],
+  "trace_file": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season2\\lesson3_misja_poboczna\\output\\probe_nolettersent_trace.jsonl",
+  "response_dump_dir": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season2\\lesson3_misja_poboczna\\output\\probe_nolettersent_responses",
+  "summary": [
+    {
+      "attempt": 1,
+      "variant": "empty_payload",
+      "payload_lines": 0,
+      "code": -970,
+      "message": "Field \"logs\" cannot be empty.",
+      "tokenCount": null,
+      "lineCount": null,
+      "noLetterSent": null
+    },
+    {
+      "attempt": 2,
+      "variant": "single_word",
+      "payload_lines": 1,
+      "code": -960,
+      "message": "These logs seem too short to analyze. Add more lines.",
+      "tokenCount": null,
+      "lineCount": null,
+      "noLetterSent": null
+    },
+    {
+      "attempt": 3,
+      "variant": "json_like",
+      "payload_lines": 1,
+      "code": -960,
+      "message": "These logs seem too short to analyze. Add more lines.",
+      "tokenCount": null,
+      "lineCount": null,
+      "noLetterSent": null
+    },
+    {
+      "attempt": 4,
+      "variant": "flg_level",
+      "payload_lines": 1,
+      "code": -960,
+      "message": "These logs seem too short to analyze. Add more lines.",
+      "tokenCount": null,
+      "lineCount": null,
+      "noLetterSent": null
+    },
+    {
+      "attempt": 5,
+      "variant": "flaga_level",
+      "payload_lines": 1,
+      "code": -960,
+      "message": "These logs seem too short to analyze. Add more lines.",
+      "tokenCount": null,
+      "lineCount": null,
+      "noLetterSent": null
+    },
+    {
+      "attempt": 6,
+      "variant": "missing_message",
+      "payload_lines": 1,
+      "code": -960,
+      "message": "These logs seem too short to analyze. Add more lines.",
+      "tokenCount": null,
+      "lineCount": null,
+      "noLetterSent": null
+    },
+    {
+      "attempt": 7,
+      "variant": "bad_date",
+      "payload_lines": 1,
+      "code": -960,
+      "message": "These logs seem too short to analyze. Add more lines.",
+      "tokenCount": null,
+      "lineCount": null,
+      "noLetterSent": null
+    },
+    {
+      "attempt": 8,
+      "variant": "bad_time",
+      "payload_lines": 1,
+      "code": -960,
+      "message": "These logs seem too short to analyze. Add more lines.",
+      "tokenCount": null,
+      "lineCount": null,
+      "noLetterSent": null
+    },
+    {
+      "attempt": 9,
+      "variant": "wrong_sep",
+      "payload_lines": 1,
+      "code": -960,
+      "message": "These logs seem too short to analyze. Add more lines.",
+      "tokenCount": null,
+      "lineCount": null,
+      "noLetterSent": null
+    },
+    {
+      "attempt": 10,
+      "variant": "chrono_reverse",
+      "payload_lines": 20,
+      "code": -944,
+      "message": "You did not send the information in chronological order. First offending log line: \"[2026-03-19 21:33] [CRIT] ECCS8 Runaway outlet temperature reported; protection interlock initiated reactor trip.\".",
+      "tokenCount": null,
+      "lineCount": null,
+      "noLetterSent": null
+    },
+    {
+      "attempt": 11,
+      "variant": "remove_all_firmware",
+      "payload_lines": 29,
+      "code": -949,
+      "message": "Thanks for sending the logs. Unfortunately, our technicians still do not know what happened to FIRMWARE.",
+      "tokenCount": 955,
+      "lineCount": 29,
+      "noLetterSent": ""
+    },
+    {
+      "attempt": 12,
+      "variant": "crit_only",
+      "payload_lines": 21,
+      "code": 0,
+      "message": "{FLG:SQUASHIT}",
+      "tokenCount": null,
+      "lineCount": null,
+      "noLetterSent": null
+    },
+    {
+      "attempt": 13,
+      "variant": "warn_only",
+      "payload_lines": 2,
+      "code": -960,
+      "message": "These logs seem too short to analyze. Add more lines.",
+      "tokenCount": null,
+      "lineCount": null,
+      "noLetterSent": null
+    },
+    {
+      "attempt": 14,
+      "variant": "erro_only",
+      "payload_lines": 7,
+      "code": -960,
+      "message": "These logs seem too short to analyze. Add more lines.",
+      "tokenCount": null,
+      "lineCount": null,
+      "noLetterSent": null
+    },
+    {
+      "attempt": 15,
+      "variant": "dup_noise",
+      "payload_lines": 40,
+      "code": -949,
+      "message": "Thanks for sending the logs. Unfortunately, our technicians still do not know what happened to STMTURB12.",
+      "tokenCount": 1199,
+      "lineCount": 40,
+      "noLetterSent": ""
+    },
+    {
+      "attempt": 16,
+      "variant": "valid_baseline",
+      "payload_lines": 42,
+      "code": 0,
+      "message": "{FLG:SQUASHIT}",
+      "tokenCount": null,
+      "lineCount": null,
+      "noLetterSent": null
+    }
+  ]
+}

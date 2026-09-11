@@ -1,0 +1,89 @@
+[
+  {
+    "name": "water_contact_rocket",
+    "vehicle_name": "rocket",
+    "commands": [
+      "down",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+    ],
+    "answer": [
+      "rocket",
+      "down",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+    ],
+    "score": -9.7,
+    "metrics": {
+      "food_used": 0.6,
+      "fuel_used": 6.0,
+      "north_score": 6,
+      "water_steps": 0,
+      "water_adjacent_steps": 1
+    }
+  },
+  {
+    "name": "water_contact_car",
+    "vehicle_name": "car",
+    "commands": [
+      "down",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+    ],
+    "answer": [
+      "car",
+      "down",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+    ],
+    "score": -23.2,
+    "metrics": {
+      "food_used": 6.0,
+      "fuel_used": 4.2,
+      "north_score": 6,
+      "water_steps": 0,
+      "water_adjacent_steps": 1
+    }
+  },
+  {
+    "name": "water_contact_horse",
+    "vehicle_name": "horse",
+    "commands": [
+      "down",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+    ],
+    "answer": [
+      "horse",
+      "down",
+      "right",
+      "right",
+      "right",
+      "right",
+      "right"
+    ],
+    "score": -27.700000000000003,
+    "metrics": {
+      "food_used": 9.6,
+      "fuel_used": 0.0,
+      "north_score": 6,
+      "water_steps": 0,
+      "water_adjacent_steps": 1
+    }
+  }
+]

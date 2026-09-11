@@ -1,0 +1,56 @@
+{
+  "id": "gen-1774461834-n8ZeBiuqmCQrmvlhxUI2",
+  "object": "chat.completion",
+  "created": 1774461834,
+  "model": "anthropic/claude-4.6-sonnet-20260217",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "tool_calls",
+      "native_finish_reason": "tool_use",
+      "message": {
+        "role": "assistant",
+        "content": "Czekam na odblokowanie bana i próbuję ponownie.",
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_vrtx_01MQd9zXB23ccECo27Z48hQC",
+            "function": {
+              "name": "shell",
+              "arguments": "{\"command\": \"cat /opt/firmware/cooler/.git/.gitignore\"}"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4577,
+    "completion_tokens": 75,
+    "total_tokens": 4652,
+    "cost": 0.014856,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.014856,
+      "upstream_inference_prompt_cost": 0.013731,
+      "upstream_inference_completions_cost": 0.001125
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "blocked": true,
+  "reason": "Najpierw odczytaj /opt/firmware/.gitignore przed pracą w tym katalogu",
+  "command": "ls /opt/firmware",
+  "required_bootstrap_command": "cat /opt/firmware/.gitignore"
+}

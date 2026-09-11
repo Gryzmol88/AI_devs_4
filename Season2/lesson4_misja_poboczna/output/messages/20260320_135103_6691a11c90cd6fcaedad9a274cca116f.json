@@ -1,0 +1,17 @@
+{
+  "rowID": 0,
+  "messageID": "6691a11c90cd6fcaedad9a274cca116f",
+  "threadID": 74233,
+  "subject": "Akt wandalizmu - kolejny raz!",
+  "message": "Ktoś po raz kolejny próbował zniszczyć flagę w holu naszej bazy. Rozumiemy, że nie chcecie, aby stała tam flaga Zygfryda, ale takie jest odgórne rozporządzenie i nie mamy na to wpływu. Przesyłamy dodatkowe dokumenty do wglądu. Przeczytajcie sobie, na co się godziliście zaczynając u nas pracę.",
+  "from": "security@system.nwo",
+  "to": "operator04227@system.nwo",
+  "date": "2026-02-21 07:43:22",
+  "request": 8,
+  "attachment": [
+    {
+      "filename": "dokumenty.zip",
+      "data": "data:application/zip;base64,UEsDBAoAAAAAAFxJcly/kdi0DwAAAA8AAAAQABwAR0FERVJZUE9MVUtJLnR4dFVUCQADEF66aWRguml1eAsAAQTDhgAABBQAAAB7RlVBOkVERE9FS1ZEfQpQSwECHgMKAAAAAABcSXJcv5HYtA8AAAAPAAAAEAAYAAAAAAABAAAApIEAAAAAR0FERVJZUE9MVUtJLnR4dFVUBQADEF66aXV4CwABBMOGAAAEFAAAAFBLBQYAAAAAAQABAFYAAABZAAAAAAA="
+    }
+  ]
+}

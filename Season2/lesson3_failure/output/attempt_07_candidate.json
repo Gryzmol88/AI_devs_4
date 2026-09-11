@@ -1,0 +1,13 @@
+{
+  "attempt": 7,
+  "estimated_tokens": 1303,
+  "required_devices": [
+    "ECCS8",
+    "FIRMWARE",
+    "PWR01",
+    "STMTURB12",
+    "WSTPOOL2",
+    "WTRPMP"
+  ],
+  "frozen_core_entries": 38
+}

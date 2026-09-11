@@ -1,0 +1,34 @@
+```json
+{
+  "actions": [
+    {
+      "name": "zmiana klasyfikacji raportu Skolwin na zwierzęta",
+      "payload": {
+        "action": "update",
+        "page": "incydenty",
+        "id": "skolwin-report-id",
+        "title": "zwierzęta"
+      }
+    },
+    {
+      "name": "oznaczenie zadania Skolwin jako wykonane z notatką o bobrach",
+      "payload": {
+        "action": "update",
+        "page": "zadania",
+        "id": "skolwin-task-id",
+        "content": "notatka o bobrach",
+        "done": "YES"
+      }
+    },
+    {
+      "name": "dodanie incydentu ruchu ludzi w Komarowie",
+      "payload": {
+        "action": "update",
+        "page": "incydenty",
+        "id": "komarow-people-movement-id",
+        "title": "ruch ludzi"
+      }
+    }
+  ]
+}
+```

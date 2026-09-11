@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "ls /opt/firmware/cooler/",
+  "response": {
+    "code": 120,
+    "message": "Directory listing.",
+    "path": "/opt/firmware/cooler",
+    "data": [
+      ".env",
+      ".git/",
+      ".gitignore",
+      "cooler-is-blocked.lock",
+      "cooler.bin",
+      "logs/",
+      "settings.ini",
+      "storage.cfg"
+    ]
+  },
+  "detected_confirmation_code": null
+}

@@ -1,0 +1,11 @@
+{
+  "ok": false,
+  "blocked": false,
+  "command": "/opt/firmware/cooler/cooler.bin \"der Schmetterling\"",
+  "error": "HTTP 400 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -872,\n    \"message\": \"Usage: \\/opt\\/firmware\\/cooler\\/cooler.bin <pass>\"\n}",
+  "http_status": 400,
+  "error_code": -872,
+  "ban": null,
+  "is_ban": false,
+  "is_retryable": false
+}

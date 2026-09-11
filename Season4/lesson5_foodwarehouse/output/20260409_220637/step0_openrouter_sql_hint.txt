@@ -1,0 +1,52 @@
+- SELECT d.code AS destination_code
+  FROM cities c
+  JOIN city_destination_map m ON m.city_id = c.id AND m.is_active = 1
+  JOIN destinations d ON d.id = m.destination_id AND d.is_active = 1
+  WHERE c.name = :city AND c.country_code = :country
+  ORDER BY m.priority ASC
+  LIMIT 1;
+  Sprawdź pola: c.name, c.country_code, m.is_active, m.priority, d.is_active.
+
+- SELECT d.code
+  FROM city_synonyms s
+  JOIN cities c ON c.id = s.city_id
+  JOIN city_destination_map m ON m.city_id = c.id AND m.is_active = 1
+  JOIN destinations d ON d.id = m.destination_id AND d.is_active = 1
+  WHERE lower(trim(s.alt_name)) = lower(trim(:city))
+    AND c.country_code = :country
+  LIMIT 1;
+  Sprawdź pola: s.alt_name (duplikaty, pisownia), kolacja/case-folding, c.country_code, aktywności.
+
+- SELECT COALESCE(d1.code, d2.code) AS destination_code
+  FROM cities c
+  LEFT JOIN city_destination_map m1 ON m1.city_id = c.id AND m1.is_active = 1
+  LEFT JOIN destinations d1 ON d1.id = m1.destination_id AND d1.is_active = 1
+  LEFT JOIN country_defaults cd ON cd.country_code = c.country_code
+  LEFT JOIN destinations d2 ON d2.id = cd.destination_id AND d2.is_active = 1
+  WHERE c.postal_code LIKE :postal_prefix || '%'
+    AND c.country_code = :country
+  LIMIT 1;
+  Sprawdź pola: c.postal_code/prefix, c.region_code (jeśli jest), is_active, fallback w country_defaults, brak NULL.
+
+- SELECT d.code
+  FROM cities c
+  JOIN city_destination_map m ON m.city_id = c.id
+  JOIN destinations d ON d.id = m.destination_id
+  WHERE c.name = :city
+    AND current_timestamp BETWEEN m.valid_from AND COALESCE(m.valid_to, '9999-12-31')
+    AND m.is_active = 1 AND d.is_active = 1
+  ORDER BY m.priority
+  LIMIT 1;
+  Sprawdź pola: m.valid_from, m.valid_to (strefy czasowe, granice), m.priority, aktywności, nakładanie okresów.
+
+- SELECT m.merchant_id,
+         o.id AS order_id,
+         o.external_ref,
+         CAST(o.amount AS decimal(12,2)) AS amount,
+         upper(o.currency) AS currency,
+         o.created_at AS ts_utc,
+         o.nonce
+  FROM orders o
+  JOIN merchants m ON m.id = o.merchant_id
+  WHERE o.id = :order_id;
+  Sprawdź pola: amount (skala/zaokrąglenie), currency (ISO-4217 uppercase), ts_utc (UTC/format), nonce (unikalność/długość), external_ref (trim/unikalność), brak NULL w polach wymaganych przez signatureGenerator, deterministyczna kolejność serializacji.

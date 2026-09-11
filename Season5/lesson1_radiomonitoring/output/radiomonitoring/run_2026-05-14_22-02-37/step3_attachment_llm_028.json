@@ -1,0 +1,22 @@
+{
+  "results": [
+    {
+      "cityName": "Brudzewo",
+      "cityArea": 0.5538,
+      "warehousesCount": null,
+      "phoneNumber": null
+    },
+    {
+      "cityName": "Celbowo",
+      "cityArea": 0.7142,
+      "warehousesCount": null,
+      "phoneNumber": null
+    },
+    {
+      "cityName": "Darzlubie",
+      "cityArea": null,
+      "warehousesCount": null,
+      "phoneNumber": null
+    }
+  ]
+}

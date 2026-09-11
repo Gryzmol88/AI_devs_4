@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "cat /home/operator/notes/pass.txt",
+  "response": {
+    "code": 150,
+    "message": "File content.",
+    "path": "/home/operator/notes/pass.txt",
+    "data": "admin1"
+  },
+  "detected_success_code": null
+}

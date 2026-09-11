@@ -1,0 +1,56 @@
+{
+  "id": "gen-1774463535-YVZXBIn9UHOcghooKN5Q",
+  "object": "chat.completion",
+  "created": 1774463535,
+  "model": "anthropic/claude-4.6-sonnet-20260217",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "tool_calls",
+      "native_finish_reason": "tool_use",
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_vrtx_011UhdEWWL4XtJaPPG3JfVmx",
+            "function": {
+              "name": "shell",
+              "arguments": "{\"command\": \"ls /opt/firmware/cooler/\"}"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1992,
+    "completion_tokens": 50,
+    "total_tokens": 2042,
+    "cost": 0.006726,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.006726,
+      "upstream_inference_prompt_cost": 0.005976,
+      "upstream_inference_completions_cost": 0.00075
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

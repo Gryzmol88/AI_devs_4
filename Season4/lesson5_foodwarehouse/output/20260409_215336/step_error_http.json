@@ -1,0 +1,14 @@
+{
+  "status_code": 400,
+  "reason": "Bad Request",
+  "body": "{\n    \"code\": -950,\n    \"message\": \"Field \\\"param\\\" is required when action is \\\"get\\\".\"\n}",
+  "url": "https://hub.ag3nts.org/verify",
+  "payload": {
+    "apikey": "52b65cf5-2d1a-4fd2-ac76-7063b66b10fc",
+    "task": "windpower",
+    "answer": {
+      "tool": "help",
+      "action": "get"
+    }
+  }
+}

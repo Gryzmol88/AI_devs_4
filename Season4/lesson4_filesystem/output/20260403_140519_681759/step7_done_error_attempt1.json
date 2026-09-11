@@ -1,0 +1,11 @@
+{
+  "exception": "Blad HTTP verify: status=400, body={\n    \"code\": -805,\n    \"message\": \"Some people are missing in \\/osoby files (name or content).\",\n    \"missing\": [\n        \"Rafa\\u0142 Kisiel\",\n        \"Lena Konkel\"\n    ]\n}",
+  "payload": {
+    "code": -805,
+    "message": "Some people are missing in /osoby files (name or content).",
+    "missing": [
+      "Rafał Kisiel",
+      "Lena Konkel"
+    ]
+  }
+}

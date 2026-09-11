@@ -1,0 +1,165 @@
+ID:631d232bc3ad2c8fe51ec237f7614fbc
+SUB:Sąsiad unika podatku systemowego
+FROM:w.sieradzki@obywatel-grid.nwo
+DATE:2026-03-05 07:14
+Dzień dobry. Nazywam się Wiktor Sieradzki i zgłaszam, że mój sąsiad od miesięcy kombinuje, żeby nie płacić podatku na System. Wiem, bo sam się tym chwali na klatce. Proszę to sprawdzić.
+
+ID:15c9629f0cc12b66d8e7c13c0a118296
+SUB:Re: Sąsiad unika podatku systemowego
+FROM:operator04227@system.nwo
+DATE:2026-03-05 07:23
+Przyjąłem zgłoszenie. Przekazuję temat do odpowiedniej komórki i wrócimy z informacją, jeśli będą potrzebne dodatkowe dane.
+
+ID:4e286367ca16ad2be9cc593bd966bf45
+SUB:Sąsiad notorycznie obija się w pracy
+FROM:w.bednarek@osiedle-nowa7.nwo
+DATE:2026-03-05 08:06
+Tu Wiktor Bednarek. Mój sąsiad regularnie chwali się, że robi minimum i resztę zrzuca na zespół, a premię bierze jak wszyscy. To jest zwykłe pasożytowanie na Systemie.
+
+ID:1782e74842de8f4c4624a719d41f6b2b
+SUB:Re: Sąsiad notorycznie obija się w pracy
+FROM:operator04227@system.nwo
+DATE:2026-03-05 08:15
+Dziękuję za zgłoszenie, zostało przyjęte. Przekazuję je do weryfikacji i odpowiednich służb operacyjnych.
+
+ID:0275af42c646b4e01e7c04927e1c4448
+SUB:Sąsiad zaniża raporty wydajności
+FROM:w.konieczny@strefa-blok4.nwo
+DATE:2026-03-05 09:16
+Nazywam się Wiktor Konieczny. Chciałbym zgłosić, że mój sąsiad manipuluje raportami wydajności i wpisuje lepsze wyniki niż ma naprawdę. Uważam, że to oszustwo wobec Systemu.
+
+ID:4f798cbf8a36650830da2ad58d53e4ca
+SUB:Re: Sąsiad zaniża raporty wydajności
+FROM:operator04227@system.nwo
+DATE:2026-03-05 09:25
+Zgłoszenie przyjęte. Przekazuję sprawę do analizy i dalszych działań kontrolnych.
+
+ID:6624add090a5cb06f5c192653b5a243c
+SUB:Podejrzana aktywność przy obiekcie PWR6132PL
+FROM:vik4tor@proton.me
+DATE:2026-03-05 16:25
+Jako obywatel wierny ideałom Systemu, uprzejmie donoszę, że w okolicach elektrowni w Żarnowcu, czyli przy obiekcie PWR6132PL widziałem ludzi z bronią. Są to prawdopodobnie rebelianci z Ruchu Oporu.
+
+Nie wiem co tam robią, ale myślę, że zagrażają oni Systemowi. Chcę, abyście o tym wiedzeli. Sugeruję wysłać tam drona zwiadowczego
+
+pozdrawiam Wiktor Borkowski / dla przyjaciół: Victor :)
+
+ID:016b6a5e25c597672301d207128b47ab
+SUB:Re: Przyjęliśmy Twoje zgłoszenie - Ticket SEC-41248
+FROM:security@system.nwo
+DATE:2026-03-13 13:43
+Ajj! zły kod potwierdzenia Ci wysłałem! Zgubiłem literkę na końcu. Poprawny to: SEC-c1e598764329cc9c377ef1d029be8ceb
+
+ID:8df97072ab0c129f9e050d74994ac0b9
+SUB:Re: Zapis z kamer w obiekcie PWR6132PL - pilne!
+FROM:monitoring.wideo@security-node.nwo
+DATE:2026-03-13 13:43
+no dobra... wiem, że miałem już nie przeszkadzać Ci w pracy, ale tego na pewno nie znasz! https://www.youtube.com/watch?v=EvQfBy3xIUc Człowieku, co za nuta xDD
+
+ID:8b60dc4aecc13e222d556d22c2adba2e
+SUB:Re: Podejrzana aktywność przy obiekcie PWR6132PL
+FROM:operator04227@system.nwo
+DATE:2026-03-13 13:43
+Dział bezpieczeństwa potwierdził, że w poniedziałek, 2026-03-23 zajmie się tym tematem. Raz jeszcze dziękujemy za zgłoszenie.
+
+ID:1146c48523e480d614dd3bf5a8747205
+SUB:Re: PWR2758PL: brak zatwierdzenia urlopów na marzec
+FROM:operator04227@system.nwo
+DATE:2026-03-10 04:08
+Przyjęte, wysyłam temat do kadr i kierownika obiektu. Niech zatwierdzą plan urlopowy bez dalszej zwłoki.
+
+ID:51792b2a0c639dd7d412d11aa2e3b9b2
+SUB:Aktualizacja polityki szkoleń obowiązkowych
+FROM:rozwoj@corp-system.nwo
+DATE:2026-03-10 06:07
+Wprowadzamy nową matrycę szkoleń obowiązkowych dla pionu technicznego i administracyjnego. Część kursów będzie realizowana online z testem końcowym.
+
+ID:bc1c52905daa82b57b3511f61e6ca358
+SUB:Re: PWR3847PL: krótkie zafalowanie mocy przy porannym starcie
+FROM:operator04227@system.nwo
+DATE:2026-03-10 13:58
+Przekazałem do techników diagnostyki. Sprawdzą logi startowe i domkną temat raportem.
+
+ID:1d0a7fe84e4e13e989fef34e3efd0b63
+SUB:Re: PWR2758PL: niezgodność stawek na nowych umowach
+FROM:operator04227@system.nwo
+DATE:2026-03-10 15:02
+Temat przekazany do kadr i działu prawnego HR. Niech poprawią umowy i potwierdzą finalne stawki.
+
+ID:91aeb1af08bc8314fdb3b42b660f41c6
+SUB:Re: PWR5921PL: chwilowy spadek sprawności chłodnicy oleju
+FROM:operator04227@system.nwo
+DATE:2026-03-11 00:28
+Wysłane do techników utrzymania. Niech sprawdzą wymiennik i podeślą krótką notatkę.
+
+ID:f4f3a83b06611bfc3716253753302e7e
+SUB:Zmiana struktury raportowania incydentów
+FROM:compliance@corp-system.nwo
+DATE:2026-03-11 09:37
+Od przyszłego tygodnia raporty incydentów będą składane wyłącznie przez nowy formularz centralny. Dotychczasowy format mailowy pozostaje tylko jako kanał awaryjny.
+
+ID:4801de529c054359b9950acfe5e0d0da
+SUB:Re: PWR7264PL: krótkie zakłócenie sygnału z przepustnicy pary
+FROM:operator04227@system.nwo
+DATE:2026-03-11 11:05
+Przekazane technikom. Poprosiłem o kontrolę przewodu i złącz przy najbliższym oknie serwisowym.
+
+ID:580045e13d60bb8417eb5933e68647f0
+SUB:Uruchomienie programu rekomendacji pracowniczych
+FROM:rekrutacja@corp-system.nwo
+DATE:2026-03-11 20:20
+Startuje program rekomendacji pracowniczych dla ról technicznych i utrzymaniowych. Premia za skuteczne polecenie będzie wypłacana po zakończeniu okresu próbnego.
+
+ID:38108c7cbc5ec20081a44ed94920d146
+SUB:Re: PWR1593PL: chwilowy spadek wydajności pompy obiegu głównego
+FROM:operator04227@system.nwo
+DATE:2026-03-11 22:02
+Tak, temat wysłany do techników i zostawiamy podwyższony nadzór do końca dnia.
+
+ID:e44a9452f38f95780ff41914fe5f3659
+SUB:Przegląd świadczeń pozapłacowych
+FROM:benefity@corp-system.nwo
+DATE:2026-03-12 14:36
+W marcu rozpoczynamy przegląd świadczeń pozapłacowych i ich ujednolicenie między jednostkami. Priorytetem jest spójność zasad i czytelna komunikacja dla pracowników.
+
+ID:b2c9ed51b3ca1ef2a29e459130f12337
+SUB:Re: PWR1593PL: chwilowy wzrost temperatury szafy sterowniczej
+FROM:operator04227@system.nwo
+DATE:2026-03-08 14:44
+Temat u techników, proszę o przegląd filtrów i wentylatorów szafy S-4.
+
+ID:32100a536bb88a502d74a2f599a3fd1a
+SUB:Re: PWR8406PL: rotacja pracowników przekroczyła normę
+FROM:operator04227@system.nwo
+DATE:2026-03-08 22:40
+Dzięki, przekazuję do kadr i managera regionalnego. Niech przygotują plan stabilizacji zespołu.
+
+ID:481c3cb718f2dc14f8d9a9dd56b7e2d9
+SUB:Nowy program premiowy za niezawodność
+FROM:motywacja@corp-system.nwo
+DATE:2026-03-08 23:11
+Uruchamiamy program premiowy powiązany z niezawodnością i terminowością zamykania incydentów technicznych. Szczegółowe progi punktowe zostaną opublikowane w intranecie.
+
+ID:228999c92244b2dfcd2057673cde6c4f
+SUB:Re: PWR8406PL: zaległe rozliczenie delegacji
+FROM:operator04227@system.nwo
+DATE:2026-03-09 09:51
+Przekazałem to do finansów i płac. Poprosiłem o pilne domknięcie rozliczeń i potwierdzenie terminów.
+
+ID:0659fce2e7b2a503ab7173a1b435a050
+SUB:Konsolidacja zespołów wsparcia regionalnego
+FROM:operacje.centralne@corp-system.nwo
+DATE:2026-03-09 11:17
+Od przyszłego miesiąca zespoły wsparcia regionalnego zostaną skonsolidowane w trzy centra. Celem jest szybsza obsługa zgłoszeń i mniejsze dublowanie ról.
+
+ID:6d6131f69a34136b0bdd01da32692c81
+SUB:Re: PWR2758PL: chwilowa niezgodność odczytów dwóch termopar
+FROM:operator04227@system.nwo
+DATE:2026-03-09 17:33
+Temat już u techników. Sprawdzą punkty pomiarowe i ewentualną potrzebę kalibracji termopar.
+
+ID:fcf9cba8c0861b2f036ea163807404ce
+SUB:Re: PWR8406PL: krótkie opóźnienie odpowiedzi przepustnicy
+FROM:operator04227@system.nwo
+DATE:2026-03-09 21:13
+Tak, przekazane technikom z prośbą o rozszerzoną obserwację i diagnozę przepustnicy P-8.

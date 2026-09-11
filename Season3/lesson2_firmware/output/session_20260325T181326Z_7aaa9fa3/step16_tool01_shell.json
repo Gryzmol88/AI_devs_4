@@ -1,0 +1,11 @@
+{
+  "ok": false,
+  "blocked": false,
+  "command": "cat /opt/firmware/cooler/.git/.gitignore",
+  "error": "HTTP 404 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -800,\n    \"message\": \"Path does not exist.\"\n}",
+  "http_status": 404,
+  "is_retryable": false,
+  "error_code": -800,
+  "ban": null,
+  "is_ban": false
+}

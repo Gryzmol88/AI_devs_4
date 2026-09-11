@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "cat /opt/firmware/cooler/.gitignore",
+  "response": {
+    "code": 150,
+    "message": "File content.",
+    "path": "/opt/firmware/cooler/.gitignore",
+    "data": ".env\nstorage.cfg\nlogs/"
+  },
+  "detected_confirmation_code": null
+}

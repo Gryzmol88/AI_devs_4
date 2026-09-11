@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "blocked": true,
+  "command": "ls //proc",
+  "reason": "Komenda odwołuje się do zabronionej ścieżki: /proc",
+  "required_bootstrap_command": null
+}

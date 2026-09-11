@@ -1,0 +1,1 @@
+"""Narzedzia pomocnicze aplikacji windpower."""

@@ -1,0 +1,23 @@
+{
+  "attempt": 1,
+  "task": "savethem",
+  "route_name": "waterline_rocket",
+  "answer": [
+    "rocket",
+    "down",
+    "right",
+    "right",
+    "right",
+    "right",
+    "right",
+    "up",
+    "up",
+    "up",
+    "up",
+    "dismount",
+    "right",
+    "right",
+    "right"
+  ],
+  "error": "HTTP 400 for https://hub.ag3nts.org/verify: {\n    \"code\": -930,\n    \"message\": \"Fuel reached zero. Mission failed.\"\n}"
+}

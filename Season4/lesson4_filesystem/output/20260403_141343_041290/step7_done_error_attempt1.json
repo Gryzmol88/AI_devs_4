@@ -1,0 +1,9 @@
+{
+  "exception": "Blad HTTP verify: status=400, body={\n    \"code\": -825,\n    \"message\": \"Directory \\/osoby must contain exactly one file per person.\",\n    \"expected\": 8,\n    \"actual\": 9\n}",
+  "payload": {
+    "code": -825,
+    "message": "Directory /osoby must contain exactly one file per person.",
+    "expected": 8,
+    "actual": 9
+  }
+}

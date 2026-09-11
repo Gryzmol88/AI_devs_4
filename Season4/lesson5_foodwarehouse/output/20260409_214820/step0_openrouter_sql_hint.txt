@@ -1,0 +1,14 @@
+- SELECT destination_id, destination_name FROM city_destination_map WHERE LOWER(city) = LOWER(:city) AND country_code = :cc AND is_active = 1 AND CURRENT_DATE BETWEEN valid_from AND COALESCE(valid_to, '9999-12-31') ORDER BY priority LIMIT 1;
+  Pola do sprawdzenia: city, country_code, is_active, valid_from/valid_to, priority, destination_id, destination_name.
+
+- SELECT d.id AS destination_id, d.name AS destination_name, d.region FROM destinations d JOIN cities c ON c.destination_id = d.id WHERE c.name = :city AND c.country_code = :cc;
+  Pola do sprawdzenia: c.name, c.country_code, c.postal_code, c.lat/c.lon, d.region, d.is_active.
+
+- SELECT r.destination_id, r.route_code FROM routes r WHERE r.origin_city = :city AND ( :carrier IS NULL OR r.carrier_code = :carrier ) ORDER BY r.priority, r.updated_at DESC LIMIT 1;
+  Pola do sprawdzenia: origin_city, carrier_code, route_code, destination_id, priority, updated_at, sla_hours.
+
+- SELECT e.full_name, COALESCE(e.preferred_name, e.full_name) AS display_name, e.job_title, e.email, e.phone, e.mobile, o.city AS office_city, o.country AS office_country, e.brand, e.locale FROM employees e LEFT JOIN offices o ON e.office_id = o.id WHERE e.user_id = :user_id;
+  Pola do sprawdzenia: full_name/preferred_name, pronouns, job_title, department, email, phone/mobile (format), office_city/country, brand, locale, timezone.
+
+- SELECT b.brand, b.logo_url, b.color_primary, b.website_url, b.linkedin_url, l.text AS legal_disclaimer FROM brand_assets b LEFT JOIN legal_disclaimers l ON l.id = b.legal_disclaimer_id AND l.locale = :locale WHERE b.brand = :brand AND b.locale = :locale;
+  Pola do sprawdzenia: brand, locale (fallback), logo_url (HTTPS), color_primary (HEX), website/linkedin URLs, legal_disclaimer wersja/obowiązywanie.

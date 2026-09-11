@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "blocked": true,
+  "reason": "Najpierw odczytaj /opt/firmware/cooler/logs/.gitignore przed pracą w tym katalogu",
+  "command": "ls /opt/firmware/cooler/logs",
+  "required_bootstrap_command": "cat /opt/firmware/cooler/logs/.gitignore"
+}

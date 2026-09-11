@@ -1,0 +1,10 @@
+{
+  "command": "/bin/flaggengenerator",
+  "ok": false,
+  "http_status": 400,
+  "error_message": "HTTP 400 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -874,\n    \"message\": \"\\/bin\\/flaggengenerator\\\\nPlease provide a password as an argument.\"\n}",
+  "is_retryable": false,
+  "error_code": -874,
+  "ban": null,
+  "is_ban": false
+}

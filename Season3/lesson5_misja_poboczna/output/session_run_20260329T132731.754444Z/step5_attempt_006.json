@@ -1,0 +1,20 @@
+{
+  "attempt": 6,
+  "task": "savethem",
+  "route_name": "failure_explore_rocket_5_6_0",
+  "answer": [
+    "rocket",
+    "up",
+    "up",
+    "up",
+    "right",
+    "right",
+    "right",
+    "right",
+    "dismount",
+    "right",
+    "down",
+    "right"
+  ],
+  "error": "HTTP 400 for https://hub.ag3nts.org/verify: {\n    \"code\": -930,\n    \"message\": \"This route does not reach the goal.\"\n}"
+}

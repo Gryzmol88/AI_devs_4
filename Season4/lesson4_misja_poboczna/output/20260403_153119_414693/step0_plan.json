@@ -1,0 +1,75 @@
+[
+  {
+    "id": "step01_help",
+    "description": "Pobierz dokumentację API.",
+    "answer": {
+      "action": "help"
+    }
+  },
+  {
+    "id": "step02_reset",
+    "description": "Wyczyść filesystem przed testem.",
+    "answer": {
+      "action": "reset"
+    }
+  },
+  {
+    "id": "step03_create_flag_dir",
+    "description": "Utwórz katalog /flag.",
+    "answer": {
+      "action": "createDirectory",
+      "path": "/flag"
+    }
+  },
+  {
+    "id": "step04_create_f",
+    "description": "Utwórz plik /flag/f o rozmiarze 70.",
+    "answer": {
+      "action": "createFile",
+      "path": "/flag/f",
+      "content": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+    }
+  },
+  {
+    "id": "step05_create_l",
+    "description": "Utwórz plik /flag/l o rozmiarze 76.",
+    "answer": {
+      "action": "createFile",
+      "path": "/flag/l",
+      "content": "llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll"
+    }
+  },
+  {
+    "id": "step06_create_a",
+    "description": "Utwórz plik /flag/a o rozmiarze 65.",
+    "answer": {
+      "action": "createFile",
+      "path": "/flag/a",
+      "content": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+    }
+  },
+  {
+    "id": "step07_create_g",
+    "description": "Utwórz plik /flag/g o rozmiarze 71.",
+    "answer": {
+      "action": "createFile",
+      "path": "/flag/g",
+      "content": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
+    }
+  },
+  {
+    "id": "step08_list_flag",
+    "description": "Pobierz listing /flag do walidacji kolejności i rozmiarów.",
+    "answer": {
+      "action": "listFiles",
+      "path": "/flag"
+    }
+  },
+  {
+    "id": "step09_done",
+    "description": "Wyślij done po teście.",
+    "answer": {
+      "action": "done"
+    }
+  }
+]

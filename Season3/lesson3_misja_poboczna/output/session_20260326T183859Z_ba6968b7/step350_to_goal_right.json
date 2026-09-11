@@ -1,0 +1,33 @@
+{
+  "timestamp": "2026-03-26T18:39:41.191626Z",
+  "step": 350,
+  "phase": "to_goal",
+  "target_col": 7,
+  "command": "right",
+  "decision": {
+    "reason": "postep:ok",
+    "safe": true,
+    "wait_streak": 0
+  },
+  "state": {
+    "robot": {
+      "col": 1,
+      "row": 5
+    },
+    "goal": {
+      "col": 7,
+      "row": 5
+    },
+    "board_rows": [],
+    "blocks": [],
+    "notes": [
+      "robot_position_fallback"
+    ],
+    "at_goal": false
+  },
+  "flag": "{FLG:INSTALLED}",
+  "raw_response": {
+    "code": 0,
+    "message": "{FLG:INSTALLED}"
+  }
+}

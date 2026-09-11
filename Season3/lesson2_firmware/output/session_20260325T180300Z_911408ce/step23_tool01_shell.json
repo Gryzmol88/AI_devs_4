@@ -1,0 +1,8 @@
+{
+  "ok": false,
+  "blocked": false,
+  "command": "cat /opt/firmware/cooler/.git/.gitignore",
+  "error": "HTTP 403 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -735,\n    \"message\": \"Temporarily banned. Try again later.\",\n    \"ban\": {\n        \"command\": \"cat /opt/firmware/cooler/.env\",\n        \"reason\": \"Attempt to read a forbidden file: /opt/firmware/cooler/.env.\",\n        \"seconds_left\": 6\n    }\n}",
+  "http_status": 403,
+  "is_retryable": false
+}

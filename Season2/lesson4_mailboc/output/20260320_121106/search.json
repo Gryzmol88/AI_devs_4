@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "action": "search",
+  "query": "from:proton.me",
+  "pagination": {
+    "page": 1,
+    "perPage": 5,
+    "total": 1,
+    "totalPages": 1
+  },
+  "items": [
+    {
+      "rowID": 88,
+      "messageID": "6624add090a5cb06f5c192653b5a243c",
+      "threadID": 62044,
+      "subject": "Podejrzana aktywność przy obiekcie PWR6132PL",
+      "from": "vik4tor@proton.me",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-05 16:25",
+      "snippet": "Jako obywatel wierny ideałom S..."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "started_at": "2026-03-17T19:41:38",
+  "model": "anthropic/claude-sonnet-4.6",
+  "verify_url": "https://hub.ag3nts.org/verify",
+  "task": "categorize",
+  "csv_url": "https://hub.ag3nts.org/data/52b65cf5-2d1a-4fd2-ac76-7063b66b10fc/categorize.csv"
+}

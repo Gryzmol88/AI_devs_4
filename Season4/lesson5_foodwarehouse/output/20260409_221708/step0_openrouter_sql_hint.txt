@@ -1,0 +1,9 @@
+- SELECT c.city_id, c.name AS city, d.destination_id, d.slug AS destination, m.is_default, m.priority FROM city_destination_map m JOIN cities c ON c.city_id=m.city_id JOIN destinations d ON d.destination_id=m.destination_id WHERE c.name = :city AND m.active = true ORDER BY m.is_default DESC, m.priority DESC LIMIT 1; Sprawdź pola: city_id, name, iata_code, country_code, destination_id, slug/code, active, is_default, priority, valid_from, valid_to.
+
+- SELECT c.city_id, c.name, COUNT(DISTINCT m.destination_id) AS destination_count FROM cities c LEFT JOIN city_destination_map m ON m.city_id = c.city_id AND m.active = true GROUP BY c.city_id, c.name HAVING COUNT(DISTINCT m.destination_id) <> 1; Sprawdź: unikalność mapowania, brak/duplikaty, active, ograniczenia kluczy.
+
+- SELECT c.name AS city, d.slug AS destination FROM city_destination_map m JOIN cities c ON c.city_id = m.city_id JOIN destinations d ON d.destination_id = m.destination_id WHERE c.name ILIKE :prefix || '%' AND m.active = true; Sprawdź: normalizacja nazw (diakrytyki), case-insensitive, locale, status destination (np. archived).
+
+- SELECT e.request_id, e.user_id, e.session_id, e.channel, e.locale, e.ts_utc AS ts, e.payload_hash, e.nonce, e.key_id FROM events e WHERE e.request_id = :request_id; Sprawdź: UTC/precision timestampu, kolejność pól do podpisu, kodowanie (UTF-8), nullability, stabilność payload_hash.
+
+- SELECT s.request_id, s.version, s.algorithm, s.base_string, s.signature, s.created_at FROM signatures s WHERE s.request_id = :request_id ORDER BY s.created_at DESC LIMIT 1; Sprawdź: algorithm (sha256/sha512), version/key_id/rotacja kluczy, separator i escaping w base_string, format podpisu (hex/base64), trimming/białe znaki.

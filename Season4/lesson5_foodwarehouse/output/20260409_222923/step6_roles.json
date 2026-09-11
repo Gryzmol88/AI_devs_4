@@ -1,0 +1,26 @@
+[
+  {
+    "role_id": 1,
+    "name": "Pomoc techniczna"
+  },
+  {
+    "role_id": 2,
+    "name": "Obsługa transportów"
+  },
+  {
+    "role_id": 3,
+    "name": "Praktykant"
+  },
+  {
+    "role_id": 4,
+    "name": "Programista"
+  },
+  {
+    "role_id": 5,
+    "name": "Specjalista AI"
+  },
+  {
+    "role_id": 6,
+    "name": "Vibe Coder"
+  }
+]

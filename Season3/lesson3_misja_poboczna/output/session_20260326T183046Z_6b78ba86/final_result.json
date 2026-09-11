@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-03-26T18:30:46.439296Z",
+  "success": true,
+  "message": "Wypisano kandydatow lokalnie bez wysylki do verify.",
+  "best_flag": "{FLG:INSTALLED}",
+  "attempts_count": 0,
+  "attempts": []
+}

@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "/opt/firmware/cooler/cooler.bin admin1",
+  "response": {
+    "code": 196,
+    "message": "Executed file.",
+    "data": "Emergency Core Cooling System (ECCS) booting... [OK]\nChecking for updates.... [WORKING OFFLINE!]\nSelfcheck........................... [OK]\nSAFETY_CHECK=pass [OK]\nDONE - running in detached mode.\n\nECCS-169e268f489219d1a564e2ae38f96f8a671541bb"
+  },
+  "detected_confirmation_code": "ECCS-169e268f489219d1a564e2ae38f96f8a671541bb"
+}

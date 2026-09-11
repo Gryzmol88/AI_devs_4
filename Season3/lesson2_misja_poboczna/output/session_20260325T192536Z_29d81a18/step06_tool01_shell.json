@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "ls /opt",
+  "response": {
+    "code": 120,
+    "message": "Directory listing.",
+    "path": "/opt",
+    "data": [
+      "firmware/"
+    ]
+  },
+  "detected_success_code": null
+}

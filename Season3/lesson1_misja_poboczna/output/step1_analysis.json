@@ -1,0 +1,41 @@
+{
+  "hint": "9132-1522-2306-1048-2119 hmmm... awkward :/",
+  "numbers": [
+    9132,
+    1522,
+    2306,
+    1048,
+    2119
+  ],
+  "operation": "left_to_right_subtraction",
+  "result": 2137,
+  "recheck_candidates": [
+    {
+      "recheck": [
+        "9132",
+        "1522",
+        "2306",
+        "1048",
+        "2119"
+      ]
+    },
+    {
+      "recheck": [
+        9132,
+        1522,
+        2306,
+        1048,
+        2119
+      ]
+    },
+    {
+      "recheck": [
+        "9132.json",
+        "1522.json",
+        "2306.json",
+        "1048.json",
+        "2119.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "answer": [
+    "rocket",
+    "up",
+    "up",
+    "right",
+    "right",
+    "right",
+    "up",
+    "right",
+    "right",
+    "dismount",
+    "right",
+    "right",
+    "right"
+  ],
+  "verify_response": {
+    "code": 0,
+    "message": "{FLG:INTACTCITY}"
+  }
+}

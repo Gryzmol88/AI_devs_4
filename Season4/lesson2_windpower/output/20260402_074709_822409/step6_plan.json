@@ -1,0 +1,22 @@
+{
+  "configs": [
+    {
+      "timestamp": "2026-04-02 00:00:00",
+      "wind_ms": 2.9,
+      "pitch_angle": 45,
+      "turbine_mode": "production",
+      "reason": "Pierwsze bezpieczne okno produkcji brakujacej mocy."
+    }
+  ],
+  "production_point": {
+    "timestamp": "2026-04-02 00:00:00",
+    "wind_ms": 2.9,
+    "pitch_angle": 45,
+    "turbine_mode": "production",
+    "reason": "Pierwsze bezpieczne okno produkcji brakujacej mocy."
+  },
+  "notes": [
+    "Wykryto 0 zdarzen sztormowych.",
+    "Liczba punktow konfiguracji: 1."
+  ]
+}

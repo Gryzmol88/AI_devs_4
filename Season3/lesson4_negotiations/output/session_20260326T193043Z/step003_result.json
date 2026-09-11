@@ -1,0 +1,17 @@
+{
+  "query": "Turbina wiatrowa mająca 48V i moc 400W",
+  "requested_items": [
+    "Turbina wiatrowa 400W 24V",
+    "Inwerter DC/AC 48V 3000W",
+    "Bezpiecznik samochodowy 1 A"
+  ],
+  "resolved_items": [
+    "Turbina wiatrowa 400W 24V",
+    "Inwerter DC/AC 48V 3000W",
+    "Bezpiecznik samochodowy 1 A"
+  ],
+  "unresolved_items": [],
+  "cities": [],
+  "notes": [],
+  "output": "Brak miasta z kompletem dla: Turbina wiatrowa 400W 24V, Inwerter DC/AC 48V 3000W, Bezpiecznik samochodowy 1 A."
+}

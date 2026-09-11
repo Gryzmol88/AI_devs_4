@@ -1,0 +1,11 @@
+{
+  "rowID": 31,
+  "messageID": "2b4592be9a13b064bdd5ca15c239fc60",
+  "threadID": 62013,
+  "subject": "Re: PWR3847PL: pojedynczy błąd synchronizacji czasu PLC",
+  "message": "Wysłałem to do techników automatyki. Niech zrobią manualną walidację i zamkną alert z notatką.",
+  "from": "operator04227@system.nwo",
+  "to": "plc.zabrze@reactor-mail.nwo",
+  "date": "2026-03-02 21:23",
+  "request": 1
+}

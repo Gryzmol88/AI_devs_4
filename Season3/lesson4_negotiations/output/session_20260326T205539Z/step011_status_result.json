@@ -1,0 +1,6 @@
+{
+  "mode": "status",
+  "tool_name": "status",
+  "query_text": "{'tool': 'status', 'have_flag': 'yes', 'can_send_flag': 'yes', 'encoded_flag_hex': '23464c473a474f4f444445414c7d'}",
+  "output": "have_flag=maybe;can_send_flag=unknown;encoded_flag_hex=PROVIDE_HEX_ONLY"
+}

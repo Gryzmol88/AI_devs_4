@@ -1,0 +1,5 @@
+{
+  "timestamp": "2026-03-25T18:01:49.566784Z",
+  "error_type": "HttpRequestError",
+  "error_message": "HTTP 402 dla https://openrouter.ai/api/v1/chat/completions: {\"error\":{\"message\":\"This request requires more credits, or fewer max_tokens. You requested up to 65536 tokens, but can only afford 64791. To increase, visit https://openrouter.ai/settings/keys and create a key with a higher total limit\",\"code\":402,\"metadata\":{\"provider_name\":null}},\"user_id\":\"user_3Ahhlt215porS7PFxUqnZj6bl02\"}"
+}

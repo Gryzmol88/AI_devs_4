@@ -1,0 +1,199 @@
+{
+  "code": 100,
+  "message": "Batch actions executed.",
+  "actions_executed": 32,
+  "results": [
+    {
+      "index": 0,
+      "code": 10,
+      "message": "Directory created.",
+      "path": "/miasta"
+    },
+    {
+      "index": 1,
+      "code": 10,
+      "message": "Directory created.",
+      "path": "/osoby"
+    },
+    {
+      "index": 2,
+      "code": 10,
+      "message": "Directory created.",
+      "path": "/towary"
+    },
+    {
+      "index": 3,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/miasta/brudzewo"
+    },
+    {
+      "index": 4,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/miasta/celbowo"
+    },
+    {
+      "index": 5,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/miasta/darzlubie"
+    },
+    {
+      "index": 6,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/miasta/domatowo"
+    },
+    {
+      "index": 7,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/miasta/karlinkowo"
+    },
+    {
+      "index": 8,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/miasta/mechowo"
+    },
+    {
+      "index": 9,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/miasta/opalino"
+    },
+    {
+      "index": 10,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/miasta/puck"
+    },
+    {
+      "index": 11,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/osoby/damian_kroll"
+    },
+    {
+      "index": 12,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/osoby/eliza_redmann"
+    },
+    {
+      "index": 13,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/osoby/iga_kapecka"
+    },
+    {
+      "index": 14,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/osoby/kisiel"
+    },
+    {
+      "index": 15,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/osoby/lena"
+    },
+    {
+      "index": 16,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/osoby/marta_frantz"
+    },
+    {
+      "index": 17,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/osoby/natan_rams"
+    },
+    {
+      "index": 18,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/osoby/oskar_radtke"
+    },
+    {
+      "index": 19,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/chleb"
+    },
+    {
+      "index": 20,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/kapusta"
+    },
+    {
+      "index": 21,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/kilof"
+    },
+    {
+      "index": 22,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/kurczak"
+    },
+    {
+      "index": 23,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/maka"
+    },
+    {
+      "index": 24,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/makaron"
+    },
+    {
+      "index": 25,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/marchew"
+    },
+    {
+      "index": 26,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/motek"
+    },
+    {
+      "index": 27,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/opata"
+    },
+    {
+      "index": 28,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/ryz"
+    },
+    {
+      "index": 29,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/wiertarka"
+    },
+    {
+      "index": 30,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/woowina"
+    },
+    {
+      "index": 31,
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/ziemniak"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "gen-1774089228-14sEdoS6G09aSQDuEgcB",
+  "object": "chat.completion",
+  "created": 1774089228,
+  "model": "google/gemini-3-flash-preview-20251217",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"col\": 2,\n  \"row\": 4,\n  \"grid_cols\": 3,\n  \"grid_rows\": 4,\n  \"confidence\": 0.95,\n  \"reasoning_short\": \"Tama z błękitną wodą i śluzami znajduje się w dolnej krawędzi środkowej kolumny (x=2, y=4).\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "data": "CiEBjz1rX8NSTYJNJacDrGDz3CdhuaS0uqBy3ViUUZTwDgs=",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1256,
+    "completion_tokens": 98,
+    "total_tokens": 1354,
+    "cost": 0.000922,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000922,
+      "upstream_inference_prompt_cost": 0.000628,
+      "upstream_inference_completions_cost": 0.000294
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

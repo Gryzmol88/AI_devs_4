@@ -1,0 +1,54 @@
+[
+  {
+    "vehicle": "rocket",
+    "response": {
+      "code": 230,
+      "message": "Vehicle information found.",
+      "name": "rocket",
+      "note": "The rocket is the fastest possible solution for moving around the world in this mission. It can cover ground very efficiently and keeps food consumption extremely low, but it is far from universal. It cannot travel over water, because it only hovers about one meter above the ground, so any deeper water tile is a serious problem. It also cannot fly over any chasm, cliff, or other gap where there is no supporting terrain below it. Fuel consumption is 1.0 per move, and food consumption is 0.1 per move, so it is excellent for speed runs but still demands careful route planning.",
+      "consumption": {
+        "fuel": 1,
+        "food": 0.1
+      }
+    }
+  },
+  {
+    "vehicle": "horse",
+    "response": {
+      "code": 230,
+      "message": "Vehicle information found.",
+      "name": "horse",
+      "note": "The horse is a balanced travel option for routes where you want to save fuel completely while still moving more comfortably than on foot. It does not consume any fuel at all, which makes it attractive when fuel reserves are low, but it still requires a meaningful amount of food to keep the journey going. This mode is less extreme than the rocket and less mechanical than the car, so it can be useful in medium-length routes when resource management matters more than raw speed. Fuel consumption is 0.0 per move, while food consumption is 1.6 per move.",
+      "consumption": {
+        "fuel": 0,
+        "food": 1.6
+      }
+    }
+  },
+  {
+    "vehicle": "walk",
+    "response": {
+      "code": 230,
+      "message": "Vehicle information found.",
+      "name": "walk",
+      "note": "Walking is the simplest and most reliable fallback mode because it requires no vehicle and burns no fuel at all. It is useful when you dismount and need to keep going without relying on machinery or mounts. The trade-off is that it is expensive in terms of food, so long routes on foot can drain resources very quickly. This means walk mode is dependable, but it should not be treated as free movement. Fuel consumption is 0.0 per move, and food consumption is 2.5 per move, which is the highest food cost among the available travel modes.",
+      "consumption": {
+        "fuel": 0,
+        "food": 2.5
+      }
+    }
+  },
+  {
+    "vehicle": "car",
+    "response": {
+      "code": 230,
+      "message": "Vehicle information found.",
+      "name": "car",
+      "note": "The car is a practical powered vehicle that offers a decent compromise between speed and resource usage. It uses less fuel per move than the rocket and requires only moderate food consumption, so it can be efficient on routes that stay on solid ground. However, it cannot drive on water, and entering a water tile means the vehicle is lost immediately. That makes route safety just as important as resource planning. Fuel consumption is 0.7 per move, while food consumption is 1.0 per move.",
+      "consumption": {
+        "fuel": 0.7,
+        "food": 1
+      }
+    }
+  }
+]

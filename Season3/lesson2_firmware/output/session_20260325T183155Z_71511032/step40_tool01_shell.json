@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "blocked": true,
+  "reason": "Komenda zawiera ryzykowną operację: rm",
+  "command": "rm /opt/firmware/cooler/cooler-is-blocked.lock",
+  "required_bootstrap_command": null
+}

@@ -1,0 +1,8 @@
+{
+  "task": "filesystem",
+  "mode": "check_flag_ord_with_main",
+  "total_steps": 41,
+  "ok_steps": 41,
+  "error_steps": 0,
+  "run_dir": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season4\\lesson4_misja_poboczna\\output\\20260403_153641_925771"
+}

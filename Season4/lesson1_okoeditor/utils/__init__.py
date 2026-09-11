@@ -1,0 +1,2 @@
+"""Pakiet narzędzi pomocniczych aplikacji."""
+

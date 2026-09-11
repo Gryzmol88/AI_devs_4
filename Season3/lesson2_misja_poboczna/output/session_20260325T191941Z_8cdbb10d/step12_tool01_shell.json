@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "/opt/firmware/cooler/cooler.bin admin1",
+  "response": {
+    "code": 195,
+    "message": "Trying to execute file.",
+    "data": "Lock file exists: /opt/firmware/cooler/cooler-is-blocked.lock\nThe previous execution of the application probably ended with a critical exception. Remove the lock file if you are sure you have resolved the issue."
+  },
+  "detected_success_code": null
+}

@@ -1,0 +1,21 @@
+{
+  "attempt": 27,
+  "task": "beaversave",
+  "route_name": "fastest_rocket",
+  "answer": [
+    "rocket",
+    "up",
+    "up",
+    "up",
+    "right",
+    "right",
+    "right",
+    "right",
+    "right",
+    "dismount",
+    "right",
+    "right",
+    "right"
+  ],
+  "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+}

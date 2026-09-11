@@ -1,0 +1,11 @@
+{
+  "warning": "warehousesCount nie ma jednoznacznego wsparcia city+magazyn w kontekście.",
+  "cityName": "Skarszewy",
+  "payload": {
+    "action": "transmit",
+    "cityName": "Skarszewy",
+    "cityArea": "10.7284",
+    "warehousesCount": 11,
+    "phoneNumber": "644122092"
+  }
+}

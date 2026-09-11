@@ -1,0 +1,17 @@
+{
+  "query": "akumulator pod 48V dowolna pojemność",
+  "requested_items": [
+    "Akumulator kwasowy 12V 200Ah",
+    "Przycisk podswietlany bialy",
+    "Inwerter DC/AC 48V 3000W"
+  ],
+  "resolved_items": [
+    "Akumulator kwasowy 12V 200Ah",
+    "Przycisk podswietlany bialy",
+    "Inwerter DC/AC 48V 3000W"
+  ],
+  "unresolved_items": [],
+  "cities": [],
+  "notes": [],
+  "output": "Brak miasta z kompletem dla: Akumulator kwasowy 12V 200Ah, Przycisk podswietlany bialy, Inwerter DC/AC 48V 3000W."
+}

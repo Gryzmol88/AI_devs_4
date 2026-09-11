@@ -1,0 +1,8 @@
+{
+  "attempt": 2,
+  "estimated_tokens": 564,
+  "required_devices": [
+    "FIRMWARE"
+  ],
+  "frozen_core_entries": 11
+}

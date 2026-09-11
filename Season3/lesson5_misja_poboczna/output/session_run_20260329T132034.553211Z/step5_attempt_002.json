@@ -1,0 +1,23 @@
+{
+  "attempt": 2,
+  "task": "savethem",
+  "route_name": "beaver_north_rocket",
+  "answer": [
+    "rocket",
+    "up",
+    "up",
+    "right",
+    "right",
+    "right",
+    "up",
+    "right",
+    "right",
+    "up",
+    "down",
+    "dismount",
+    "right",
+    "right",
+    "right"
+  ],
+  "error": "HTTP 400 for https://hub.ag3nts.org/verify: {\n    \"code\": -930,\n    \"message\": \"Fuel reached zero. Mission failed.\"\n}"
+}

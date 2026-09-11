@@ -1,0 +1,10 @@
+{
+  "code": 160,
+  "message": "Database schema loaded.",
+  "data": null,
+  "tool": "database",
+  "mode": "read-only",
+  "query": "show create table users",
+  "table": "users",
+  "schema": "CREATE TABLE \"users\"(user_id int auto_increment, login varchar(20), name_surname varchar(255), password char(32), birthday date, role int default 0, is_active int default 1)"
+}

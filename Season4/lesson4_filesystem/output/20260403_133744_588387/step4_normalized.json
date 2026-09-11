@@ -1,0 +1,111 @@
+{
+  "city_needs": {
+    "opalino": {
+      "chleb": 45,
+      "woda": 120,
+      "motek": 6
+    },
+    "domatowo": {
+      "makaron": 60,
+      "woda": 150,
+      "opata": 8
+    },
+    "brudzewo": {
+      "ryz": 55,
+      "woda": 140,
+      "wiertarka": 5
+    },
+    "darzlubie": {
+      "woowina": 25,
+      "woda": 130,
+      "kilof": 7
+    },
+    "celbowo": {
+      "kurczak": 40,
+      "woda": 125,
+      "motek": 6
+    },
+    "mechowo": {
+      "ziemniak": 100,
+      "kapusta": 70,
+      "marchew": 65,
+      "woda": 165,
+      "opata": 9
+    },
+    "puck": {
+      "chleb": 50,
+      "ryz": 45,
+      "woda": 175,
+      "wiertarka": 7
+    },
+    "karlinkowo": {
+      "makaron": 52,
+      "woowina": 22,
+      "ziemniak": 95,
+      "woda": 155,
+      "kilof": 6
+    }
+  },
+  "person_to_city": {
+    "natan_rams": "domatowo",
+    "iga_kapecka": "opalino",
+    "marta_frantz": "darzlubie",
+    "oskar_radtke": "celbowo",
+    "eliza_redmann": "mechowo",
+    "damian_kroll": "puck",
+    "lena": "karlinkowo",
+    "kisiel": "brudzewo"
+  },
+  "item_to_cities": {
+    "ryz": [
+      "darzlubie",
+      "opalino",
+      "karlinkowo"
+    ],
+    "marchew": [
+      "puck"
+    ],
+    "chleb": [
+      "domatowo",
+      "celbowo",
+      "brudzewo"
+    ],
+    "woowina": [
+      "opalino"
+    ],
+    "kilof": [
+      "puck",
+      "mechowo",
+      "celbowo"
+    ],
+    "wiertarka": [
+      "karlinkowo",
+      "domatowo"
+    ],
+    "maka": [
+      "brudzewo",
+      "mechowo"
+    ],
+    "motek": [
+      "karlinkowo",
+      "mechowo"
+    ],
+    "makaron": [
+      "opalino"
+    ],
+    "kapusta": [
+      "celbowo"
+    ],
+    "ziemniak": [
+      "domatowo",
+      "darzlubie"
+    ],
+    "kurczak": [
+      "darzlubie"
+    ],
+    "opata": [
+      "brudzewo",
+      "puck"
+    ]
+  }
+}

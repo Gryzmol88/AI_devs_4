@@ -1,0 +1,278 @@
+{
+  "0158": {
+    "file_id": "0158",
+    "reasons": [
+      "humidity_percent=68.5 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ]
+  },
+  "0307": {
+    "file_id": "0307",
+    "reasons": [
+      "humidity_percent=105.3 poza zakresem [40.0, 80.0] dla aktywnego sensora"
+    ]
+  },
+  "0516": {
+    "file_id": "0516",
+    "reasons": [
+      "humidity_percent=60.9 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ]
+  },
+  "0567": {
+    "file_id": "0567",
+    "reasons": [
+      "voltage_supply_v=224.4 poza zakresem [229.0, 231.0] dla aktywnego sensora"
+    ]
+  },
+  "0753": {
+    "file_id": "0753",
+    "reasons": [
+      "voltage_supply_v=224.4 poza zakresem [229.0, 231.0] dla aktywnego sensora"
+    ]
+  },
+  "1053": {
+    "file_id": "1053",
+    "reasons": [
+      "temperature_K=1101.0 poza zakresem [553.0, 873.0] dla aktywnego sensora"
+    ]
+  },
+  "1269": {
+    "file_id": "1269",
+    "reasons": [
+      "water_level_meters=21.5 poza zakresem [5.0, 15.0] dla aktywnego sensora"
+    ]
+  },
+  "1632": {
+    "file_id": "1632",
+    "reasons": [
+      "temperature_K=742.0 powinno być 0 dla nieaktywnego typu sensora temperature"
+    ]
+  },
+  "1678": {
+    "file_id": "1678",
+    "reasons": [
+      "humidity_percent=70.1 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ]
+  },
+  "1819": {
+    "file_id": "1819",
+    "reasons": [
+      "pressure_bar=184.0 poza zakresem [60.0, 160.0] dla aktywnego sensora"
+    ]
+  },
+  "2044": {
+    "file_id": "2044",
+    "reasons": [
+      "temperature_K=526.0 poza zakresem [553.0, 873.0] dla aktywnego sensora"
+    ]
+  },
+  "2175": {
+    "file_id": "2175",
+    "reasons": [
+      "voltage_supply_v=227.2 poza zakresem [229.0, 231.0] dla aktywnego sensora"
+    ]
+  },
+  "2238": {
+    "file_id": "2238",
+    "reasons": [
+      "temperature_K=1039.0 poza zakresem [553.0, 873.0] dla aktywnego sensora"
+    ]
+  },
+  "2500": {
+    "file_id": "2500",
+    "reasons": [
+      "water_level_meters=3.9 poza zakresem [5.0, 15.0] dla aktywnego sensora"
+    ]
+  },
+  "2958": {
+    "file_id": "2958",
+    "reasons": [
+      "water_level_meters=10.2 powinno być 0 dla nieaktywnego typu sensora water"
+    ]
+  },
+  "3123": {
+    "file_id": "3123",
+    "reasons": [
+      "voltage_supply_v=230.5 powinno być 0 dla nieaktywnego typu sensora voltage"
+    ]
+  },
+  "3713": {
+    "file_id": "3713",
+    "reasons": [
+      "temperature_K=534.0 poza zakresem [553.0, 873.0] dla aktywnego sensora"
+    ]
+  },
+  "3798": {
+    "file_id": "3798",
+    "reasons": [
+      "temperature_K=742.0 powinno być 0 dla nieaktywnego typu sensora temperature"
+    ]
+  },
+  "4040": {
+    "file_id": "4040",
+    "reasons": [
+      "temperature_K=536.0 poza zakresem [553.0, 873.0] dla aktywnego sensora"
+    ]
+  },
+  "4186": {
+    "file_id": "4186",
+    "reasons": [
+      "humidity_percent=63.4 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ]
+  },
+  "4237": {
+    "file_id": "4237",
+    "reasons": [
+      "pressure_bar=249.1 poza zakresem [60.0, 160.0] dla aktywnego sensora"
+    ]
+  },
+  "4630": {
+    "file_id": "4630",
+    "reasons": [
+      "humidity_percent=66.2 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ]
+  },
+  "4673": {
+    "file_id": "4673",
+    "reasons": [
+      "pressure_bar=89.8 powinno być 0 dla nieaktywnego typu sensora pressure"
+    ]
+  },
+  "4888": {
+    "file_id": "4888",
+    "reasons": [
+      "water_level_meters=1.8 poza zakresem [5.0, 15.0] dla aktywnego sensora"
+    ]
+  },
+  "5022": {
+    "file_id": "5022",
+    "reasons": [
+      "water_level_meters=3.3 poza zakresem [5.0, 15.0] dla aktywnego sensora"
+    ]
+  },
+  "5156": {
+    "file_id": "5156",
+    "reasons": [
+      "voltage_supply_v=227.2 poza zakresem [229.0, 231.0] dla aktywnego sensora"
+    ]
+  },
+  "5405": {
+    "file_id": "5405",
+    "reasons": [
+      "humidity_percent=61.5 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ]
+  },
+  "5714": {
+    "file_id": "5714",
+    "reasons": [
+      "temperature_K=658.0 powinno być 0 dla nieaktywnego typu sensora temperature"
+    ]
+  },
+  "5715": {
+    "file_id": "5715",
+    "reasons": [
+      "pressure_bar=127.9 powinno być 0 dla nieaktywnego typu sensora pressure"
+    ]
+  },
+  "5799": {
+    "file_id": "5799",
+    "reasons": [
+      "water_level_meters=10.1 powinno być 0 dla nieaktywnego typu sensora water"
+    ]
+  },
+  "6197": {
+    "file_id": "6197",
+    "reasons": [
+      "humidity_percent=79.8 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ]
+  },
+  "6281": {
+    "file_id": "6281",
+    "reasons": [
+      "humidity_percent=90.1 poza zakresem [40.0, 80.0] dla aktywnego sensora"
+    ]
+  },
+  "6336": {
+    "file_id": "6336",
+    "reasons": [
+      "humidity_percent=58.4 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ]
+  },
+  "7680": {
+    "file_id": "7680",
+    "reasons": [
+      "humidity_percent=71.3 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ]
+  },
+  "7701": {
+    "file_id": "7701",
+    "reasons": [
+      "humidity_percent=49.5 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ]
+  },
+  "8076": {
+    "file_id": "8076",
+    "reasons": [
+      "water_level_meters=5.2 powinno być 0 dla nieaktywnego typu sensora water"
+    ]
+  },
+  "8168": {
+    "file_id": "8168",
+    "reasons": [
+      "voltage_supply_v=276.1 poza zakresem [229.0, 231.0] dla aktywnego sensora"
+    ]
+  },
+  "8410": {
+    "file_id": "8410",
+    "reasons": [
+      "voltage_supply_v=304.5 poza zakresem [229.0, 231.0] dla aktywnego sensora"
+    ]
+  },
+  "8457": {
+    "file_id": "8457",
+    "reasons": [
+      "pressure_bar=186.8 poza zakresem [60.0, 160.0] dla aktywnego sensora"
+    ]
+  },
+  "9151": {
+    "file_id": "9151",
+    "reasons": [
+      "voltage_supply_v=223.4 poza zakresem [229.0, 231.0] dla aktywnego sensora"
+    ]
+  },
+  "9288": {
+    "file_id": "9288",
+    "reasons": [
+      "voltage_supply_v=230.6 powinno być 0 dla nieaktywnego typu sensora voltage"
+    ]
+  },
+  "9422": {
+    "file_id": "9422",
+    "reasons": [
+      "humidity_percent=58.0 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ]
+  },
+  "9518": {
+    "file_id": "9518",
+    "reasons": [
+      "pressure_bar=87.2 powinno być 0 dla nieaktywnego typu sensora pressure"
+    ]
+  },
+  "9583": {
+    "file_id": "9583",
+    "reasons": [
+      "humidity_percent=72.5 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ]
+  },
+  "9604": {
+    "file_id": "9604",
+    "reasons": [
+      "voltage_supply_v=225.6 poza zakresem [229.0, 231.0] dla aktywnego sensora"
+    ]
+  },
+  "9848": {
+    "file_id": "9848",
+    "reasons": [
+      "voltage_supply_v=230.1 powinno być 0 dla nieaktywnego typu sensora voltage"
+    ]
+  }
+}

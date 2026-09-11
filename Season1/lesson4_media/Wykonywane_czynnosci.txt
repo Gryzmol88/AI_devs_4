@@ -1,0 +1,54 @@
+1. Zdefiniowałbym cel i format wyniku  
+- Wynik końcowy to `answer.declaration` jako jeden string, w formacie 1:1 jak wzór z dokumentacji SPK.  
+- Kryteria: poprawne wartości pól + identyczny układ/separatory/kolejność.
+
+2. Pobranie dokumentacji startowej  
+- Otworzyłbym `https://hub.ag3nts.org/dane/doc/index.md`.  
+- Spisałbym wszystkie linki z `index.md` do plików podrzędnych (md/txt/pdf/png/jpg itp.).
+
+3. Rekurencyjne zebranie wszystkich załączników  
+- Pobierałbym każdy podlinkowany plik i ponownie szukał linków wewnątrz, aż do wyczerpania.  
+- Zbudowałbym lokalny „manifest źródeł” (lista plików + do czego służą: trasy, opłaty, wzór deklaracji, definicje skrótów).
+
+4. Obsługa plików nietekstowych (wskazówka z lekcji o multimodalności)  
+- Dla obrazów użyłbym vision/OCR i zrobiłbym transkrypcję do tekstu roboczego.  
+- Zachowałbym referencje do źródeł (które pole pochodzi z którego pliku), żeby łatwo poprawiać błędy.
+
+5. Wyciągnięcie reguł biznesowych SPK  
+- Ustaliłbym dokładnie: kategorie przesyłek, zasady naliczania opłat, wyjątki „finansowane przez System”, ograniczenia formalne i wymagane pola.
+
+6. Ustalenie trasy i kodu trasy  
+- Na podstawie dokumentacji połączeń odnalazłbym właściwą trasę Gdańsk → Żarnowiec.  
+- Zapisałbym dokładny kod/oznaczenie wymagane przez formularz.
+
+7. Wyliczenie opłaty przy budżecie 0 PP  
+- Sprawdziłbym, która kategoria pozwala na przesyłkę darmową lub finansowaną przez System.  
+- Zweryfikowałbym zgodność z wagą 2800 kg i regułami trasy.
+
+8. Mapowanie danych wejściowych do pól formularza  
+- Nadawca: `450202122`  
+- Punkt nadawczy: `Gdańsk`  
+- Punkt docelowy: `Żarnowiec`  
+- Waga: `2800 kg`  
+- Zawartość: `kasety z paliwem do reaktora`  
+- Uwagi specjalne: puste/brak (zgodnie z instrukcją: nic nie dopisywać).
+
+9. Złożenie deklaracji dokładnie wg wzoru  
+- Wypełniłbym szablon znak w znak: etykiety, odstępy, separatory, kolejność pól, łamanie linii.  
+- Sprawdziłbym, czy nie ma „ulepszeń” formatu (to częsty powód odrzucenia).
+
+10. Walidacja lokalna przed wysyłką  
+- Checklist: wszystkie pola obecne, poprawne jednostki, poprawny kod trasy, poprawna opłata, brak uwag specjalnych, zgodność formatu 1:1.
+
+11. Wysłanie do `/verify`  
+- POST na `https://hub.ag3nts.org/verify` z `task: "sendit"` i `answer.declaration`.
+
+12. Iteracyjna poprawa na podstawie błędu Hub-a  
+- Jeśli odrzuci, czytam komunikat i poprawiam tylko wskazany element.  
+- Powtarzam aż do akceptacji i zwrotu `{FLG:...}`.
+
+13. Podejście techniczne zgodne z lekcją  
+- Użyłbym hybrydy: workflow (deterministyczne kroki: pobranie, parsowanie, walidacja) + agentowe wsparcie tylko tam, gdzie dane są niejednoznaczne (obrazy, skróty, złożone reguły).  
+- Trzymałbym jawne referencje do plików (zamiast „gołej” treści), żeby móc je przekazywać między narzędziami i łatwo audytować decyzje.
+
+Jeśli chcesz, w kolejnym kroku mogę przejść przez to praktycznie i zacząć od automatycznego zebrania pełnej dokumentacji z `index.md`.

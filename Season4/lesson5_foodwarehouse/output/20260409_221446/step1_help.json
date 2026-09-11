@@ -1,0 +1,146 @@
+{
+  "code": 140,
+  "message": "Foodwarehouse API help.",
+  "data": null,
+  "usage": {
+    "endpoint": "/verify",
+    "method": "POST",
+    "required_fields": [
+      "apikey",
+      "task",
+      "answer"
+    ],
+    "task": "foodwarehouse"
+  },
+  "tools": [
+    {
+      "tool": "help",
+      "description": "Returns API usage and currently available tools.",
+      "params": []
+    },
+    {
+      "tool": "orders",
+      "description": "Reads and modifies warehouse orders. This tool is fully implemented.",
+      "actions": [
+        {
+          "action": "get",
+          "params": {
+            "id": "optional order identifier"
+          }
+        },
+        {
+          "action": "create",
+          "params": {
+            "title": "required order title",
+            "creatorID": "required existing ID of the user creating the order",
+            "destination": "required numeric code of the target city",
+            "signature": "required correct signature for creatorID and destination"
+          },
+          "notes": [
+            "New orders start with an empty items list.",
+            "creatorID must point to an existing user.",
+            "destination must point to one of the valid city destination codes.",
+            "signature must match for that creator."
+          ]
+        },
+        {
+          "action": "append",
+          "params": {
+            "id": "required order identifier",
+            "name": "required item name in single mode",
+            "items": "single quantity OR batch object/array of items"
+          },
+          "notes": [
+            "If the item already exists, quantity is increased.",
+            "Batch mode accepts {\"woda\":5,\"kilof\":7} or [{\"name\":\"woda\",\"items\":5},{\"name\":\"kilof\",\"items\":7}]."
+          ]
+        },
+        {
+          "action": "delete",
+          "params": {
+            "id": "required order identifier"
+          },
+          "notes": [
+            "Deletes the whole order."
+          ]
+        }
+      ]
+    },
+    {
+      "tool": "signatureGenerator",
+      "description": "Generates signatures for provided user and destination",
+      "actions": [
+        {
+          "action": "generate",
+          "params": {
+            "login": "who is creating this order",
+            "birthday": "required birthday in YYYY-MM-DD existing for user mentioned in login",
+            "destination": "required numeric destination ID of the target city"
+          }
+        }
+      ]
+    },
+    {
+      "tool": "done",
+      "description": "Validates whether one order fully satisfies all city needs and returns the flag on success.",
+      "params": []
+    },
+    {
+      "tool": "reset",
+      "description": "Restores the current user state to the initial set of seeded orders.",
+      "params": []
+    },
+    {
+      "tool": "database",
+      "description": "Read-only access to the SQLite database used by the task.",
+      "params": {
+        "query": "required string"
+      },
+      "notes": [
+        "Allowed commands: SELECT ..., SHOW TABLES, SHOW CREATE TABLE table_name, .tables, .schema, .schema table_name.",
+        "Write operations are blocked."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "tool": "orders",
+      "action": "get"
+    },
+    {
+      "tool": "orders",
+      "action": "create",
+      "title": "Backup supply train",
+      "creatorID": 9876,
+      "destination": 112211,
+      "signature": "96d66cc4d28484b3c5b9e05e4f79152eb564f6f0"
+    },
+    {
+      "tool": "orders",
+      "action": "append",
+      "id": "ed2f3696d8bcafe2437cdc88f7515037",
+      "items": {
+        "woda": 5,
+        "kilof": 70,
+        "chleb": 45
+      }
+    },
+    {
+      "tool": "signatureGenerator",
+      "action": "generate",
+      "login": "jkowalski",
+      "birthday": "1971-01-01",
+      "destination": 991828
+    },
+    {
+      "tool": "done"
+    },
+    {
+      "tool": "reset"
+    },
+    {
+      "tool": "database",
+      "query": "show tables"
+    }
+  ]
+}

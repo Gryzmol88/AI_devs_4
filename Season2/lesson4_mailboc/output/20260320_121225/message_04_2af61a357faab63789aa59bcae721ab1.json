@@ -1,0 +1,31 @@
+{
+  "search_item": {
+    "rowID": 132,
+    "messageID": "2af61a357faab63789aa59bcae721ab1",
+    "threadID": 62070,
+    "subject": "Zapis z kamer w obiekcie PWR6132PL - pilne!",
+    "from": "monitoring.wideo@security-node.nwo",
+    "to": "operator04227@system.nwo",
+    "date": "2026-03-12 23:59",
+    "snippet": "https://www.youtube.com/watch?..."
+  },
+  "message_details": {
+    "ok": true,
+    "action": "getMessages",
+    "count": 1,
+    "items": [
+      {
+        "rowID": 133,
+        "messageID": "2af61a357faab63789aa59bcae721ab1",
+        "threadID": 62070,
+        "subject": "Zapis z kamer w obiekcie PWR6132PL - pilne!",
+        "message": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "from": "monitoring.wideo@security-node.nwo",
+        "to": "operator04227@system.nwo",
+        "date": "2026-03-12 23:59",
+        "request": 1
+      }
+    ],
+    "notFound": []
+  }
+}

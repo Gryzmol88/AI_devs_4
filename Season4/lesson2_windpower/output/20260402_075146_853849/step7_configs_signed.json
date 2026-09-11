@@ -1,0 +1,32 @@
+{
+  "2026-04-02 00:00:00": {
+    "pitchAngle": 45,
+    "turbineMode": "production",
+    "unlockCode": "886b998903e1aa820102f2774abe4525"
+  },
+  "2026-04-03 18:00:00": {
+    "pitchAngle": 90,
+    "turbineMode": "idle",
+    "unlockCode": "954f7f1972cd2e1af246f5d91b820fce"
+  },
+  "2026-04-03 20:00:00": {
+    "pitchAngle": 90,
+    "turbineMode": "idle",
+    "unlockCode": "dd301c33ef3f49638495b4838a5c0915"
+  },
+  "2026-04-05 20:00:00": {
+    "pitchAngle": 90,
+    "turbineMode": "idle",
+    "unlockCode": "852f9671054d1de3fa75164ad1d58533"
+  },
+  "2026-04-06 18:00:00": {
+    "pitchAngle": 90,
+    "turbineMode": "idle",
+    "unlockCode": "487d9302d0520023ee065d0def0f4cd5"
+  },
+  "2026-04-07 18:00:00": {
+    "pitchAngle": 90,
+    "turbineMode": "idle",
+    "unlockCode": "1b50d93ee87f04113bcf8e5a70b11238"
+  }
+}

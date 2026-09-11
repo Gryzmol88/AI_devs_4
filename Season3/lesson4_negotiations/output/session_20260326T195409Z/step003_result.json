@@ -1,0 +1,17 @@
+{
+  "query": " Turbina wiatrowa mająca 48V i moc 400W",
+  "requested_items": [
+    "Turbina wiatrowa 400W 48V"
+  ],
+  "resolved_items": [
+    "Turbina wiatrowa 400W 48V"
+  ],
+  "unresolved_items": [],
+  "cities": [
+    "Domatowo",
+    "Rzeszow",
+    "Skolwin"
+  ],
+  "notes": [],
+  "output": "Przedmioty: Turbina wiatrowa 400W 48V. Miasta z kompletem: Domatowo, Rzeszow, Skolwin."
+}

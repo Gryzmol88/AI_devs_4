@@ -1,0 +1,17 @@
+{
+  "query": "{'item_code': 'inwerter który pasuje pod 48V'}",
+  "requested_items": [
+    "Inwerter DC/AC 48V 3000W"
+  ],
+  "resolved_items": [
+    "Inwerter DC/AC 48V 3000W"
+  ],
+  "unresolved_items": [],
+  "cities": [
+    "Bydgoszcz",
+    "Domatowo",
+    "Skolwin"
+  ],
+  "notes": [],
+  "output": "Przedmioty: Inwerter DC/AC 48V 3000W. Miasta z kompletem: Bydgoszcz, Domatowo, Skolwin."
+}

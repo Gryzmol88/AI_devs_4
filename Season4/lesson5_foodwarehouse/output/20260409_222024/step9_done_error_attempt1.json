@@ -1,0 +1,12 @@
+{
+  "status_code": 400,
+  "reason": "Bad Request",
+  "body": "{\n    \"code\": -653,\n    \"message\": \"An order that covers all required city needs still contains extra goods or quantities, so it is invalid.\",\n    \"order\": {\n        \"id\": \"6b39d9867a19f7876fbb22d404a96d97\",\n        \"title\": \"Dostawa zbiorcza dla wszystkich miast\",\n        \"destination\": 991828\n    },\n    \"city\": \"Opalino\"\n}",
+  "payload": {
+    "apikey": "52b65cf5-2d1a-4fd2-ac76-7063b66b10fc",
+    "task": "foodwarehouse",
+    "answer": {
+      "tool": "done"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "openrouter_base_url": "https://openrouter.ai/api/v1",
+  "vision_model": "google/gemini-3-flash-preview",
+  "vision_fallback_models": [
+    "openai/gpt-4o"
+  ],
+  "vision_max_attempts_per_model": 2,
+  "pilot_model": "openai/gpt-4o",
+  "task_name": "drone",
+  "verify_url": "https://hub.ag3nts.org/verify",
+  "request_timeout_seconds": 90,
+  "max_verify_attempts": 8,
+  "drone_docs_url": "https://hub.ag3nts.org/dane/drone.html",
+  "map_url": "https://hub.ag3nts.org/data/52b65cf5-2d1a-4fd2-ac76-7063b66b10fc/drone.png",
+  "output_dir": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season2\\lesson5_dron\\output"
+}

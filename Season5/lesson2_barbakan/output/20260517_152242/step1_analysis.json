@@ -1,0 +1,7 @@
+{
+  "step": 1,
+  "state": "ask_roads",
+  "outbound_text": "Czesc, z tej strony Tymon Gajewski.",
+  "inbound_text": null,
+  "selected_road": null
+}

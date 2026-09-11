@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "action": "search",
+  "query": "nigdy nie czytałam",
+  "pagination": {
+    "page": 1,
+    "perPage": 20,
+    "total": 0,
+    "totalPages": 1
+  },
+  "items": []
+}

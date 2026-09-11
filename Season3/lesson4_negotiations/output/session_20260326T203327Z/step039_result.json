@@ -1,0 +1,11 @@
+{
+  "query": "{'have_flag': 'false', 'can_send_flag': 'false', 'encoded_flag': 'F0L6:R00R4EE0L'}",
+  "requested_items": [],
+  "resolved_items": [],
+  "unresolved_items": [],
+  "cities": [],
+  "notes": [
+    "Brak rozpoznanych przedmiotów w zapytaniu."
+  ],
+  "output": "Nie rozpoznano przedmiotów. Podaj listę rzeczy do kupienia."
+}

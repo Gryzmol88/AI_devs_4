@@ -1,0 +1,4 @@
+{
+  "query_text": "{'have_flag': True, 'can_send_flag': True, 'encoded_flag_hex': '7B464C473A474F4F444445414C7D'}",
+  "output": "have_flag=maybe;can_send_flag=unknown;encoded_flag_hex=PROVIDE_HEX_ONLY"
+}

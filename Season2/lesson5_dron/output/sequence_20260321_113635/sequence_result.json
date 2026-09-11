@@ -1,0 +1,15 @@
+{
+  "ok": false,
+  "flag": null,
+  "sequence_root": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season2\\lesson5_dron\\output\\sequence_20260321_113635",
+  "map_agent_run_dir": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season2\\lesson5_dron\\output\\sequence_20260321_113635\\01_map\\20260321_113635",
+  "pilot_agent_run_dir": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season2\\lesson5_dron\\output\\sequence_20260321_113635\\02_pilot\\20260321_113640",
+  "coordinates": {
+    "col": 2,
+    "row": 4,
+    "grid_cols": 3,
+    "grid_rows": 4,
+    "confidence": 0.95,
+    "reasoning_short": "Tama z błękitną wodą i śluzami znajduje się w dolnej krawędzi środkowej kolumny (x=2, y=4)."
+  }
+}

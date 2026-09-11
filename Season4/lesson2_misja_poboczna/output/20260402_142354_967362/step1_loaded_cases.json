@@ -1,0 +1,65 @@
+{
+  "loadedAt": "2026-04-02T14:23:54.968",
+  "cases": [
+    {
+      "name": "all_mirror_2020_11_11_w11_p0_same_config",
+      "unlock": {
+        "startDate": "2020-02-02",
+        "startHour": "11:11:00",
+        "windMs": 11,
+        "pitchAngle": 0
+      },
+      "config": {
+        "startDate": "2020-02-02",
+        "startHour": "11:11:00",
+        "pitchAngle": 0,
+        "turbineMode": "production"
+      }
+    },
+    {
+      "name": "all_mirror_2020_11_11_w11_p90_idle",
+      "unlock": {
+        "startDate": "2020-02-02",
+        "startHour": "11:11:00",
+        "windMs": 11,
+        "pitchAngle": 90
+      },
+      "config": {
+        "startDate": "2020-02-02",
+        "startHour": "11:11:00",
+        "pitchAngle": 90,
+        "turbineMode": "idle"
+      }
+    },
+    {
+      "name": "unlock_mirror_config_normal_datehour",
+      "unlock": {
+        "startDate": "2020-02-02",
+        "startHour": "12:21:00",
+        "windMs": 4.4,
+        "pitchAngle": 45
+      },
+      "config": {
+        "startDate": "2026-04-02",
+        "startHour": "12:00:00",
+        "pitchAngle": 45,
+        "turbineMode": "production"
+      }
+    },
+    {
+      "name": "unlock_normal_config_mirror",
+      "unlock": {
+        "startDate": "2026-04-02",
+        "startHour": "12:00:00",
+        "windMs": 12,
+        "pitchAngle": 45
+      },
+      "config": {
+        "startDate": "2020-02-02",
+        "startHour": "12:21:00",
+        "pitchAngle": 45,
+        "turbineMode": "production"
+      }
+    }
+  ]
+}

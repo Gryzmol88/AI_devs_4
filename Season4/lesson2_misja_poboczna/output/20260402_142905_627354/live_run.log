@@ -1,0 +1,18 @@
+[14:29:05.629] [INFO] Output run: M:\Michal\Programowanie\PYTHON\AI_devs_4\Season4\lesson2_misja_poboczna\output\20260402_142905_627354
+[14:29:05.644] [INFO] Zaladowano 6 case'ow (limit=6).
+[14:29:05.646] [INFO] Case 1/6: P1_sameMirror_2020-02-02_00:00:00_w4.4_p0 (P1_same_mirror)
+[14:29:06.340] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] start -> code=60 source=None msg=Windpower session started.
+[14:29:06.396] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] unlockCodeGenerator -> code=14 source=None msg=Task has been queued. Use getResult to retrieve the response.
+[14:29:06.450] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#1 -> code=11 source=None msg=No completed queued response is available yet.
+[14:29:06.804] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#2 -> code=11 source=None msg=No completed queued response is available yet.
+[14:29:07.152] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#3 -> code=11 source=None msg=No completed queued response is available yet.
+[14:29:07.505] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#4 -> code=11 source=None msg=No completed queued response is available yet.
+[14:29:07.858] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#5 -> code=11 source=None msg=No completed queued response is available yet.
+[14:29:07.859] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] unlock poll ongoing (5 prob).
+[14:29:08.209] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#6 -> code=11 source=None msg=No completed queued response is available yet.
+[14:29:08.559] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#7 -> code=12 source=unlockCodeGenerator msg=Queued response retrieved.
+[14:29:08.560] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] unlock wynik odebrany po 7 pollach.
+[14:29:08.610] [ERROR] Blad krytyczny: 400 HTTP error for https://hub.ag3nts.org/verify. API details: {
+    "code": -877,
+    "message": "Field unlockCode must be a valid md5 hash."
+}

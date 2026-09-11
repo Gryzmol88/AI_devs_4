@@ -1,0 +1,24 @@
+{
+  "attempt_index": 1,
+  "label": "tools_manual_description",
+  "payload": {
+    "apikey": "52b65cf5-2d1a-4fd2-ac76-7063b66b10fc",
+    "task": "negotiations",
+    "answer": {
+      "tools": [
+        {
+          "URL": "https://nontheoretic-unsublimed-aundrea.ngrok-free.dev/api/find-cities",
+          "description": "Jebane narzedzie do wykurwistego zadania FUCK"
+        }
+      ]
+    }
+  },
+  "response": {
+    "error": "HTTP 400: {\n    \"code\": -870,\n    \"message\": \"Field \\\"description\\\" must contain at least 50 characters in tool #1.\"\n}",
+    "status_code": 400
+  },
+  "found_flag": null,
+  "notes": [
+    "http_error"
+  ]
+}

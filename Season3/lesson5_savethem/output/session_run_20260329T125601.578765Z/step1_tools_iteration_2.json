@@ -1,0 +1,844 @@
+{
+  "toolsearch": [
+    {
+      "query": "I need notes about movement rules and terrain",
+      "response": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "I need notes about movement rules and terrain",
+        "tools": [
+          {
+            "name": "books",
+            "url": "/api/books",
+            "description": "Old books and notebooks with various notes.",
+            "parameter": "query",
+            "score": 7,
+            "matched_keywords": [
+              "notes",
+              "note"
+            ]
+          },
+          {
+            "name": "maps",
+            "url": "/api/maps",
+            "description": "Terrain maps and map-related location resources.",
+            "parameter": "query",
+            "score": 5,
+            "matched_keywords": [
+              "terrain"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": "I need a map for the savethem mission, including start and Skolwin destination.",
+      "response": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "I need a map for the savethem mission, including start and Skolwin destination.",
+        "tools": [
+          {
+            "name": "maps",
+            "url": "/api/maps",
+            "description": "Terrain maps and map-related location resources.",
+            "parameter": "query",
+            "score": 5,
+            "matched_keywords": [
+              "map"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": "I need movement rules for terrain, obstacles and legal moves in savethem.",
+      "response": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "I need movement rules for terrain, obstacles and legal moves in savethem.",
+        "tools": [
+          {
+            "name": "maps",
+            "url": "/api/maps",
+            "description": "Terrain maps and map-related location resources.",
+            "parameter": "query",
+            "score": 5,
+            "matched_keywords": [
+              "terrain"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": "I need vehicle list with speed, fuel usage and food usage per move in savethem.",
+      "response": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "I need vehicle list with speed, fuel usage and food usage per move in savethem.",
+        "tools": [
+          {
+            "name": "wehicles",
+            "url": "/api/wehicles",
+            "description": "Information about vehicles and means of transportation.",
+            "parameter": "query",
+            "score": 5,
+            "matched_keywords": [
+              "vehicle"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": "I need resource constraints, especially initial fuel and food amounts in savethem.",
+      "response": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "I need resource constraints, especially initial fuel and food amounts in savethem.",
+        "tools": [
+          {
+            "name": "wehicles",
+            "url": "/api/wehicles",
+            "description": "Information about vehicles and means of transportation.",
+            "parameter": "query",
+            "score": 2,
+            "matched_keywords": [
+              "train"
+            ]
+          },
+          {
+            "name": "maps",
+            "url": "/api/maps",
+            "description": "Terrain maps and map-related location resources.",
+            "parameter": "query",
+            "score": 1,
+            "matched_keywords": [
+              "resource"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": "map data for routing puzzle",
+      "response": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "map data for routing puzzle",
+        "tools": [
+          {
+            "name": "maps",
+            "url": "/api/maps",
+            "description": "Terrain maps and map-related location resources.",
+            "parameter": "query",
+            "score": 5,
+            "matched_keywords": [
+              "map"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": "map legend details",
+      "response": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "map legend details",
+        "tools": [
+          {
+            "name": "maps",
+            "url": "/api/maps",
+            "description": "Terrain maps and map-related location resources.",
+            "parameter": "query",
+            "score": 5,
+            "matched_keywords": [
+              "map"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": "movement rules for routing puzzle",
+      "response": {
+        "code": 210,
+        "message": "No matching tools found.",
+        "query": "movement rules for routing puzzle",
+        "tools": []
+      }
+    },
+    {
+      "query": "list of available vehicles",
+      "response": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "list of available vehicles",
+        "tools": [
+          {
+            "name": "wehicles",
+            "url": "/api/wehicles",
+            "description": "Information about vehicles and means of transportation.",
+            "parameter": "query",
+            "score": 7,
+            "matched_keywords": [
+              "vehicle",
+              "vehicles"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": "costs for food and fuel",
+      "response": {
+        "code": 210,
+        "message": "No matching tools found.",
+        "query": "costs for food and fuel",
+        "tools": []
+      }
+    }
+  ],
+  "tools": [
+    {
+      "tool_url": "https://hub.ag3nts.org/api/books",
+      "query": "I need notes about movement rules and terrain",
+      "response": {
+        "code": 220,
+        "message": "These are the three best matching notes from a much larger archive.",
+        "query": "I need notes about movement rules and terrain",
+        "search_mode": "full_text",
+        "returned": 3,
+        "notes": [
+          {
+            "id": "maps-endpoint",
+            "title": "Getting terrain maps for target cities",
+            "content": "Terrain maps for any city can be obtained from the /api/maps endpoint. To get the correct map, send the name of the city you want to reach in the request. This makes the maps service the standard source of terrain data when planning a mission toward a specific destination. If someone needs a fresh layout for route analysis, that endpoint is where to ask first.",
+            "score": 14,
+            "matched_terms": [
+              "terrain",
+              "need"
+            ]
+          },
+          {
+            "id": "legend-markers",
+            "title": "Map legend and terrain markers",
+            "content": "The map uses a compact set of symbols, and every letter matters during route planning. The letter T marks a tree tile, W marks water, and R marks rocks that block movement completely. The letter S marks the starting position, while G marks the goal that ends the mission successfully. If someone misreads even one marker, the whole path can collapse before the traveler reaches the city. Treat the legend as the first thing to decode before testing any route.",
+            "score": 14,
+            "matched_terms": [
+              "terrain",
+              "movement"
+            ]
+          },
+          {
+            "id": "travel-methods",
+            "title": "Available travel methods",
+            "content": "The available travel methods are walk, horse, car, and rocket. Walking is the default on-foot mode, while horse, car, and rocket are the selectable vehicles for departure. There is also one special transition command worth remembering: dismount. It is not a separate vehicle, but it lets the traveler leave the current vehicle and continue the route on foot.",
+            "score": 11,
+            "matched_terms": [
+              "movement"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "tool_url": "https://hub.ag3nts.org/api/books",
+      "query": "How does movement work on water, rocks and trees?",
+      "response": {
+        "code": 220,
+        "message": "These are the three best matching notes from a much larger archive.",
+        "query": "How does movement work on water, rocks and trees?",
+        "search_mode": "full_text",
+        "returned": 3,
+        "notes": [
+          {
+            "id": "legend-markers",
+            "title": "Map legend and terrain markers",
+            "content": "The map uses a compact set of symbols, and every letter matters during route planning. The letter T marks a tree tile, W marks water, and R marks rocks that block movement completely. The letter S marks the starting position, while G marks the goal that ends the mission successfully. If someone misreads even one marker, the whole path can collapse before the traveler reaches the city. Treat the legend as the first thing to decode before testing any route.",
+            "score": 29,
+            "matched_terms": [
+              "tree",
+              "water",
+              "rocks",
+              "movement"
+            ]
+          },
+          {
+            "id": "trees-and-burn",
+            "title": "Trees and additional fuel burn",
+            "content": "Tree tiles are not dangerous by themselves and can be crossed by any travel mode, including all vehicles. Their real impact is on fuel usage: entering a tile marked with T increases fuel consumption for powered travel by an additional 0.2 units. That extra burn may look small in isolation, but it can decide whether a route is still viable near the end of the mission. Walk mode does not care about fuel, but any route that relies on engines should count that penalty carefully. A path through wooded terrain can be more expensive than it first appears.",
+            "score": 18,
+            "matched_terms": [
+              "tree",
+              "trees",
+              "does"
+            ]
+          },
+          {
+            "id": "beavers-north",
+            "title": "Northern waterline and beaver activity",
+            "content": "Local notes mention that beavers like to live near rivers and build dams in those areas. Recent sightings place them in the northern part of the map. That does not automatically reveal a full route, but it strongly suggests paying attention to water patterns in the upper region. If terrain near the north looks suspiciously wet or constrained, the beavers may be part of the reason. Their presence is worth remembering when comparing alternative paths.",
+            "score": 14,
+            "matched_terms": [
+              "water",
+              "does"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "tool_url": "https://hub.ag3nts.org/api/books",
+      "query": "Can each vehicle traverse W R T tiles?",
+      "response": {
+        "code": 220,
+        "message": "These are the three best matching notes from a much larger archive.",
+        "query": "Can each vehicle traverse W R T tiles?",
+        "search_mode": "full_text",
+        "returned": 3,
+        "notes": [
+          {
+            "id": "water-travel",
+            "title": "Which movement modes handle water",
+            "content": "Water is a serious restriction for most movement modes. No vehicle except the horse can move through water safely. A traveler may also cross water on foot, which makes walking a valid emergency fallback in some routes. The car is not suitable for water at all, and the rocket should not be trusted there either. Anyone planning a route near rivers or flooded tiles should account for that limitation before leaving the base.",
+            "score": 14,
+            "matched_terms": [
+              "vehicle",
+              "tiles"
+            ]
+          },
+          {
+            "id": "travel-methods",
+            "title": "Available travel methods",
+            "content": "The available travel methods are walk, horse, car, and rocket. Walking is the default on-foot mode, while horse, car, and rocket are the selectable vehicles for departure. There is also one special transition command worth remembering: dismount. It is not a separate vehicle, but it lets the traveler leave the current vehicle and continue the route on foot.",
+            "score": 11,
+            "matched_terms": [
+              "vehicle"
+            ]
+          },
+          {
+            "id": "vehicle-selection",
+            "title": "Vehicle choice, walking, and dismount",
+            "content": "The vehicle can be selected only at the very beginning of the journey. Once the mission starts, the traveler cannot switch from one vehicle to another. There is, however, one exception built into the rules: the traveler may leave the current vehicle and continue on foot. The command used for that action is dismount. After dismounting, movement continues in walk mode, which is useful when the route demands flexibility rather than speed.",
+            "score": 11,
+            "matched_terms": [
+              "vehicle"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "tool_url": "https://hub.ag3nts.org/api/books",
+      "query": "vehicle selection and dismount rules",
+      "response": {
+        "code": 220,
+        "message": "These are the three best matching notes from a much larger archive.",
+        "query": "vehicle selection and dismount rules",
+        "search_mode": "full_text",
+        "returned": 3,
+        "notes": [
+          {
+            "id": "vehicle-selection",
+            "title": "Vehicle choice, walking, and dismount",
+            "content": "The vehicle can be selected only at the very beginning of the journey. Once the mission starts, the traveler cannot switch from one vehicle to another. There is, however, one exception built into the rules: the traveler may leave the current vehicle and continue on foot. The command used for that action is dismount. After dismounting, movement continues in walk mode, which is useful when the route demands flexibility rather than speed.",
+            "score": 25,
+            "matched_terms": [
+              "vehicle",
+              "dismount",
+              "rules"
+            ]
+          },
+          {
+            "id": "travel-methods",
+            "title": "Available travel methods",
+            "content": "The available travel methods are walk, horse, car, and rocket. Walking is the default on-foot mode, while horse, car, and rocket are the selectable vehicles for departure. There is also one special transition command worth remembering: dismount. It is not a separate vehicle, but it lets the traveler leave the current vehicle and continue the route on foot.",
+            "score": 22,
+            "matched_terms": [
+              "vehicle",
+              "dismount"
+            ]
+          },
+          {
+            "id": "no-gas-stations",
+            "title": "No gas stations on the map",
+            "content": "There is not a single gas station anywhere on the map, so every route must be planned with fuel reserves in mind from the very first step. No mid-mission refuel is possible, which makes optimistic calculations a great way to get stranded. If fuel might not be enough for the final stretch, the safer strategy is to leave the vehicle before that happens and finish the last tiles on foot. The command used to abandon the vehicle and continue walking is dismount.",
+            "score": 14,
+            "matched_terms": [
+              "dismount",
+              "vehicle"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "tool_url": "https://hub.ag3nts.org/api/maps",
+      "query": "Skolwin",
+      "response": {
+        "code": 241,
+        "message": "Map found.",
+        "cityName": "Skolwin",
+        "map": [
+          [
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            "W",
+            "W"
+          ],
+          [
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            "W",
+            "W",
+            "."
+          ],
+          [
+            ".",
+            "T",
+            ".",
+            ".",
+            ".",
+            ".",
+            "W",
+            "W",
+            ".",
+            "."
+          ],
+          [
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            "W",
+            ".",
+            ".",
+            "."
+          ],
+          [
+            ".",
+            ".",
+            "T",
+            ".",
+            ".",
+            ".",
+            "W",
+            ".",
+            "G",
+            "."
+          ],
+          [
+            ".",
+            ".",
+            ".",
+            ".",
+            "R",
+            ".",
+            "W",
+            ".",
+            ".",
+            "."
+          ],
+          [
+            ".",
+            ".",
+            ".",
+            "R",
+            "R",
+            ".",
+            "W",
+            "W",
+            ".",
+            "."
+          ],
+          [
+            "S",
+            "R",
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            "W",
+            ".",
+            "."
+          ],
+          [
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            "W",
+            "W",
+            ".",
+            "."
+          ],
+          [
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            "W",
+            "W",
+            ".",
+            ".",
+            "."
+          ]
+        ],
+        "text": "........WW\n.......WW.\n.T....WW..\n......W...\n..T...W.G.\n....R.W...\n...RR.WW..\nSR.....W..\n......WW..\n.....WW..."
+      }
+    },
+    {
+      "tool_url": "https://hub.ag3nts.org/api/wehicles",
+      "query": "rocket",
+      "response": {
+        "code": 230,
+        "message": "Vehicle information found.",
+        "name": "rocket",
+        "note": "The rocket is the fastest possible solution for moving around the world in this mission. It can cover ground very efficiently and keeps food consumption extremely low, but it is far from universal. It cannot travel over water, because it only hovers about one meter above the ground, so any deeper water tile is a serious problem. It also cannot fly over any chasm, cliff, or other gap where there is no supporting terrain below it. Fuel consumption is 1.0 per move, and food consumption is 0.1 per move, so it is excellent for speed runs but still demands careful route planning.",
+        "consumption": {
+          "fuel": 1,
+          "food": 0.1
+        }
+      }
+    },
+    {
+      "tool_url": "https://hub.ag3nts.org/api/books",
+      "query": "I need notes about movement rules and terrain",
+      "response": {
+        "code": 220,
+        "message": "These are the three best matching notes from a much larger archive.",
+        "query": "I need notes about movement rules and terrain",
+        "search_mode": "full_text",
+        "returned": 3,
+        "notes": [
+          {
+            "id": "maps-endpoint",
+            "title": "Getting terrain maps for target cities",
+            "content": "Terrain maps for any city can be obtained from the /api/maps endpoint. To get the correct map, send the name of the city you want to reach in the request. This makes the maps service the standard source of terrain data when planning a mission toward a specific destination. If someone needs a fresh layout for route analysis, that endpoint is where to ask first.",
+            "score": 14,
+            "matched_terms": [
+              "terrain",
+              "need"
+            ]
+          },
+          {
+            "id": "legend-markers",
+            "title": "Map legend and terrain markers",
+            "content": "The map uses a compact set of symbols, and every letter matters during route planning. The letter T marks a tree tile, W marks water, and R marks rocks that block movement completely. The letter S marks the starting position, while G marks the goal that ends the mission successfully. If someone misreads even one marker, the whole path can collapse before the traveler reaches the city. Treat the legend as the first thing to decode before testing any route.",
+            "score": 14,
+            "matched_terms": [
+              "terrain",
+              "movement"
+            ]
+          },
+          {
+            "id": "travel-methods",
+            "title": "Available travel methods",
+            "content": "The available travel methods are walk, horse, car, and rocket. Walking is the default on-foot mode, while horse, car, and rocket are the selectable vehicles for departure. There is also one special transition command worth remembering: dismount. It is not a separate vehicle, but it lets the traveler leave the current vehicle and continue the route on foot.",
+            "score": 11,
+            "matched_terms": [
+              "movement"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "tool_url": "https://hub.ag3nts.org/api/books",
+      "query": "How does movement work on water, rocks and trees?",
+      "response": {
+        "code": 220,
+        "message": "These are the three best matching notes from a much larger archive.",
+        "query": "How does movement work on water, rocks and trees?",
+        "search_mode": "full_text",
+        "returned": 3,
+        "notes": [
+          {
+            "id": "legend-markers",
+            "title": "Map legend and terrain markers",
+            "content": "The map uses a compact set of symbols, and every letter matters during route planning. The letter T marks a tree tile, W marks water, and R marks rocks that block movement completely. The letter S marks the starting position, while G marks the goal that ends the mission successfully. If someone misreads even one marker, the whole path can collapse before the traveler reaches the city. Treat the legend as the first thing to decode before testing any route.",
+            "score": 29,
+            "matched_terms": [
+              "tree",
+              "water",
+              "rocks",
+              "movement"
+            ]
+          },
+          {
+            "id": "trees-and-burn",
+            "title": "Trees and additional fuel burn",
+            "content": "Tree tiles are not dangerous by themselves and can be crossed by any travel mode, including all vehicles. Their real impact is on fuel usage: entering a tile marked with T increases fuel consumption for powered travel by an additional 0.2 units. That extra burn may look small in isolation, but it can decide whether a route is still viable near the end of the mission. Walk mode does not care about fuel, but any route that relies on engines should count that penalty carefully. A path through wooded terrain can be more expensive than it first appears.",
+            "score": 18,
+            "matched_terms": [
+              "tree",
+              "trees",
+              "does"
+            ]
+          },
+          {
+            "id": "beavers-north",
+            "title": "Northern waterline and beaver activity",
+            "content": "Local notes mention that beavers like to live near rivers and build dams in those areas. Recent sightings place them in the northern part of the map. That does not automatically reveal a full route, but it strongly suggests paying attention to water patterns in the upper region. If terrain near the north looks suspiciously wet or constrained, the beavers may be part of the reason. Their presence is worth remembering when comparing alternative paths.",
+            "score": 14,
+            "matched_terms": [
+              "water",
+              "does"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "tool_url": "https://hub.ag3nts.org/api/books",
+      "query": "Can each vehicle traverse W R T tiles?",
+      "response": {
+        "code": 220,
+        "message": "These are the three best matching notes from a much larger archive.",
+        "query": "Can each vehicle traverse W R T tiles?",
+        "search_mode": "full_text",
+        "returned": 3,
+        "notes": [
+          {
+            "id": "water-travel",
+            "title": "Which movement modes handle water",
+            "content": "Water is a serious restriction for most movement modes. No vehicle except the horse can move through water safely. A traveler may also cross water on foot, which makes walking a valid emergency fallback in some routes. The car is not suitable for water at all, and the rocket should not be trusted there either. Anyone planning a route near rivers or flooded tiles should account for that limitation before leaving the base.",
+            "score": 14,
+            "matched_terms": [
+              "vehicle",
+              "tiles"
+            ]
+          },
+          {
+            "id": "travel-methods",
+            "title": "Available travel methods",
+            "content": "The available travel methods are walk, horse, car, and rocket. Walking is the default on-foot mode, while horse, car, and rocket are the selectable vehicles for departure. There is also one special transition command worth remembering: dismount. It is not a separate vehicle, but it lets the traveler leave the current vehicle and continue the route on foot.",
+            "score": 11,
+            "matched_terms": [
+              "vehicle"
+            ]
+          },
+          {
+            "id": "vehicle-selection",
+            "title": "Vehicle choice, walking, and dismount",
+            "content": "The vehicle can be selected only at the very beginning of the journey. Once the mission starts, the traveler cannot switch from one vehicle to another. There is, however, one exception built into the rules: the traveler may leave the current vehicle and continue on foot. The command used for that action is dismount. After dismounting, movement continues in walk mode, which is useful when the route demands flexibility rather than speed.",
+            "score": 11,
+            "matched_terms": [
+              "vehicle"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "tool_url": "https://hub.ag3nts.org/api/books",
+      "query": "vehicle selection and dismount rules",
+      "response": {
+        "code": 220,
+        "message": "These are the three best matching notes from a much larger archive.",
+        "query": "vehicle selection and dismount rules",
+        "search_mode": "full_text",
+        "returned": 3,
+        "notes": [
+          {
+            "id": "vehicle-selection",
+            "title": "Vehicle choice, walking, and dismount",
+            "content": "The vehicle can be selected only at the very beginning of the journey. Once the mission starts, the traveler cannot switch from one vehicle to another. There is, however, one exception built into the rules: the traveler may leave the current vehicle and continue on foot. The command used for that action is dismount. After dismounting, movement continues in walk mode, which is useful when the route demands flexibility rather than speed.",
+            "score": 25,
+            "matched_terms": [
+              "vehicle",
+              "dismount",
+              "rules"
+            ]
+          },
+          {
+            "id": "travel-methods",
+            "title": "Available travel methods",
+            "content": "The available travel methods are walk, horse, car, and rocket. Walking is the default on-foot mode, while horse, car, and rocket are the selectable vehicles for departure. There is also one special transition command worth remembering: dismount. It is not a separate vehicle, but it lets the traveler leave the current vehicle and continue the route on foot.",
+            "score": 22,
+            "matched_terms": [
+              "vehicle",
+              "dismount"
+            ]
+          },
+          {
+            "id": "no-gas-stations",
+            "title": "No gas stations on the map",
+            "content": "There is not a single gas station anywhere on the map, so every route must be planned with fuel reserves in mind from the very first step. No mid-mission refuel is possible, which makes optimistic calculations a great way to get stranded. If fuel might not be enough for the final stretch, the safer strategy is to leave the vehicle before that happens and finish the last tiles on foot. The command used to abandon the vehicle and continue walking is dismount.",
+            "score": 14,
+            "matched_terms": [
+              "dismount",
+              "vehicle"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "tool_url": "https://hub.ag3nts.org/api/maps",
+      "query": "Skolwin",
+      "response": {
+        "code": 241,
+        "message": "Map found.",
+        "cityName": "Skolwin",
+        "map": [
+          [
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            "W",
+            "W"
+          ],
+          [
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            "W",
+            "W",
+            "."
+          ],
+          [
+            ".",
+            "T",
+            ".",
+            ".",
+            ".",
+            ".",
+            "W",
+            "W",
+            ".",
+            "."
+          ],
+          [
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            "W",
+            ".",
+            ".",
+            "."
+          ],
+          [
+            ".",
+            ".",
+            "T",
+            ".",
+            ".",
+            ".",
+            "W",
+            ".",
+            "G",
+            "."
+          ],
+          [
+            ".",
+            ".",
+            ".",
+            ".",
+            "R",
+            ".",
+            "W",
+            ".",
+            ".",
+            "."
+          ],
+          [
+            ".",
+            ".",
+            ".",
+            "R",
+            "R",
+            ".",
+            "W",
+            "W",
+            ".",
+            "."
+          ],
+          [
+            "S",
+            "R",
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            "W",
+            ".",
+            "."
+          ],
+          [
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            "W",
+            "W",
+            ".",
+            "."
+          ],
+          [
+            ".",
+            ".",
+            ".",
+            ".",
+            ".",
+            "W",
+            "W",
+            ".",
+            ".",
+            "."
+          ]
+        ],
+        "text": "........WW\n.......WW.\n.T....WW..\n......W...\n..T...W.G.\n....R.W...\n...RR.WW..\nSR.....W..\n......WW..\n.....WW..."
+      }
+    },
+    {
+      "tool_url": "https://hub.ag3nts.org/api/wehicles",
+      "query": "rocket",
+      "response": {
+        "code": 230,
+        "message": "Vehicle information found.",
+        "name": "rocket",
+        "note": "The rocket is the fastest possible solution for moving around the world in this mission. It can cover ground very efficiently and keeps food consumption extremely low, but it is far from universal. It cannot travel over water, because it only hovers about one meter above the ground, so any deeper water tile is a serious problem. It also cannot fly over any chasm, cliff, or other gap where there is no supporting terrain below it. Fuel consumption is 1.0 per move, and food consumption is 0.1 per move, so it is excellent for speed runs but still demands careful route planning.",
+        "consumption": {
+          "fuel": 1,
+          "food": 0.1
+        }
+      }
+    }
+  ]
+}

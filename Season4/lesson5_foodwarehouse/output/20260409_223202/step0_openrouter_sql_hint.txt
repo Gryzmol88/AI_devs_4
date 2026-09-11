@@ -1,0 +1,14 @@
+- SELECT destination_id FROM city_destination_map WHERE city = :city AND country_code = :cc AND active = 1;
+  Sprawdź pola: city, country_code, destination_id, active, valid_from, valid_to.
+
+- SELECT d.destination_id FROM city_alias a JOIN city_destination_map d ON d.city_id = a.city_id WHERE a.alias = :city AND a.country_code = :cc AND d.active = 1;
+  Sprawdź pola: alias, city_id, destination_id, priority, locale.
+
+- SELECT destination_id FROM postal_destination_map WHERE postal_code = :zip AND country_code = :cc ORDER BY priority DESC LIMIT 1;
+  Sprawdź pola: postal_code, country_code, destination_id, priority, coverage_type.
+
+- SELECT client_id, key_id, api_key, api_secret, algorithm FROM api_credentials WHERE client_id = :client_id AND active = 1;
+  Sprawdź pola: key_id, api_key, api_secret, algorithm (np. HMAC-SHA256), scope, expires_at, environment.
+
+- SELECT req_id, method, path, query_string, signed_headers, payload, created_at AS ts, nonce FROM api_requests WHERE req_id = :req_id;
+  Sprawdź pola: method, path, query_string (kanonizacja), signed_headers (kolejność/małe litery), payload (hash), ts (UTC), nonce.

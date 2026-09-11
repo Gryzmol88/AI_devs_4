@@ -1,0 +1,20 @@
+{
+  "attempt": 18,
+  "task": "side",
+  "route_name": "north_river_patrol_car",
+  "answer": [
+    "car",
+    "up",
+    "up",
+    "up",
+    "up",
+    "up",
+    "up",
+    "up",
+    "right",
+    "left",
+    "right",
+    "dismount"
+  ],
+  "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+}

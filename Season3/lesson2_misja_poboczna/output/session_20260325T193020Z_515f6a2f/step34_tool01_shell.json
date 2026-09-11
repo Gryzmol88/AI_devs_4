@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "ls //tmp",
+  "response": {
+    "code": 120,
+    "message": "Directory listing.",
+    "path": "/tmp",
+    "data": [
+      "aidevs4.txt"
+    ]
+  },
+  "detected_success_code": null
+}

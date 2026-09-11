@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "action": "getInbox",
+  "pagination": {
+    "page": 1,
+    "perPage": 5,
+    "total": 71,
+    "totalPages": 15
+  },
+  "items": [
+    {
+      "rowID": 127,
+      "messageID": "2af61a357faab63789aa59bcae721ab1",
+      "threadID": 62070,
+      "subject": "Zapis z kamer w obiekcie PWR6132PL - pilne!",
+      "from": "monitoring.wideo@security-node.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-12 23:59",
+      "modifyHash": "e99c05a16491cb3c875841ff71697fac"
+    },
+    {
+      "rowID": 126,
+      "messageID": "e44a9452f38f95780ff41914fe5f3659",
+      "threadID": 62069,
+      "subject": "Przegląd świadczeń pozapłacowych",
+      "from": "benefity@corp-system.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-12 14:36",
+      "modifyHash": "470acaf123909e08b3fc4bb7bea913cf"
+    },
+    {
+      "rowID": 79,
+      "messageID": "38108c7cbc5ec20081a44ed94920d146",
+      "threadID": 62040,
+      "subject": "Re: PWR1593PL: chwilowy spadek wydajności pompy obiegu głównego",
+      "from": "operator04227@system.nwo",
+      "to": "dyzurny.tczew@plant-ops.nwo",
+      "date": "2026-03-11 22:02",
+      "modifyHash": "d100a719cede0db68580c3d93b3c5ac0"
+    },
+    {
+      "rowID": 125,
+      "messageID": "580045e13d60bb8417eb5933e68647f0",
+      "threadID": 62068,
+      "subject": "Uruchomienie programu rekomendacji pracowniczych",
+      "from": "rekrutacja@corp-system.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-11 20:20",
+      "modifyHash": "284116c82b53dd5f0633752ed8fab241"
+    },
+    {
+      "rowID": 77,
+      "messageID": "4801de529c054359b9950acfe5e0d0da",
+      "threadID": 62039,
+      "subject": "Re: PWR7264PL: krótkie zakłócenie sygnału z przepustnicy pary",
+      "from": "operator04227@system.nwo",
+      "to": "sygnaly.grudziadz@reactor-mail.nwo",
+      "date": "2026-03-11 11:05",
+      "modifyHash": "7fc8d22477e44ce86fcffee7e606ac4f"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "base_url": "https://hub.ag3nts.org/dane/s03e04_csv/",
+  "files": {
+    "cities.csv": {
+      "rows_count": 51,
+      "has_flg_pattern": false,
+      "has_censorship_pattern": false
+    },
+    "connections.csv": {
+      "rows_count": 5349,
+      "has_flg_pattern": false,
+      "has_censorship_pattern": false
+    },
+    "items.csv": {
+      "rows_count": 2137,
+      "has_flg_pattern": false,
+      "has_censorship_pattern": false
+    }
+  },
+  "suspicious_item_codes": [
+    "M5FLGC"
+  ],
+  "suspicious_rows": [
+    {
+      "file": "connections.csv",
+      "line": 625,
+      "row": [
+        "M5FLGC",
+        "D4X6KC"
+      ]
+    },
+    {
+      "file": "connections.csv",
+      "line": 2191,
+      "row": [
+        "M5FLGC",
+        "C4V8MK"
+      ]
+    },
+    {
+      "file": "items.csv",
+      "line": 1881,
+      "row": [
+        "Dioda Zenera 12 V 0.25 W MELF",
+        "M5FLGC"
+      ]
+    }
+  ]
+}

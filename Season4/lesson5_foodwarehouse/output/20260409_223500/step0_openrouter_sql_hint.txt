@@ -1,0 +1,19 @@
+- Miasto → destination (proste mapowanie)
+  Zapytanie: SELECT m.city_name, m.country_code, m.destination_code FROM city_destination_map m WHERE LOWER(m.city_name)=LOWER(:city) AND m.country_code=:country AND m.active=true;
+  Sprawdź: normalizacja city_name (trim/diakrytyki/aliasy), country_code, active, valid_from/valid_to, unikalność destination_code.
+
+- Miasto + kod pocztowy → destination (priorytety)
+  Zapytanie: SELECT z.postal_code, z.city_name, z.destination_code FROM zip_city_destination z WHERE z.postal_code=:postal AND (LOWER(z.city_name)=LOWER(:city) OR :city IS NULL) ORDER BY z.priority NULLS LAST LIMIT 1;
+  Sprawdź: format postal_code, priorytet reguł, duplikaty, fallback gdy city brak, spójność destination_code.
+
+- Najbliższa destynacja geograficznie (PostGIS)
+  Zapytanie: SELECT c.city_name, d.destination_code FROM cities c JOIN destinations d ON ST_DWithin(c.geom, d.geom, :radius_meters) WHERE c.city_name=:city AND c.country_code=:country ORDER BY ST_Distance(c.geom, d.geom) LIMIT 1;
+  Sprawdź: SRID/układ współrzędnych, brak NULL w geom, radius_meters, aktywność destynacji, wydajność (indeksy przestrzenne).
+
+- Dane do signatureGenerator dla przesyłki
+  Zapytanie: SELECT s.shipment_id, s.carrier_code, s.destination_code, s.weight_kg, to_char(s.created_at AT TIME ZONE 'UTC','YYYYMMDDHH24MISS') AS ts_utc FROM shipments s WHERE s.shipment_id=:shipment_id;
+  Sprawdź: strefa czasowa/format TS, skala wag/sep. dziesiętny, trimming/upper dla kodów, NULL → COALESCE, spójność jednostek.
+
+- Kanoniczny payload do podpisu (stała kolejność, separator)
+  Zapytanie: SELECT concat_ws('|', o.order_id, o.customer_id, replace(to_char(o.total_amount::numeric(12,2),'FM9999999990D00'),',','.'), upper(o.currency), coalesce(o.destination_code,''), to_char(o.created_at AT TIME ZONE 'UTC','YYYYMMDDHH24MISS')) AS signature_payload FROM orders o WHERE o.order_id=:order_id;
+  Sprawdź: kolejność i separator, escapowanie separatora w danych, zaokrąglenia/locale liczb, trimming białych znaków, UTF-8, deterministyczność przy NULL-ach.

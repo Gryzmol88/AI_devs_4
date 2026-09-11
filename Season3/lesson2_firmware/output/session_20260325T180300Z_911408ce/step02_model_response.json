@@ -1,0 +1,56 @@
+{
+  "id": "gen-1774461784-VZYocg6PWg7S5jeb5eOW",
+  "object": "chat.completion",
+  "created": 1774461784,
+  "model": "anthropic/claude-4.6-sonnet-20260217",
+  "provider": "Amazon Bedrock",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "tool_calls",
+      "native_finish_reason": "tool_use",
+      "message": {
+        "role": "assistant",
+        "content": "Dostępne komendy poznane. Teraz sprawdzam strukturę plików w bieżącym katalogu.",
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_bdrk_01LB1cKiKtH5KGCQn1UGAfLN",
+            "function": {
+              "name": "shell",
+              "arguments": "{\"command\": \"pwd\"}"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1118,
+    "completion_tokens": 73,
+    "total_tokens": 1191,
+    "cost": 0.004449,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.004449,
+      "upstream_inference_prompt_cost": 0.003354,
+      "upstream_inference_completions_cost": 0.001095
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

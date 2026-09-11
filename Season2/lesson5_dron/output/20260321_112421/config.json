@@ -1,0 +1,8 @@
+{
+  "openrouter_base_url": "https://openrouter.ai/api/v1",
+  "vision_model": "google/gemini-3-flash-preview",
+  "task_name": "drone",
+  "request_timeout_seconds": 90,
+  "map_url": "https://hub.ag3nts.org/data/52b65cf5-2d1a-4fd2-ac76-7063b66b10fc/drone.png",
+  "output_dir": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season2\\lesson5_dron\\output"
+}

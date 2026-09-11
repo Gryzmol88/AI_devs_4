@@ -1,0 +1,77 @@
+{
+  "enabled": true,
+  "max_files": 80,
+  "max_chars": 40000,
+  "captured": [
+    {
+      "path": "/home/operator/.bash_history",
+      "status": "ok",
+      "content_file": "files_content/home__operator__.bash_history.json",
+      "truncated": false,
+      "size_chars": 5963
+    },
+    {
+      "path": "/home/operator/.gitignore",
+      "status": "error",
+      "http_status": 404,
+      "error_code": -800,
+      "error": "HTTP 404 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -800,\n    \"message\": \"Path does not exist.\"\n}"
+    },
+    {
+      "path": "/home/operator/notes/.gitignore",
+      "status": "error",
+      "http_status": 404,
+      "error_code": -800,
+      "error": "HTTP 404 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -800,\n    \"message\": \"Path does not exist.\"\n}"
+    },
+    {
+      "path": "/home/operator/notes/pass.txt",
+      "status": "ok",
+      "content_file": "files_content/home__operator__notes__pass.txt.json",
+      "truncated": false,
+      "size_chars": 6
+    },
+    {
+      "path": "/opt/firmware/.gitignore",
+      "status": "error",
+      "http_status": 404,
+      "error_code": -800,
+      "error": "HTTP 404 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -800,\n    \"message\": \"Path does not exist.\"\n}"
+    },
+    {
+      "path": "/opt/firmware/cooler/.env",
+      "status": "error",
+      "http_status": null,
+      "error_code": null,
+      "error": null
+    },
+    {
+      "path": "/opt/firmware/cooler/.gitignore",
+      "status": "ok",
+      "content_file": "files_content/opt__firmware__cooler__.gitignore.json",
+      "truncated": false,
+      "size_chars": 22
+    },
+    {
+      "path": "/opt/firmware/cooler/cooler.bin",
+      "status": "ok",
+      "content_file": "files_content/opt__firmware__cooler__cooler.bin.json",
+      "truncated": true,
+      "size_chars": 40000
+    },
+    {
+      "path": "/opt/firmware/cooler/settings.ini",
+      "status": "ok",
+      "content_file": "files_content/opt__firmware__cooler__settings.ini.json",
+      "truncated": false,
+      "size_chars": 119
+    },
+    {
+      "path": "/opt/firmware/cooler/storage.cfg",
+      "status": "error",
+      "http_status": null,
+      "error_code": null,
+      "error": null
+    }
+  ]
+}

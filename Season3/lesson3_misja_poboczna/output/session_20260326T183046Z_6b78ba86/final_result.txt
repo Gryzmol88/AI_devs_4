@@ -1,0 +1,4 @@
+success=True
+message=Wypisano kandydatow lokalnie bez wysylki do verify.
+best_flag={FLG:INSTALLED}
+attempts_count=0

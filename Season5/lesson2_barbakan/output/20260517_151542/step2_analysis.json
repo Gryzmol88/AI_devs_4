@@ -1,0 +1,7 @@
+{
+  "step": 2,
+  "state": "ask_roads",
+  "outbound_text": "Jaki status dróg RD224, RD472 i RD820, planujemy transport do bazy Zygfryda.",
+  "inbound_text": "Jak mogę Ci pomóc?",
+  "selected_road": null
+}

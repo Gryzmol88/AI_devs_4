@@ -1,0 +1,4 @@
+{
+  "error": "Blad HTTP verify: status=400, body={\n    \"code\": -804,\n    \"message\": \"Some goods in city JSON have incorrect quantities.\",\n    \"city\": \"karlinkowo\",\n    \"file\": \"\\/miasta\\/karlinkowo\",\n    \"mismatches\": {\n        \"wolowina\": {\n            \"expected\": 22,\n            \"actual\": 155\n        }\n    }\n}",
+  "run_id": "20260403_142132_943010"
+}

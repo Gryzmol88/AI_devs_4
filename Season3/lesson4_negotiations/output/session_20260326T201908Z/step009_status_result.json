@@ -1,0 +1,4 @@
+{
+  "query_text": "{\"question\":\"Turbina wiatrowa mająca 48V i moc 400W\"}",
+  "output": "STATUS_OK | {\"question\":\"Turbina wiatrowa mająca 48V i moc 400W\"}"
+}

@@ -1,0 +1,212 @@
+{
+  "ok": true,
+  "action": "getInbox",
+  "pagination": {
+    "page": 2,
+    "perPage": 20,
+    "total": 73,
+    "totalPages": 4
+  },
+  "items": [
+    {
+      "rowID": 71,
+      "messageID": "b58aa44cf88a96aca9b6b45b91b244d1",
+      "threadID": 62033,
+      "subject": "Re: PWR7264PL: chwilowe przekroczenie czasu przełączenia stycznika",
+      "from": "operator04227@system.nwo",
+      "to": "testy.grudziadz@reactor-mail.nwo",
+      "date": "2026-03-08 13:59",
+      "modifyHash": "626d877dee4e451dd2fc0b483399150e"
+    },
+    {
+      "rowID": 126,
+      "messageID": "e076e9343c899fb2ccdfbce5f06389fb",
+      "threadID": 62063,
+      "subject": "Standaryzacja pracy hybrydowej w działach wsparcia",
+      "from": "organizacja@corp-system.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-08 05:38",
+      "modifyHash": "7d3daefd1056a6d337298c604a46c9b0"
+    },
+    {
+      "rowID": 112,
+      "messageID": "c49c64bf37f0153600806d2f440dea2b",
+      "threadID": 62053,
+      "subject": "Re: PWR1593PL: błędne naliczenie dodatku stażowego",
+      "from": "operator04227@system.nwo",
+      "to": "finanse.tczew@hr-core.nwo",
+      "date": "2026-03-08 04:54",
+      "modifyHash": "8938ee104df89e0e9668f83a5fe48e7f"
+    },
+    {
+      "rowID": 3,
+      "messageID": "fe408526149c25eb3ec156f5e9220c44",
+      "threadID": 62071,
+      "subject": "Zostałeś zapisany do newslettera unknowNews",
+      "from": "newsy@mrugalski.pl",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-08 03:46",
+      "modifyHash": "e55b275db500acb840d92add5b519580"
+    },
+    {
+      "rowID": 125,
+      "messageID": "3e3b65b26450ef5f25e47c5174b608b0",
+      "threadID": 62062,
+      "subject": "Nowe zasady urlopowe od 1 kwietnia",
+      "from": "kadry.centralne@corp-system.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-07 18:08",
+      "modifyHash": "12c0b72951fbe4a6fded83c19ff90f6c"
+    },
+    {
+      "rowID": 110,
+      "messageID": "b771f1209c955af08af5cd21748295e9",
+      "threadID": 62052,
+      "subject": "Re: PWR1593PL: wniosek o dodatkowy etat techniczny",
+      "from": "operator04227@system.nwo",
+      "to": "kadry.tczew@peopleflow.nwo",
+      "date": "2026-03-07 17:38",
+      "modifyHash": "8a04967d644f880cb8a9d6dddd39486a"
+    },
+    {
+      "rowID": 69,
+      "messageID": "ced140f7c1cac386932f3ee8aa264e26",
+      "threadID": 62032,
+      "subject": "Re: PWR5921PL: krótkie odchylenie przepływu pary wtórnej",
+      "from": "operator04227@system.nwo",
+      "to": "raport.piotrkow@plant-ops.nwo",
+      "date": "2026-03-07 07:46",
+      "modifyHash": "07035b70497673cbb5fabf80e45e1f45"
+    },
+    {
+      "rowID": 67,
+      "messageID": "c6c94d0d72290012324714f71767373e",
+      "threadID": 62031,
+      "subject": "Re: PWR3847PL: chwilowy wzrost czasu odpowiedzi regulatora",
+      "from": "operator04227@system.nwo",
+      "to": "automatyka.zabrze@gridwatch.nwo",
+      "date": "2026-03-07 07:02",
+      "modifyHash": "e1a7ed3fd7629b48b610954b0b2a966f"
+    },
+    {
+      "rowID": 108,
+      "messageID": "17826486cce7c438707e8f808360e4b0",
+      "threadID": 62051,
+      "subject": "Re: PWR7264PL: korekta premii kwartalnej",
+      "from": "operator04227@system.nwo",
+      "to": "place.grudziadz@peopleflow.nwo",
+      "date": "2026-03-06 23:15",
+      "modifyHash": "5b7c4e07a7690975eb5307b4ef701abc"
+    },
+    {
+      "rowID": 124,
+      "messageID": "b5913514211a0a3274dd2582fdcf4549",
+      "threadID": 62061,
+      "subject": "Redukcja etatów w pionie administracyjnym",
+      "from": "zarzad@corp-system.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-06 22:41",
+      "modifyHash": "f186c40c40a005b392de8b7a08609697"
+    },
+    {
+      "rowID": 106,
+      "messageID": "e2bff5dd0a3845a7a8c199e179fcc700",
+      "threadID": 62050,
+      "subject": "Re: PWR7264PL: brak kandydata na brygadzistę",
+      "from": "operator04227@system.nwo",
+      "to": "hr.grudziadz@peopleflow.nwo",
+      "date": "2026-03-06 12:11",
+      "modifyHash": "7ab60fc88a9f84c13f11057f92f3ded3"
+    },
+    {
+      "rowID": 123,
+      "messageID": "af35d644226ad13c9c5fb17b89e1bbf1",
+      "threadID": 62060,
+      "subject": "Podwyżki bazowe od nowego kwartału",
+      "from": "finanse@corp-system.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-05 19:57",
+      "modifyHash": "a4798bd648f8700d21aacbda0e50e2de"
+    },
+    {
+      "rowID": 104,
+      "messageID": "b045cc5d007c27937802d6fa4d9a4f53",
+      "threadID": 62049,
+      "subject": "Re: PWR5921PL: opóźnione wypłaty nadgodzin",
+      "from": "operator04227@system.nwo",
+      "to": "placowy.piotrkow@hr-core.nwo",
+      "date": "2026-03-05 18:37",
+      "modifyHash": "fb6e2a60f13e1e2082a3b1d968190f3e"
+    },
+    {
+      "rowID": 91,
+      "messageID": "4f798cbf8a36650830da2ad58d53e4ca",
+      "threadID": 62043,
+      "subject": "Re: Sąsiad zaniża raporty wydajności",
+      "from": "operator04227@system.nwo",
+      "to": "w.konieczny@strefa-blok4.nwo",
+      "date": "2026-03-05 09:25",
+      "modifyHash": "a8286f5a0311187f60c07b38f567a5f2"
+    },
+    {
+      "rowID": 89,
+      "messageID": "1782e74842de8f4c4624a719d41f6b2b",
+      "threadID": 62042,
+      "subject": "Re: Sąsiad notorycznie obija się w pracy",
+      "from": "operator04227@system.nwo",
+      "to": "w.bednarek@osiedle-nowa7.nwo",
+      "date": "2026-03-05 08:15",
+      "modifyHash": "d2b19669b86dea6bd50702c3cccdd7cd"
+    },
+    {
+      "rowID": 87,
+      "messageID": "15c9629f0cc12b66d8e7c13c0a118296",
+      "threadID": 62041,
+      "subject": "Re: Sąsiad unika podatku systemowego",
+      "from": "operator04227@system.nwo",
+      "to": "w.sieradzki@obywatel-grid.nwo",
+      "date": "2026-03-05 07:23",
+      "modifyHash": "ce81d3a550189365423b7513179b00fc"
+    },
+    {
+      "rowID": 102,
+      "messageID": "a824ac12e76bcdfb42cb209c4ed7dd9a",
+      "threadID": 62048,
+      "subject": "Re: PWR5921PL: spór o grafik weekendowy",
+      "from": "operator04227@system.nwo",
+      "to": "koordynator.piotrkow@hr-core.nwo",
+      "date": "2026-03-05 06:59",
+      "modifyHash": "2133e51743acba064f958cdeb213a7c8"
+    },
+    {
+      "rowID": 122,
+      "messageID": "2ac6c17f59c877f31d3a771e731bd49b",
+      "threadID": 62059,
+      "subject": "Awanse kwartalne w pionie technicznym",
+      "from": "hr-central@corp-system.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-04 22:20",
+      "modifyHash": "ad79f07ca0b7471068c331632f379c77"
+    },
+    {
+      "rowID": 100,
+      "messageID": "d391dcd45c7fa30ba3b11c8088d93791",
+      "threadID": 62047,
+      "subject": "Re: PWR3847PL: korekta dodatku zmianowego",
+      "from": "operator04227@system.nwo",
+      "to": "place.zabrze@hr-core.nwo",
+      "date": "2026-03-04 12:38",
+      "modifyHash": "ad0bc26592030ef180176b1f685abf9c"
+    },
+    {
+      "rowID": 65,
+      "messageID": "0403c1df56d3dab40ad4bf6f6cceda8a",
+      "threadID": 62030,
+      "subject": "Re: PWR2758PL: chwilowy skok prądu pompy dozującej",
+      "from": "operator04227@system.nwo",
+      "to": "chemline.chelmno@plant-ops.nwo",
+      "date": "2026-03-04 04:36",
+      "modifyHash": "44404842ee51a3d6a827748faf897292"
+    }
+  ]
+}

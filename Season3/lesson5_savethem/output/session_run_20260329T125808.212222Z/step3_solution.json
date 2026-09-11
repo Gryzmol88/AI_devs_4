@@ -1,0 +1,35 @@
+{
+  "vehicle_name": "rocket",
+  "moves": [
+    "up",
+    "up",
+    "right",
+    "right",
+    "right",
+    "up",
+    "right",
+    "right",
+    "dismount",
+    "right",
+    "right",
+    "right"
+  ],
+  "total_time": 5.666666666666666,
+  "fuel_used": 8.0,
+  "food_used": 3.8,
+  "verify_answer": [
+    "rocket",
+    "up",
+    "up",
+    "right",
+    "right",
+    "right",
+    "up",
+    "right",
+    "right",
+    "dismount",
+    "right",
+    "right",
+    "right"
+  ]
+}

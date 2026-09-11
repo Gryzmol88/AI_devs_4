@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "rm /opt/firmware/cooler/cooler-is-blocked.lock",
+  "response": {
+    "code": 160,
+    "message": "File removed in virtual filesystem.",
+    "path": "/opt/firmware/cooler/cooler-is-blocked.lock",
+    "data": [
+      "bin/",
+      "dev/",
+      "etc/",
+      "home/",
+      "opt/",
+      "proc/",
+      "root/",
+      "tmp/"
+    ]
+  },
+  "detected_confirmation_code": null
+}

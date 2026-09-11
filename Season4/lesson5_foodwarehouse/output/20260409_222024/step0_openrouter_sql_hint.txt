@@ -1,0 +1,14 @@
+- Zapytanie: SELECT m.city, m.destination_code FROM city_destination_map m WHERE m.city = :city AND m.is_active = true;
+  Sprawdź pola: city (normalizacja/diakrytyki), destination_code, is_active, priority, valid_from, valid_to
+
+- Zapytanie: SELECT a.city, COALESCE(dm.destination_code, rr.default_destination) AS destination FROM addresses a LEFT JOIN city_destination_map dm ON dm.city = a.city AND dm.is_active = true LEFT JOIN region_rules rr ON rr.region_code = a.region_code WHERE a.id = :address_id;
+  Sprawdź pola: region_code, default_destination, rule_priority, last_updated, source (miasto vs region)
+
+- Zapytanie: SELECT a.city, CASE WHEN a.postal_code LIKE '00%' THEN 'WAW' WHEN a.postal_code LIKE '30%' THEN 'KRK' ELSE 'HUB-OTHER' END AS destination FROM addresses a WHERE a.country_code = 'PL' AND a.id = :address_id;
+  Sprawdź pola: postal_code (format/prefiks), country_code, city, override_destination, fallback_destination
+
+- Zapytanie: SELECT r.request_id, r.method, r.path, r.query_canonical AS query, r.body_sha256 AS body_hash, r.timestamp, k.key_id, k.algorithm, r.nonce FROM requests r JOIN api_keys k ON k.key_id = r.key_id WHERE r.request_id = :req_id;
+  Sprawdź pola: timestamp (UTC), nonce (unikalność), algorithm (np. HMAC-SHA256), key_id, version, body_hash, kolejność/canonicalization
+
+- Zapytanie: SELECT o.id AS order_id, u.id AS user_id, o.total_amount, o.currency, o.created_at AS ts, o.status, s.salt, s.version FROM orders o JOIN users u ON u.id = o.user_id JOIN signing_meta s ON s.app_id = :app_id WHERE o.id = :order_id;
+  Sprawdź pola: salt/secret dostępność i rotacja, ts w UTC, locale/liczby (kropka vs przecinek), trimming/normalizacja białych znaków, deterministyczne sortowanie pól

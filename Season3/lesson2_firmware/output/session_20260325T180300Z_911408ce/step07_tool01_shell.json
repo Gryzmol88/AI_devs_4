@@ -1,0 +1,15 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "ls /home/operator",
+  "response": {
+    "code": 120,
+    "message": "Directory listing.",
+    "path": "/home/operator",
+    "data": [
+      ".bash_history",
+      "notes/"
+    ]
+  },
+  "detected_confirmation_code": null
+}

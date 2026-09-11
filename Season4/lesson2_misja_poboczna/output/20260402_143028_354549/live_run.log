@@ -1,0 +1,14 @@
+[14:30:28.355] [INFO] Output run: M:\Michal\Programowanie\PYTHON\AI_devs_4\Season4\lesson2_misja_poboczna\output\20260402_143028_354549
+[14:30:28.363] [INFO] Zaladowano 60 case'ow (limit=60).
+[14:30:28.364] [INFO] Case 1/60: P1_sameMirror_2020-02-02_00:00:00_w4.4_p0 (P1_same_mirror)
+[14:30:29.016] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] start -> code=60 source=None msg=Windpower session started.
+[14:30:29.071] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] unlockCodeGenerator -> code=14 source=None msg=Task has been queued. Use getResult to retrieve the response.
+[14:30:29.129] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#1 -> code=11 source=None msg=No completed queued response is available yet.
+[14:30:29.484] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#2 -> code=11 source=None msg=No completed queued response is available yet.
+[14:30:29.836] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#3 -> code=11 source=None msg=No completed queued response is available yet.
+[14:30:30.230] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#4 -> code=11 source=None msg=No completed queued response is available yet.
+[14:30:30.580] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#5 -> code=12 source=unlockCodeGenerator msg=Queued response retrieved.
+[14:30:30.581] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] unlock wynik odebrany po 5 pollach.
+[14:30:30.582] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] Wykryto flage w odpowiedzi unlock.
+[14:30:30.583] [INFO] Wykryto flage - koncze dalsze testy.
+[14:30:30.588] [INFO] Summary: {'generatedAt': '2026-04-02T14:30:30.585', 'totalCasesExecuted': 1, 'flagFound': True, 'flag': '{FLG:LIVENOTONEVIL}', 'matchedCases': ['P1_sameMirror_2020-02-02_00:00:00_w4.4_p0'], 'elapsedSeconds': 2.229, 'outputDir': 'M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season4\\lesson2_misja_poboczna\\output\\20260402_143028_354549'}

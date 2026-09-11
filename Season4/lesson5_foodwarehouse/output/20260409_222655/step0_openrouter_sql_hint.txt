@@ -1,0 +1,24 @@
+- Mapowanie po city_id (proste powiązanie):
+  - SELECT c.name AS city, dm.destination_code FROM cities c JOIN dest_map dm ON dm.city_id = c.id WHERE c.name = :city AND c.active = 1;
+  - signatureGenerator: SELECT k.client_id, k.key_id, k.algorithm, NOW() AS ts, k.version FROM api_keys k WHERE k.client_id = :client_id AND k.active = 1;
+  - Sprawdź: c.name normalizacja (małe/duże litery, diakrytyki), c.country_code, c.active, dm.destination_code unikalność/niepusto, status destination (aktywny).
+
+- Mapowanie po kodach IATA (miasto → lotnisko → destination):
+  - SELECT a.city AS city, d.code AS destination_code FROM airports a JOIN destinations d ON d.iata = a.iata WHERE a.city = :city AND d.is_primary = 1;
+  - signatureGenerator: SELECT m.client_id, m.key_id, m.alg AS algorithm, m.version, NOW() AS ts FROM merchant_keys m WHERE m.client_id = :client_id AND m.valid_until > NOW();
+  - Sprawdź: a.iata (3 litery, niepusto), d.is_primary, strefa czasowa, duplikaty miasto–IATA, aktywność rekordu.
+
+- Mapowanie po kraju/priorytecie (fallback do najważniejszego hubu):
+  - SELECT c.name AS city, h.code AS destination_code FROM cities c JOIN hubs h ON h.country_code = c.country_code WHERE c.name = :city ORDER BY h.is_primary DESC, h.rank NULLS LAST LIMIT 1;
+  - signatureGenerator: SELECT k.key_id, k.algorithm, k.version, k.public_fingerprint, NOW() AS ts FROM api_keys k WHERE k.client_id = :client_id AND k.status = 'active';
+  - Sprawdź: country_code zgodność, h.is_primary, h.rank, brak NULL w code, czy istnieje więcej niż jeden kandydat (deterministyczne sortowanie).
+
+- Mapowanie z uwzględnieniem lokalizacji/języka:
+  - SELECT cl.name AS city, d.slug AS destination FROM city_locales cl JOIN city_destination cd ON cd.city_id = cl.city_id JOIN destinations d ON d.id = cd.destination_id WHERE cl.name = :city AND cl.locale = :locale;
+  - signatureGenerator: SELECT k.client_id, k.key_id, k.algorithm, k.version, NOW() AS ts, k.signing_salt FROM api_keys k WHERE k.client_id = :client_id AND k.active = 1;
+  - Sprawdź: cl.locale (np. pl_PL vs pl), d.slug unikalność, transliteracja nazw, kolacja/porównywanie bez diakrytyków, aktywność destination.
+
+- Mapowanie po synonimach/obszarze metropolitalnym (robustność na warianty nazwy):
+  - SELECT s.input AS city, d.code AS destination FROM city_synonyms s JOIN cities c ON c.id = s.city_id JOIN metro_areas m ON m.id = c.metro_id JOIN destinations d ON d.metro_id = m.id WHERE s.input ILIKE :city;
+  - signatureGenerator: SELECT kr.key_id, k.algorithm, k.version, kr.valid_from, kr.valid_to FROM key_rotation kr JOIN api_keys k ON k.id = kr.key_id WHERE k.client_id = :client_id AND kr.valid_from <= NOW() AND kr.valid_to > NOW() ORDER BY kr.valid_from DESC LIMIT 1;
+  - Sprawdź: ILIKE/kolacja dla polskich znaków, unikalność synonimów, poprawność metro_id, okna ważności kluczy (overlap), stany kluczy po rotacji.

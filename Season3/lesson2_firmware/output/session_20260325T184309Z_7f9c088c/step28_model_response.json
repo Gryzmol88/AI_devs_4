@@ -1,0 +1,56 @@
+{
+  "id": "gen-1774464245-FjFB28gZusKbXXSat7tA",
+  "object": "chat.completion",
+  "created": 1774464245,
+  "model": "anthropic/claude-4.6-sonnet-20260217",
+  "provider": "Amazon Bedrock",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "tool_calls",
+      "native_finish_reason": "tool_use",
+      "message": {
+        "role": "assistant",
+        "content": "Linia zaktualizowana. Weryfikuję plik i uruchamiam `cooler.bin` z hasłem `admin1`.",
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_bdrk_01EimvSz86Zcym5T1bucqmrB",
+            "function": {
+              "name": "shell",
+              "arguments": "{\"command\": \"cat /opt/firmware/cooler/settings.ini\"}"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2243,
+    "completion_tokens": 88,
+    "total_tokens": 2331,
+    "cost": 0.008049,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.008049,
+      "upstream_inference_prompt_cost": 0.006729,
+      "upstream_inference_completions_cost": 0.00132
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

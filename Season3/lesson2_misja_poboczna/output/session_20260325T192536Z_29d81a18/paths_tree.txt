@@ -1,0 +1,25 @@
+/
+├─ bin
+├─ dev
+├─ etc
+├─ home/
+│  └─ operator/
+│     ├─ .bash_history
+│     ├─ .gitignore
+│     └─ notes/
+│        ├─ .gitignore
+│        └─ pass.txt
+├─ opt/
+│  └─ firmware/
+│     ├─ .gitignore
+│     └─ cooler/
+│        ├─ .env
+│        ├─ .git/
+│        ├─ .gitignore
+│        ├─ cooler.bin
+│        ├─ logs/
+│        ├─ settings.ini
+│        └─ storage.cfg
+├─ proc
+├─ root
+└─ tmp

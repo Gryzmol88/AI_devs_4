@@ -1,0 +1,5 @@
+found_flag=-
+attempts_count=28
+main_output_flags=0
+main_output_censorship_hits=0
+input_suspicious_rows=3

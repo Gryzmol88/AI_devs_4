@@ -1,0 +1,23 @@
+[
+  {
+    "city": "ALL_CITIES",
+    "destination": "991828",
+    "creator_id": 1,
+    "signature": "2199777994d119b6a1c8871643e0b7054e7f91c1",
+    "items": {
+      "chleb": 95,
+      "woda": 1160,
+      "mlotek": 12,
+      "makaron": 112,
+      "lopata": 17,
+      "ryz": 100,
+      "wiertarka": 12,
+      "wolowina": 47,
+      "kilof": 13,
+      "kurczak": 40,
+      "ziemniaki": 195,
+      "kapusta": 70,
+      "marchew": 65
+    }
+  }
+]

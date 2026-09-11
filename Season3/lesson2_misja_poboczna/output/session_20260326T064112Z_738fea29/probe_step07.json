@@ -1,0 +1,10 @@
+{
+  "command": "/bin/flaggengenerator Werkzeug",
+  "ok": false,
+  "http_status": 403,
+  "error_message": "HTTP 403 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -873,\n    \"message\": \"Invalid password.\"\n}",
+  "is_retryable": false,
+  "error_code": -873,
+  "ban": null,
+  "is_ban": false
+}

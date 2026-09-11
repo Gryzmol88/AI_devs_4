@@ -1,0 +1,7 @@
+{
+  "entries_total": 2137,
+  "estimated_tokens_total": 68919,
+  "mode": "function_calling",
+  "provider": "openrouter",
+  "model": "gpt-5-mini"
+}

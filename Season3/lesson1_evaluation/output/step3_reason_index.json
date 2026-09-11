@@ -1,0 +1,326 @@
+{
+  "0158": {
+    "rule_reasons": [
+      "humidity_percent=68.5 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ],
+    "note_reasons": []
+  },
+  "0307": {
+    "rule_reasons": [
+      "humidity_percent=105.3 poza zakresem [40.0, 80.0] dla aktywnego sensora"
+    ],
+    "note_reasons": [
+      "Notatka operatora mówi OK, ale dane zawierają anomalie."
+    ]
+  },
+  "0516": {
+    "rule_reasons": [
+      "humidity_percent=60.9 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ],
+    "note_reasons": []
+  },
+  "0567": {
+    "rule_reasons": [
+      "voltage_supply_v=224.4 poza zakresem [229.0, 231.0] dla aktywnego sensora"
+    ],
+    "note_reasons": []
+  },
+  "0753": {
+    "rule_reasons": [
+      "voltage_supply_v=224.4 poza zakresem [229.0, 231.0] dla aktywnego sensora"
+    ],
+    "note_reasons": []
+  },
+  "1053": {
+    "rule_reasons": [
+      "temperature_K=1101.0 poza zakresem [553.0, 873.0] dla aktywnego sensora"
+    ],
+    "note_reasons": []
+  },
+  "1269": {
+    "rule_reasons": [
+      "water_level_meters=21.5 poza zakresem [5.0, 15.0] dla aktywnego sensora"
+    ],
+    "note_reasons": []
+  },
+  "1632": {
+    "rule_reasons": [
+      "temperature_K=742.0 powinno być 0 dla nieaktywnego typu sensora temperature"
+    ],
+    "note_reasons": []
+  },
+  "1678": {
+    "rule_reasons": [
+      "humidity_percent=70.1 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ],
+    "note_reasons": []
+  },
+  "1743": {
+    "rule_reasons": [],
+    "note_reasons": [
+      "Notatka operatora zgłasza błąd, ale dane mieszczą się w normie."
+    ]
+  },
+  "1819": {
+    "rule_reasons": [
+      "pressure_bar=184.0 poza zakresem [60.0, 160.0] dla aktywnego sensora"
+    ],
+    "note_reasons": []
+  },
+  "2044": {
+    "rule_reasons": [
+      "temperature_K=526.0 poza zakresem [553.0, 873.0] dla aktywnego sensora"
+    ],
+    "note_reasons": []
+  },
+  "2175": {
+    "rule_reasons": [
+      "voltage_supply_v=227.2 poza zakresem [229.0, 231.0] dla aktywnego sensora"
+    ],
+    "note_reasons": []
+  },
+  "2238": {
+    "rule_reasons": [
+      "temperature_K=1039.0 poza zakresem [553.0, 873.0] dla aktywnego sensora"
+    ],
+    "note_reasons": []
+  },
+  "2500": {
+    "rule_reasons": [
+      "water_level_meters=3.9 poza zakresem [5.0, 15.0] dla aktywnego sensora"
+    ],
+    "note_reasons": []
+  },
+  "2958": {
+    "rule_reasons": [
+      "water_level_meters=10.2 powinno być 0 dla nieaktywnego typu sensora water"
+    ],
+    "note_reasons": []
+  },
+  "3123": {
+    "rule_reasons": [
+      "voltage_supply_v=230.5 powinno być 0 dla nieaktywnego typu sensora voltage"
+    ],
+    "note_reasons": []
+  },
+  "3713": {
+    "rule_reasons": [
+      "temperature_K=534.0 poza zakresem [553.0, 873.0] dla aktywnego sensora"
+    ],
+    "note_reasons": []
+  },
+  "3798": {
+    "rule_reasons": [
+      "temperature_K=742.0 powinno być 0 dla nieaktywnego typu sensora temperature"
+    ],
+    "note_reasons": []
+  },
+  "4040": {
+    "rule_reasons": [
+      "temperature_K=536.0 poza zakresem [553.0, 873.0] dla aktywnego sensora"
+    ],
+    "note_reasons": []
+  },
+  "4186": {
+    "rule_reasons": [
+      "humidity_percent=63.4 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ],
+    "note_reasons": []
+  },
+  "4237": {
+    "rule_reasons": [
+      "pressure_bar=249.1 poza zakresem [60.0, 160.0] dla aktywnego sensora"
+    ],
+    "note_reasons": [
+      "Notatka operatora mówi OK, ale dane zawierają anomalie."
+    ]
+  },
+  "4630": {
+    "rule_reasons": [
+      "humidity_percent=66.2 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ],
+    "note_reasons": []
+  },
+  "4673": {
+    "rule_reasons": [
+      "pressure_bar=89.8 powinno być 0 dla nieaktywnego typu sensora pressure"
+    ],
+    "note_reasons": []
+  },
+  "4888": {
+    "rule_reasons": [
+      "water_level_meters=1.8 poza zakresem [5.0, 15.0] dla aktywnego sensora"
+    ],
+    "note_reasons": []
+  },
+  "5000": {
+    "rule_reasons": [],
+    "note_reasons": [
+      "Notatka operatora zgłasza błąd, ale dane mieszczą się w normie."
+    ]
+  },
+  "5022": {
+    "rule_reasons": [
+      "water_level_meters=3.3 poza zakresem [5.0, 15.0] dla aktywnego sensora"
+    ],
+    "note_reasons": []
+  },
+  "5156": {
+    "rule_reasons": [
+      "voltage_supply_v=227.2 poza zakresem [229.0, 231.0] dla aktywnego sensora"
+    ],
+    "note_reasons": []
+  },
+  "5405": {
+    "rule_reasons": [
+      "humidity_percent=61.5 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ],
+    "note_reasons": []
+  },
+  "5714": {
+    "rule_reasons": [
+      "temperature_K=658.0 powinno być 0 dla nieaktywnego typu sensora temperature"
+    ],
+    "note_reasons": []
+  },
+  "5715": {
+    "rule_reasons": [
+      "pressure_bar=127.9 powinno być 0 dla nieaktywnego typu sensora pressure"
+    ],
+    "note_reasons": []
+  },
+  "5799": {
+    "rule_reasons": [
+      "water_level_meters=10.1 powinno być 0 dla nieaktywnego typu sensora water"
+    ],
+    "note_reasons": []
+  },
+  "6197": {
+    "rule_reasons": [
+      "humidity_percent=79.8 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ],
+    "note_reasons": []
+  },
+  "6281": {
+    "rule_reasons": [
+      "humidity_percent=90.1 poza zakresem [40.0, 80.0] dla aktywnego sensora"
+    ],
+    "note_reasons": []
+  },
+  "6336": {
+    "rule_reasons": [
+      "humidity_percent=58.4 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ],
+    "note_reasons": []
+  },
+  "7266": {
+    "rule_reasons": [],
+    "note_reasons": [
+      "Notatka operatora zgłasza błąd, ale dane mieszczą się w normie."
+    ]
+  },
+  "7680": {
+    "rule_reasons": [
+      "humidity_percent=71.3 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ],
+    "note_reasons": []
+  },
+  "7701": {
+    "rule_reasons": [
+      "humidity_percent=49.5 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ],
+    "note_reasons": []
+  },
+  "8076": {
+    "rule_reasons": [
+      "water_level_meters=5.2 powinno być 0 dla nieaktywnego typu sensora water"
+    ],
+    "note_reasons": [
+      "Notatka operatora mówi OK, ale dane zawierają anomalie."
+    ]
+  },
+  "8168": {
+    "rule_reasons": [
+      "voltage_supply_v=276.1 poza zakresem [229.0, 231.0] dla aktywnego sensora"
+    ],
+    "note_reasons": []
+  },
+  "8369": {
+    "rule_reasons": [],
+    "note_reasons": [
+      "Notatka operatora zgłasza błąd, ale dane mieszczą się w normie."
+    ]
+  },
+  "8410": {
+    "rule_reasons": [
+      "voltage_supply_v=304.5 poza zakresem [229.0, 231.0] dla aktywnego sensora"
+    ],
+    "note_reasons": [
+      "Notatka operatora mówi OK, ale dane zawierają anomalie."
+    ]
+  },
+  "8457": {
+    "rule_reasons": [
+      "pressure_bar=186.8 poza zakresem [60.0, 160.0] dla aktywnego sensora"
+    ],
+    "note_reasons": [
+      "Notatka operatora mówi OK, ale dane zawierają anomalie."
+    ]
+  },
+  "9151": {
+    "rule_reasons": [
+      "voltage_supply_v=223.4 poza zakresem [229.0, 231.0] dla aktywnego sensora"
+    ],
+    "note_reasons": []
+  },
+  "9288": {
+    "rule_reasons": [
+      "voltage_supply_v=230.6 powinno być 0 dla nieaktywnego typu sensora voltage"
+    ],
+    "note_reasons": []
+  },
+  "9422": {
+    "rule_reasons": [
+      "humidity_percent=58.0 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ],
+    "note_reasons": []
+  },
+  "9518": {
+    "rule_reasons": [
+      "pressure_bar=87.2 powinno być 0 dla nieaktywnego typu sensora pressure"
+    ],
+    "note_reasons": []
+  },
+  "9583": {
+    "rule_reasons": [
+      "humidity_percent=72.5 powinno być 0 dla nieaktywnego typu sensora humidity"
+    ],
+    "note_reasons": []
+  },
+  "9604": {
+    "rule_reasons": [
+      "voltage_supply_v=225.6 poza zakresem [229.0, 231.0] dla aktywnego sensora"
+    ],
+    "note_reasons": [
+      "Notatka operatora mówi OK, ale dane zawierają anomalie."
+    ]
+  },
+  "9614": {
+    "rule_reasons": [],
+    "note_reasons": [
+      "Notatka operatora zgłasza błąd, ale dane mieszczą się w normie."
+    ]
+  },
+  "9717": {
+    "rule_reasons": [],
+    "note_reasons": [
+      "Notatka operatora zgłasza błąd, ale dane mieszczą się w normie."
+    ]
+  },
+  "9848": {
+    "rule_reasons": [
+      "voltage_supply_v=230.1 powinno być 0 dla nieaktywnego typu sensora voltage"
+    ],
+    "note_reasons": []
+  }
+}

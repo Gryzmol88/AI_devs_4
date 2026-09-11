@@ -1,0 +1,7 @@
+{
+  "step": 3,
+  "state": "ask_roads",
+  "outbound_text": "Która droga jest przejezdna: RD224, RD472 czy RD820 teraz?",
+  "inbound_text": null,
+  "selected_road": null
+}

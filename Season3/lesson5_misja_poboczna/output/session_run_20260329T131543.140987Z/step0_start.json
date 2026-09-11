@@ -1,0 +1,15 @@
+{
+  "maps_url": "https://hub.ag3nts.org/api/maps",
+  "vehicles_url": "https://hub.ag3nts.org/api/wehicles",
+  "books_url": "https://hub.ag3nts.org/api/books",
+  "verify_url": "https://hub.ag3nts.org/verify",
+  "side_task_candidates": [
+    "savethem",
+    "beavers",
+    "bobry",
+    "bonus",
+    "side",
+    "sidequest"
+  ],
+  "side_max_attempts": 40
+}

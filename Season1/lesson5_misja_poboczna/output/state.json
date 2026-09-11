@@ -1,0 +1,45 @@
+{
+  "route": "X-01",
+  "step_index": 1,
+  "next_allowed_at": "2026-03-15T19:44:15.871088Z",
+  "last_response": {
+    "action": "reconfigure",
+    "status_code": 429,
+    "headers": {
+      "Date": "Sun, 15 Mar 2026 19:43:45 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "106",
+      "Connection": "keep-alive",
+      "Server": "cloudflare",
+      "Cache-Control": "no-cache, no-store, must-revalidate",
+      "Pragma": "no-cache",
+      "Expires": "0",
+      "X-Content-Type-Options": "nosniff",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Request-Headers": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Credentials": "true",
+      "Retry-After": "30",
+      "X-RateLimit-Limit": "1",
+      "X-RateLimit-Remaining": "0",
+      "X-RateLimit-Reset": "1773603855",
+      "X-RateLimit-Policy": "1;w=30",
+      "X-RateLimit-Violations": "1",
+      "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=0%2Fx8%2F%2F2kszmKKiZs5NVxMyKV36mO1iAZRwp5jSTmrwImljIrouwPinUAMqPFHMGCYWYdedI5nfoid7yN%2BjXqSaiCrmH3oRD1cVniKIXDmbsbv90O9jCdPQ%3D%3D\"}]}",
+      "cf-cache-status": "DYNAMIC",
+      "CF-RAY": "9dce0247ba31ee44-WAW",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    },
+    "body": {
+      "code": -985,
+      "message": "API rate limit exceeded. Please retry later.",
+      "retry_after": 30
+    }
+  },
+  "found_flag": null,
+  "flag_source": null,
+  "main_flag": null,
+  "main_flag_source": null
+}

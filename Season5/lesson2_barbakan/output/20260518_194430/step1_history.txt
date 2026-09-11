@@ -1,0 +1,2 @@
+AGENT: Dzień dobry, tu Tymon Gajewski.
+CENTRALA: W jakiej sprawie dzwonisz?

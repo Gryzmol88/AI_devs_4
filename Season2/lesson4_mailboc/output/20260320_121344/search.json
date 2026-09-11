@@ -1,0 +1,213 @@
+{
+  "ok": true,
+  "action": "search",
+  "query": "to:operator04227@system.nwo",
+  "pagination": {
+    "page": 1,
+    "perPage": 20,
+    "total": 76,
+    "totalPages": 4
+  },
+  "items": [
+    {
+      "rowID": 4,
+      "messageID": "3ee6ef49394e65936942a5698301d583",
+      "threadID": 62070,
+      "subject": "Re: Zapis z kamer w obiekcie PWR6132PL - pilne!",
+      "from": "monitoring.wideo@security-node.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-13 12:12",
+      "snippet": "no dobra... wiem, że miałem ju..."
+    },
+    {
+      "rowID": 2,
+      "messageID": "a08dcf9c2b0e20c43e9476305a63cb44",
+      "threadID": 62045,
+      "subject": "Re: Przyjęliśmy Twoje zgłoszenie - Ticket SEC-41248",
+      "from": "security@system.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-13 12:12",
+      "snippet": "Ajj! zły kod potwierdzenia Ci ..."
+    },
+    {
+      "rowID": 1,
+      "messageID": "8cde00eb4cb11534cc0f3e1b08e5bcdb",
+      "threadID": 62045,
+      "subject": "Re: Przyjęliśmy Twoje zgłoszenie - Ticket SEC-41248",
+      "from": "security@system.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-13 12:10",
+      "snippet": "Postanowilismy w najblizszy po..."
+    },
+    {
+      "rowID": 133,
+      "messageID": "2af61a357faab63789aa59bcae721ab1",
+      "threadID": 62070,
+      "subject": "Zapis z kamer w obiekcie PWR6132PL - pilne!",
+      "from": "monitoring.wideo@security-node.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-12 23:59",
+      "snippet": "https://www.youtube.com/watch?..."
+    },
+    {
+      "rowID": 132,
+      "messageID": "e44a9452f38f95780ff41914fe5f3659",
+      "threadID": 62069,
+      "subject": "Przegląd świadczeń pozapłacowych",
+      "from": "benefity@corp-system.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-12 14:36",
+      "snippet": "W marcu rozpoczynamy przegląd ..."
+    },
+    {
+      "rowID": 84,
+      "messageID": "fee1ca79d11da2a7848b4028ea31b79e",
+      "threadID": 62040,
+      "subject": "PWR1593PL: chwilowy spadek wydajności pompy obiegu głównego",
+      "from": "dyzurny.tczew@plant-ops.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-11 21:52",
+      "snippet": "W Tczewie (PWR1593PL) pompa ob..."
+    },
+    {
+      "rowID": 131,
+      "messageID": "580045e13d60bb8417eb5933e68647f0",
+      "threadID": 62068,
+      "subject": "Uruchomienie programu rekomendacji pracowniczych",
+      "from": "rekrutacja@corp-system.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-11 20:20",
+      "snippet": "Startuje program rekomendacji ..."
+    },
+    {
+      "rowID": 82,
+      "messageID": "b21846743333b10bb5986ed478a1a36c",
+      "threadID": 62039,
+      "subject": "PWR7264PL: krótkie zakłócenie sygnału z przepustnicy pary",
+      "from": "sygnaly.grudziadz@reactor-mail.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-11 10:55",
+      "snippet": "Grudziądz (PWR7264PL) raportuj..."
+    },
+    {
+      "rowID": 130,
+      "messageID": "f4f3a83b06611bfc3716253753302e7e",
+      "threadID": 62067,
+      "subject": "Zmiana struktury raportowania incydentów",
+      "from": "compliance@corp-system.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-11 09:37",
+      "snippet": "Od przyszłego tygodnia raporty..."
+    },
+    {
+      "rowID": 80,
+      "messageID": "9408228fc657522ee08e8c2b6c203fde",
+      "threadID": 62038,
+      "subject": "PWR5921PL: chwilowy spadek sprawności chłodnicy oleju",
+      "from": "olej.piotrkow@gridwatch.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-11 00:19",
+      "snippet": "Piotrków (PWR5921PL) zgłasza c..."
+    },
+    {
+      "rowID": 119,
+      "messageID": "4a9cdd4c297aaaaead1c94d3509b7dfd",
+      "threadID": 62057,
+      "subject": "PWR2758PL: niezgodność stawek na nowych umowach",
+      "from": "umowy.chelmno@hr-core.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-10 14:55",
+      "snippet": "W PWR2758PL wykryto niezgodnoś..."
+    },
+    {
+      "rowID": 78,
+      "messageID": "d6af3dd60aacfb2c94bd0562d670c64c",
+      "threadID": 62037,
+      "subject": "PWR3847PL: krótkie zafalowanie mocy przy porannym starcie",
+      "from": "start.zabrze@plant-ops.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-10 13:48",
+      "snippet": "Zabrze (PWR3847PL) miało krótk..."
+    },
+    {
+      "rowID": 129,
+      "messageID": "51792b2a0c639dd7d412d11aa2e3b9b2",
+      "threadID": 62066,
+      "subject": "Aktualizacja polityki szkoleń obowiązkowych",
+      "from": "rozwoj@corp-system.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-10 06:07",
+      "snippet": "Wprowadzamy nową matrycę szkol..."
+    },
+    {
+      "rowID": 117,
+      "messageID": "aea9fb9f2e30aee529ee49b77eb0e347",
+      "threadID": 62056,
+      "subject": "PWR2758PL: brak zatwierdzenia urlopów na marzec",
+      "from": "grafik.chelmno@peopleflow.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-10 04:01",
+      "snippet": "W Chełmnie (PWR2758PL) wiszą n..."
+    },
+    {
+      "rowID": 74,
+      "messageID": "3274de755a622775bd567e1202993c30",
+      "threadID": 62035,
+      "subject": "PWR8406PL: krótkie opóźnienie odpowiedzi przepustnicy",
+      "from": "sterowanie.radom@reactor-mail.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-09 21:03",
+      "snippet": "Radom (PWR8406PL) zgłosił krót..."
+    },
+    {
+      "rowID": 76,
+      "messageID": "11e54bc7c0592fcbcc43a409cd24182c",
+      "threadID": 62036,
+      "subject": "PWR2758PL: chwilowa niezgodność odczytów dwóch termopar",
+      "from": "termika.chelmno@gridwatch.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-09 17:23",
+      "snippet": "Chełmno (PWR2758PL) zgłasza ch..."
+    },
+    {
+      "rowID": 128,
+      "messageID": "0659fce2e7b2a503ab7173a1b435a050",
+      "threadID": 62065,
+      "subject": "Konsolidacja zespołów wsparcia regionalnego",
+      "from": "operacje.centralne@corp-system.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-09 11:17",
+      "snippet": "Od przyszłego miesiąca zespoły..."
+    },
+    {
+      "rowID": 115,
+      "messageID": "a4280b2e410b57491333f5445c788867",
+      "threadID": 62055,
+      "subject": "PWR8406PL: zaległe rozliczenie delegacji",
+      "from": "delegacje.radom@hr-core.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-09 09:43",
+      "snippet": "W PWR8406PL zalega rozliczenie..."
+    },
+    {
+      "rowID": 127,
+      "messageID": "481c3cb718f2dc14f8d9a9dd56b7e2d9",
+      "threadID": 62064,
+      "subject": "Nowy program premiowy za niezawodność",
+      "from": "motywacja@corp-system.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-08 23:11",
+      "snippet": "Uruchamiamy program premiowy p..."
+    },
+    {
+      "rowID": 113,
+      "messageID": "58ef7c289c17fc492b939df182835021",
+      "threadID": 62054,
+      "subject": "PWR8406PL: rotacja pracowników przekroczyła normę",
+      "from": "hr.radom@peopleflow.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-08 22:33",
+      "snippet": "Radom (PWR8406PL) zgłasza zbyt..."
+    }
+  ]
+}

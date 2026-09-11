@@ -1,0 +1,203 @@
+{
+  "timestamp": "2026-03-26T18:43:07.201384Z",
+  "step": 8,
+  "phase": "to_pre_flag",
+  "target_col": 6,
+  "command": "right",
+  "decision": {
+    "reason": "postep:ok",
+    "safe": true,
+    "wait_streak": 0
+  },
+  "state": {
+    "robot": {
+      "col": 6,
+      "row": 5
+    },
+    "goal": {
+      "col": 7,
+      "row": 5
+    },
+    "board_rows": [
+      ".......",
+      "..B.BB.",
+      ".BBBBB.",
+      ".B.B...",
+      ".....PG"
+    ],
+    "blocks": [
+      {
+        "column": 2,
+        "top_row": 3,
+        "direction": "up",
+        "cells": [
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ]
+      },
+      {
+        "column": 3,
+        "top_row": 2,
+        "direction": "down",
+        "cells": [
+          [
+            3,
+            2
+          ],
+          [
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "column": 4,
+        "top_row": 3,
+        "direction": "up",
+        "cells": [
+          [
+            4,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      {
+        "column": 5,
+        "top_row": 2,
+        "direction": "up",
+        "cells": [
+          [
+            5,
+            2
+          ],
+          [
+            5,
+            3
+          ]
+        ]
+      },
+      {
+        "column": 6,
+        "top_row": 2,
+        "direction": "up",
+        "cells": [
+          [
+            6,
+            2
+          ],
+          [
+            6,
+            3
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      "board_rows_extracted"
+    ],
+    "at_goal": false
+  },
+  "flag": null,
+  "raw_response": {
+    "code": 100,
+    "message": "Player moved right.",
+    "board": [
+      [
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        "."
+      ],
+      [
+        ".",
+        ".",
+        "B",
+        ".",
+        "B",
+        "B",
+        "."
+      ],
+      [
+        ".",
+        "B",
+        "B",
+        "B",
+        "B",
+        "B",
+        "."
+      ],
+      [
+        ".",
+        "B",
+        ".",
+        "B",
+        ".",
+        ".",
+        "."
+      ],
+      [
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        "P",
+        "G"
+      ]
+    ],
+    "player": {
+      "col": 6,
+      "row": 5
+    },
+    "goal": {
+      "col": 7,
+      "row": 5
+    },
+    "blocks": [
+      {
+        "col": 2,
+        "top_row": 3,
+        "bottom_row": 4,
+        "direction": "up"
+      },
+      {
+        "col": 3,
+        "top_row": 2,
+        "bottom_row": 3,
+        "direction": "down"
+      },
+      {
+        "col": 4,
+        "top_row": 3,
+        "bottom_row": 4,
+        "direction": "up"
+      },
+      {
+        "col": 5,
+        "top_row": 2,
+        "bottom_row": 3,
+        "direction": "up"
+      },
+      {
+        "col": 6,
+        "top_row": 2,
+        "bottom_row": 3,
+        "direction": "up"
+      }
+    ],
+    "reached_goal": false
+  }
+}

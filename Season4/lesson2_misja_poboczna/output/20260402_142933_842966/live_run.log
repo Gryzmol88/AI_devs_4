@@ -1,0 +1,18 @@
+[14:29:33.843] [INFO] Output run: M:\Michal\Programowanie\PYTHON\AI_devs_4\Season4\lesson2_misja_poboczna\output\20260402_142933_842966
+[14:29:33.849] [INFO] Zaladowano 2 case'ow (limit=2).
+[14:29:33.850] [INFO] Case 1/2: P1_sameMirror_2020-02-02_00:00:00_w4.4_p0 (P1_same_mirror)
+[14:29:34.638] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] start -> code=60 source=None msg=Windpower session started.
+[14:29:34.697] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] unlockCodeGenerator -> code=14 source=None msg=Task has been queued. Use getResult to retrieve the response.
+[14:29:34.752] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#1 -> code=11 source=None msg=No completed queued response is available yet.
+[14:29:35.103] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#2 -> code=11 source=None msg=No completed queued response is available yet.
+[14:29:35.451] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#3 -> code=11 source=None msg=No completed queued response is available yet.
+[14:29:35.803] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#4 -> code=11 source=None msg=No completed queued response is available yet.
+[14:29:36.154] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#5 -> code=11 source=None msg=No completed queued response is available yet.
+[14:29:36.154] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] unlock poll ongoing (5 prob).
+[14:29:36.507] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#6 -> code=12 source=unlockCodeGenerator msg=Queued response retrieved.
+[14:29:36.509] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] unlock wynik odebrany po 6 pollach.
+[14:29:36.512] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] unlockCode={FLG:LIVENOTONEVIL}
+[14:29:36.564] [ERROR] Blad krytyczny: 400 HTTP error for https://hub.ag3nts.org/verify. API details: {
+    "code": -877,
+    "message": "Field unlockCode must be a valid md5 hash."
+}

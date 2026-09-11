@@ -1,0 +1,21 @@
+{
+  "code": 60,
+  "message": "Inspect logs loaded.",
+  "logs": [
+    {
+      "scout": "be8d393aaf83abf040c263446e67b282",
+      "msg": "Nic tu nie ma oprócz stosu gazet i pustych opakowań.",
+      "field": "F7"
+    },
+    {
+      "scout": "be8d393aaf83abf040c263446e67b282",
+      "msg": "Nic nie znaleziono. Nawet schowek w podłodze jest pusty.",
+      "field": "G7"
+    },
+    {
+      "scout": "be8d393aaf83abf040c263446e67b282",
+      "msg": "Nic się tu nie ukrywa. Tylko skrzynka po narzędziach.",
+      "field": "H7"
+    }
+  ]
+}

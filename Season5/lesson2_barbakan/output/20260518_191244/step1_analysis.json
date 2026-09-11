@@ -1,0 +1,7 @@
+{
+  "step": 1,
+  "state": "ask_roads",
+  "outbound_text": "Tu Tymon Gajewski, podpowiesz którędy najlepiej dojechać teraz?",
+  "inbound_text": null,
+  "selected_road": null
+}

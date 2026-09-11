@@ -1,0 +1,6 @@
+Sekwencja lesson5_dron
+- status: NIEUKOŃCZONE
+- flaga: None
+- koordynaty: (2,4)
+- map_agent_run_dir: M:\Michal\Programowanie\PYTHON\AI_devs_4\Season2\lesson5_dron\output\sequence_20260321_113349\01_map\20260321_113349
+- pilot_agent_run_dir: M:\Michal\Programowanie\PYTHON\AI_devs_4\Season2\lesson5_dron\output\sequence_20260321_113349\02_pilot\20260321_113352

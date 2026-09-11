@@ -1,0 +1,35 @@
+- SELECT c.id AS city_id, c.name AS city, d.id AS destination_id, d.code
+  FROM city c
+  JOIN city_destination_map m ON m.city_id = c.id AND m.active = 1
+  JOIN destination d ON d.id = m.destination_id
+  WHERE c.name = :city AND c.country_code = :cc;
+  Pola do weryfikacji: m.active, m.valid_from, m.valid_to, m.priority, d.status, c.country_code.
+
+- SELECT c.name AS city, COALESCE(m.destination_id, rd.destination_id) AS destination_id
+  FROM city c
+  LEFT JOIN city_destination_map m ON m.city_id = c.id AND m.active = 1
+  LEFT JOIN region_default_destination rd ON rd.region_id = c.region_id AND rd.active = 1
+  WHERE c.name = :city AND c.country_code = :cc;
+  Pola do weryfikacji: c.region_id, rd.active, rd.priority, kolejność fallbacków (miasto/region/kraj).
+
+- SELECT COALESCE(a.city_id, c.id) AS city_id, COALESCE(a.alias_norm, c.normalized_name) AS city_norm, m.destination_id
+  FROM city c
+  LEFT JOIN city_alias a ON a.city_id = c.id AND a.alias_norm = :city_norm
+  LEFT JOIN city_destination_map m ON m.city_id = COALESCE(a.city_id, c.id) AND m.active = 1
+  WHERE c.normalized_name = :city_norm OR a.alias_norm = :city_norm;
+  Pola do weryfikacji: normalized_name/alias_norm, iata_city_code, geo_id, language_code, diakrytyki/wielkość liter.
+
+- SELECT c.name AS city, COUNT(DISTINCT m.destination_id) AS destinations_cnt, MIN(m.priority) AS min_priority
+  FROM city c
+  JOIN city_destination_map m ON m.city_id = c.id AND m.active = 1
+  GROUP BY c.name
+  HAVING COUNT(DISTINCT m.destination_id) > 1;
+  Pola do weryfikacji: duplikaty mapowań, m.priority, m.source, m.updated_at, zakres ważności.
+
+- SELECT r.id AS request_id, r.http_method, r.path, r.canonical_query, r.body_sha256, r.timestamp, r.nonce, r.client_key, r.key_id, s.signature, s.algorithm
+  FROM api_request_log r
+  LEFT JOIN api_signature s ON s.request_id = r.id
+  WHERE r.id = :request_id
+  ORDER BY s.created_at DESC
+  LIMIT 1;
+  Pola do weryfikacji: timestamp vs received_at (skew), algorithm/hmac, key_id/rotacja kluczy, body_sha256, canonical_query (kolejność parametrów), whitespace/normalizacja.

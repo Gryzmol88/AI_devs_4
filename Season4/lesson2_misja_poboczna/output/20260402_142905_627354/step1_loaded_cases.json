@@ -1,0 +1,102 @@
+{
+  "loadedAt": "2026-04-02T14:29:05.642",
+  "maxCases": 6,
+  "cases": [
+    {
+      "name": "P1_sameMirror_2020-02-02_00:00:00_w4.4_p0",
+      "family": "P1_same_mirror",
+      "unlock": {
+        "startDate": "2020-02-02",
+        "startHour": "00:00:00",
+        "windMs": 4.4,
+        "pitchAngle": 0
+      },
+      "config": {
+        "startDate": "2020-02-02",
+        "startHour": "00:00:00",
+        "pitchAngle": 0,
+        "turbineMode": "production"
+      }
+    },
+    {
+      "name": "P1_sameMirror_2020-02-02_00:00:00_w4.4_p45",
+      "family": "P1_same_mirror",
+      "unlock": {
+        "startDate": "2020-02-02",
+        "startHour": "00:00:00",
+        "windMs": 4.4,
+        "pitchAngle": 45
+      },
+      "config": {
+        "startDate": "2020-02-02",
+        "startHour": "00:00:00",
+        "pitchAngle": 45,
+        "turbineMode": "production"
+      }
+    },
+    {
+      "name": "P1_sameMirror_2020-02-02_00:00:00_w4.4_p90",
+      "family": "P1_same_mirror",
+      "unlock": {
+        "startDate": "2020-02-02",
+        "startHour": "00:00:00",
+        "windMs": 4.4,
+        "pitchAngle": 90
+      },
+      "config": {
+        "startDate": "2020-02-02",
+        "startHour": "00:00:00",
+        "pitchAngle": 90,
+        "turbineMode": "idle"
+      }
+    },
+    {
+      "name": "P1_sameMirror_2020-02-02_00:00:00_w5.5_p0",
+      "family": "P1_same_mirror",
+      "unlock": {
+        "startDate": "2020-02-02",
+        "startHour": "00:00:00",
+        "windMs": 5.5,
+        "pitchAngle": 0
+      },
+      "config": {
+        "startDate": "2020-02-02",
+        "startHour": "00:00:00",
+        "pitchAngle": 0,
+        "turbineMode": "production"
+      }
+    },
+    {
+      "name": "P1_sameMirror_2020-02-02_00:00:00_w5.5_p45",
+      "family": "P1_same_mirror",
+      "unlock": {
+        "startDate": "2020-02-02",
+        "startHour": "00:00:00",
+        "windMs": 5.5,
+        "pitchAngle": 45
+      },
+      "config": {
+        "startDate": "2020-02-02",
+        "startHour": "00:00:00",
+        "pitchAngle": 45,
+        "turbineMode": "production"
+      }
+    },
+    {
+      "name": "P1_sameMirror_2020-02-02_00:00:00_w5.5_p90",
+      "family": "P1_same_mirror",
+      "unlock": {
+        "startDate": "2020-02-02",
+        "startHour": "00:00:00",
+        "windMs": 5.5,
+        "pitchAngle": 90
+      },
+      "config": {
+        "startDate": "2020-02-02",
+        "startHour": "00:00:00",
+        "pitchAngle": 90,
+        "turbineMode": "idle"
+      }
+    }
+  ]
+}

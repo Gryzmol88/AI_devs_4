@@ -1,0 +1,11 @@
+{
+  "ok": false,
+  "blocked": false,
+  "command": "/opt/firmware/cooler/cooler.bin Ding",
+  "error": "HTTP 403 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -871,\n    \"message\": \"Invalid password.\"\n}",
+  "http_status": 403,
+  "error_code": -871,
+  "ban": null,
+  "is_ban": false,
+  "is_retryable": false
+}

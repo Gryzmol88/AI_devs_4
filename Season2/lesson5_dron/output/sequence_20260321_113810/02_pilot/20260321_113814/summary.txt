@@ -1,0 +1,5 @@
+Wynik agenta pilota
+- status: OK
+- flaga: {FLG:LETSFLY}
+- użyte koordynaty: (2,4)
+- liczba instrukcji finalnych: 9

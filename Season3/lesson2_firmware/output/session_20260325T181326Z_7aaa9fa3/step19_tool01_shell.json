@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "blocked": true,
+  "reason": "Komenda dotyka wpisu z .gitignore: /opt/firmware/cooler/logs/",
+  "command": "cat /opt/firmware/cooler/logs/.gitignore",
+  "required_bootstrap_command": null
+}

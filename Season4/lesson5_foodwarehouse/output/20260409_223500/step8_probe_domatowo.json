@@ -1,0 +1,17 @@
+{
+  "city": "domatowo",
+  "resolved_destination": "707536",
+  "attempted_count": 2,
+  "attempted": [
+    {
+      "destination": "415722",
+      "status_code": 400,
+      "reason": "Bad Request",
+      "body": "{\n    \"code\": -838,\n    \"message\": \"Field \\\"destination\\\" is not a valid city destination code.\"\n}"
+    },
+    {
+      "destination": "707536",
+      "result": "success"
+    }
+  ]
+}

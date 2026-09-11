@@ -1,0 +1,105 @@
+{
+  "hint_order": [
+    "J",
+    "D",
+    "I",
+    "B",
+    "A",
+    "C",
+    "G",
+    "E",
+    "H",
+    "F"
+  ],
+  "input_keys_order": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J"
+  ],
+  "source_mapping": {
+    "A": "i8461",
+    "B": "i4917",
+    "C": "i3685",
+    "D": "i3188",
+    "E": "i7391",
+    "F": "i5683",
+    "G": "i8830",
+    "H": "i0254",
+    "I": "i8095",
+    "J": "i3491"
+  },
+  "reordered_values": [
+    "i3491",
+    "i3188",
+    "i8095",
+    "i4917",
+    "i8461",
+    "i3685",
+    "i8830",
+    "i7391",
+    "i0254",
+    "i5683"
+  ],
+  "candidates": {
+    "joined_no_separator": "i3491i3188i8095i4917i8461i3685i8830i7391i0254i5683",
+    "joined_dash": "i3491-i3188-i8095-i4917-i8461-i3685-i8830-i7391-i0254-i5683",
+    "joined_space": "i3491 i3188 i8095 i4917 i8461 i3685 i8830 i7391 i0254 i5683",
+    "joined_comma": "i3491,i3188,i8095,i4917,i8461,i3685,i8830,i7391,i0254,i5683"
+  },
+  "trace_meta": {
+    "trace_path": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season2\\lesson1_kontekst\\output\\api_trace.jsonl",
+    "selected_attempt": 1,
+    "value_source": "id",
+    "mapping_mode": "verify_order",
+    "ordered_values": [
+      "i8461",
+      "i4917",
+      "i3685",
+      "i3188",
+      "i7391",
+      "i5683",
+      "i8830",
+      "i0254",
+      "i8095",
+      "i3491"
+    ],
+    "detected_prompt_labels": [],
+    "detected_letter_markers": []
+  },
+  "submit": {
+    "ok": true,
+    "flag": "{FLG:SMUGGLER}",
+    "replay_step": "replay_10_F",
+    "label": "F",
+    "item_id": "i4283",
+    "status_code": 202,
+    "response_body": {
+      "code": 0,
+      "message": "ACCEPTED - {FLG:SMUGGLER} / sekret: {FLG:JUMPJUMP}",
+      "debug": {
+        "output": "NEU",
+        "tokens": 69,
+        "cached_tokens": 3,
+        "input_cost": 0.135,
+        "output_cost": 0.004,
+        "balance": 0.186,
+        "result": "correct classification",
+        "classified_items": 10,
+        "required_items": 10,
+        "global_cache_hit_rate": 4.3,
+        "global_cache_total_tokens": 651,
+        "global_cache_cached_tokens": 28,
+        "flag": "{FLG:SMUGGLER} / sekret: {FLG:JUMPJUMP}"
+      }
+    },
+    "prompt_template": "ID:{id}. Desc:{description}. Return DNG only for explicit weapon/attack device. Return NEU for ordinary industrial/electrical/mechanical parts and all reactor parts/components/fuel cassettes. Reply DNG or NEU.",
+    "csv_url": "https://hub.ag3nts.org/data/52b65cf5-2d1a-4fd2-ac76-7063b66b10fc/categorize.csv"
+  }
+}

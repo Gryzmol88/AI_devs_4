@@ -1,0 +1,14 @@
+- Zapytanie: SELECT d.id AS destination_id, d.code, c.id AS city_id FROM city_destination_map m JOIN cities c ON c.id=m.city_id JOIN destinations d ON d.id=m.destination_id WHERE c.name=? AND m.active=1 ORDER BY m.priority DESC LIMIT 1;
+  Pola do sprawdzenia: m.active, m.priority, m.valid_from, m.valid_to, d.status, c.country_id, d.country_id
+
+- Zapytanie: SELECT d.id AS destination_id, d.code, r.id AS region_id FROM regions r JOIN region_destinations rd ON rd.region_id=r.id JOIN destinations d ON d.id=rd.destination_id WHERE r.id=(SELECT region_id FROM cities WHERE name=?) AND rd.active=1 ORDER BY rd.priority DESC LIMIT 1;
+  Pola do sprawdzenia: rd.active, rd.priority, r.name, d.type, d.capacity, dopasowanie country_id
+
+- Zapytanie: SELECT d.id AS destination_id, d.code, zp.prefix FROM zip_prefix_map zp JOIN destinations d ON d.id=zp.destination_id WHERE zp.city_id=(SELECT id FROM cities WHERE name=?) AND SUBSTRING(?,1,LENGTH(zp.prefix))=zp.prefix AND zp.active=1 ORDER BY LENGTH(zp.prefix) DESC LIMIT 1;
+  Pola do sprawdzenia: zp.prefix, kolizje prefixów, zp.active, zp.valid_to, d.status
+
+- Zapytanie: SELECT o.id AS order_id, sd.key_id, sd.algorithm, sd.version, sd.nonce, sd.expires_at FROM orders o JOIN signature_defaults sd ON sd.tenant_id=o.tenant_id WHERE o.id=?;
+  Pola do sprawdzenia: key_id, algorithm (np. HMAC-SHA256), version, nonce unikalny, expires_at, clock_skew, tenant_id
+
+- Zapytanie: SELECT s.message_id, s.canonical_string, s.headers_canonical, s.body_sha256, s.signature, s.key_id, s.algorithm, s.signed_at, s.expires_at FROM signatures s WHERE s.message_id=?;
+  Pola do sprawdzenia: canonical_string normalizacja, kolejność nagłówków, body_sha256, format signature (hex/base64), signed_at vs expires_at, key rotation (key_id)

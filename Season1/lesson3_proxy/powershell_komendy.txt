@@ -1,0 +1,38 @@
+
+###ZADANIE GŁÓWNE#######
+
+####UVICORN####
+cd m:\Michal\Programowanie\PYTHON\AI_devs_4
+.\.venv\Scripts\Activate.ps1
+cd lesson3_proxy
+uvicorn app.main:app --host 0.0.0.0 --port 3000 --reload
+
+
+####NGROK#####
+cd m:\Michal\Programowanie\PYTHON\AI_devs_4xxfdggf
+.\.venv\Scripts\Activate.ps1
+$ng = "C:\Users\mnadr\AppData\Local\Microsoft\WinGet\Packages\Ngrok.Ngrok_Microsoft.Winget.Source_8wekyb3d8bbwe\ngrok.exe"
+& $ng http 3000
+
+###ZACZYTANIE ZMIENNYCH####
+cd m:\Michal\Programowanie\PYTHON\AI_devs_4
+.\.venv\Scripts\Activate.ps1
+
+# 1) zaladuj .env do zmiennych sesji PowerShell
+Get-Content .env | ForEach-Object {
+  if ($_ -match '^\s*#' -or $_ -notmatch '=') { return }
+  $name, $value = $_ -split '=', 2
+  [System.Environment]::SetEnvironmentVariable($name.Trim(), $value.Trim().Trim('"').Trim("'"), "Process")
+}
+
+# 2) sprawdz czy token jest dostepny
+$env:NGROK_AUTH_TOKEN
+
+
+###
+Invoke-RestMethod -Method POST -Uri "https://TWOJ_URL_NGROK/" -ContentType "application/json" -Body '{"sessionID":"test1","msg":"Sprawdz paczke PKG12345678"}'
+
+
+####ZADANIE POBOCZNE######
+cd m:\Michal\Programowanie\PYTHON\AI_devs_4\lesson3_proxy
+.\scripts\probe_sidequest.ps1 -Url "https://nontheoretic-unsublimed-aundrea.ngrok-free.dev/"

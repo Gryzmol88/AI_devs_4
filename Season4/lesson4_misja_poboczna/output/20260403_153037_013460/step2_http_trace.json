@@ -1,0 +1,305 @@
+[
+  {
+    "startedAt": "2026-04-03T15:30:37.015",
+    "finishedAt": "2026-04-03T15:30:37.569",
+    "http": {
+      "statusCode": 200,
+      "ok": true
+    },
+    "request": {
+      "task": "filesystem",
+      "answer": {
+        "action": "help"
+      }
+    },
+    "response": {
+      "code": 5,
+      "message": "Filesystem usage manual.",
+      "limits": {
+        "max_directory_name_length": 30,
+        "max_file_name_length": 20,
+        "max_directory_depth": 3,
+        "allowed_name_pattern": "^[a-z0-9_]+$",
+        "global_unique_names": true
+      },
+      "batch_mode": {
+        "description": "You can send answer as an array of actions executed sequentially.",
+        "allowed_actions": [
+          "createFile",
+          "createDirectory",
+          "deleteFile",
+          "deleteDirectory",
+          "reset"
+        ],
+        "example": [
+          {
+            "action": "createDirectory",
+            "path": "/docs"
+          },
+          {
+            "action": "createFile",
+            "path": "/docs/readme",
+            "content": "hello"
+          },
+          {
+            "action": "deleteFile",
+            "path": "/docs/readme"
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "createFile",
+          "description": "Creates a new file or overwrites an existing one at the same path.",
+          "params": [
+            "path",
+            "content"
+          ],
+          "rules": [
+            "only markdown syntax is accepted in file content",
+            "markdown links must point to existing files"
+          ],
+          "example": {
+            "action": "createFile",
+            "path": "/docs/readme",
+            "content": "Hello"
+          }
+        },
+        {
+          "action": "createDirectory",
+          "description": "Creates a new directory under an existing parent directory.",
+          "params": [
+            "path"
+          ],
+          "example": {
+            "action": "createDirectory",
+            "path": "/docs"
+          }
+        },
+        {
+          "action": "deleteFile",
+          "description": "Deletes an existing file at the given path.",
+          "params": [
+            "path"
+          ],
+          "example": {
+            "action": "deleteFile",
+            "path": "/docs/readme"
+          }
+        },
+        {
+          "action": "deleteDirectory",
+          "description": "Deletes an existing directory together with all nested files and folders.",
+          "params": [
+            "path"
+          ],
+          "example": {
+            "action": "deleteDirectory",
+            "path": "/docs"
+          }
+        },
+        {
+          "action": "listFiles",
+          "description": "Lists files from a directory with their names, creation timestamps and sizes.",
+          "params": [
+            "path (optional, default: /)"
+          ],
+          "example": {
+            "action": "listFiles",
+            "path": "/docs"
+          }
+        },
+        {
+          "action": "reset",
+          "description": "Clears the whole virtual filesystem and restores only the root directory.",
+          "params": [],
+          "example": {
+            "action": "reset"
+          }
+        },
+        {
+          "action": "done",
+          "description": "Runs final validation of the filesystem against all task rules.",
+          "params": [],
+          "example": {
+            "action": "done"
+          }
+        },
+        {
+          "action": "help",
+          "description": "Returns a compact manual with available actions and parameter examples.",
+          "params": [],
+          "example": {
+            "action": "help"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "startedAt": "2026-04-03T15:30:37.569",
+    "finishedAt": "2026-04-03T15:30:37.619",
+    "http": {
+      "statusCode": 200,
+      "ok": true
+    },
+    "request": {
+      "task": "filesystem",
+      "answer": {
+        "action": "reset"
+      }
+    },
+    "response": {
+      "code": 47,
+      "message": "Filesystem reset completed.",
+      "removed_files": 0,
+      "removed_directories": 0
+    }
+  },
+  {
+    "startedAt": "2026-04-03T15:30:37.620",
+    "finishedAt": "2026-04-03T15:30:37.681",
+    "http": {
+      "statusCode": 200,
+      "ok": true
+    },
+    "request": {
+      "task": "filesystem",
+      "answer": {
+        "action": "createDirectory",
+        "path": "/flag"
+      }
+    },
+    "response": {
+      "code": 10,
+      "message": "Directory created.",
+      "path": "/flag"
+    }
+  },
+  {
+    "startedAt": "2026-04-03T15:30:37.683",
+    "finishedAt": "2026-04-03T15:30:37.734",
+    "http": {
+      "statusCode": 200,
+      "ok": true
+    },
+    "request": {
+      "task": "filesystem",
+      "answer": {
+        "action": "createFile",
+        "path": "/flag/f",
+        "content": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      }
+    },
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/flag/f"
+    }
+  },
+  {
+    "startedAt": "2026-04-03T15:30:37.735",
+    "finishedAt": "2026-04-03T15:30:37.784",
+    "http": {
+      "statusCode": 200,
+      "ok": true
+    },
+    "request": {
+      "task": "filesystem",
+      "answer": {
+        "action": "createFile",
+        "path": "/flag/l",
+        "content": "llllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll"
+      }
+    },
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/flag/l"
+    }
+  },
+  {
+    "startedAt": "2026-04-03T15:30:37.784",
+    "finishedAt": "2026-04-03T15:30:37.835",
+    "http": {
+      "statusCode": 200,
+      "ok": true
+    },
+    "request": {
+      "task": "filesystem",
+      "answer": {
+        "action": "createFile",
+        "path": "/flag/a",
+        "content": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      }
+    },
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/flag/a"
+    }
+  },
+  {
+    "startedAt": "2026-04-03T15:30:37.835",
+    "finishedAt": "2026-04-03T15:30:37.884",
+    "http": {
+      "statusCode": 200,
+      "ok": true
+    },
+    "request": {
+      "task": "filesystem",
+      "answer": {
+        "action": "createFile",
+        "path": "/flag/g",
+        "content": "ggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg"
+      }
+    },
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/flag/g"
+    }
+  },
+  {
+    "startedAt": "2026-04-03T15:30:37.884",
+    "finishedAt": "2026-04-03T15:30:37.933",
+    "http": {
+      "statusCode": 200,
+      "ok": true
+    },
+    "request": {
+      "task": "filesystem",
+      "answer": {
+        "action": "listFiles",
+        "path": "/flag"
+      }
+    },
+    "response": {
+      "code": 50,
+      "message": "Listing completed.",
+      "path": "/flag",
+      "entries": [
+        {
+          "name": "a",
+          "created_at": 1775223036,
+          "size": 65
+        },
+        {
+          "name": "f",
+          "created_at": 1775223036,
+          "size": 70
+        },
+        {
+          "name": "g",
+          "created_at": 1775223036,
+          "size": 71
+        },
+        {
+          "name": "l",
+          "created_at": 1775223036,
+          "size": 76
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "search_item": {
+    "rowID": 132,
+    "messageID": "e44a9452f38f95780ff41914fe5f3659",
+    "threadID": 62069,
+    "subject": "Przegląd świadczeń pozapłacowych",
+    "from": "benefity@corp-system.nwo",
+    "to": "operator04227@system.nwo",
+    "date": "2026-03-12 14:36",
+    "snippet": "W marcu rozpoczynamy przegląd ..."
+  },
+  "message_details": {
+    "ok": true,
+    "action": "getMessages",
+    "count": 1,
+    "items": [
+      {
+        "rowID": 132,
+        "messageID": "e44a9452f38f95780ff41914fe5f3659",
+        "threadID": 62069,
+        "subject": "Przegląd świadczeń pozapłacowych",
+        "message": "W marcu rozpoczynamy przegląd świadczeń pozapłacowych i ich ujednolicenie między jednostkami. Priorytetem jest spójność zasad i czytelna komunikacja dla pracowników.",
+        "from": "benefity@corp-system.nwo",
+        "to": "operator04227@system.nwo",
+        "date": "2026-03-12 14:36",
+        "request": 1
+      }
+    ],
+    "notFound": []
+  }
+}

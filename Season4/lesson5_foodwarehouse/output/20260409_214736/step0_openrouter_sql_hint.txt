@@ -1,0 +1,20 @@
+- Bezpośrednie mapowanie miasto -> destination
+  Zapytanie: SELECT c.id AS city_id, c.name AS city, d.id AS destination_id, d.code FROM cities c JOIN destinations d ON d.city_id = c.id WHERE d.is_active = 1;
+  Sprawdź pola: city_id, city, destination_id, code, is_active, valid_from, valid_to.
+
+- Fallback po regionie/kraju (COALESCE)
+  Zapytanie: SELECT c.name AS city, COALESCE(dc.destination_id, dr.destination_id, dn.destination_id) AS destination_id FROM cities c LEFT JOIN destination_city dc ON dc.city_id = c.id LEFT JOIN destination_region dr ON dr.region_id = c.region_id LEFT JOIN destination_country dn ON dn.country_code = c.country_code;
+  Sprawdź pola: region_id, country_code, źródło_mapowania (city/region/country), priority_order, effective_from/effective_to.
+
+- Mapowanie z aliasami/synonimami miasta
+  Zapytanie: SELECT ca.alias AS city, d.id AS destination_id FROM city_aliases ca JOIN cities c ON c.id = ca.city_id JOIN destinations d ON d.city_id = c.id WHERE ca.is_active = 1;
+  Sprawdź pola: alias, city_id, source (np. user/system), is_primary, match_score.
+
+- Audyt braków i duplikatów powiązań
+  Braki: SELECT c.name AS city FROM cities c LEFT JOIN destinations d ON d.city_id = c.id WHERE d.id IS NULL;
+  Duplikaty: SELECT c.name, COUNT(DISTINCT d.id) AS dest_cnt FROM cities c JOIN destinations d ON d.city_id = c.id GROUP BY c.name HAVING COUNT(DISTINCT d.id) > 1;
+  Sprawdź pola: updated_at, is_active, dest_cnt, last_mapping_source.
+
+- Dane do signatureGenerator (kanoniczne pola do podpisu)
+  Zapytanie: SELECT r.request_id, r.client_id, ac.api_key, ac.secret_id, r.method, r.path, r.timestamp_utc, r.nonce, r.payload_hash, r.algorithm, r.version FROM requests r JOIN api_clients ac ON ac.client_id = r.client_id WHERE r.status = 'PENDING';
+  Sprawdź pola: request_id, client_id/api_key, timestamp_utc (strefa/czas), nonce (unikalność), method, path, payload_hash (sha256), algorithm (np. HMAC-SHA256), version, secret_id (bez zwracania samego sekretu).

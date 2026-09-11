@@ -1,0 +1,4067 @@
+{
+  "generatedAt": "2026-04-02T14:25:03.753",
+  "results": [
+    {
+      "case": {
+        "name": "all_mirror_2020_11_11_w11_p0_same_config",
+        "unlock": {
+          "startDate": "2020-02-02",
+          "startHour": "11:11:00",
+          "windMs": 11,
+          "pitchAngle": 0
+        },
+        "config": {
+          "startDate": "2020-02-02",
+          "startHour": "11:11:00",
+          "pitchAngle": 0,
+          "turbineMode": "production"
+        }
+      },
+      "executedAt": "2026-04-02T14:24:12.802",
+      "unlockCode": "86b8c36eff86d409cc971b3c624205cd",
+      "flag": "",
+      "responses": {
+        "start": {
+          "code": 60,
+          "message": "Windpower session started.",
+          "sessionStart": "2026-04-02 14:23:55",
+          "sessionTimeout": 40
+        },
+        "unlockEnqueue": {
+          "code": 14,
+          "message": "Task has been queued. Use getResult to retrieve the response."
+        },
+        "unlockResult": {
+          "code": 12,
+          "message": "Queued response retrieved.",
+          "sourceFunction": "unlockCodeGenerator",
+          "unlockCode": "86b8c36eff86d409cc971b3c624205cd",
+          "signedParams": {
+            "startDate": "2020-02-02",
+            "startHour": "11:11:00",
+            "windMs": "11.0",
+            "pitchAngle": "0.0"
+          }
+        },
+        "config": {
+          "code": 10,
+          "message": "Config point accepted and stored.",
+          "storedPoints": 1
+        },
+        "postConfigResult": {
+          "timeout": true,
+          "message": "No non-empty queued message after config."
+        }
+      },
+      "trace": [
+        {
+          "startedAt": "2026-04-02T14:23:54.969",
+          "finishedAt": "2026-04-02T14:23:55.428",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "start"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 60,
+            "message": "Windpower session started.",
+            "sessionStart": "2026-04-02 14:23:55",
+            "sessionTimeout": 40
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:23:55.428",
+          "finishedAt": "2026-04-02T14:23:55.479",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "unlockCodeGenerator",
+              "startDate": "2020-02-02",
+              "startHour": "11:11:00",
+              "windMs": 11,
+              "pitchAngle": 0
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 14,
+            "message": "Task has been queued. Use getResult to retrieve the response."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:23:55.479",
+          "finishedAt": "2026-04-02T14:23:55.529",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:23:55.829",
+          "finishedAt": "2026-04-02T14:23:55.877",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:23:56.178",
+          "finishedAt": "2026-04-02T14:23:56.226",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:23:56.526",
+          "finishedAt": "2026-04-02T14:23:56.576",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:23:56.876",
+          "finishedAt": "2026-04-02T14:23:56.922",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:23:57.223",
+          "finishedAt": "2026-04-02T14:23:57.272",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:23:57.572",
+          "finishedAt": "2026-04-02T14:23:57.621",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 12,
+            "message": "Queued response retrieved.",
+            "sourceFunction": "unlockCodeGenerator",
+            "unlockCode": "86b8c36eff86d409cc971b3c624205cd",
+            "signedParams": {
+              "startDate": "2020-02-02",
+              "startHour": "11:11:00",
+              "windMs": "11.0",
+              "pitchAngle": "0.0"
+            }
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:23:57.621",
+          "finishedAt": "2026-04-02T14:23:57.672",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "config",
+              "startDate": "2020-02-02",
+              "startHour": "11:11:00",
+              "pitchAngle": 0,
+              "turbineMode": "production",
+              "unlockCode": "86b8c36eff86d409cc971b3c624205cd"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 10,
+            "message": "Config point accepted and stored.",
+            "storedPoints": 1
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:23:57.672",
+          "finishedAt": "2026-04-02T14:23:57.722",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:23:58.023",
+          "finishedAt": "2026-04-02T14:23:58.071",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:23:58.372",
+          "finishedAt": "2026-04-02T14:23:58.419",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:23:58.719",
+          "finishedAt": "2026-04-02T14:23:58.767",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:23:59.068",
+          "finishedAt": "2026-04-02T14:23:59.115",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:23:59.416",
+          "finishedAt": "2026-04-02T14:23:59.468",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:23:59.768",
+          "finishedAt": "2026-04-02T14:23:59.820",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:00.120",
+          "finishedAt": "2026-04-02T14:24:00.169",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:00.469",
+          "finishedAt": "2026-04-02T14:24:00.516",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:00.817",
+          "finishedAt": "2026-04-02T14:24:00.867",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:01.167",
+          "finishedAt": "2026-04-02T14:24:01.215",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:01.515",
+          "finishedAt": "2026-04-02T14:24:01.564",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:01.864",
+          "finishedAt": "2026-04-02T14:24:01.918",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:02.219",
+          "finishedAt": "2026-04-02T14:24:02.274",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:02.575",
+          "finishedAt": "2026-04-02T14:24:02.625",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:02.926",
+          "finishedAt": "2026-04-02T14:24:02.978",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:03.278",
+          "finishedAt": "2026-04-02T14:24:03.326",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:03.626",
+          "finishedAt": "2026-04-02T14:24:03.680",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:03.980",
+          "finishedAt": "2026-04-02T14:24:04.029",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:04.329",
+          "finishedAt": "2026-04-02T14:24:04.380",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:04.680",
+          "finishedAt": "2026-04-02T14:24:04.730",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:05.030",
+          "finishedAt": "2026-04-02T14:24:05.083",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:05.383",
+          "finishedAt": "2026-04-02T14:24:05.437",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:05.737",
+          "finishedAt": "2026-04-02T14:24:05.785",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:06.086",
+          "finishedAt": "2026-04-02T14:24:06.137",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:06.438",
+          "finishedAt": "2026-04-02T14:24:06.489",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:06.789",
+          "finishedAt": "2026-04-02T14:24:06.837",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:07.138",
+          "finishedAt": "2026-04-02T14:24:07.195",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:07.496",
+          "finishedAt": "2026-04-02T14:24:07.549",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:07.849",
+          "finishedAt": "2026-04-02T14:24:07.897",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:08.197",
+          "finishedAt": "2026-04-02T14:24:08.287",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:08.588",
+          "finishedAt": "2026-04-02T14:24:08.636",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:08.936",
+          "finishedAt": "2026-04-02T14:24:08.987",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:09.287",
+          "finishedAt": "2026-04-02T14:24:09.337",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:09.637",
+          "finishedAt": "2026-04-02T14:24:09.686",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:09.987",
+          "finishedAt": "2026-04-02T14:24:10.035",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:10.335",
+          "finishedAt": "2026-04-02T14:24:10.386",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:10.687",
+          "finishedAt": "2026-04-02T14:24:10.740",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:11.040",
+          "finishedAt": "2026-04-02T14:24:11.091",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:11.392",
+          "finishedAt": "2026-04-02T14:24:11.446",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:11.746",
+          "finishedAt": "2026-04-02T14:24:11.796",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:12.097",
+          "finishedAt": "2026-04-02T14:24:12.147",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:12.447",
+          "finishedAt": "2026-04-02T14:24:12.501",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        }
+      ]
+    },
+    {
+      "case": {
+        "name": "all_mirror_2020_11_11_w11_p90_idle",
+        "unlock": {
+          "startDate": "2020-02-02",
+          "startHour": "11:11:00",
+          "windMs": 11,
+          "pitchAngle": 90
+        },
+        "config": {
+          "startDate": "2020-02-02",
+          "startHour": "11:11:00",
+          "pitchAngle": 90,
+          "turbineMode": "idle"
+        }
+      },
+      "executedAt": "2026-04-02T14:24:29.744",
+      "unlockCode": "0fcb2c1cf37ce25487e93ecf6bcc35e6",
+      "flag": "",
+      "responses": {
+        "start": {
+          "code": 60,
+          "message": "Windpower session started.",
+          "sessionStart": "2026-04-02 14:24:12",
+          "sessionTimeout": 40
+        },
+        "unlockEnqueue": {
+          "code": 14,
+          "message": "Task has been queued. Use getResult to retrieve the response."
+        },
+        "unlockResult": {
+          "code": 12,
+          "message": "Queued response retrieved.",
+          "sourceFunction": "unlockCodeGenerator",
+          "unlockCode": "0fcb2c1cf37ce25487e93ecf6bcc35e6",
+          "signedParams": {
+            "startDate": "2020-02-02",
+            "startHour": "11:11:00",
+            "windMs": "11.0",
+            "pitchAngle": "90.0"
+          }
+        },
+        "config": {
+          "code": 10,
+          "message": "Config point accepted and stored.",
+          "storedPoints": 1
+        },
+        "postConfigResult": {
+          "timeout": true,
+          "message": "No non-empty queued message after config."
+        }
+      },
+      "trace": [
+        {
+          "startedAt": "2026-04-02T14:24:12.802",
+          "finishedAt": "2026-04-02T14:24:12.851",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "start"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 60,
+            "message": "Windpower session started.",
+            "sessionStart": "2026-04-02 14:24:12",
+            "sessionTimeout": 40
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:12.851",
+          "finishedAt": "2026-04-02T14:24:12.897",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "unlockCodeGenerator",
+              "startDate": "2020-02-02",
+              "startHour": "11:11:00",
+              "windMs": 11,
+              "pitchAngle": 90
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 14,
+            "message": "Task has been queued. Use getResult to retrieve the response."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:12.897",
+          "finishedAt": "2026-04-02T14:24:12.945",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:13.246",
+          "finishedAt": "2026-04-02T14:24:13.296",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:13.596",
+          "finishedAt": "2026-04-02T14:24:13.645",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:13.945",
+          "finishedAt": "2026-04-02T14:24:13.997",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:14.297",
+          "finishedAt": "2026-04-02T14:24:14.345",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:14.646",
+          "finishedAt": "2026-04-02T14:24:14.693",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 12,
+            "message": "Queued response retrieved.",
+            "sourceFunction": "unlockCodeGenerator",
+            "unlockCode": "0fcb2c1cf37ce25487e93ecf6bcc35e6",
+            "signedParams": {
+              "startDate": "2020-02-02",
+              "startHour": "11:11:00",
+              "windMs": "11.0",
+              "pitchAngle": "90.0"
+            }
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:14.693",
+          "finishedAt": "2026-04-02T14:24:14.741",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "config",
+              "startDate": "2020-02-02",
+              "startHour": "11:11:00",
+              "pitchAngle": 90,
+              "turbineMode": "idle",
+              "unlockCode": "0fcb2c1cf37ce25487e93ecf6bcc35e6"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 10,
+            "message": "Config point accepted and stored.",
+            "storedPoints": 1
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:14.741",
+          "finishedAt": "2026-04-02T14:24:14.787",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:15.087",
+          "finishedAt": "2026-04-02T14:24:15.134",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:15.435",
+          "finishedAt": "2026-04-02T14:24:15.484",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:15.784",
+          "finishedAt": "2026-04-02T14:24:15.832",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:16.132",
+          "finishedAt": "2026-04-02T14:24:16.178",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:16.479",
+          "finishedAt": "2026-04-02T14:24:16.526",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:16.826",
+          "finishedAt": "2026-04-02T14:24:16.873",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:17.174",
+          "finishedAt": "2026-04-02T14:24:17.222",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:17.522",
+          "finishedAt": "2026-04-02T14:24:17.572",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:17.873",
+          "finishedAt": "2026-04-02T14:24:17.922",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:18.223",
+          "finishedAt": "2026-04-02T14:24:18.270",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:18.571",
+          "finishedAt": "2026-04-02T14:24:18.621",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:18.921",
+          "finishedAt": "2026-04-02T14:24:18.969",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:19.269",
+          "finishedAt": "2026-04-02T14:24:19.318",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:19.618",
+          "finishedAt": "2026-04-02T14:24:19.667",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:19.968",
+          "finishedAt": "2026-04-02T14:24:20.017",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:20.317",
+          "finishedAt": "2026-04-02T14:24:20.367",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:20.667",
+          "finishedAt": "2026-04-02T14:24:20.715",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:21.016",
+          "finishedAt": "2026-04-02T14:24:21.063",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:21.364",
+          "finishedAt": "2026-04-02T14:24:21.414",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:21.714",
+          "finishedAt": "2026-04-02T14:24:21.763",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:22.063",
+          "finishedAt": "2026-04-02T14:24:22.112",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:22.412",
+          "finishedAt": "2026-04-02T14:24:22.459",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:22.759",
+          "finishedAt": "2026-04-02T14:24:22.807",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:23.108",
+          "finishedAt": "2026-04-02T14:24:23.155",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:23.455",
+          "finishedAt": "2026-04-02T14:24:23.504",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:23.805",
+          "finishedAt": "2026-04-02T14:24:23.855",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:24.155",
+          "finishedAt": "2026-04-02T14:24:24.203",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:24.504",
+          "finishedAt": "2026-04-02T14:24:24.551",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:24.851",
+          "finishedAt": "2026-04-02T14:24:24.901",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:25.201",
+          "finishedAt": "2026-04-02T14:24:25.250",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:25.551",
+          "finishedAt": "2026-04-02T14:24:25.601",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:25.901",
+          "finishedAt": "2026-04-02T14:24:25.948",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:26.249",
+          "finishedAt": "2026-04-02T14:24:26.299",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:26.599",
+          "finishedAt": "2026-04-02T14:24:26.647",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:26.948",
+          "finishedAt": "2026-04-02T14:24:26.999",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:27.299",
+          "finishedAt": "2026-04-02T14:24:27.348",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:27.649",
+          "finishedAt": "2026-04-02T14:24:27.697",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:27.997",
+          "finishedAt": "2026-04-02T14:24:28.045",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:28.345",
+          "finishedAt": "2026-04-02T14:24:28.395",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:28.696",
+          "finishedAt": "2026-04-02T14:24:28.744",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:29.044",
+          "finishedAt": "2026-04-02T14:24:29.095",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:29.395",
+          "finishedAt": "2026-04-02T14:24:29.444",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        }
+      ]
+    },
+    {
+      "case": {
+        "name": "unlock_mirror_config_normal_datehour",
+        "unlock": {
+          "startDate": "2020-02-02",
+          "startHour": "12:21:00",
+          "windMs": 4.4,
+          "pitchAngle": 45
+        },
+        "config": {
+          "startDate": "2026-04-02",
+          "startHour": "12:00:00",
+          "pitchAngle": 45,
+          "turbineMode": "production"
+        }
+      },
+      "executedAt": "2026-04-02T14:24:46.730",
+      "unlockCode": "bcc4aed1aa70f76a9e6d87989b818787",
+      "flag": "",
+      "responses": {
+        "start": {
+          "code": 60,
+          "message": "Windpower session started.",
+          "sessionStart": "2026-04-02 14:24:29",
+          "sessionTimeout": 40
+        },
+        "unlockEnqueue": {
+          "code": 14,
+          "message": "Task has been queued. Use getResult to retrieve the response."
+        },
+        "unlockResult": {
+          "code": 12,
+          "message": "Queued response retrieved.",
+          "sourceFunction": "unlockCodeGenerator",
+          "unlockCode": "bcc4aed1aa70f76a9e6d87989b818787",
+          "signedParams": {
+            "startDate": "2020-02-02",
+            "startHour": "12:21:00",
+            "windMs": "4.4",
+            "pitchAngle": "45.0"
+          }
+        },
+        "config": {
+          "code": 10,
+          "message": "Config point accepted and stored.",
+          "storedPoints": 1
+        },
+        "postConfigResult": {
+          "timeout": true,
+          "message": "No non-empty queued message after config."
+        }
+      },
+      "trace": [
+        {
+          "startedAt": "2026-04-02T14:24:29.744",
+          "finishedAt": "2026-04-02T14:24:29.793",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "start"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 60,
+            "message": "Windpower session started.",
+            "sessionStart": "2026-04-02 14:24:29",
+            "sessionTimeout": 40
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:29.793",
+          "finishedAt": "2026-04-02T14:24:29.841",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "unlockCodeGenerator",
+              "startDate": "2020-02-02",
+              "startHour": "12:21:00",
+              "windMs": 4.4,
+              "pitchAngle": 45
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 14,
+            "message": "Task has been queued. Use getResult to retrieve the response."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:29.841",
+          "finishedAt": "2026-04-02T14:24:29.888",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:30.189",
+          "finishedAt": "2026-04-02T14:24:30.238",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:30.539",
+          "finishedAt": "2026-04-02T14:24:30.588",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:30.889",
+          "finishedAt": "2026-04-02T14:24:30.940",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:31.241",
+          "finishedAt": "2026-04-02T14:24:31.291",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:31.591",
+          "finishedAt": "2026-04-02T14:24:31.643",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 12,
+            "message": "Queued response retrieved.",
+            "sourceFunction": "unlockCodeGenerator",
+            "unlockCode": "bcc4aed1aa70f76a9e6d87989b818787",
+            "signedParams": {
+              "startDate": "2020-02-02",
+              "startHour": "12:21:00",
+              "windMs": "4.4",
+              "pitchAngle": "45.0"
+            }
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:31.644",
+          "finishedAt": "2026-04-02T14:24:31.693",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "config",
+              "startDate": "2026-04-02",
+              "startHour": "12:00:00",
+              "pitchAngle": 45,
+              "turbineMode": "production",
+              "unlockCode": "bcc4aed1aa70f76a9e6d87989b818787"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 10,
+            "message": "Config point accepted and stored.",
+            "storedPoints": 1
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:31.693",
+          "finishedAt": "2026-04-02T14:24:31.743",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:32.043",
+          "finishedAt": "2026-04-02T14:24:32.094",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:32.395",
+          "finishedAt": "2026-04-02T14:24:32.447",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:32.748",
+          "finishedAt": "2026-04-02T14:24:32.798",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:33.099",
+          "finishedAt": "2026-04-02T14:24:33.148",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:33.449",
+          "finishedAt": "2026-04-02T14:24:33.498",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:33.799",
+          "finishedAt": "2026-04-02T14:24:33.849",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:34.150",
+          "finishedAt": "2026-04-02T14:24:34.207",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:34.507",
+          "finishedAt": "2026-04-02T14:24:34.557",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:34.857",
+          "finishedAt": "2026-04-02T14:24:34.909",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:35.210",
+          "finishedAt": "2026-04-02T14:24:35.257",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:35.558",
+          "finishedAt": "2026-04-02T14:24:35.606",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:35.906",
+          "finishedAt": "2026-04-02T14:24:35.957",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:36.257",
+          "finishedAt": "2026-04-02T14:24:36.306",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:36.607",
+          "finishedAt": "2026-04-02T14:24:36.655",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:36.956",
+          "finishedAt": "2026-04-02T14:24:37.002",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:37.303",
+          "finishedAt": "2026-04-02T14:24:37.352",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:37.652",
+          "finishedAt": "2026-04-02T14:24:37.699",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:37.999",
+          "finishedAt": "2026-04-02T14:24:38.046",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:38.347",
+          "finishedAt": "2026-04-02T14:24:38.396",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:38.696",
+          "finishedAt": "2026-04-02T14:24:38.745",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:39.045",
+          "finishedAt": "2026-04-02T14:24:39.096",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:39.397",
+          "finishedAt": "2026-04-02T14:24:39.446",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:39.746",
+          "finishedAt": "2026-04-02T14:24:39.794",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:40.094",
+          "finishedAt": "2026-04-02T14:24:40.146",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:40.446",
+          "finishedAt": "2026-04-02T14:24:40.495",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:40.796",
+          "finishedAt": "2026-04-02T14:24:40.844",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:41.145",
+          "finishedAt": "2026-04-02T14:24:41.193",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:41.493",
+          "finishedAt": "2026-04-02T14:24:41.543",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:41.843",
+          "finishedAt": "2026-04-02T14:24:41.891",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:42.191",
+          "finishedAt": "2026-04-02T14:24:42.242",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:42.542",
+          "finishedAt": "2026-04-02T14:24:42.589",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:42.889",
+          "finishedAt": "2026-04-02T14:24:42.937",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:43.237",
+          "finishedAt": "2026-04-02T14:24:43.285",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:43.585",
+          "finishedAt": "2026-04-02T14:24:43.633",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:43.934",
+          "finishedAt": "2026-04-02T14:24:43.983",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:44.283",
+          "finishedAt": "2026-04-02T14:24:44.331",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:44.631",
+          "finishedAt": "2026-04-02T14:24:44.679",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:44.980",
+          "finishedAt": "2026-04-02T14:24:45.030",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:45.331",
+          "finishedAt": "2026-04-02T14:24:45.381",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:45.681",
+          "finishedAt": "2026-04-02T14:24:45.730",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:46.031",
+          "finishedAt": "2026-04-02T14:24:46.080",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:46.380",
+          "finishedAt": "2026-04-02T14:24:46.429",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        }
+      ]
+    },
+    {
+      "case": {
+        "name": "unlock_normal_config_mirror",
+        "unlock": {
+          "startDate": "2026-04-02",
+          "startHour": "12:00:00",
+          "windMs": 12,
+          "pitchAngle": 45
+        },
+        "config": {
+          "startDate": "2020-02-02",
+          "startHour": "12:21:00",
+          "pitchAngle": 45,
+          "turbineMode": "production"
+        }
+      },
+      "executedAt": "2026-04-02T14:25:03.753",
+      "unlockCode": "b93ab4f6c61e43d8659e87d3fd6641a7",
+      "flag": "",
+      "responses": {
+        "start": {
+          "code": 60,
+          "message": "Windpower session started.",
+          "sessionStart": "2026-04-02 14:24:46",
+          "sessionTimeout": 40
+        },
+        "unlockEnqueue": {
+          "code": 14,
+          "message": "Task has been queued. Use getResult to retrieve the response."
+        },
+        "unlockResult": {
+          "code": 12,
+          "message": "Queued response retrieved.",
+          "sourceFunction": "unlockCodeGenerator",
+          "unlockCode": "b93ab4f6c61e43d8659e87d3fd6641a7",
+          "signedParams": {
+            "startDate": "2026-04-02",
+            "startHour": "12:00:00",
+            "windMs": "12.0",
+            "pitchAngle": "45.0"
+          }
+        },
+        "config": {
+          "code": 10,
+          "message": "Config point accepted and stored.",
+          "storedPoints": 1
+        },
+        "postConfigResult": {
+          "timeout": true,
+          "message": "No non-empty queued message after config."
+        }
+      },
+      "trace": [
+        {
+          "startedAt": "2026-04-02T14:24:46.730",
+          "finishedAt": "2026-04-02T14:24:46.781",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "start"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 60,
+            "message": "Windpower session started.",
+            "sessionStart": "2026-04-02 14:24:46",
+            "sessionTimeout": 40
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:46.781",
+          "finishedAt": "2026-04-02T14:24:46.830",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "unlockCodeGenerator",
+              "startDate": "2026-04-02",
+              "startHour": "12:00:00",
+              "windMs": 12,
+              "pitchAngle": 45
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 14,
+            "message": "Task has been queued. Use getResult to retrieve the response."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:46.830",
+          "finishedAt": "2026-04-02T14:24:46.878",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:47.178",
+          "finishedAt": "2026-04-02T14:24:47.226",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:47.527",
+          "finishedAt": "2026-04-02T14:24:47.577",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:47.877",
+          "finishedAt": "2026-04-02T14:24:47.927",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:48.228",
+          "finishedAt": "2026-04-02T14:24:48.275",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:48.576",
+          "finishedAt": "2026-04-02T14:24:48.624",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 12,
+            "message": "Queued response retrieved.",
+            "sourceFunction": "unlockCodeGenerator",
+            "unlockCode": "b93ab4f6c61e43d8659e87d3fd6641a7",
+            "signedParams": {
+              "startDate": "2026-04-02",
+              "startHour": "12:00:00",
+              "windMs": "12.0",
+              "pitchAngle": "45.0"
+            }
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:48.624",
+          "finishedAt": "2026-04-02T14:24:48.675",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "config",
+              "startDate": "2020-02-02",
+              "startHour": "12:21:00",
+              "pitchAngle": 45,
+              "turbineMode": "production",
+              "unlockCode": "b93ab4f6c61e43d8659e87d3fd6641a7"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 10,
+            "message": "Config point accepted and stored.",
+            "storedPoints": 1
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:48.675",
+          "finishedAt": "2026-04-02T14:24:48.728",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:49.029",
+          "finishedAt": "2026-04-02T14:24:49.079",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:49.379",
+          "finishedAt": "2026-04-02T14:24:49.428",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:49.728",
+          "finishedAt": "2026-04-02T14:24:49.776",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:50.077",
+          "finishedAt": "2026-04-02T14:24:50.124",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:50.425",
+          "finishedAt": "2026-04-02T14:24:50.475",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:50.776",
+          "finishedAt": "2026-04-02T14:24:50.822",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:51.122",
+          "finishedAt": "2026-04-02T14:24:51.171",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:51.472",
+          "finishedAt": "2026-04-02T14:24:51.523",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:51.824",
+          "finishedAt": "2026-04-02T14:24:51.870",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:52.171",
+          "finishedAt": "2026-04-02T14:24:52.219",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:52.520",
+          "finishedAt": "2026-04-02T14:24:52.609",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:52.910",
+          "finishedAt": "2026-04-02T14:24:52.957",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:53.258",
+          "finishedAt": "2026-04-02T14:24:53.307",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:53.607",
+          "finishedAt": "2026-04-02T14:24:53.656",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:53.956",
+          "finishedAt": "2026-04-02T14:24:54.010",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:54.311",
+          "finishedAt": "2026-04-02T14:24:54.361",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:54.661",
+          "finishedAt": "2026-04-02T14:24:54.710",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:55.010",
+          "finishedAt": "2026-04-02T14:24:55.061",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:55.361",
+          "finishedAt": "2026-04-02T14:24:55.412",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:55.712",
+          "finishedAt": "2026-04-02T14:24:55.760",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:56.061",
+          "finishedAt": "2026-04-02T14:24:56.111",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:56.411",
+          "finishedAt": "2026-04-02T14:24:56.460",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:56.761",
+          "finishedAt": "2026-04-02T14:24:56.810",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:57.110",
+          "finishedAt": "2026-04-02T14:24:57.161",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:57.461",
+          "finishedAt": "2026-04-02T14:24:57.509",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:57.809",
+          "finishedAt": "2026-04-02T14:24:57.862",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:58.162",
+          "finishedAt": "2026-04-02T14:24:58.211",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:58.512",
+          "finishedAt": "2026-04-02T14:24:58.561",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:58.861",
+          "finishedAt": "2026-04-02T14:24:58.910",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:59.211",
+          "finishedAt": "2026-04-02T14:24:59.260",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:59.560",
+          "finishedAt": "2026-04-02T14:24:59.607",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:24:59.908",
+          "finishedAt": "2026-04-02T14:24:59.959",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:25:00.259",
+          "finishedAt": "2026-04-02T14:25:00.307",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:25:00.608",
+          "finishedAt": "2026-04-02T14:25:00.657",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:25:00.958",
+          "finishedAt": "2026-04-02T14:25:01.013",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:25:01.313",
+          "finishedAt": "2026-04-02T14:25:01.361",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:25:01.661",
+          "finishedAt": "2026-04-02T14:25:01.708",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:25:02.008",
+          "finishedAt": "2026-04-02T14:25:02.057",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:25:02.358",
+          "finishedAt": "2026-04-02T14:25:02.407",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:25:02.707",
+          "finishedAt": "2026-04-02T14:25:02.757",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:25:03.058",
+          "finishedAt": "2026-04-02T14:25:03.104",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        },
+        {
+          "startedAt": "2026-04-02T14:25:03.404",
+          "finishedAt": "2026-04-02T14:25:03.453",
+          "request": {
+            "task": "windpower",
+            "answer": {
+              "action": "getResult"
+            }
+          },
+          "http": {
+            "statusCode": 200,
+            "ok": true
+          },
+          "response": {
+            "code": 11,
+            "message": "No completed queued response is available yet."
+          }
+        }
+      ]
+    }
+  ]
+}

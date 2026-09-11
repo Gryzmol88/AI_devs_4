@@ -1,0 +1,56 @@
+{
+  "id": "gen-1774462838-hO1DA7mliPXNEJLvqmoA",
+  "object": "chat.completion",
+  "created": 1774462838,
+  "model": "anthropic/claude-4.6-sonnet-20260217",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "tool_calls",
+      "native_finish_reason": "tool_use",
+      "message": {
+        "role": "assistant",
+        "content": "Mam dostępne komendy. Teraz zacznę systematycznie eksplorować środowisko.",
+        "refusal": null,
+        "reasoning": null,
+        "tool_calls": [
+          {
+            "type": "function",
+            "index": 0,
+            "id": "toolu_vrtx_01L9qBC5cBgKWULk1MmMKSWv",
+            "function": {
+              "name": "shell",
+              "arguments": "{\"command\": \"pwd\"}"
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 3048,
+    "completion_tokens": 69,
+    "total_tokens": 3117,
+    "cost": 0.010179,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.010179,
+      "upstream_inference_prompt_cost": 0.009144,
+      "upstream_inference_completions_cost": 0.001035
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

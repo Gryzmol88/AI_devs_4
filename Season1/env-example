@@ -1,0 +1,11 @@
+﻿OPENROUTER_API_KEY=
+PEOPLE_CSV_URL=https://hub.ag3nts.org/data/52b65cf5-2d1a-4fd2-ac76-7063b66b10fc/people.csv
+HUB_API_KEY=
+# lesson3_proxy settings
+OPENROUTER_MODEL=anthropic/claude-sonnet-4.6
+APP_PORT=3000
+MAX_TOOL_ITERATIONS=5
+PACKAGES_API_URL=https://hub.ag3nts.org/api/packages
+VERIFY_URL=https://hub.ag3nts.org/verify
+NGROK_AUTH_TOKEN=
+PROXY_URL=https://nontheoretic-unsublimed-aundrea.ngrok-free.dev/

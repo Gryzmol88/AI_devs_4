@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "blocked": true,
+  "reason": "Najpierw odczytaj /home/operator/notes/.gitignore przed pracą w tym katalogu",
+  "command": "cat /home/operator/notes/pass.txt",
+  "required_bootstrap_command": "cat /home/operator/notes/.gitignore"
+}

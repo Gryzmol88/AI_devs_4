@@ -1,0 +1,19 @@
+{
+  "attempt_index": 1,
+  "label": "action_check",
+  "payload": {
+    "apikey": "52b65cf5-2d1a-4fd2-ac76-7063b66b10fc",
+    "task": "negotiations",
+    "answer": {
+      "action": "check",
+      "include_censored": true,
+      "show_uncensored": true
+    }
+  },
+  "response": {
+    "code": -500,
+    "message": "No results yet. Your request may still be processing - try again in a moment."
+  },
+  "found_flag": null,
+  "notes": []
+}

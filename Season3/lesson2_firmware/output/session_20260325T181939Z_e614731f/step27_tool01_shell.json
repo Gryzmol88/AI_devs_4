@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "ls /opt/firmware/",
+  "response": {
+    "code": 120,
+    "message": "Directory listing.",
+    "path": "/opt/firmware",
+    "data": [
+      "cooler/"
+    ]
+  },
+  "detected_confirmation_code": null
+}

@@ -1,0 +1,1505 @@
+{
+  "trace": [
+    {
+      "step": "help",
+      "payload": {
+        "code": 65,
+        "message": "Domatowo API help.",
+        "usage": {
+          "endpoint": "/verify",
+          "method": "POST",
+          "required_fields": [
+            "apikey",
+            "task",
+            "answer"
+          ],
+          "task": "domatowo"
+        },
+        "actions": [
+          {
+            "action": "help",
+            "description": "Returns API usage and action reference.",
+            "params": []
+          },
+          {
+            "action": "reset",
+            "description": "Resets board state, queue and action points to defaults, then rolls partisan position again.",
+            "params": []
+          },
+          {
+            "action": "create",
+            "description": "Creates a new transporter or scout unit on the next free spawn slot (A6 -> D6).",
+            "params": {
+              "type": "transporter|scout",
+              "passengers": "1-4 (required only for transporter)"
+            }
+          },
+          {
+            "action": "move",
+            "description": "Queues movement of a unit to target field with calculated path (road-only for transporter, shortest orthogonal for scout).",
+            "params": {
+              "object": "hash",
+              "where": "A1..K11"
+            }
+          },
+          {
+            "action": "inspect",
+            "description": "Performs scout reconnaissance and appends a log entry based on current scout field.",
+            "params": {
+              "object": "hash (scout)"
+            }
+          },
+          {
+            "action": "dismount",
+            "description": "Removes selected number of scouts from transporter and spawns them on free tiles around vehicle.",
+            "params": {
+              "object": "hash (transporter)",
+              "passengers": "1-4"
+            }
+          },
+          {
+            "action": "getObjects",
+            "description": "Returns all currently known units with type, position and identifier.",
+            "params": []
+          },
+          {
+            "action": "getMap",
+            "description": "Returns clean map layout; optional symbols filter keeps only selected symbols/fields.",
+            "params": {
+              "symbols": "[optional] array of 2-char symbols or coordinates (e.g. KS, SZ, B3, C4)"
+            }
+          },
+          {
+            "action": "searchSymbol",
+            "description": "Searches clean map for all fields matching the provided 2-character symbol.",
+            "params": {
+              "symbol": "exactly 2 alphanumeric characters"
+            }
+          },
+          {
+            "action": "getLogs",
+            "description": "Returns collected inspect log entries.",
+            "params": []
+          },
+          {
+            "action": "expenses",
+            "description": "Returns action points spending history (action name and action cost).",
+            "params": []
+          },
+          {
+            "action": "actionCost",
+            "description": "Returns action points cost rules for all operations.",
+            "params": []
+          },
+          {
+            "action": "callHelicopter",
+            "description": "Calls evacuation helicopter to selected destination, but only after any scout confirms a human.",
+            "params": {
+              "destination": "A1..K11"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "step": "actionCost",
+      "payload": {
+        "code": 67,
+        "message": "Action costs loaded.",
+        "costs": [
+          {
+            "action": "create",
+            "variant": "scout",
+            "cost": 5
+          },
+          {
+            "action": "create",
+            "variant": "transporter",
+            "base_cost": 5,
+            "cost_per_passenger": 5,
+            "formula": "5 + (passengers * 5)"
+          },
+          {
+            "action": "move",
+            "variant": "scout",
+            "cost_per_field": 7,
+            "formula": "steps * 7"
+          },
+          {
+            "action": "move",
+            "variant": "transporter",
+            "cost_per_field": 1,
+            "formula": "steps * 1"
+          },
+          {
+            "action": "inspect",
+            "cost": 1
+          },
+          {
+            "action": "dismount",
+            "cost": 0
+          },
+          {
+            "action": "reset",
+            "cost": 0
+          },
+          {
+            "action": "getLogs",
+            "cost": 0
+          },
+          {
+            "action": "getObjects",
+            "cost": 0
+          },
+          {
+            "action": "getMap",
+            "cost": 0
+          },
+          {
+            "action": "searchSymbol",
+            "cost": 0
+          },
+          {
+            "action": "expenses",
+            "cost": 0
+          },
+          {
+            "action": "actionCost",
+            "cost": 0
+          },
+          {
+            "action": "callHelicopter",
+            "cost": 0
+          },
+          {
+            "action": "help",
+            "cost": 0
+          }
+        ]
+      }
+    },
+    {
+      "step": "getMap",
+      "payload": {
+        "code": 80,
+        "message": "Map loaded.",
+        "map": {
+          "name": "Domatowo",
+          "size": 11,
+          "tiles": {
+            "road": {
+              "label": "Ulica",
+              "symbol": "UL"
+            },
+            "tree": {
+              "label": "Drzewa",
+              "symbol": "DR"
+            },
+            "house": {
+              "label": "Dom",
+              "symbol": "DM"
+            },
+            "empty": {
+              "label": "Pusta przestrzen",
+              "symbol": "  "
+            },
+            "block1": {
+              "label": "Blok 1p",
+              "symbol": "B1"
+            },
+            "block2": {
+              "label": "Blok 2p",
+              "symbol": "B2"
+            },
+            "block3": {
+              "label": "Blok 3p",
+              "symbol": "B3"
+            },
+            "church": {
+              "label": "Kosciol",
+              "symbol": "KS"
+            },
+            "school": {
+              "label": "Szkola",
+              "symbol": "SZ"
+            },
+            "parking": {
+              "label": "Parking",
+              "symbol": "PK"
+            },
+            "field": {
+              "label": "Boisko",
+              "symbol": "BS"
+            }
+          },
+          "grid": [
+            [
+              "tree",
+              "road",
+              "road",
+              "road",
+              "empty",
+              "block3",
+              "block3",
+              "tree",
+              "empty",
+              "parking",
+              "parking"
+            ],
+            [
+              "tree",
+              "tree",
+              "empty",
+              "road",
+              "road",
+              "block3",
+              "block3",
+              "tree",
+              "road",
+              "parking",
+              "parking"
+            ],
+            [
+              "empty",
+              "empty",
+              "empty",
+              "road",
+              "parking",
+              "empty",
+              "empty",
+              "tree",
+              "road",
+              "empty",
+              "empty"
+            ],
+            [
+              "block1",
+              "block1",
+              "empty",
+              "road",
+              "parking",
+              "school",
+              "school",
+              "school",
+              "road",
+              "field",
+              "field"
+            ],
+            [
+              "block1",
+              "block1",
+              "empty",
+              "road",
+              "parking",
+              "school",
+              "school",
+              "school",
+              "road",
+              "field",
+              "field"
+            ],
+            [
+              "road",
+              "road",
+              "road",
+              "road",
+              "road",
+              "road",
+              "road",
+              "road",
+              "road",
+              "road",
+              "empty"
+            ],
+            [
+              "block2",
+              "block2",
+              "empty",
+              "road",
+              "empty",
+              "church",
+              "church",
+              "church",
+              "empty",
+              "tree",
+              "empty"
+            ],
+            [
+              "block2",
+              "block2",
+              "empty",
+              "road",
+              "empty",
+              "church",
+              "church",
+              "church",
+              "empty",
+              "tree",
+              "empty"
+            ],
+            [
+              "empty",
+              "road",
+              "road",
+              "road",
+              "road",
+              "road",
+              "road",
+              "road",
+              "road",
+              "road",
+              "empty"
+            ],
+            [
+              "block3",
+              "block3",
+              "block3",
+              "empty",
+              "tree",
+              "empty",
+              "empty",
+              "block3",
+              "block3",
+              "tree",
+              "empty"
+            ],
+            [
+              "block3",
+              "block3",
+              "block3",
+              "empty",
+              "tree",
+              "empty",
+              "empty",
+              "block3",
+              "block3",
+              "tree",
+              "empty"
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "step": "intel",
+      "payload": {
+        "cells": [
+          "F6",
+          "G6",
+          "F7",
+          "G7",
+          "H7",
+          "F8",
+          "G8",
+          "H8",
+          "F9",
+          "G9",
+          "H9",
+          "F10",
+          "G10",
+          "H10",
+          "F11",
+          "G11",
+          "H11",
+          "E6",
+          "E7",
+          "E8",
+          "B3",
+          "B2"
+        ],
+        "reason": "Sugestie z OpenRouter."
+      }
+    },
+    {
+      "step": "searchSymbol_B3",
+      "payload": {
+        "code": 90,
+        "message": "Symbol search completed.",
+        "symbol": "B3",
+        "found": [
+          {
+            "symbol": "B3",
+            "position": "F1"
+          },
+          {
+            "symbol": "B3",
+            "position": "G1"
+          },
+          {
+            "symbol": "B3",
+            "position": "F2"
+          },
+          {
+            "symbol": "B3",
+            "position": "G2"
+          },
+          {
+            "symbol": "B3",
+            "position": "A10"
+          },
+          {
+            "symbol": "B3",
+            "position": "B10"
+          },
+          {
+            "symbol": "B3",
+            "position": "C10"
+          },
+          {
+            "symbol": "B3",
+            "position": "H10"
+          },
+          {
+            "symbol": "B3",
+            "position": "I10"
+          },
+          {
+            "symbol": "B3",
+            "position": "A11"
+          },
+          {
+            "symbol": "B3",
+            "position": "B11"
+          },
+          {
+            "symbol": "B3",
+            "position": "C11"
+          },
+          {
+            "symbol": "B3",
+            "position": "H11"
+          },
+          {
+            "symbol": "B3",
+            "position": "I11"
+          }
+        ]
+      }
+    },
+    {
+      "step": "plan",
+      "payload": {
+        "notes": "Plan laczy priorytety z analizy sygnalu z pelnym pokryciem mapy. Krytyczna logika kosztowa pozostaje deterministyczna.",
+        "cells_count": 15
+      }
+    },
+    {
+      "step": "create_scout",
+      "payload": {
+        "code": 10,
+        "message": "Object created.",
+        "object": "c8fd3ec14edafc702118519bab6ffdee",
+        "type": "scout",
+        "spawn": "B6",
+        "crew": [
+          {
+            "id": "4bb736a8cf56bb9fe3cfdeeac5a1039d",
+            "role": "scout"
+          }
+        ],
+        "queue_id": "016fcb14082a7b17ce0bd80b2babc1dd",
+        "action_points_left": 26
+      }
+    },
+    {
+      "step": "ordered_cells",
+      "payload": {
+        "count": 15,
+        "cells": [
+          "A6",
+          "A5",
+          "A4",
+          "A3",
+          "A2",
+          "A1",
+          "A7",
+          "A8",
+          "A9",
+          "A10",
+          "A11",
+          "A12",
+          "A13",
+          "A14",
+          "A15"
+        ]
+      }
+    },
+    {
+      "step": "move",
+      "payload": {
+        "cell": "A6",
+        "response": {
+          "code": 20,
+          "message": "Move queued.",
+          "object": "c8fd3ec14edafc702118519bab6ffdee",
+          "from": "B6",
+          "where": "A6",
+          "queue_id": "ebd24ca05c6dcd928388b3b3dcdd5d91",
+          "path_steps": 2,
+          "action_points_left": 19
+        }
+      }
+    },
+    {
+      "step": "inspect",
+      "payload": {
+        "cell": "A6",
+        "response": {
+          "code": 30,
+          "message": "Searching... check logs for details.",
+          "object": "c8fd3ec14edafc702118519bab6ffdee",
+          "entries": 17,
+          "action_points_left": 18
+        }
+      }
+    },
+    {
+      "step": "getLogs",
+      "payload": {
+        "cell": "A6",
+        "last_log": {
+          "scout": "c8fd3ec14edafc702118519bab6ffdee",
+          "msg": "Nie znaleźliśmy nikogo. Tylko popękane kafle i metalowa rura.",
+          "field": "A6"
+        },
+        "logs_count": 17
+      }
+    },
+    {
+      "step": "move",
+      "payload": {
+        "cell": "A5",
+        "response": {
+          "code": 20,
+          "message": "Move queued.",
+          "object": "c8fd3ec14edafc702118519bab6ffdee",
+          "from": "A6",
+          "where": "A5",
+          "queue_id": "7f8d600d85d6c051e1b29c10a8712af8",
+          "path_steps": 2,
+          "action_points_left": 11
+        }
+      }
+    },
+    {
+      "step": "inspect",
+      "payload": {
+        "cell": "A5",
+        "response": {
+          "code": 30,
+          "message": "Searching... check logs for details.",
+          "object": "c8fd3ec14edafc702118519bab6ffdee",
+          "entries": 18,
+          "action_points_left": 10
+        }
+      }
+    },
+    {
+      "step": "getLogs",
+      "payload": {
+        "cell": "A5",
+        "last_log": {
+          "scout": "c8fd3ec14edafc702118519bab6ffdee",
+          "msg": "Tu pusto. W rogu stał garnek, obok leżała kurtka i nic więcej.",
+          "field": "A5"
+        },
+        "logs_count": 18
+      }
+    },
+    {
+      "step": "move",
+      "payload": {
+        "cell": "A4",
+        "response": {
+          "code": 20,
+          "message": "Move queued.",
+          "object": "c8fd3ec14edafc702118519bab6ffdee",
+          "from": "A5",
+          "where": "A4",
+          "queue_id": "50aa4190bd9074961d878f059c86a1a1",
+          "path_steps": 2,
+          "action_points_left": 3
+        }
+      }
+    },
+    {
+      "step": "inspect",
+      "payload": {
+        "cell": "A4",
+        "response": {
+          "code": 30,
+          "message": "Searching... check logs for details.",
+          "object": "c8fd3ec14edafc702118519bab6ffdee",
+          "entries": 19,
+          "action_points_left": 2
+        }
+      }
+    },
+    {
+      "step": "getLogs",
+      "payload": {
+        "cell": "A4",
+        "last_log": {
+          "scout": "c8fd3ec14edafc702118519bab6ffdee",
+          "msg": "Nie natrafiliśmy na cel. Tylko ślady myszy i brudne koce.",
+          "field": "A4"
+        },
+        "logs_count": 19
+      }
+    },
+    {
+      "step": "skip_cell_low_ap",
+      "payload": {
+        "cell": "A3",
+        "estimated_cost": 8,
+        "action_points_left": 2
+      }
+    },
+    {
+      "step": "skip_cell_low_ap",
+      "payload": {
+        "cell": "A2",
+        "estimated_cost": 15,
+        "action_points_left": 2
+      }
+    },
+    {
+      "step": "skip_cell_low_ap",
+      "payload": {
+        "cell": "A1",
+        "estimated_cost": 22,
+        "action_points_left": 2
+      }
+    },
+    {
+      "step": "skip_cell_low_ap",
+      "payload": {
+        "cell": "A7",
+        "estimated_cost": 22,
+        "action_points_left": 2
+      }
+    },
+    {
+      "step": "skip_cell_low_ap",
+      "payload": {
+        "cell": "A8",
+        "estimated_cost": 29,
+        "action_points_left": 2
+      }
+    },
+    {
+      "step": "skip_cell_low_ap",
+      "payload": {
+        "cell": "A9",
+        "estimated_cost": 36,
+        "action_points_left": 2
+      }
+    },
+    {
+      "step": "skip_cell_low_ap",
+      "payload": {
+        "cell": "A10",
+        "estimated_cost": 43,
+        "action_points_left": 2
+      }
+    },
+    {
+      "step": "skip_cell_low_ap",
+      "payload": {
+        "cell": "A11",
+        "estimated_cost": 50,
+        "action_points_left": 2
+      }
+    },
+    {
+      "step": "skip_cell_low_ap",
+      "payload": {
+        "cell": "A12",
+        "estimated_cost": 57,
+        "action_points_left": 2
+      }
+    },
+    {
+      "step": "skip_cell_low_ap",
+      "payload": {
+        "cell": "A13",
+        "estimated_cost": 64,
+        "action_points_left": 2
+      }
+    },
+    {
+      "step": "skip_cell_low_ap",
+      "payload": {
+        "cell": "A14",
+        "estimated_cost": 71,
+        "action_points_left": 2
+      }
+    },
+    {
+      "step": "skip_cell_low_ap",
+      "payload": {
+        "cell": "A15",
+        "estimated_cost": 78,
+        "action_points_left": 2
+      }
+    }
+  ],
+  "state": {
+    "action_points_left": 2,
+    "units": {
+      "c8fd3ec14edafc702118519bab6ffdee": {
+        "unit_id": "c8fd3ec14edafc702118519bab6ffdee",
+        "unit_type": "scout",
+        "position": "A4",
+        "passengers": []
+      }
+    },
+    "mission_trace": [
+      {
+        "step": "help",
+        "payload": {
+          "code": 65,
+          "message": "Domatowo API help.",
+          "usage": {
+            "endpoint": "/verify",
+            "method": "POST",
+            "required_fields": [
+              "apikey",
+              "task",
+              "answer"
+            ],
+            "task": "domatowo"
+          },
+          "actions": [
+            {
+              "action": "help",
+              "description": "Returns API usage and action reference.",
+              "params": []
+            },
+            {
+              "action": "reset",
+              "description": "Resets board state, queue and action points to defaults, then rolls partisan position again.",
+              "params": []
+            },
+            {
+              "action": "create",
+              "description": "Creates a new transporter or scout unit on the next free spawn slot (A6 -> D6).",
+              "params": {
+                "type": "transporter|scout",
+                "passengers": "1-4 (required only for transporter)"
+              }
+            },
+            {
+              "action": "move",
+              "description": "Queues movement of a unit to target field with calculated path (road-only for transporter, shortest orthogonal for scout).",
+              "params": {
+                "object": "hash",
+                "where": "A1..K11"
+              }
+            },
+            {
+              "action": "inspect",
+              "description": "Performs scout reconnaissance and appends a log entry based on current scout field.",
+              "params": {
+                "object": "hash (scout)"
+              }
+            },
+            {
+              "action": "dismount",
+              "description": "Removes selected number of scouts from transporter and spawns them on free tiles around vehicle.",
+              "params": {
+                "object": "hash (transporter)",
+                "passengers": "1-4"
+              }
+            },
+            {
+              "action": "getObjects",
+              "description": "Returns all currently known units with type, position and identifier.",
+              "params": []
+            },
+            {
+              "action": "getMap",
+              "description": "Returns clean map layout; optional symbols filter keeps only selected symbols/fields.",
+              "params": {
+                "symbols": "[optional] array of 2-char symbols or coordinates (e.g. KS, SZ, B3, C4)"
+              }
+            },
+            {
+              "action": "searchSymbol",
+              "description": "Searches clean map for all fields matching the provided 2-character symbol.",
+              "params": {
+                "symbol": "exactly 2 alphanumeric characters"
+              }
+            },
+            {
+              "action": "getLogs",
+              "description": "Returns collected inspect log entries.",
+              "params": []
+            },
+            {
+              "action": "expenses",
+              "description": "Returns action points spending history (action name and action cost).",
+              "params": []
+            },
+            {
+              "action": "actionCost",
+              "description": "Returns action points cost rules for all operations.",
+              "params": []
+            },
+            {
+              "action": "callHelicopter",
+              "description": "Calls evacuation helicopter to selected destination, but only after any scout confirms a human.",
+              "params": {
+                "destination": "A1..K11"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "step": "actionCost",
+        "payload": {
+          "code": 67,
+          "message": "Action costs loaded.",
+          "costs": [
+            {
+              "action": "create",
+              "variant": "scout",
+              "cost": 5
+            },
+            {
+              "action": "create",
+              "variant": "transporter",
+              "base_cost": 5,
+              "cost_per_passenger": 5,
+              "formula": "5 + (passengers * 5)"
+            },
+            {
+              "action": "move",
+              "variant": "scout",
+              "cost_per_field": 7,
+              "formula": "steps * 7"
+            },
+            {
+              "action": "move",
+              "variant": "transporter",
+              "cost_per_field": 1,
+              "formula": "steps * 1"
+            },
+            {
+              "action": "inspect",
+              "cost": 1
+            },
+            {
+              "action": "dismount",
+              "cost": 0
+            },
+            {
+              "action": "reset",
+              "cost": 0
+            },
+            {
+              "action": "getLogs",
+              "cost": 0
+            },
+            {
+              "action": "getObjects",
+              "cost": 0
+            },
+            {
+              "action": "getMap",
+              "cost": 0
+            },
+            {
+              "action": "searchSymbol",
+              "cost": 0
+            },
+            {
+              "action": "expenses",
+              "cost": 0
+            },
+            {
+              "action": "actionCost",
+              "cost": 0
+            },
+            {
+              "action": "callHelicopter",
+              "cost": 0
+            },
+            {
+              "action": "help",
+              "cost": 0
+            }
+          ]
+        }
+      },
+      {
+        "step": "getMap",
+        "payload": {
+          "code": 80,
+          "message": "Map loaded.",
+          "map": {
+            "name": "Domatowo",
+            "size": 11,
+            "tiles": {
+              "road": {
+                "label": "Ulica",
+                "symbol": "UL"
+              },
+              "tree": {
+                "label": "Drzewa",
+                "symbol": "DR"
+              },
+              "house": {
+                "label": "Dom",
+                "symbol": "DM"
+              },
+              "empty": {
+                "label": "Pusta przestrzen",
+                "symbol": "  "
+              },
+              "block1": {
+                "label": "Blok 1p",
+                "symbol": "B1"
+              },
+              "block2": {
+                "label": "Blok 2p",
+                "symbol": "B2"
+              },
+              "block3": {
+                "label": "Blok 3p",
+                "symbol": "B3"
+              },
+              "church": {
+                "label": "Kosciol",
+                "symbol": "KS"
+              },
+              "school": {
+                "label": "Szkola",
+                "symbol": "SZ"
+              },
+              "parking": {
+                "label": "Parking",
+                "symbol": "PK"
+              },
+              "field": {
+                "label": "Boisko",
+                "symbol": "BS"
+              }
+            },
+            "grid": [
+              [
+                "tree",
+                "road",
+                "road",
+                "road",
+                "empty",
+                "block3",
+                "block3",
+                "tree",
+                "empty",
+                "parking",
+                "parking"
+              ],
+              [
+                "tree",
+                "tree",
+                "empty",
+                "road",
+                "road",
+                "block3",
+                "block3",
+                "tree",
+                "road",
+                "parking",
+                "parking"
+              ],
+              [
+                "empty",
+                "empty",
+                "empty",
+                "road",
+                "parking",
+                "empty",
+                "empty",
+                "tree",
+                "road",
+                "empty",
+                "empty"
+              ],
+              [
+                "block1",
+                "block1",
+                "empty",
+                "road",
+                "parking",
+                "school",
+                "school",
+                "school",
+                "road",
+                "field",
+                "field"
+              ],
+              [
+                "block1",
+                "block1",
+                "empty",
+                "road",
+                "parking",
+                "school",
+                "school",
+                "school",
+                "road",
+                "field",
+                "field"
+              ],
+              [
+                "road",
+                "road",
+                "road",
+                "road",
+                "road",
+                "road",
+                "road",
+                "road",
+                "road",
+                "road",
+                "empty"
+              ],
+              [
+                "block2",
+                "block2",
+                "empty",
+                "road",
+                "empty",
+                "church",
+                "church",
+                "church",
+                "empty",
+                "tree",
+                "empty"
+              ],
+              [
+                "block2",
+                "block2",
+                "empty",
+                "road",
+                "empty",
+                "church",
+                "church",
+                "church",
+                "empty",
+                "tree",
+                "empty"
+              ],
+              [
+                "empty",
+                "road",
+                "road",
+                "road",
+                "road",
+                "road",
+                "road",
+                "road",
+                "road",
+                "road",
+                "empty"
+              ],
+              [
+                "block3",
+                "block3",
+                "block3",
+                "empty",
+                "tree",
+                "empty",
+                "empty",
+                "block3",
+                "block3",
+                "tree",
+                "empty"
+              ],
+              [
+                "block3",
+                "block3",
+                "block3",
+                "empty",
+                "tree",
+                "empty",
+                "empty",
+                "block3",
+                "block3",
+                "tree",
+                "empty"
+              ]
+            ]
+          }
+        }
+      },
+      {
+        "step": "intel",
+        "payload": {
+          "cells": [
+            "F6",
+            "G6",
+            "F7",
+            "G7",
+            "H7",
+            "F8",
+            "G8",
+            "H8",
+            "F9",
+            "G9",
+            "H9",
+            "F10",
+            "G10",
+            "H10",
+            "F11",
+            "G11",
+            "H11",
+            "E6",
+            "E7",
+            "E8",
+            "B3",
+            "B2"
+          ],
+          "reason": "Sugestie z OpenRouter."
+        }
+      },
+      {
+        "step": "searchSymbol_B3",
+        "payload": {
+          "code": 90,
+          "message": "Symbol search completed.",
+          "symbol": "B3",
+          "found": [
+            {
+              "symbol": "B3",
+              "position": "F1"
+            },
+            {
+              "symbol": "B3",
+              "position": "G1"
+            },
+            {
+              "symbol": "B3",
+              "position": "F2"
+            },
+            {
+              "symbol": "B3",
+              "position": "G2"
+            },
+            {
+              "symbol": "B3",
+              "position": "A10"
+            },
+            {
+              "symbol": "B3",
+              "position": "B10"
+            },
+            {
+              "symbol": "B3",
+              "position": "C10"
+            },
+            {
+              "symbol": "B3",
+              "position": "H10"
+            },
+            {
+              "symbol": "B3",
+              "position": "I10"
+            },
+            {
+              "symbol": "B3",
+              "position": "A11"
+            },
+            {
+              "symbol": "B3",
+              "position": "B11"
+            },
+            {
+              "symbol": "B3",
+              "position": "C11"
+            },
+            {
+              "symbol": "B3",
+              "position": "H11"
+            },
+            {
+              "symbol": "B3",
+              "position": "I11"
+            }
+          ]
+        }
+      },
+      {
+        "step": "plan",
+        "payload": {
+          "notes": "Plan laczy priorytety z analizy sygnalu z pelnym pokryciem mapy. Krytyczna logika kosztowa pozostaje deterministyczna.",
+          "cells_count": 15
+        }
+      },
+      {
+        "step": "create_scout",
+        "payload": {
+          "code": 10,
+          "message": "Object created.",
+          "object": "c8fd3ec14edafc702118519bab6ffdee",
+          "type": "scout",
+          "spawn": "B6",
+          "crew": [
+            {
+              "id": "4bb736a8cf56bb9fe3cfdeeac5a1039d",
+              "role": "scout"
+            }
+          ],
+          "queue_id": "016fcb14082a7b17ce0bd80b2babc1dd",
+          "action_points_left": 26
+        }
+      },
+      {
+        "step": "ordered_cells",
+        "payload": {
+          "count": 15,
+          "cells": [
+            "A6",
+            "A5",
+            "A4",
+            "A3",
+            "A2",
+            "A1",
+            "A7",
+            "A8",
+            "A9",
+            "A10",
+            "A11",
+            "A12",
+            "A13",
+            "A14",
+            "A15"
+          ]
+        }
+      },
+      {
+        "step": "move",
+        "payload": {
+          "cell": "A6",
+          "response": {
+            "code": 20,
+            "message": "Move queued.",
+            "object": "c8fd3ec14edafc702118519bab6ffdee",
+            "from": "B6",
+            "where": "A6",
+            "queue_id": "ebd24ca05c6dcd928388b3b3dcdd5d91",
+            "path_steps": 2,
+            "action_points_left": 19
+          }
+        }
+      },
+      {
+        "step": "inspect",
+        "payload": {
+          "cell": "A6",
+          "response": {
+            "code": 30,
+            "message": "Searching... check logs for details.",
+            "object": "c8fd3ec14edafc702118519bab6ffdee",
+            "entries": 17,
+            "action_points_left": 18
+          }
+        }
+      },
+      {
+        "step": "getLogs",
+        "payload": {
+          "cell": "A6",
+          "last_log": {
+            "scout": "c8fd3ec14edafc702118519bab6ffdee",
+            "msg": "Nie znaleźliśmy nikogo. Tylko popękane kafle i metalowa rura.",
+            "field": "A6"
+          },
+          "logs_count": 17
+        }
+      },
+      {
+        "step": "move",
+        "payload": {
+          "cell": "A5",
+          "response": {
+            "code": 20,
+            "message": "Move queued.",
+            "object": "c8fd3ec14edafc702118519bab6ffdee",
+            "from": "A6",
+            "where": "A5",
+            "queue_id": "7f8d600d85d6c051e1b29c10a8712af8",
+            "path_steps": 2,
+            "action_points_left": 11
+          }
+        }
+      },
+      {
+        "step": "inspect",
+        "payload": {
+          "cell": "A5",
+          "response": {
+            "code": 30,
+            "message": "Searching... check logs for details.",
+            "object": "c8fd3ec14edafc702118519bab6ffdee",
+            "entries": 18,
+            "action_points_left": 10
+          }
+        }
+      },
+      {
+        "step": "getLogs",
+        "payload": {
+          "cell": "A5",
+          "last_log": {
+            "scout": "c8fd3ec14edafc702118519bab6ffdee",
+            "msg": "Tu pusto. W rogu stał garnek, obok leżała kurtka i nic więcej.",
+            "field": "A5"
+          },
+          "logs_count": 18
+        }
+      },
+      {
+        "step": "move",
+        "payload": {
+          "cell": "A4",
+          "response": {
+            "code": 20,
+            "message": "Move queued.",
+            "object": "c8fd3ec14edafc702118519bab6ffdee",
+            "from": "A5",
+            "where": "A4",
+            "queue_id": "50aa4190bd9074961d878f059c86a1a1",
+            "path_steps": 2,
+            "action_points_left": 3
+          }
+        }
+      },
+      {
+        "step": "inspect",
+        "payload": {
+          "cell": "A4",
+          "response": {
+            "code": 30,
+            "message": "Searching... check logs for details.",
+            "object": "c8fd3ec14edafc702118519bab6ffdee",
+            "entries": 19,
+            "action_points_left": 2
+          }
+        }
+      },
+      {
+        "step": "getLogs",
+        "payload": {
+          "cell": "A4",
+          "last_log": {
+            "scout": "c8fd3ec14edafc702118519bab6ffdee",
+            "msg": "Nie natrafiliśmy na cel. Tylko ślady myszy i brudne koce.",
+            "field": "A4"
+          },
+          "logs_count": 19
+        }
+      },
+      {
+        "step": "skip_cell_low_ap",
+        "payload": {
+          "cell": "A3",
+          "estimated_cost": 8,
+          "action_points_left": 2
+        }
+      },
+      {
+        "step": "skip_cell_low_ap",
+        "payload": {
+          "cell": "A2",
+          "estimated_cost": 15,
+          "action_points_left": 2
+        }
+      },
+      {
+        "step": "skip_cell_low_ap",
+        "payload": {
+          "cell": "A1",
+          "estimated_cost": 22,
+          "action_points_left": 2
+        }
+      },
+      {
+        "step": "skip_cell_low_ap",
+        "payload": {
+          "cell": "A7",
+          "estimated_cost": 22,
+          "action_points_left": 2
+        }
+      },
+      {
+        "step": "skip_cell_low_ap",
+        "payload": {
+          "cell": "A8",
+          "estimated_cost": 29,
+          "action_points_left": 2
+        }
+      },
+      {
+        "step": "skip_cell_low_ap",
+        "payload": {
+          "cell": "A9",
+          "estimated_cost": 36,
+          "action_points_left": 2
+        }
+      },
+      {
+        "step": "skip_cell_low_ap",
+        "payload": {
+          "cell": "A10",
+          "estimated_cost": 43,
+          "action_points_left": 2
+        }
+      },
+      {
+        "step": "skip_cell_low_ap",
+        "payload": {
+          "cell": "A11",
+          "estimated_cost": 50,
+          "action_points_left": 2
+        }
+      },
+      {
+        "step": "skip_cell_low_ap",
+        "payload": {
+          "cell": "A12",
+          "estimated_cost": 57,
+          "action_points_left": 2
+        }
+      },
+      {
+        "step": "skip_cell_low_ap",
+        "payload": {
+          "cell": "A13",
+          "estimated_cost": 64,
+          "action_points_left": 2
+        }
+      },
+      {
+        "step": "skip_cell_low_ap",
+        "payload": {
+          "cell": "A14",
+          "estimated_cost": 71,
+          "action_points_left": 2
+        }
+      },
+      {
+        "step": "skip_cell_low_ap",
+        "payload": {
+          "cell": "A15",
+          "estimated_cost": 78,
+          "action_points_left": 2
+        }
+      }
+    ],
+    "target_found": false,
+    "target_position": ""
+  }
+}

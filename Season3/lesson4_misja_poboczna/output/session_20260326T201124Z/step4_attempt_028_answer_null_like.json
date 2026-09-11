@@ -1,0 +1,19 @@
+{
+  "attempt_index": 28,
+  "label": "answer_null_like",
+  "payload": {
+    "apikey": "52b65cf5-2d1a-4fd2-ac76-7063b66b10fc",
+    "task": "negotiations",
+    "answer": {
+      "action": null
+    }
+  },
+  "response": {
+    "error": "HTTP 400: {\n    \"code\": -990,\n    \"message\": \"Missing required field \\\"tools\\\".\"\n}",
+    "status_code": 400
+  },
+  "found_flag": null,
+  "notes": [
+    "http_error"
+  ]
+}

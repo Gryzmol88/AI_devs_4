@@ -1,0 +1,7 @@
+{
+  "path": "/opt/firmware/cooler/settings.ini",
+  "source_command": "cat /opt/firmware/cooler/settings.ini",
+  "truncated": false,
+  "max_chars": 40000,
+  "content": "[main]\n#SAFETY_CHECK=pass\npower_plant_id=PWR6132PL\n\n[test_mode]\nenabled=true\n\n[cooling]\npower_percent=100\nenabled=false"
+}

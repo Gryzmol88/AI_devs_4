@@ -1,0 +1,7 @@
+{
+  "step": 1,
+  "state": "ask_roads",
+  "outbound_text": "Jasne, jaki jest teraz status tras RD u was?",
+  "inbound_text": null,
+  "selected_road": null
+}

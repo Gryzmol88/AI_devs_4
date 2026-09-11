@@ -1,0 +1,5 @@
+{
+  "timestamp": "2026-03-25T18:14:37.616748Z",
+  "error_type": "HttpRequestError",
+  "error_message": "HTTP 400 dla https://openrouter.ai/api/v1/chat/completions: {\"error\":{\"message\":\"This endpoint's maximum context length is 1000000 tokens. However, you requested about 2173853 tokens (2173712 of text input, 141 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically.\",\"code\":400,\"metadata\":{\"provider_name\":null}}}"
+}

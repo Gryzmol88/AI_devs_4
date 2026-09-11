@@ -1,0 +1,20 @@
+{
+  "churchCells": [
+    "F7",
+    "G7",
+    "H7",
+    "F8",
+    "G8",
+    "H8"
+  ],
+  "orderedCells": [
+    "F7",
+    "G7",
+    "H7",
+    "H8",
+    "G8",
+    "F8"
+  ],
+  "scoutObject": "be8d393aaf83abf040c263446e67b282",
+  "scoutSpawn": "A6"
+}

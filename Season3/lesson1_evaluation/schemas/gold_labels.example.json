@@ -1,0 +1,17 @@
+{
+  "labels": [
+    {
+      "file_id": "0001",
+      "expected_recheck": true,
+      "expected_rule_anomaly": true,
+      "expected_note_stance": "ok"
+    },
+    {
+      "file_id": "0002",
+      "expected_recheck": false,
+      "expected_rule_anomaly": false,
+      "expected_note_stance": "ok"
+    }
+  ]
+}
+

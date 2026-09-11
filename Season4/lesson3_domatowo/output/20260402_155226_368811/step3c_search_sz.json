@@ -1,0 +1,31 @@
+{
+  "code": 90,
+  "message": "Symbol search completed.",
+  "symbol": "SZ",
+  "found": [
+    {
+      "symbol": "SZ",
+      "position": "F4"
+    },
+    {
+      "symbol": "SZ",
+      "position": "G4"
+    },
+    {
+      "symbol": "SZ",
+      "position": "H4"
+    },
+    {
+      "symbol": "SZ",
+      "position": "F5"
+    },
+    {
+      "symbol": "SZ",
+      "position": "G5"
+    },
+    {
+      "symbol": "SZ",
+      "position": "H5"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "city_needs": {
+    "opalino": {
+      "woda": 120,
+      "chleb": 120,
+      "mlotki": 6
+    },
+    "domatowo": {
+      "woda": 150,
+      "makaron": 150,
+      "lopaty": 8
+    },
+    "brudzewo": {
+      "woda": 5,
+      "wiertarki": 5,
+      "ryz": 55
+    },
+    "darzlubie": {
+      "wolowina": 130,
+      "woda": 130,
+      "kilofy": 7
+    },
+    "celbowo": {
+      "kurczak": 125,
+      "woda": 125,
+      "mlotki": 6
+    },
+    "mechowo": {
+      "kapusta": 70,
+      "woda": 165,
+      "lopaty": 9,
+      "marchew": 65,
+      "ziemniaki": 100
+    },
+    "puck": {
+      "ryz": 175,
+      "woda": 175,
+      "chleb": 45,
+      "wiertarki": 7
+    },
+    "karlinkowo": {
+      "ziemniaki": 155,
+      "woda": 155,
+      "makaron": 22,
+      "kilofy": 6,
+      "wolowina": 95
+    }
+  },
+  "person_to_city": {
+    "natan_rams": "domatowo",
+    "iga_kapecka": "opalino",
+    "rafal_kisiel": "brudzewo",
+    "marta_frantz": "darzlubie",
+    "oskar_radtke": "celbowo",
+    "eliza_redmann": "mechowo",
+    "damian_kroll": "puck",
+    "lena_konkel": "karlinkowo"
+  },
+  "person_display_name": {
+    "natan_rams": "Natan Rams",
+    "iga_kapecka": "Iga Kapecka",
+    "rafal_kisiel": "Rafał Kisiel",
+    "marta_frantz": "Marta Frantz",
+    "oskar_radtke": "Oskar Radtke",
+    "eliza_redmann": "Eliza Redmann",
+    "damian_kroll": "Damian Kroll",
+    "lena_konkel": "Lena Konkel"
+  },
+  "item_to_cities": {
+    "ryz": [
+      "darzlubie",
+      "opalino",
+      "karlinkowo"
+    ],
+    "marchew": [
+      "puck"
+    ],
+    "chleb": [
+      "domatowo",
+      "celbowo",
+      "brudzewo"
+    ],
+    "wolowina": [
+      "opalino"
+    ],
+    "kilof": [
+      "puck",
+      "mechowo",
+      "celbowo"
+    ],
+    "wiertarka": [
+      "karlinkowo",
+      "domatowo"
+    ],
+    "maka": [
+      "brudzewo",
+      "mechowo"
+    ],
+    "mlotek": [
+      "karlinkowo",
+      "mechowo"
+    ],
+    "makaron": [
+      "opalino"
+    ],
+    "kapusta": [
+      "celbowo"
+    ],
+    "ziemniak": [
+      "domatowo",
+      "darzlubie"
+    ],
+    "kurczak": [
+      "darzlubie"
+    ],
+    "lopata": [
+      "brudzewo",
+      "puck"
+    ]
+  }
+}

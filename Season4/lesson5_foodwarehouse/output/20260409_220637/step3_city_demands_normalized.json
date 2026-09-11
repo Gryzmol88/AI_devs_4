@@ -1,0 +1,79 @@
+[
+  {
+    "city": "opalino",
+    "destination": null,
+    "items": {
+      "chleb": 45,
+      "woda": 120,
+      "mlotek": 6
+    }
+  },
+  {
+    "city": "domatowo",
+    "destination": null,
+    "items": {
+      "makaron": 60,
+      "woda": 150,
+      "lopata": 8
+    }
+  },
+  {
+    "city": "brudzewo",
+    "destination": null,
+    "items": {
+      "ryz": 55,
+      "woda": 140,
+      "wiertarka": 5
+    }
+  },
+  {
+    "city": "darzlubie",
+    "destination": null,
+    "items": {
+      "wolowina": 25,
+      "woda": 130,
+      "kilof": 7
+    }
+  },
+  {
+    "city": "celbowo",
+    "destination": null,
+    "items": {
+      "kurczak": 40,
+      "woda": 125,
+      "mlotek": 6
+    }
+  },
+  {
+    "city": "mechowo",
+    "destination": null,
+    "items": {
+      "ziemniaki": 100,
+      "kapusta": 70,
+      "marchew": 65,
+      "woda": 165,
+      "lopata": 9
+    }
+  },
+  {
+    "city": "puck",
+    "destination": null,
+    "items": {
+      "chleb": 50,
+      "ryz": 45,
+      "woda": 175,
+      "wiertarka": 7
+    }
+  },
+  {
+    "city": "karlinkowo",
+    "destination": null,
+    "items": {
+      "makaron": 52,
+      "wolowina": 22,
+      "ziemniaki": 95,
+      "woda": 155,
+      "kilof": 6
+    }
+  }
+]

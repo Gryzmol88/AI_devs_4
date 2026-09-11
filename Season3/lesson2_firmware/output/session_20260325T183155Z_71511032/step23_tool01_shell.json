@@ -1,0 +1,11 @@
+{
+  "ok": false,
+  "blocked": false,
+  "command": "cd /opt/firmware/cooler && git log --oneline",
+  "error": "HTTP 404 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -830,\n    \"message\": \"Target directory does not exist.\"\n}",
+  "http_status": 404,
+  "is_retryable": false,
+  "error_code": -830,
+  "ban": null,
+  "is_ban": false
+}

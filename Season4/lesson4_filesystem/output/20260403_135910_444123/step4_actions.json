@@ -1,0 +1,159 @@
+[
+  {
+    "action": "createDirectory",
+    "path": "/miasta"
+  },
+  {
+    "action": "createDirectory",
+    "path": "/osoby"
+  },
+  {
+    "action": "createDirectory",
+    "path": "/towary"
+  },
+  {
+    "action": "createFile",
+    "path": "/miasta/brudzewo",
+    "content": "{\n  \"ryz\": 55,\n  \"woda\": 140,\n  \"wiertarka\": 5\n}"
+  },
+  {
+    "action": "createFile",
+    "path": "/miasta/celbowo",
+    "content": "{\n  \"kurczak\": 40,\n  \"woda\": 125,\n  \"motek\": 6\n}"
+  },
+  {
+    "action": "createFile",
+    "path": "/miasta/darzlubie",
+    "content": "{\n  \"woowina\": 25,\n  \"woda\": 130,\n  \"kilof\": 7\n}"
+  },
+  {
+    "action": "createFile",
+    "path": "/miasta/domatowo",
+    "content": "{\n  \"makaron\": 60,\n  \"woda\": 150,\n  \"opata\": 8\n}"
+  },
+  {
+    "action": "createFile",
+    "path": "/miasta/karlinkowo",
+    "content": "{\n  \"makaron\": 52,\n  \"woowina\": 22,\n  \"ziemniak\": 95,\n  \"woda\": 155,\n  \"kilof\": 6\n}"
+  },
+  {
+    "action": "createFile",
+    "path": "/miasta/mechowo",
+    "content": "{\n  \"ziemniak\": 100,\n  \"kapusta\": 70,\n  \"marchew\": 65,\n  \"woda\": 165,\n  \"opata\": 9\n}"
+  },
+  {
+    "action": "createFile",
+    "path": "/miasta/opalino",
+    "content": "{\n  \"chleb\": 45,\n  \"woda\": 120,\n  \"motek\": 6\n}"
+  },
+  {
+    "action": "createFile",
+    "path": "/miasta/puck",
+    "content": "{\n  \"chleb\": 50,\n  \"ryz\": 45,\n  \"woda\": 175,\n  \"wiertarka\": 7\n}"
+  },
+  {
+    "action": "createFile",
+    "path": "/osoby/brudzewo_opiekun",
+    "content": "brudzewo opiekun\n[brudzewo](/miasta/brudzewo)"
+  },
+  {
+    "action": "createFile",
+    "path": "/osoby/damian_kroll",
+    "content": "damian kroll\n[puck](/miasta/puck)"
+  },
+  {
+    "action": "createFile",
+    "path": "/osoby/eliza_redmann",
+    "content": "eliza redmann\n[mechowo](/miasta/mechowo)"
+  },
+  {
+    "action": "createFile",
+    "path": "/osoby/iga_kapecka",
+    "content": "iga kapecka\n[opalino](/miasta/opalino)"
+  },
+  {
+    "action": "createFile",
+    "path": "/osoby/lena",
+    "content": "lena\n[karlinkowo](/miasta/karlinkowo)"
+  },
+  {
+    "action": "createFile",
+    "path": "/osoby/marta_frantz",
+    "content": "marta frantz\n[darzlubie](/miasta/darzlubie)"
+  },
+  {
+    "action": "createFile",
+    "path": "/osoby/natan_rams",
+    "content": "natan rams\n[domatowo](/miasta/domatowo)"
+  },
+  {
+    "action": "createFile",
+    "path": "/osoby/oskar_radtke",
+    "content": "oskar radtke\n[celbowo](/miasta/celbowo)"
+  },
+  {
+    "action": "createFile",
+    "path": "/towary/chleb",
+    "content": "[brudzewo](/miasta/brudzewo)\n[celbowo](/miasta/celbowo)\n[domatowo](/miasta/domatowo)"
+  },
+  {
+    "action": "createFile",
+    "path": "/towary/kapusta",
+    "content": "[celbowo](/miasta/celbowo)"
+  },
+  {
+    "action": "createFile",
+    "path": "/towary/kilof",
+    "content": "[celbowo](/miasta/celbowo)\n[mechowo](/miasta/mechowo)\n[puck](/miasta/puck)"
+  },
+  {
+    "action": "createFile",
+    "path": "/towary/kurczak",
+    "content": "[darzlubie](/miasta/darzlubie)"
+  },
+  {
+    "action": "createFile",
+    "path": "/towary/maka",
+    "content": "[brudzewo](/miasta/brudzewo)\n[mechowo](/miasta/mechowo)"
+  },
+  {
+    "action": "createFile",
+    "path": "/towary/makaron",
+    "content": "[opalino](/miasta/opalino)"
+  },
+  {
+    "action": "createFile",
+    "path": "/towary/marchew",
+    "content": "[puck](/miasta/puck)"
+  },
+  {
+    "action": "createFile",
+    "path": "/towary/motek",
+    "content": "[karlinkowo](/miasta/karlinkowo)\n[mechowo](/miasta/mechowo)"
+  },
+  {
+    "action": "createFile",
+    "path": "/towary/opata",
+    "content": "[brudzewo](/miasta/brudzewo)\n[puck](/miasta/puck)"
+  },
+  {
+    "action": "createFile",
+    "path": "/towary/ryz",
+    "content": "[darzlubie](/miasta/darzlubie)\n[karlinkowo](/miasta/karlinkowo)\n[opalino](/miasta/opalino)"
+  },
+  {
+    "action": "createFile",
+    "path": "/towary/wiertarka",
+    "content": "[domatowo](/miasta/domatowo)\n[karlinkowo](/miasta/karlinkowo)"
+  },
+  {
+    "action": "createFile",
+    "path": "/towary/woowina",
+    "content": "[opalino](/miasta/opalino)"
+  },
+  {
+    "action": "createFile",
+    "path": "/towary/ziemniak",
+    "content": "[darzlubie](/miasta/darzlubie)\n[domatowo](/miasta/domatowo)"
+  }
+]

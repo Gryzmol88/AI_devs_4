@@ -1,0 +1,7 @@
+{
+  "step": 1,
+  "state": "ask_roads",
+  "outbound_text": "Dzień dobry, mówi Tymon Gajewski.",
+  "inbound_text": "W jakiej sprawie dzwonisz?",
+  "selected_road": null
+}

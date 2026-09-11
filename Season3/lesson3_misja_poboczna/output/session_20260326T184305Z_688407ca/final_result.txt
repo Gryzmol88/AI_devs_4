@@ -1,0 +1,5 @@
+success=True
+message=Zrealizowano trase tam i z powrotem.
+steps=15
+best_flag=-
+final_phase=to_start

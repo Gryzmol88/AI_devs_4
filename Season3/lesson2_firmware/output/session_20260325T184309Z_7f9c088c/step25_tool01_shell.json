@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "blocked": true,
+  "reason": "Execution mode: dozwolone są tylko komendy finalizujące (`editline settings.ini`, `cat settings.ini`, `cooler.bin`, `reboot`).",
+  "command": "help",
+  "required_bootstrap_command": null
+}

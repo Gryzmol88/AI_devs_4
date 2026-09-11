@@ -1,0 +1,12 @@
+{
+  "exception": "Blad HTTP verify: status=400, body={\n    \"code\": -807,\n    \"message\": \"City JSON contains goods that are not required by this city.\",\n    \"city\": \"opalino\",\n    \"file\": \"\\/miasta\\/opalino\",\n    \"unexpected_goods\": [\n        \"motek\"\n    ]\n}",
+  "payload": {
+    "code": -807,
+    "message": "City JSON contains goods that are not required by this city.",
+    "city": "opalino",
+    "file": "/miasta/opalino",
+    "unexpected_goods": [
+      "motek"
+    ]
+  }
+}

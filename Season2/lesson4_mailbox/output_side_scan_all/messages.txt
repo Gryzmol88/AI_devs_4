@@ -1,0 +1,449 @@
+ID:b2c9ed51b3ca1ef2a29e459130f12337
+SUB:Re: PWR1593PL: chwilowy wzrost temperatury szafy sterowniczej
+FROM:operator04227@system.nwo
+DATE:2026-03-08 14:44
+Temat u techników, proszę o przegląd filtrów i wentylatorów szafy S-4.
+
+ID:32100a536bb88a502d74a2f599a3fd1a
+SUB:Re: PWR8406PL: rotacja pracowników przekroczyła normę
+FROM:operator04227@system.nwo
+DATE:2026-03-08 22:40
+Dzięki, przekazuję do kadr i managera regionalnego. Niech przygotują plan stabilizacji zespołu.
+
+ID:481c3cb718f2dc14f8d9a9dd56b7e2d9
+SUB:Nowy program premiowy za niezawodność
+FROM:motywacja@corp-system.nwo
+DATE:2026-03-08 23:11
+Uruchamiamy program premiowy powiązany z niezawodnością i terminowością zamykania incydentów technicznych. Szczegółowe progi punktowe zostaną opublikowane w intranecie.
+
+ID:228999c92244b2dfcd2057673cde6c4f
+SUB:Re: PWR8406PL: zaległe rozliczenie delegacji
+FROM:operator04227@system.nwo
+DATE:2026-03-09 09:51
+Przekazałem to do finansów i płac. Poprosiłem o pilne domknięcie rozliczeń i potwierdzenie terminów.
+
+ID:0659fce2e7b2a503ab7173a1b435a050
+SUB:Konsolidacja zespołów wsparcia regionalnego
+FROM:operacje.centralne@corp-system.nwo
+DATE:2026-03-09 11:17
+Od przyszłego miesiąca zespoły wsparcia regionalnego zostaną skonsolidowane w trzy centra. Celem jest szybsza obsługa zgłoszeń i mniejsze dublowanie ról.
+
+ID:6d6131f69a34136b0bdd01da32692c81
+SUB:Re: PWR2758PL: chwilowa niezgodność odczytów dwóch termopar
+FROM:operator04227@system.nwo
+DATE:2026-03-09 17:33
+Temat już u techników. Sprawdzą punkty pomiarowe i ewentualną potrzebę kalibracji termopar.
+
+ID:fcf9cba8c0861b2f036ea163807404ce
+SUB:Re: PWR8406PL: krótkie opóźnienie odpowiedzi przepustnicy
+FROM:operator04227@system.nwo
+DATE:2026-03-09 21:13
+Tak, przekazane technikom z prośbą o rozszerzoną obserwację i diagnozę przepustnicy P-8.
+
+ID:1146c48523e480d614dd3bf5a8747205
+SUB:Re: PWR2758PL: brak zatwierdzenia urlopów na marzec
+FROM:operator04227@system.nwo
+DATE:2026-03-10 04:08
+Przyjęte, wysyłam temat do kadr i kierownika obiektu. Niech zatwierdzą plan urlopowy bez dalszej zwłoki.
+
+ID:51792b2a0c639dd7d412d11aa2e3b9b2
+SUB:Aktualizacja polityki szkoleń obowiązkowych
+FROM:rozwoj@corp-system.nwo
+DATE:2026-03-10 06:07
+Wprowadzamy nową matrycę szkoleń obowiązkowych dla pionu technicznego i administracyjnego. Część kursów będzie realizowana online z testem końcowym.
+
+ID:bc1c52905daa82b57b3511f61e6ca358
+SUB:Re: PWR3847PL: krótkie zafalowanie mocy przy porannym starcie
+FROM:operator04227@system.nwo
+DATE:2026-03-10 13:58
+Przekazałem do techników diagnostyki. Sprawdzą logi startowe i domkną temat raportem.
+
+ID:1d0a7fe84e4e13e989fef34e3efd0b63
+SUB:Re: PWR2758PL: niezgodność stawek na nowych umowach
+FROM:operator04227@system.nwo
+DATE:2026-03-10 15:02
+Temat przekazany do kadr i działu prawnego HR. Niech poprawią umowy i potwierdzą finalne stawki.
+
+ID:91aeb1af08bc8314fdb3b42b660f41c6
+SUB:Re: PWR5921PL: chwilowy spadek sprawności chłodnicy oleju
+FROM:operator04227@system.nwo
+DATE:2026-03-11 00:28
+Wysłane do techników utrzymania. Niech sprawdzą wymiennik i podeślą krótką notatkę.
+
+ID:f4f3a83b06611bfc3716253753302e7e
+SUB:Zmiana struktury raportowania incydentów
+FROM:compliance@corp-system.nwo
+DATE:2026-03-11 09:37
+Od przyszłego tygodnia raporty incydentów będą składane wyłącznie przez nowy formularz centralny. Dotychczasowy format mailowy pozostaje tylko jako kanał awaryjny.
+
+ID:4801de529c054359b9950acfe5e0d0da
+SUB:Re: PWR7264PL: krótkie zakłócenie sygnału z przepustnicy pary
+FROM:operator04227@system.nwo
+DATE:2026-03-11 11:05
+Przekazane technikom. Poprosiłem o kontrolę przewodu i złącz przy najbliższym oknie serwisowym.
+
+ID:580045e13d60bb8417eb5933e68647f0
+SUB:Uruchomienie programu rekomendacji pracowniczych
+FROM:rekrutacja@corp-system.nwo
+DATE:2026-03-11 20:20
+Startuje program rekomendacji pracowniczych dla ról technicznych i utrzymaniowych. Premia za skuteczne polecenie będzie wypłacana po zakończeniu okresu próbnego.
+
+ID:38108c7cbc5ec20081a44ed94920d146
+SUB:Re: PWR1593PL: chwilowy spadek wydajności pompy obiegu głównego
+FROM:operator04227@system.nwo
+DATE:2026-03-11 22:02
+Tak, temat wysłany do techników i zostawiamy podwyższony nadzór do końca dnia.
+
+ID:e44a9452f38f95780ff41914fe5f3659
+SUB:Przegląd świadczeń pozapłacowych
+FROM:benefity@corp-system.nwo
+DATE:2026-03-12 14:36
+W marcu rozpoczynamy przegląd świadczeń pozapłacowych i ich ujednolicenie między jednostkami. Priorytetem jest spójność zasad i czytelna komunikacja dla pracowników.
+
+ID:db9cd41c6fb3aa97f4433881f0d50e97
+SUB:Re: Przyjęliśmy Twoje zgłoszenie - Ticket SEC-41248
+FROM:security@system.nwo
+DATE:2026-03-13 13:45
+Ajj! zły kod potwierdzenia Ci wysłałem! Zgubiłem literkę na końcu. Poprawny to: SEC-c1e598764329cc9c377ef1d029be8ceb
+
+ID:ff0620df4794b19933a6f1387c8d2395
+SUB:Re: Zapis z kamer w obiekcie PWR6132PL - pilne!
+FROM:monitoring.wideo@security-node.nwo
+DATE:2026-03-13 13:45
+no dobra... wiem, że miałem już nie przeszkadzać Ci w pracy, ale tego na pewno nie znasz! https://www.youtube.com/watch?v=EvQfBy3xIUc Człowieku, co za nuta xDD
+
+ID:87d10f6a8b81d6be3a1ca66ed8a0400f
+SUB:Re: Podejrzana aktywność przy obiekcie PWR6132PL
+FROM:operator04227@system.nwo
+DATE:2026-03-13 13:45
+Dział bezpieczeństwa potwierdził, że w poniedziałek, 2026-03-23 zajmie się tym tematem. Raz jeszcze dziękujemy za zgłoszenie.
+
+ID:0403c1df56d3dab40ad4bf6f6cceda8a
+SUB:Re: PWR2758PL: chwilowy skok prądu pompy dozującej
+FROM:operator04227@system.nwo
+DATE:2026-03-04 04:36
+Przekazane do techników elektryków. Niech sprawdzą sekcję i potwierdzą stan pompy D-4.
+
+ID:d391dcd45c7fa30ba3b11c8088d93791
+SUB:Re: PWR3847PL: korekta dodatku zmianowego
+FROM:operator04227@system.nwo
+DATE:2026-03-04 12:38
+Jasne, przekazuję do płac i kadr. Niech poprawią naliczenia i podeślą termin wypłaty różnicy.
+
+ID:2ac6c17f59c877f31d3a771e731bd49b
+SUB:Awanse kwartalne w pionie technicznym
+FROM:hr-central@corp-system.nwo
+DATE:2026-03-04 22:20
+W ramach przeglądu kwartalnego zatwierdzono awanse dla 8 osób z pionu technicznego. Szczegóły personalne trafią osobnym kanałem do kadr lokalnych.
+
+ID:a824ac12e76bcdfb42cb209c4ed7dd9a
+SUB:Re: PWR5921PL: spór o grafik weekendowy
+FROM:operator04227@system.nwo
+DATE:2026-03-05 06:59
+Przekazane do działu kadr i kierownika obiektu. Niech zamkną temat dziś, żeby nie blokować weekendu.
+
+ID:15c9629f0cc12b66d8e7c13c0a118296
+SUB:Re: Sąsiad unika podatku systemowego
+FROM:operator04227@system.nwo
+DATE:2026-03-05 07:23
+Przyjąłem zgłoszenie. Przekazuję temat do odpowiedniej komórki i wrócimy z informacją, jeśli będą potrzebne dodatkowe dane.
+
+ID:1782e74842de8f4c4624a719d41f6b2b
+SUB:Re: Sąsiad notorycznie obija się w pracy
+FROM:operator04227@system.nwo
+DATE:2026-03-05 08:15
+Dziękuję za zgłoszenie, zostało przyjęte. Przekazuję je do weryfikacji i odpowiednich służb operacyjnych.
+
+ID:4f798cbf8a36650830da2ad58d53e4ca
+SUB:Re: Sąsiad zaniża raporty wydajności
+FROM:operator04227@system.nwo
+DATE:2026-03-05 09:25
+Zgłoszenie przyjęte. Przekazuję sprawę do analizy i dalszych działań kontrolnych.
+
+ID:b045cc5d007c27937802d6fa4d9a4f53
+SUB:Re: PWR5921PL: opóźnione wypłaty nadgodzin
+FROM:operator04227@system.nwo
+DATE:2026-03-05 18:37
+Dzięki za info, puszczam to do płac i techników HR. Damy im priorytet, żeby to szybko wyprostować.
+
+ID:af35d644226ad13c9c5fb17b89e1bbf1
+SUB:Podwyżki bazowe od nowego kwartału
+FROM:finanse@corp-system.nwo
+DATE:2026-03-05 19:57
+Zatwierdzono podwyżki bazowe dla stanowisk operacyjnych od kolejnego kwartału. Wysokość podwyżki będzie zależna od oceny rocznej i kategorii stanowiska.
+
+ID:e2bff5dd0a3845a7a8c199e179fcc700
+SUB:Re: PWR7264PL: brak kandydata na brygadzistę
+FROM:operator04227@system.nwo
+DATE:2026-03-06 12:11
+Przyjęte, przekazuję do kadr centralnych. Niech przygotują tymczasowe zastępstwo i plan rekrutacji.
+
+ID:b5913514211a0a3274dd2582fdcf4549
+SUB:Redukcja etatów w pionie administracyjnym
+FROM:zarzad@corp-system.nwo
+DATE:2026-03-06 22:41
+Rozpoczynamy ograniczenie etatów w pionie administracyjnym o 6 procent. Zmiana nie obejmuje stanowisk krytycznych dla ciągłości pracy elektrowni.
+
+ID:17826486cce7c438707e8f808360e4b0
+SUB:Re: PWR7264PL: korekta premii kwartalnej
+FROM:operator04227@system.nwo
+DATE:2026-03-06 23:15
+Przekazane do działu płac. Poprosiłem o korektę i komunikat do pracowników jeszcze dziś.
+
+ID:c6c94d0d72290012324714f71767373e
+SUB:Re: PWR3847PL: chwilowy wzrost czasu odpowiedzi regulatora
+FROM:operator04227@system.nwo
+DATE:2026-03-07 07:02
+Wysłane do techników automatyki. Sprawdzą regulator R-3 i logi z ostatniej godziny.
+
+ID:ced140f7c1cac386932f3ee8aa264e26
+SUB:Re: PWR5921PL: krótkie odchylenie przepływu pary wtórnej
+FROM:operator04227@system.nwo
+DATE:2026-03-07 07:46
+Temat przekazany technikom. Sprawdzą zawory dławiące i domkną zgłoszenie w raporcie dziennym.
+
+ID:b771f1209c955af08af5cd21748295e9
+SUB:Re: PWR1593PL: wniosek o dodatkowy etat techniczny
+FROM:operator04227@system.nwo
+DATE:2026-03-07 17:38
+Przyjęte. Przekazuję sprawę do kadr i planowania zasobów, żeby ocenili etat i budżet.
+
+ID:3e3b65b26450ef5f25e47c5174b608b0
+SUB:Nowe zasady urlopowe od 1 kwietnia
+FROM:kadry.centralne@corp-system.nwo
+DATE:2026-03-07 18:08
+Od 1 kwietnia wchodzi nowy tryb planowania urlopów z minimalnym wyprzedzeniem 14 dni. Wnioski awaryjne pozostają możliwe w sytuacjach losowych.
+
+ID:fe408526149c25eb3ec156f5e9220c44
+SUB:Zostałeś zapisany do newslettera unknowNews
+FROM:newsy@mrugalski.pl
+DATE:2026-03-08 03:46
+Potwierdzam zapisanie Cię do newslettera unknowNews.
+
+Od teraz będziesz dostawać interesujące linki dla branży IT w każdy piątek rano.
+
+https://unknow.news
+
+pozdrawiam
+Jakub Mrugalski
+
+ID:c49c64bf37f0153600806d2f440dea2b
+SUB:Re: PWR1593PL: błędne naliczenie dodatku stażowego
+FROM:operator04227@system.nwo
+DATE:2026-03-08 04:54
+Temat przekazany do płac. Niech poprawią naliczenia i potwierdzą nową listę przed końcem dnia.
+
+ID:e076e9343c899fb2ccdfbce5f06389fb
+SUB:Standaryzacja pracy hybrydowej w działach wsparcia
+FROM:organizacja@corp-system.nwo
+DATE:2026-03-08 05:38
+Działy wsparcia przechodzą na ujednolicony model pracy hybrydowej 3/2. Jednostki operacyjne pracują bez zmian w trybie stacjonarnym.
+
+ID:b58aa44cf88a96aca9b6b45b91b244d1
+SUB:Re: PWR7264PL: chwilowe przekroczenie czasu przełączenia stycznika
+FROM:operator04227@system.nwo
+DATE:2026-03-08 13:59
+Przekazane technikom elektrykom. Niech sprawdzą zasilanie cewki i sam stycznik K-11.
+
+ID:9db0316f46e563f41b484daeba1e9da8
+SUB:Re: PWR2758PL: chwilowy spadek ciśnienia pary na wyjściu
+FROM:operator04227@system.nwo
+DATE:2026-03-02 20:26
+Poszło do techników. Niech sprawdzą, czy to jednorazowy przypadek, czy zaczyna się trend.
+
+ID:2b4592be9a13b064bdd5ca15c239fc60
+SUB:Re: PWR3847PL: pojedynczy błąd synchronizacji czasu PLC
+FROM:operator04227@system.nwo
+DATE:2026-03-02 21:23
+Wysłałem to do techników automatyki. Niech zrobią manualną walidację i zamkną alert z notatką.
+
+ID:97ef4e4ed7f14e62149a6dae9fe2021f
+SUB:Re: PWR5921PL: chwilowa niedyspozycja jednego wentylatora chłodni
+FROM:operator04227@system.nwo
+DATE:2026-03-02 22:08
+Temat przekazany technikom terenowym. Sprawdzą ten wentylator na miejscu przy najbliższym obchodzie.
+
+ID:11bd7083085799de7a62fac067fa636b
+SUB:Re: PWR7264PL: krótkie wahanie mocy biernej
+FROM:operator04227@system.nwo
+DATE:2026-03-02 23:15
+Tak, już przekazane do techników elektryków. Proszę o krótki raport po ich kontroli.
+
+ID:46749fe4b1f82b2e0656f534a77bff42
+SUB:Re: PWR1593PL: skok obciążenia pompy obiegu wtórnego
+FROM:operator04227@system.nwo
+DATE:2026-03-03 05:24
+Przekazałem technikom jako priorytet średni. Sprawdzą pompę i regulator obrotów na tej zmianie.
+
+ID:6959fa0a69d998a277ce39d6b1a1b6b4
+SUB:Re: PWR8406PL: krótkie wahanie napięcia na szynie B
+FROM:operator04227@system.nwo
+DATE:2026-03-03 06:16
+Zgłoszenie już u techników. Poprosiłem o dodatkowy przegląd zabezpieczeń i krótkie podsumowanie.
+
+ID:7362e48dd3bcfb8543ac340645fded50
+SUB:Re: PWR2758PL: chwilowy błąd odczytu sondy przewodności
+FROM:operator04227@system.nwo
+DATE:2026-03-03 07:04
+Przekazane do techników i chemików procesowych. Niech ocenią, czy robimy kalibrację od ręki.
+
+ID:594a98038da867a74139e32ed24b6679
+SUB:Re: PWR3847PL: krótki spadek przepustowości chłodni kominowej
+FROM:operator04227@system.nwo
+DATE:2026-03-03 07:56
+Wysłałem do techników utrzymania ruchu. Sprawdzą klapy i siłowniki jeszcze przed końcem zmiany.
+
+ID:8b31612cb7146c3cd750801f72a3d49f
+SUB:Re: PWR5921PL: chwilowy skok temperatury oleju turbiny
+FROM:operator04227@system.nwo
+DATE:2026-03-03 09:03
+Temat poszedł do techników, poprosiłem o wzmożony monitoring oleju przez resztę dnia.
+
+ID:17c0c688fb6bb7eefb81e5278b97c8de
+SUB:Re: PWR7264PL: chwilowe opóźnienie odpowiedzi zaworu regulacyjnego
+FROM:operator04227@system.nwo
+DATE:2026-03-03 15:12
+Przekazane technikom automatyki. Niech sprawdzą siłownik i sterownik zaworu.
+
+ID:13271fc3813f0f279a9b57cc962a7421
+SUB:Re: PWR1593PL: chwilowy brak potwierdzenia z modułu bezpieczeństwa
+FROM:operator04227@system.nwo
+DATE:2026-03-03 15:59
+Poszło do techników. Zleciliśmy test kontrolny modułu S-2 na tej zmianie.
+
+ID:93dced4d8c527ca2902552b11e5a27f9
+SUB:Re: PWR8406PL: krótkie przekroczenie progu drgań wału
+FROM:operator04227@system.nwo
+DATE:2026-03-03 16:49
+Przekazałem do techników mechaników. Poprosiłem ich o diagnostykę i aktualizację jeszcze dziś.
+
+ID:4204dfe8400acf3e468aed654fcf09ec
+SUB:Re: PWR2758PL: chwilowe odchylenie temperatury wody zasilającej
+FROM:operator04227@system.nwo
+DATE:2026-03-03 17:40
+Technicy dostali zgłoszenie. Sprawdzą zawór mieszający i jego sterowanie.
+
+ID:5b9cd855632429f1bed20eae26bb8154
+SUB:Re: PWR3847PL: krótki spadek ciśnienia w obiegu pomocniczym
+FROM:operator04227@system.nwo
+DATE:2026-03-03 18:47
+Wysłałem do techników. Poprosiłem o kontrolę i obserwację przez resztę zmiany.
+
+ID:4edab7bc5a243ffdab111b9faa590c9f
+SUB:Re: PWR5921PL: chwilowy błąd checksum pakietu telemetrycznego
+FROM:operator04227@system.nwo
+DATE:2026-03-04 00:57
+Temat przekazany do techników i sieciowców. Niech sprawdzą łącze i bufor transmisji.
+
+ID:4016aee2867d1578247770d978fa00b7
+SUB:Re: PWR3847PL: brak pełnej obsady na zmianie nocnej
+FROM:operator04227@system.nwo
+DATE:2026-03-04 01:20
+Przyjęte. Przekazuję do zespołu kadrowego i dyspozycji zmian, żeby domknęli zastępstwa.
+
+ID:b6ab1a6edc7918fb967a6abd35911459
+SUB:Re: PWR7264PL: krótkie przeciążenie falownika pompy chłodzenia
+FROM:operator04227@system.nwo
+DATE:2026-03-04 01:43
+Wysłane do techników, żeby przejrzeli falownik i parametry rozruchowe pompy C-2.
+
+ID:0eb152d28f2b83981951bc3928514033
+SUB:Nowy szef działu operacyjnego od marca
+FROM:komunikaty@corp-system.nwo
+DATE:2026-03-04 02:12
+Informujemy, że od 1 marca funkcję szefa działu operacyjnego obejmuje Marta Janik. Przejęcie obowiązków odbędzie się bez zmian w bieżących procedurach.
+
+ID:b7ba6514d1c710df86bfa5c358f31b92
+SUB:Re: PWR1593PL: chwilowe zaniżenie odczytu przepływomierza
+FROM:operator04227@system.nwo
+DATE:2026-03-04 02:37
+Przekazuję technikom metrologii. Niech zrobią kalibrację krzyżową i zamkną temat notatką.
+
+ID:bb46b87f2a203018049ddfac1b62e2cc
+SUB:Re: PWR8406PL: krótki reset modułu sterowania wentylacją
+FROM:operator04227@system.nwo
+DATE:2026-03-04 03:24
+Temat trafił do techników. Na razie wstrzymujemy kolejne aktualizacje, aż potwierdzą przyczynę.
+
+ID:a7353b90b3c7d973255aa6cf36bcba0f
+SUB:Nowe hasło do systemu pracowniczego
+FROM:security@system.nwo
+DATE:2025-12-06 22:40
+Ze względów bezpieczeństwa zmieniliśmy Twoje hasło dostępowe do systemu pracowniczego na nowe.
+
+Proszę od teraz logować się hasłem:
+RABARBAR25
+
+Przypominamy, że system pracowniczy zawiera dane poufne, więc przekazanie komukolwiek hasła dostępowego będzie karane!
+
+ID:6691a11c90cd6fcaedad9a274cca116f
+SUB:Akt wandalizmu - kolejny raz!
+FROM:security@system.nwo
+DATE:2026-02-21 07:43:22
+Ktoś po raz kolejny próbował zniszczyć flagę w holu naszej bazy. Rozumiemy, że nie chcecie, aby stała tam flaga Zygfryda, ale takie jest odgórne rozporządzenie i nie mamy na to wpływu. Przesyłamy dodatkowe dokumenty do wglądu. Przeczytajcie sobie, na co się godziliście zaczynając u nas pracę.
+
+ID:b69c5508afd03659f638f16b0d2dbcf8
+SUB:Re: PWR3847PL: krótki wzrost temperatury wymiennika
+FROM:operator04227@system.nwo
+DATE:2026-03-02 00:08
+Dzięki za szybkie zgłoszenie. Przekazuję temat do techników z dyżuru porannego, niech sprawdzą trend i czujniki.
+
+ID:f8ed040352ec80bd6af72e82b36d8a9f
+SUB:Re: PWR5921PL: chwilowy spadek wydajności chłodzenia
+FROM:operator04227@system.nwo
+DATE:2026-03-02 00:54
+Przekazane do zespołu technicznego. Niech wykonają szybki test ręczny i podeślą log po zakończeniu.
+
+ID:578056cf4581525b99731c98ce8424e1
+SUB:Re: PWR7264PL: skok mocy na turbinie nr 2
+FROM:operator04227@system.nwo
+DATE:2026-03-02 01:49
+Tak, puśćmy to ścieżką techniczną. Wysłałem zgłoszenie do techników, żeby zamknęli temat jeszcze na tej zmianie.
+
+ID:1c4818b287b35befb5d4bfe0c1de79fd
+SUB:Re: PWR1593PL: niestabilny odczyt czujnika ciśnienia
+FROM:operator04227@system.nwo
+DATE:2026-03-02 02:34
+Temat trafił do techników. Niech ocenią, czy wystarczy kalibracja, czy od razu wymiana.
+
+ID:e285421112cb7c49a1346556c06ee518
+SUB:Re: PWR8406PL: chwilowe przeciążenie sekcji zasilania pomocniczego
+FROM:operator04227@system.nwo
+DATE:2026-03-02 03:50
+Przekazuję do techników i proszę ich o kontrolę styków jeszcze dziś. Lepiej to złapać teraz, niż wracać do tematu nocą.
+
+ID:0cb942197df6f643a83e4438e8b1d83c
+SUB:Re: PWR2758PL: krótkie wahanie poziomu wody w układzie wtórnym
+FROM:operator04227@system.nwo
+DATE:2026-03-02 09:58
+Tak, temat przekazany do techników i proszę o dodatkowy sampling przez najbliższe 2 godziny.
+
+ID:2c59eaf70c9b72c0aaf85dd1559e9767
+SUB:Re: PWR3847PL: chwilowa utrata jednego pakietu telemetrycznego
+FROM:operator04227@system.nwo
+DATE:2026-03-02 10:44
+Puściłem to do techników i do sieci. Niech zrobią szybki przegląd łącza i bufora.
+
+ID:2c973e96518cdeb0041c74eed56b28d3
+SUB:Re: PWR5921PL: wzrost drgań pompy obiegowej
+FROM:operator04227@system.nwo
+DATE:2026-03-02 11:28
+Wysłane do techników. Sprawdzą łożyska i potwierdzą, czy trzeba planować postój serwisowy.
+
+ID:4277fd6d2642fe98f208caf81c5fd5ee
+SUB:Re: PWR7264PL: krótkie odchylenie częstotliwości generatora
+FROM:operator04227@system.nwo
+DATE:2026-03-02 12:21
+Tak, zgłoszenie poszło do techników z prośbą o rozszerzone logowanie i szybkie podsumowanie.
+
+ID:8a5afdd9ebb4387d1a5b6fbcd51cf5fe
+SUB:Re: PWR1593PL: opóźniony start pompy rezerwowej
+FROM:operator04227@system.nwo
+DATE:2026-03-02 13:32
+Technicy już dostali temat. Poprosiłem ich o diagnostykę rozruchu i raport do końca dnia.
+
+ID:43c0f21103837d63e44644fdba77b092
+SUB:Re: PWR8406PL: krótki pik temperatury łożyska turbiny
+FROM:operator04227@system.nwo
+DATE:2026-03-02 19:43
+Przekazane technikom. Poprosiłem ich o inspekcję wieczorną i porównanie z danymi z poprzedniej doby.

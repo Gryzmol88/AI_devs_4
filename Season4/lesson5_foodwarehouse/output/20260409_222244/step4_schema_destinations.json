@@ -1,0 +1,10 @@
+{
+  "code": 160,
+  "message": "Database schema loaded.",
+  "data": null,
+  "tool": "database",
+  "mode": "read-only",
+  "query": "show create table destinations",
+  "table": "destinations",
+  "schema": "CREATE TABLE destinations(destination_id int, name varchar(80), primary key(destination_id))"
+}

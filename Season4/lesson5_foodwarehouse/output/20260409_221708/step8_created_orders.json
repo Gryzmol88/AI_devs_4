@@ -1,0 +1,139 @@
+[
+  {
+    "city": "ALL_CITIES",
+    "order_id": "3a92997607e7264e950dd2f5438dcbdf",
+    "create_response": {
+      "code": 110,
+      "message": "Order created.",
+      "data": null,
+      "order": {
+        "id": "3a92997607e7264e950dd2f5438dcbdf",
+        "title": "Dostawa zbiorcza dla wszystkich miast",
+        "creatorID": 1,
+        "destination": 991828,
+        "signature": "2199777994d119b6a1c8871643e0b7054e7f91c1",
+        "items": []
+      }
+    },
+    "append_response": {
+      "code": 120,
+      "message": "Order updated.",
+      "data": null,
+      "order": {
+        "id": "3a92997607e7264e950dd2f5438dcbdf",
+        "title": "Dostawa zbiorcza dla wszystkich miast",
+        "creatorID": 1,
+        "destination": 991828,
+        "signature": "2199777994d119b6a1c8871643e0b7054e7f91c1",
+        "items": [
+          {
+            "name": "chleb",
+            "items": 95
+          },
+          {
+            "name": "woda",
+            "items": 1160
+          },
+          {
+            "name": "mlotek",
+            "items": 12
+          },
+          {
+            "name": "makaron",
+            "items": 112
+          },
+          {
+            "name": "lopata",
+            "items": 17
+          },
+          {
+            "name": "ryz",
+            "items": 100
+          },
+          {
+            "name": "wiertarka",
+            "items": 12
+          },
+          {
+            "name": "wolowina",
+            "items": 47
+          },
+          {
+            "name": "kilof",
+            "items": 13
+          },
+          {
+            "name": "kurczak",
+            "items": 40
+          },
+          {
+            "name": "ziemniaki",
+            "items": 195
+          },
+          {
+            "name": "kapusta",
+            "items": 70
+          },
+          {
+            "name": "marchew",
+            "items": 65
+          }
+        ]
+      },
+      "appended": [
+        {
+          "name": "chleb",
+          "items": 95
+        },
+        {
+          "name": "woda",
+          "items": 1160
+        },
+        {
+          "name": "mlotek",
+          "items": 12
+        },
+        {
+          "name": "makaron",
+          "items": 112
+        },
+        {
+          "name": "lopata",
+          "items": 17
+        },
+        {
+          "name": "ryz",
+          "items": 100
+        },
+        {
+          "name": "wiertarka",
+          "items": 12
+        },
+        {
+          "name": "wolowina",
+          "items": 47
+        },
+        {
+          "name": "kilof",
+          "items": 13
+        },
+        {
+          "name": "kurczak",
+          "items": 40
+        },
+        {
+          "name": "ziemniaki",
+          "items": 195
+        },
+        {
+          "name": "kapusta",
+          "items": 70
+        },
+        {
+          "name": "marchew",
+          "items": 65
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "editline /opt/firmware/cooler/settings.ini 2 SAFETY_CHECK=pass",
+  "response": {
+    "code": 181,
+    "message": "Line updated.",
+    "path": "/opt/firmware/cooler/settings.ini",
+    "data": "OK"
+  },
+  "detected_confirmation_code": null
+}

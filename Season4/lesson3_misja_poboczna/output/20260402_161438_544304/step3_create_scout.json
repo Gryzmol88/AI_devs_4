@@ -1,0 +1,15 @@
+{
+  "code": 10,
+  "message": "Object created.",
+  "object": "be8d393aaf83abf040c263446e67b282",
+  "type": "scout",
+  "spawn": "A6",
+  "crew": [
+    {
+      "id": "37db4c6a2af9b360cbebbdc880dc0f99",
+      "role": "scout"
+    }
+  ],
+  "queue_id": "c4887e623159477a2c4c703155024744",
+  "action_points_left": 295
+}

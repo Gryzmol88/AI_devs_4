@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "ls /home/operator/notes",
+  "response": {
+    "code": 120,
+    "message": "Directory listing.",
+    "path": "/home/operator/notes",
+    "data": [
+      "pass.txt"
+    ]
+  },
+  "detected_confirmation_code": null
+}

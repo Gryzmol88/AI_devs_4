@@ -1,0 +1,6 @@
+{
+  "task": "negotiations",
+  "csv_base_url": "https://hub.ag3nts.org/dane/s03e04_csv/",
+  "model": "openai/gpt-4.1-mini",
+  "llm_parser_enabled": false
+}

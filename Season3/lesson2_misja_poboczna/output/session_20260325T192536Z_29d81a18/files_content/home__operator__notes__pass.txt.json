@@ -1,0 +1,7 @@
+{
+  "path": "/home/operator/notes/pass.txt",
+  "source_command": "cat /home/operator/notes/pass.txt",
+  "truncated": false,
+  "max_chars": 40000,
+  "content": "admin1"
+}

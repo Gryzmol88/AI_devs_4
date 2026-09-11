@@ -1,0 +1,265 @@
+{
+  "inspected": [
+    {
+      "cell": "F7",
+      "move": {
+        "code": 20,
+        "message": "Move queued.",
+        "object": "be8d393aaf83abf040c263446e67b282",
+        "from": "A6",
+        "where": "F7",
+        "queue_id": "f1177f9f6baeb9503fabcaf6460aaa95",
+        "path_steps": 7,
+        "action_points_left": 253
+      },
+      "inspect": {
+        "code": 30,
+        "message": "Searching... check logs for details.",
+        "object": "be8d393aaf83abf040c263446e67b282",
+        "entries": 1,
+        "action_points_left": 252
+      },
+      "logs": {
+        "code": 60,
+        "message": "Inspect logs loaded.",
+        "logs": [
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "Nic tu nie ma oprócz stosu gazet i pustych opakowań.",
+            "field": "F7"
+          }
+        ]
+      }
+    },
+    {
+      "cell": "G7",
+      "move": {
+        "code": 20,
+        "message": "Move queued.",
+        "object": "be8d393aaf83abf040c263446e67b282",
+        "from": "F7",
+        "where": "G7",
+        "queue_id": "ad07ba26b56056145fc2431871b2b400",
+        "path_steps": 2,
+        "action_points_left": 245
+      },
+      "inspect": {
+        "code": 30,
+        "message": "Searching... check logs for details.",
+        "object": "be8d393aaf83abf040c263446e67b282",
+        "entries": 2,
+        "action_points_left": 244
+      },
+      "logs": {
+        "code": 60,
+        "message": "Inspect logs loaded.",
+        "logs": [
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "Nic tu nie ma oprócz stosu gazet i pustych opakowań.",
+            "field": "F7"
+          },
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "Nic nie znaleziono. Nawet schowek w podłodze jest pusty.",
+            "field": "G7"
+          }
+        ]
+      }
+    },
+    {
+      "cell": "H7",
+      "move": {
+        "code": 20,
+        "message": "Move queued.",
+        "object": "be8d393aaf83abf040c263446e67b282",
+        "from": "G7",
+        "where": "H7",
+        "queue_id": "7bf5ba9e43b4b28f41d7ad8360a78060",
+        "path_steps": 2,
+        "action_points_left": 237
+      },
+      "inspect": {
+        "code": 30,
+        "message": "Searching... check logs for details.",
+        "object": "be8d393aaf83abf040c263446e67b282",
+        "entries": 3,
+        "action_points_left": 236
+      },
+      "logs": {
+        "code": 60,
+        "message": "Inspect logs loaded.",
+        "logs": [
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "Nic tu nie ma oprócz stosu gazet i pustych opakowań.",
+            "field": "F7"
+          },
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "Nic nie znaleziono. Nawet schowek w podłodze jest pusty.",
+            "field": "G7"
+          },
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "Nic się tu nie ukrywa. Tylko skrzynka po narzędziach.",
+            "field": "H7"
+          }
+        ]
+      }
+    },
+    {
+      "cell": "H8",
+      "move": {
+        "code": 20,
+        "message": "Move queued.",
+        "object": "be8d393aaf83abf040c263446e67b282",
+        "from": "H7",
+        "where": "H8",
+        "queue_id": "f5ca057bdf83f0be20bf95d9fb110558",
+        "path_steps": 2,
+        "action_points_left": 229
+      },
+      "inspect": {
+        "code": 30,
+        "message": "Searching... check logs for details.",
+        "object": "be8d393aaf83abf040c263446e67b282",
+        "entries": 4,
+        "action_points_left": 228
+      },
+      "logs": {
+        "code": 60,
+        "message": "Inspect logs loaded.",
+        "logs": [
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "Nic tu nie ma oprócz stosu gazet i pustych opakowań.",
+            "field": "F7"
+          },
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "Nic nie znaleziono. Nawet schowek w podłodze jest pusty.",
+            "field": "G7"
+          },
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "Nic się tu nie ukrywa. Tylko skrzynka po narzędziach.",
+            "field": "H7"
+          },
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "Brak ludzi. W środku porzucony sweter i stare mapy.",
+            "field": "H8"
+          }
+        ]
+      }
+    },
+    {
+      "cell": "G8",
+      "move": {
+        "code": 20,
+        "message": "Move queued.",
+        "object": "be8d393aaf83abf040c263446e67b282",
+        "from": "H8",
+        "where": "G8",
+        "queue_id": "fcc0f26d1d449326670db1f73a94078d",
+        "path_steps": 2,
+        "action_points_left": 221
+      },
+      "inspect": {
+        "code": 30,
+        "message": "Searching... check logs for details.",
+        "object": "be8d393aaf83abf040c263446e67b282",
+        "entries": 5,
+        "action_points_left": 220
+      },
+      "logs": {
+        "code": 60,
+        "message": "Inspect logs loaded.",
+        "logs": [
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "Nic tu nie ma oprócz stosu gazet i pustych opakowań.",
+            "field": "F7"
+          },
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "Nic nie znaleziono. Nawet schowek w podłodze jest pusty.",
+            "field": "G7"
+          },
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "Nic się tu nie ukrywa. Tylko skrzynka po narzędziach.",
+            "field": "H7"
+          },
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "Brak ludzi. W środku porzucony sweter i stare mapy.",
+            "field": "H8"
+          },
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "FLG? 4a,61,6b,20,6d,69,61,c5,82,20,6e,61,20,69,6d,69,65,20,67,6f,c5,9b,c4,87,20,6f,64,20,56,69,67,65,6e,c3,a8,72,65,3f,0a,2d,2d,2d,0a,50,20,75,61,73,61,71,20,71,7a,6a,6d,c5,ba,76,64,6a,70,20,70,77,20,73,72,68,74,65,74,6b,6f,76,20,78,c3,b3,77,71,20,53,64,62,6b,65,74,3f,0a,6d,6b,68,6e,66,3a,2f,2f,63,7a,73,2e,6f,65,33,61,6f,78,2e,66,66,65,2f,71,76,73,76,2f,6f,78,6e,75,6a,63,5f,67,63,70,6d,6a,6b,2e,61,6e,34",
+            "field": "G8"
+          }
+        ]
+      }
+    },
+    {
+      "cell": "F8",
+      "move": {
+        "code": 20,
+        "message": "Move queued.",
+        "object": "be8d393aaf83abf040c263446e67b282",
+        "from": "G8",
+        "where": "F8",
+        "queue_id": "cc616a828f400d4cddaec354ac9c460f",
+        "path_steps": 2,
+        "action_points_left": 213
+      },
+      "inspect": {
+        "code": 30,
+        "message": "Searching... check logs for details.",
+        "object": "be8d393aaf83abf040c263446e67b282",
+        "entries": 6,
+        "action_points_left": 212
+      },
+      "logs": {
+        "code": 60,
+        "message": "Inspect logs loaded.",
+        "logs": [
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "Nic tu nie ma oprócz stosu gazet i pustych opakowań.",
+            "field": "F7"
+          },
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "Nic nie znaleziono. Nawet schowek w podłodze jest pusty.",
+            "field": "G7"
+          },
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "Nic się tu nie ukrywa. Tylko skrzynka po narzędziach.",
+            "field": "H7"
+          },
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "Brak ludzi. W środku porzucony sweter i stare mapy.",
+            "field": "H8"
+          },
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "FLG? 4a,61,6b,20,6d,69,61,c5,82,20,6e,61,20,69,6d,69,65,20,67,6f,c5,9b,c4,87,20,6f,64,20,56,69,67,65,6e,c3,a8,72,65,3f,0a,2d,2d,2d,0a,50,20,75,61,73,61,71,20,71,7a,6a,6d,c5,ba,76,64,6a,70,20,70,77,20,73,72,68,74,65,74,6b,6f,76,20,78,c3,b3,77,71,20,53,64,62,6b,65,74,3f,0a,6d,6b,68,6e,66,3a,2f,2f,63,7a,73,2e,6f,65,33,61,6f,78,2e,66,66,65,2f,71,76,73,76,2f,6f,78,6e,75,6a,63,5f,67,63,70,6d,6a,6b,2e,61,6e,34",
+            "field": "G8"
+          },
+          {
+            "scout": "be8d393aaf83abf040c263446e67b282",
+            "msg": "Nie ma człowieka. Przewrócona szafa blokowała widok, ale za nią też pusto.",
+            "field": "F8"
+          }
+        ]
+      }
+    }
+  ]
+}

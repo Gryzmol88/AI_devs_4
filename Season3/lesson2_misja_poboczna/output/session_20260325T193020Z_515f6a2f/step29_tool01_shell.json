@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "blocked": true,
+  "command": "ls //etc",
+  "reason": "Komenda odwołuje się do zabronionej ścieżki: /etc",
+  "required_bootstrap_command": null
+}

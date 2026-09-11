@@ -1,0 +1,142 @@
+[
+  {
+    "name": "north_river_patrol_rocket",
+    "vehicle_name": "rocket",
+    "commands": [
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "right",
+      "left",
+      "right",
+      "dismount",
+      "left",
+      "right",
+      "left"
+    ],
+    "answer": [
+      "rocket",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "right",
+      "left",
+      "right",
+      "dismount",
+      "left",
+      "right",
+      "left"
+    ],
+    "score": 13.233333333333334,
+    "metrics": {
+      "water_adjacent_steps": 0,
+      "water_steps": 0,
+      "north_score": 96,
+      "fuel_left": 0.0,
+      "food_left": 1.5
+    }
+  },
+  {
+    "name": "north_river_patrol_car",
+    "vehicle_name": "car",
+    "commands": [
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "right",
+      "left",
+      "right",
+      "dismount"
+    ],
+    "answer": [
+      "car",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "right",
+      "left",
+      "right",
+      "dismount"
+    ],
+    "score": 9.45,
+    "metrics": {
+      "water_adjacent_steps": 0,
+      "water_steps": 0,
+      "north_score": 69,
+      "fuel_left": 3.0,
+      "food_left": 0.0
+    }
+  },
+  {
+    "name": "north_river_patrol_horse",
+    "vehicle_name": "horse",
+    "commands": [
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "dismount"
+    ],
+    "answer": [
+      "horse",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "up",
+      "dismount"
+    ],
+    "score": 4.192857142857143,
+    "metrics": {
+      "water_adjacent_steps": 0,
+      "water_steps": 0,
+      "north_score": 33,
+      "fuel_left": 10.0,
+      "food_left": 0.4
+    }
+  },
+  {
+    "name": "north_river_patrol_walk",
+    "vehicle_name": "walk",
+    "commands": [
+      "up",
+      "up",
+      "up",
+      "up"
+    ],
+    "answer": [
+      "walk",
+      "up",
+      "up",
+      "up",
+      "up"
+    ],
+    "score": 1.9000000000000001,
+    "metrics": {
+      "water_adjacent_steps": 0,
+      "water_steps": 0,
+      "north_score": 18,
+      "fuel_left": 10.0,
+      "food_left": 0.0
+    }
+  }
+]

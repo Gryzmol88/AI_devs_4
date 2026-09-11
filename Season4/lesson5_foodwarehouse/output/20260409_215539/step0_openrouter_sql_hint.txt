@@ -1,0 +1,19 @@
+- Mapowanie podstawowe miasto -> destination
+  Zapytanie: SELECT m.city, m.country_code, m.destination_code FROM city_destination_map m WHERE m.city = :city AND m.country_code = :cc AND m.is_active = true ORDER BY m.priority DESC LIMIT 1;
+  Pola do sprawdzenia: city, country_code, destination_code, is_active, priority, effective_from, effective_to, updated_at
+
+- Mapowanie po aliasach/synonimach miasta
+  Zapytanie: SELECT a.city_alias AS city, m.destination_code FROM city_alias a JOIN city_destination_map m ON m.city_id = a.city_id AND m.is_active = true WHERE a.city_alias ILIKE :city ORDER BY m.priority DESC LIMIT 1;
+  Pola do sprawdzenia: city_alias, city_id, normalized_city, match_score, is_primary, destination_code
+
+- Fallback po kodzie pocztowym (najdłuższy prefiks)
+  Zapytanie: SELECT p.postal_prefix, m.destination_code FROM postal_prefix p JOIN postal_destination_map m ON m.postal_prefix = p.postal_prefix AND m.is_active = true WHERE p.country_code = :cc AND :postal_code LIKE p.postal_prefix || '%' ORDER BY length(p.postal_prefix) DESC, m.priority DESC LIMIT 1;
+  Pola do sprawdzenia: postal_prefix, country_code, destination_code, priority, coverage_start, coverage_end, is_active
+
+- Dane wejściowe do signatureGenerator (kanonizacja + identyfikacja klucza)
+  Zapytanie: SELECT r.request_id, r.method, r.path, r.canonical_query, r.canonical_headers_hash, r.body_sha256 AS payload_hash, r.timestamp_utc, r.nonce, c.client_id, k.key_id, k.key_version, k.alg, k.kms_key_alias FROM http_requests r JOIN api_clients c ON c.id = r.client_id JOIN api_keys k ON k.id = r.api_key_id AND k.is_active = true WHERE r.request_id = :request_id;
+  Pola do sprawdzenia: method, path, canonical_query, canonical_headers_hash, payload_hash/payload_hash_method, timestamp_utc, nonce, alg, key_version, kms_key_alias/public_key_id, scope, clock_skew, key_status
+
+- Materiał klucza do podpisu/weryfikacji (rotacja i ważność)
+  Zapytanie: SELECT k.key_id, k.key_version, k.alg, k.public_key_pem, k.expires_at, k.status FROM api_keys k WHERE k.key_id = :key_id AND k.status = 'active';
+  Pola do sprawdzenia: status, expires_at, usage ('sign'/'verify'), rotation_at, allowed_alg, allowed_clients, is_compromised

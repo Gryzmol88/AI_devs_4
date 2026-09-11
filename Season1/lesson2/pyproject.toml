@@ -1,0 +1,20 @@
+[project]
+name = "ai-devs-lesson2-findhim"
+version = "0.1.0"
+description = "Function Calling solution scaffold for AI_devs lesson2"
+requires-python = ">=3.11"
+dependencies = [
+  "openai>=1.45.0",
+  "pydantic>=2.8.0",
+  "pydantic-settings>=2.4.0",
+  "requests>=2.32.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3.0",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

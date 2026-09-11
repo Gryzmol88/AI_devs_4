@@ -1,0 +1,7 @@
+{
+  "step": 1,
+  "state": "intro",
+  "outbound_text": "Tu Tymon Gajewski, dzień dobry.",
+  "inbound_text": "W jakiej sprawie dzwonisz?",
+  "selected_road": null
+}

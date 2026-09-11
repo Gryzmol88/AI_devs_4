@@ -1,0 +1,227 @@
+{
+  "roles_index": {
+    "1": "Pomoc techniczna",
+    "2": "Obsługa transportów",
+    "3": "Praktykant",
+    "4": "Programista",
+    "5": "Specjalista AI",
+    "6": "Vibe Coder"
+  },
+  "candidates_scored": [
+    {
+      "id": 2,
+      "login": "tgajewski",
+      "role_id": "2",
+      "role_name": "Obsługa transportów",
+      "score": 11
+    },
+    {
+      "id": 5,
+      "login": "mkoodziej",
+      "role_id": "2",
+      "role_name": "Obsługa transportów",
+      "score": 11
+    },
+    {
+      "id": 7,
+      "login": "bkurek",
+      "role_id": "2",
+      "role_name": "Obsługa transportów",
+      "score": 11
+    },
+    {
+      "id": 8,
+      "login": "gjabonski",
+      "role_id": "2",
+      "role_name": "Obsługa transportów",
+      "score": 11
+    },
+    {
+      "id": 18,
+      "login": "fgacek",
+      "role_id": "2",
+      "role_name": "Obsługa transportów",
+      "score": 11
+    },
+    {
+      "id": 20,
+      "login": "tjakubowski",
+      "role_id": "2",
+      "role_name": "Obsługa transportów",
+      "score": 11
+    },
+    {
+      "id": 21,
+      "login": "bkoodziej",
+      "role_id": "2",
+      "role_name": "Obsługa transportów",
+      "score": 11
+    },
+    {
+      "id": 27,
+      "login": "nborowski",
+      "role_id": "2",
+      "role_name": "Obsługa transportów",
+      "score": 11
+    },
+    {
+      "id": 1,
+      "login": "azurek",
+      "role_id": "3",
+      "role_name": "Praktykant",
+      "score": 1
+    },
+    {
+      "id": 3,
+      "login": "bczajkowski",
+      "role_id": "5",
+      "role_name": "Specjalista AI",
+      "score": 1
+    },
+    {
+      "id": 4,
+      "login": "esadowska",
+      "role_id": "4",
+      "role_name": "Programista",
+      "score": 1
+    },
+    {
+      "id": 6,
+      "login": "jgacek",
+      "role_id": "1",
+      "role_name": "Pomoc techniczna",
+      "score": 1
+    },
+    {
+      "id": 9,
+      "login": "mkrol",
+      "role_id": "3",
+      "role_name": "Praktykant",
+      "score": 1
+    },
+    {
+      "id": 10,
+      "login": "bkos",
+      "role_id": "5",
+      "role_name": "Specjalista AI",
+      "score": 1
+    },
+    {
+      "id": 11,
+      "login": "iwojcik",
+      "role_id": "1",
+      "role_name": "Pomoc techniczna",
+      "score": 1
+    },
+    {
+      "id": 12,
+      "login": "apietrzak",
+      "role_id": "1",
+      "role_name": "Pomoc techniczna",
+      "score": 1
+    },
+    {
+      "id": 13,
+      "login": "ikubiak",
+      "role_id": "1",
+      "role_name": "Pomoc techniczna",
+      "score": 1
+    },
+    {
+      "id": 14,
+      "login": "dsikora",
+      "role_id": "3",
+      "role_name": "Praktykant",
+      "score": 1
+    },
+    {
+      "id": 15,
+      "login": "jmichalski",
+      "role_id": "5",
+      "role_name": "Specjalista AI",
+      "score": 1
+    },
+    {
+      "id": 16,
+      "login": "dbaran",
+      "role_id": "5",
+      "role_name": "Specjalista AI",
+      "score": 1
+    },
+    {
+      "id": 17,
+      "login": "badamczyk",
+      "role_id": "4",
+      "role_name": "Programista",
+      "score": 1
+    },
+    {
+      "id": 19,
+      "login": "switkowski",
+      "role_id": "5",
+      "role_name": "Specjalista AI",
+      "score": 1
+    },
+    {
+      "id": 22,
+      "login": "smalinowska",
+      "role_id": "1",
+      "role_name": "Pomoc techniczna",
+      "score": 1
+    },
+    {
+      "id": 23,
+      "login": "kmichalska",
+      "role_id": "1",
+      "role_name": "Pomoc techniczna",
+      "score": 1
+    },
+    {
+      "id": 24,
+      "login": "dwojciechowska",
+      "role_id": "3",
+      "role_name": "Praktykant",
+      "score": 1
+    },
+    {
+      "id": 25,
+      "login": "akrajewski",
+      "role_id": "5",
+      "role_name": "Specjalista AI",
+      "score": 1
+    },
+    {
+      "id": 26,
+      "login": "szajac",
+      "role_id": "3",
+      "role_name": "Praktykant",
+      "score": 1
+    },
+    {
+      "id": 28,
+      "login": "eszymanski",
+      "role_id": "1",
+      "role_name": "Pomoc techniczna",
+      "score": 1
+    },
+    {
+      "id": 29,
+      "login": "bbaszczyk",
+      "role_id": "5",
+      "role_name": "Specjalista AI",
+      "score": 1
+    },
+    {
+      "id": 30,
+      "login": "wgowacki",
+      "role_id": "1",
+      "role_name": "Pomoc techniczna",
+      "score": 1
+    }
+  ],
+  "selected": {
+    "id": 2,
+    "login": "tgajewski",
+    "role_id": "2"
+  }
+}

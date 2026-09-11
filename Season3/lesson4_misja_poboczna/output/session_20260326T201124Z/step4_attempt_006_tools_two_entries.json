@@ -1,0 +1,38 @@
+{
+  "attempt_index": 6,
+  "label": "tools_two_entries",
+  "payload": {
+    "apikey": "52b65cf5-2d1a-4fd2-ac76-7063b66b10fc",
+    "task": "negotiations",
+    "answer": {
+      "tools": [
+        {
+          "URL": "https://nontheoretic-unsublimed-aundrea.ngrok-free.dev/api/find-cities",
+          "description": "Primary tool for city lookup by item name. When possible include all required items in one params message."
+        },
+        {
+          "URL": "https://nontheoretic-unsublimed-aundrea.ngrok-free.dev/api/find-cities",
+          "description": "Fallback tool for item code lookup, especially tokens similar to M5FLGC."
+        }
+      ]
+    }
+  },
+  "response": {
+    "code": 0,
+    "message": "Your request has been queued for verification. Come back in a moment for the final result.",
+    "check_polls": [
+      {
+        "code": 0,
+        "message": "{FLG:WINDFARM}",
+        "cities": [
+          "Domatowo",
+          "Skolwin"
+        ]
+      }
+    ]
+  },
+  "found_flag": "{FLG:WINDFARM}",
+  "notes": [
+    "flag_found_in_poll"
+  ]
+}

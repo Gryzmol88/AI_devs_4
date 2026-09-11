@@ -1,0 +1,591 @@
+{
+  "powerplantcheck": {
+    "code": 12,
+    "message": "insufficient energy to start management systems",
+    "sourceFunction": "powerplantcheck",
+    "mode": "StandBy",
+    "cooling": "within norm",
+    "firmware": "operational",
+    "powerDeficitKw": "3-4",
+    "producedPowerKw": 0
+  },
+  "turbinecheck": {
+    "code": 12,
+    "message": "Low battery level detected in turbine backup power system.",
+    "sourceFunction": "turbinecheck",
+    "status": "Turbine is operating correctly.",
+    "bladePitchAngleDeg": 0,
+    "battery": "low"
+  },
+  "weather": {
+    "code": 12,
+    "message": "Queued response retrieved.",
+    "sourceFunction": "weather",
+    "intervalHours": 2,
+    "forecastDays": 7,
+    "unit": {
+      "windMs": "m/s",
+      "precipitationMm": "mm",
+      "temperatureC": "C"
+    },
+    "forecast": [
+      {
+        "timestamp": "2026-04-02 00:00:00",
+        "windMs": 3.9,
+        "precipitationMm": 0,
+        "temperatureC": 27.6
+      },
+      {
+        "timestamp": "2026-04-02 02:00:00",
+        "windMs": 2.9,
+        "precipitationMm": 0,
+        "temperatureC": 27.6
+      },
+      {
+        "timestamp": "2026-04-02 04:00:00",
+        "windMs": 2.8,
+        "precipitationMm": 0,
+        "temperatureC": 27.3
+      },
+      {
+        "timestamp": "2026-04-02 06:00:00",
+        "windMs": 3.3,
+        "precipitationMm": 0,
+        "temperatureC": 27.1
+      },
+      {
+        "timestamp": "2026-04-02 08:00:00",
+        "windMs": 3.8,
+        "precipitationMm": 0,
+        "temperatureC": 27
+      },
+      {
+        "timestamp": "2026-04-02 10:00:00",
+        "windMs": 3.9,
+        "precipitationMm": 0,
+        "temperatureC": 27.9
+      },
+      {
+        "timestamp": "2026-04-02 12:00:00",
+        "windMs": 3.6,
+        "precipitationMm": 0,
+        "temperatureC": 28.6
+      },
+      {
+        "timestamp": "2026-04-02 14:00:00",
+        "windMs": 3.4,
+        "precipitationMm": 0,
+        "temperatureC": 28.2
+      },
+      {
+        "timestamp": "2026-04-02 16:00:00",
+        "windMs": 3,
+        "precipitationMm": 0,
+        "temperatureC": 28.5
+      },
+      {
+        "timestamp": "2026-04-02 18:00:00",
+        "windMs": 3,
+        "precipitationMm": 0,
+        "temperatureC": 29.9
+      },
+      {
+        "timestamp": "2026-04-02 20:00:00",
+        "windMs": 2.3,
+        "precipitationMm": 0,
+        "temperatureC": 30.5
+      },
+      {
+        "timestamp": "2026-04-02 22:00:00",
+        "windMs": 3,
+        "precipitationMm": 0,
+        "temperatureC": 28.4
+      },
+      {
+        "timestamp": "2026-04-03 00:00:00",
+        "windMs": 2.6,
+        "precipitationMm": 0,
+        "temperatureC": 27.7
+      },
+      {
+        "timestamp": "2026-04-03 02:00:00",
+        "windMs": 3.2,
+        "precipitationMm": 0,
+        "temperatureC": 26.3
+      },
+      {
+        "timestamp": "2026-04-03 04:00:00",
+        "windMs": 3,
+        "precipitationMm": 0,
+        "temperatureC": 26.3
+      },
+      {
+        "timestamp": "2026-04-03 06:00:00",
+        "windMs": 3.2,
+        "precipitationMm": 0,
+        "temperatureC": 26.6
+      },
+      {
+        "timestamp": "2026-04-03 08:00:00",
+        "windMs": 2.4,
+        "precipitationMm": 0,
+        "temperatureC": 26.8
+      },
+      {
+        "timestamp": "2026-04-03 10:00:00",
+        "windMs": 2.1,
+        "precipitationMm": 0,
+        "temperatureC": 28
+      },
+      {
+        "timestamp": "2026-04-03 12:00:00",
+        "windMs": 2,
+        "precipitationMm": 0,
+        "temperatureC": 28.1
+      },
+      {
+        "timestamp": "2026-04-03 14:00:00",
+        "windMs": 2.9,
+        "precipitationMm": 0,
+        "temperatureC": 29.1
+      },
+      {
+        "timestamp": "2026-04-03 16:00:00",
+        "windMs": 2.8,
+        "precipitationMm": 0,
+        "temperatureC": 29.6
+      },
+      {
+        "timestamp": "2026-04-03 18:00:00",
+        "windMs": 25,
+        "precipitationMm": 0,
+        "temperatureC": 29.5
+      },
+      {
+        "timestamp": "2026-04-03 20:00:00",
+        "windMs": 5.9,
+        "precipitationMm": 0,
+        "temperatureC": 30.4
+      },
+      {
+        "timestamp": "2026-04-03 22:00:00",
+        "windMs": 3.9,
+        "precipitationMm": 0,
+        "temperatureC": 30.1
+      },
+      {
+        "timestamp": "2026-04-04 00:00:00",
+        "windMs": 3.9,
+        "precipitationMm": 0,
+        "temperatureC": 28.8
+      },
+      {
+        "timestamp": "2026-04-04 02:00:00",
+        "windMs": 3,
+        "precipitationMm": 0,
+        "temperatureC": 28.4
+      },
+      {
+        "timestamp": "2026-04-04 04:00:00",
+        "windMs": 3.3,
+        "precipitationMm": 0.2,
+        "temperatureC": 26.7
+      },
+      {
+        "timestamp": "2026-04-04 06:00:00",
+        "windMs": 2.4,
+        "precipitationMm": 0.2,
+        "temperatureC": 28
+      },
+      {
+        "timestamp": "2026-04-04 08:00:00",
+        "windMs": 2.8,
+        "precipitationMm": 0,
+        "temperatureC": 28.7
+      },
+      {
+        "timestamp": "2026-04-04 10:00:00",
+        "windMs": 3.1,
+        "precipitationMm": 0,
+        "temperatureC": 29.9
+      },
+      {
+        "timestamp": "2026-04-04 12:00:00",
+        "windMs": 3.2,
+        "precipitationMm": 0,
+        "temperatureC": 30.1
+      },
+      {
+        "timestamp": "2026-04-04 14:00:00",
+        "windMs": 3.1,
+        "precipitationMm": 0,
+        "temperatureC": 31.2
+      },
+      {
+        "timestamp": "2026-04-04 16:00:00",
+        "windMs": 3.4,
+        "precipitationMm": 0,
+        "temperatureC": 31.6
+      },
+      {
+        "timestamp": "2026-04-04 18:00:00",
+        "windMs": 3.6,
+        "precipitationMm": 0,
+        "temperatureC": 31.5
+      },
+      {
+        "timestamp": "2026-04-04 20:00:00",
+        "windMs": 3.2,
+        "precipitationMm": 0,
+        "temperatureC": 30
+      },
+      {
+        "timestamp": "2026-04-04 22:00:00",
+        "windMs": 2.8,
+        "precipitationMm": 0,
+        "temperatureC": 28.8
+      },
+      {
+        "timestamp": "2026-04-05 00:00:00",
+        "windMs": 2.4,
+        "precipitationMm": 0,
+        "temperatureC": 28.2
+      },
+      {
+        "timestamp": "2026-04-05 02:00:00",
+        "windMs": 2.4,
+        "precipitationMm": 0,
+        "temperatureC": 27.1
+      },
+      {
+        "timestamp": "2026-04-05 04:00:00",
+        "windMs": 2.5,
+        "precipitationMm": 0,
+        "temperatureC": 27.5
+      },
+      {
+        "timestamp": "2026-04-05 06:00:00",
+        "windMs": 2,
+        "precipitationMm": 0,
+        "temperatureC": 28.8
+      },
+      {
+        "timestamp": "2026-04-05 08:00:00",
+        "windMs": 2,
+        "precipitationMm": 0,
+        "temperatureC": 27.9
+      },
+      {
+        "timestamp": "2026-04-05 10:00:00",
+        "windMs": 2.5,
+        "precipitationMm": 0,
+        "temperatureC": 28
+      },
+      {
+        "timestamp": "2026-04-05 12:00:00",
+        "windMs": 2.7,
+        "precipitationMm": 0,
+        "temperatureC": 29.7
+      },
+      {
+        "timestamp": "2026-04-05 14:00:00",
+        "windMs": 3.2,
+        "precipitationMm": 0,
+        "temperatureC": 31
+      },
+      {
+        "timestamp": "2026-04-05 16:00:00",
+        "windMs": 2.6,
+        "precipitationMm": 0,
+        "temperatureC": 31.4
+      },
+      {
+        "timestamp": "2026-04-05 18:00:00",
+        "windMs": 3.2,
+        "precipitationMm": 0,
+        "temperatureC": 29.8
+      },
+      {
+        "timestamp": "2026-04-05 20:00:00",
+        "windMs": 5.9,
+        "precipitationMm": 0,
+        "temperatureC": 28.7
+      },
+      {
+        "timestamp": "2026-04-05 22:00:00",
+        "windMs": 3.9,
+        "precipitationMm": 0,
+        "temperatureC": 27.1
+      },
+      {
+        "timestamp": "2026-04-06 00:00:00",
+        "windMs": 3.9,
+        "precipitationMm": 0,
+        "temperatureC": 25.9
+      },
+      {
+        "timestamp": "2026-04-06 02:00:00",
+        "windMs": 2.8,
+        "precipitationMm": 0,
+        "temperatureC": 26.3
+      },
+      {
+        "timestamp": "2026-04-06 04:00:00",
+        "windMs": 2.9,
+        "precipitationMm": 0,
+        "temperatureC": 26.2
+      },
+      {
+        "timestamp": "2026-04-06 06:00:00",
+        "windMs": 3.6,
+        "precipitationMm": 0,
+        "temperatureC": 26.7
+      },
+      {
+        "timestamp": "2026-04-06 08:00:00",
+        "windMs": 2.9,
+        "precipitationMm": 0,
+        "temperatureC": 26.3
+      },
+      {
+        "timestamp": "2026-04-06 10:00:00",
+        "windMs": 3.3,
+        "precipitationMm": 0,
+        "temperatureC": 28
+      },
+      {
+        "timestamp": "2026-04-06 12:00:00",
+        "windMs": 2.6,
+        "precipitationMm": 0,
+        "temperatureC": 30.1
+      },
+      {
+        "timestamp": "2026-04-06 14:00:00",
+        "windMs": 3.3,
+        "precipitationMm": 0,
+        "temperatureC": 30.3
+      },
+      {
+        "timestamp": "2026-04-06 16:00:00",
+        "windMs": 3.6,
+        "precipitationMm": 0,
+        "temperatureC": 30.8
+      },
+      {
+        "timestamp": "2026-04-06 18:00:00",
+        "windMs": 22,
+        "precipitationMm": 0,
+        "temperatureC": 29.9
+      },
+      {
+        "timestamp": "2026-04-06 20:00:00",
+        "windMs": 3.9,
+        "precipitationMm": 0,
+        "temperatureC": 30.7
+      },
+      {
+        "timestamp": "2026-04-06 22:00:00",
+        "windMs": 3.5,
+        "precipitationMm": 0,
+        "temperatureC": 29.3
+      },
+      {
+        "timestamp": "2026-04-07 00:00:00",
+        "windMs": 3.2,
+        "precipitationMm": 0,
+        "temperatureC": 28.2
+      },
+      {
+        "timestamp": "2026-04-07 02:00:00",
+        "windMs": 3.4,
+        "precipitationMm": 0,
+        "temperatureC": 28.6
+      },
+      {
+        "timestamp": "2026-04-07 04:00:00",
+        "windMs": 3.5,
+        "precipitationMm": 0,
+        "temperatureC": 28.1
+      },
+      {
+        "timestamp": "2026-04-07 06:00:00",
+        "windMs": 3,
+        "precipitationMm": 0,
+        "temperatureC": 27.2
+      },
+      {
+        "timestamp": "2026-04-07 08:00:00",
+        "windMs": 3,
+        "precipitationMm": 0,
+        "temperatureC": 27.4
+      },
+      {
+        "timestamp": "2026-04-07 10:00:00",
+        "windMs": 3.6,
+        "precipitationMm": 0,
+        "temperatureC": 29.3
+      },
+      {
+        "timestamp": "2026-04-07 12:00:00",
+        "windMs": 3.9,
+        "precipitationMm": 0,
+        "temperatureC": 29.4
+      },
+      {
+        "timestamp": "2026-04-07 14:00:00",
+        "windMs": 3.9,
+        "precipitationMm": 0,
+        "temperatureC": 30.8
+      },
+      {
+        "timestamp": "2026-04-07 16:00:00",
+        "windMs": 3.9,
+        "precipitationMm": 0,
+        "temperatureC": 31.3
+      },
+      {
+        "timestamp": "2026-04-07 18:00:00",
+        "windMs": 28,
+        "precipitationMm": 0.2,
+        "temperatureC": 31.6
+      },
+      {
+        "timestamp": "2026-04-07 20:00:00",
+        "windMs": 3.9,
+        "precipitationMm": 0,
+        "temperatureC": 31.8
+      },
+      {
+        "timestamp": "2026-04-07 22:00:00",
+        "windMs": 3.9,
+        "precipitationMm": 0,
+        "temperatureC": 30.2
+      },
+      {
+        "timestamp": "2026-04-08 00:00:00",
+        "windMs": 3.8,
+        "precipitationMm": 0,
+        "temperatureC": 28.5
+      },
+      {
+        "timestamp": "2026-04-08 02:00:00",
+        "windMs": 3.4,
+        "precipitationMm": 0,
+        "temperatureC": 28.2
+      },
+      {
+        "timestamp": "2026-04-08 04:00:00",
+        "windMs": 2.6,
+        "precipitationMm": 0,
+        "temperatureC": 27
+      },
+      {
+        "timestamp": "2026-04-08 06:00:00",
+        "windMs": 2.1,
+        "precipitationMm": 0,
+        "temperatureC": 26.8
+      },
+      {
+        "timestamp": "2026-04-08 08:00:00",
+        "windMs": 2.2,
+        "precipitationMm": 0,
+        "temperatureC": 26.1
+      },
+      {
+        "timestamp": "2026-04-08 10:00:00",
+        "windMs": 2.7,
+        "precipitationMm": 0,
+        "temperatureC": 27
+      },
+      {
+        "timestamp": "2026-04-08 12:00:00",
+        "windMs": 2.5,
+        "precipitationMm": 0,
+        "temperatureC": 27.7
+      },
+      {
+        "timestamp": "2026-04-08 14:00:00",
+        "windMs": 2.8,
+        "precipitationMm": 0,
+        "temperatureC": 29.7
+      },
+      {
+        "timestamp": "2026-04-08 16:00:00",
+        "windMs": 3.7,
+        "precipitationMm": 0,
+        "temperatureC": 31.1
+      },
+      {
+        "timestamp": "2026-04-08 18:00:00",
+        "windMs": 3.9,
+        "precipitationMm": 0,
+        "temperatureC": 29.4
+      },
+      {
+        "timestamp": "2026-04-08 20:00:00",
+        "windMs": 3.9,
+        "precipitationMm": 0,
+        "temperatureC": 29.8
+      },
+      {
+        "timestamp": "2026-04-08 22:00:00",
+        "windMs": 3.2,
+        "precipitationMm": 0.4,
+        "temperatureC": 29.5
+      }
+    ]
+  },
+  "documentation": {
+    "code": 50,
+    "message": "Wind turbine documentation returned.",
+    "language": "en",
+    "ratedPowerKw": 14,
+    "windPowerYieldPercent": [
+      {
+        "windMs": 4,
+        "yieldPercent": "10-15"
+      },
+      {
+        "windMs": 6,
+        "yieldPercent": "30-40"
+      },
+      {
+        "windMs": 8,
+        "yieldPercent": "60-70"
+      },
+      {
+        "windMs": 10,
+        "yieldPercent": "90-100"
+      },
+      {
+        "windMsRange": "12-14",
+        "yieldPercent": "100"
+      },
+      {
+        "windMsRange": "14+",
+        "yieldPercent": "damage"
+      }
+    ],
+    "pitchAngleYieldPercent": [
+      {
+        "pitchAngleDeg": 0,
+        "yieldPercent": "100"
+      },
+      {
+        "pitchAngleDeg": 45,
+        "yieldPercent": "65"
+      },
+      {
+        "pitchAngleDeg": 90,
+        "yieldPercent": "0"
+      }
+    ],
+    "operationalNote": "Generated power in this model depends on wind speed (m/s) and blade pitch angle. Allowed pitch settings are 0, 45, and 90 degrees. At 90 degrees, electricity generation is disabled and this mode should be used during severe storms. At low wind speeds, set pitch to 0 degrees to maximize energy capture.",
+    "safety": {
+      "cutoffWindMs": 14,
+      "shutdownRule": "Shut down the turbine above 14 m/s to prevent blade damage or blade breakage.",
+      "minOperationalWindMs": 4,
+      "lowWindRule": "Below 4 m/s the turbine cannot generate electricity."
+    }
+  }
+}

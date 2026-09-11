@@ -1,0 +1,5 @@
+{"ts": "2026-03-21T11:32:19", "step": "init", "summary": "Zainicjalizowano runtime", "details": {"run_dir": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season2\\lesson5_dron\\output\\sequence_20260321_113219\\01_map\\20260321_113219"}}
+{"ts": "2026-03-21T11:32:19", "step": "build_request", "summary": "Przygotowano payload do OpenRouter", "details": {"model": "google/gemini-3-flash-preview", "map_url": "https://hub.ag3nts.org/data/52b65cf5-2d1a-4fd2-ac76-7063b66b10fc/drone.png"}}
+{"ts": "2026-03-21T11:32:23", "step": "openrouter_response", "summary": "Odebrano odpowiedź OpenRouter", "details": {"status_code": 200, "choices": 1}}
+{"ts": "2026-03-21T11:32:23", "step": "extract_text", "summary": "Wyodrębniono tekst asystenta", "details": {"text_length": 212}}
+{"ts": "2026-03-21T11:32:24", "step": "validate_result", "summary": "Zwalidowano wynik koordynatów", "details": {"col": 2, "row": 4, "confidence": 0.95}}

@@ -1,0 +1,10 @@
+{
+  "code": 20,
+  "message": "Move queued.",
+  "object": "be8d393aaf83abf040c263446e67b282",
+  "from": "F7",
+  "where": "G7",
+  "queue_id": "ad07ba26b56056145fc2431871b2b400",
+  "path_steps": 2,
+  "action_points_left": 245
+}

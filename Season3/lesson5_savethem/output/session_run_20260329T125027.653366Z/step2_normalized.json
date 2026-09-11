@@ -1,0 +1,181 @@
+{
+  "grid": [
+    [
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "W",
+      "W"
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "W",
+      "W",
+      "."
+    ],
+    [
+      ".",
+      "T",
+      ".",
+      ".",
+      ".",
+      ".",
+      "W",
+      "W",
+      ".",
+      "."
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "W",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      ".",
+      ".",
+      "T",
+      ".",
+      ".",
+      ".",
+      "W",
+      ".",
+      "G",
+      "."
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      ".",
+      "R",
+      ".",
+      "W",
+      ".",
+      ".",
+      "."
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      "R",
+      "R",
+      ".",
+      "W",
+      "W",
+      ".",
+      "."
+    ],
+    [
+      "S",
+      "R",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "W",
+      ".",
+      "."
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "W",
+      "W",
+      ".",
+      "."
+    ],
+    [
+      ".",
+      ".",
+      ".",
+      ".",
+      ".",
+      "W",
+      "W",
+      ".",
+      ".",
+      "."
+    ]
+  ],
+  "start": {
+    "row": 7,
+    "col": 0
+  },
+  "goal": {
+    "row": 4,
+    "col": 8
+  },
+  "food_budget": 10.0,
+  "fuel_budget": 10.0,
+  "vehicles": [
+    {
+      "name": "on_foot",
+      "fuel_per_step": 0.0,
+      "food_per_step": 1.0,
+      "speed": 1.0,
+      "allowed_terrains": [
+        "#",
+        ".",
+        "G",
+        "R",
+        "S",
+        "T",
+        "W"
+      ]
+    }
+  ],
+  "terrain_rules": {
+    ".": {
+      "passable_on_foot": true,
+      "passable_by_vehicle": true
+    },
+    "S": {
+      "passable_on_foot": true,
+      "passable_by_vehicle": true
+    },
+    "G": {
+      "passable_on_foot": true,
+      "passable_by_vehicle": true
+    },
+    "T": {
+      "passable_on_foot": true,
+      "passable_by_vehicle": false
+    },
+    "R": {
+      "passable_on_foot": false,
+      "passable_by_vehicle": false
+    },
+    "W": {
+      "passable_on_foot": false,
+      "passable_by_vehicle": false
+    },
+    "#": {
+      "passable_on_foot": false,
+      "passable_by_vehicle": false
+    }
+  }
+}

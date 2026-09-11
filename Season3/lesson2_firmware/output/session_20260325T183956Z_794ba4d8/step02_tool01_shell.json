@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "pwd",
+  "response": {
+    "code": 125,
+    "message": "Current working directory.",
+    "data": "/"
+  },
+  "detected_confirmation_code": null
+}

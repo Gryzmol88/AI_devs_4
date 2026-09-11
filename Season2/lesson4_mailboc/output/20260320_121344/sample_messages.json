@@ -1,0 +1,160 @@
+{
+  "query": "to:operator04227@system.nwo",
+  "samples": [
+    {
+      "search_item": {
+        "rowID": 4,
+        "messageID": "3ee6ef49394e65936942a5698301d583",
+        "threadID": 62070,
+        "subject": "Re: Zapis z kamer w obiekcie PWR6132PL - pilne!",
+        "from": "monitoring.wideo@security-node.nwo",
+        "to": "operator04227@system.nwo",
+        "date": "2026-03-13 12:12",
+        "snippet": "no dobra... wiem, że miałem ju..."
+      },
+      "message_details": {
+        "ok": true,
+        "action": "getMessages",
+        "count": 1,
+        "items": [
+          {
+            "rowID": 4,
+            "messageID": "3ee6ef49394e65936942a5698301d583",
+            "threadID": 62070,
+            "subject": "Re: Zapis z kamer w obiekcie PWR6132PL - pilne!",
+            "message": "no dobra... wiem, że miałem już nie przeszkadzać Ci w pracy, ale tego na pewno nie znasz! https://www.youtube.com/watch?v=EvQfBy3xIUc Człowieku, co za nuta xDD",
+            "from": "monitoring.wideo@security-node.nwo",
+            "to": "operator04227@system.nwo",
+            "date": "2026-03-13 12:12",
+            "request": 3
+          }
+        ],
+        "notFound": []
+      }
+    },
+    {
+      "search_item": {
+        "rowID": 2,
+        "messageID": "a08dcf9c2b0e20c43e9476305a63cb44",
+        "threadID": 62045,
+        "subject": "Re: Przyjęliśmy Twoje zgłoszenie - Ticket SEC-41248",
+        "from": "security@system.nwo",
+        "to": "operator04227@system.nwo",
+        "date": "2026-03-13 12:12",
+        "snippet": "Ajj! zły kod potwierdzenia Ci ..."
+      },
+      "message_details": {
+        "ok": true,
+        "action": "getMessages",
+        "count": 1,
+        "items": [
+          {
+            "rowID": 2,
+            "messageID": "a08dcf9c2b0e20c43e9476305a63cb44",
+            "threadID": 62045,
+            "subject": "Re: Przyjęliśmy Twoje zgłoszenie - Ticket SEC-41248",
+            "message": "Ajj! zły kod potwierdzenia Ci wysłałem! Zgubiłem literkę na końcu. Poprawny to: SEC-c1e598764329cc9c377ef1d029be8ceb",
+            "from": "security@system.nwo",
+            "to": "operator04227@system.nwo",
+            "date": "2026-03-13 12:12",
+            "request": 4
+          }
+        ],
+        "notFound": []
+      }
+    },
+    {
+      "search_item": {
+        "rowID": 1,
+        "messageID": "8cde00eb4cb11534cc0f3e1b08e5bcdb",
+        "threadID": 62045,
+        "subject": "Re: Przyjęliśmy Twoje zgłoszenie - Ticket SEC-41248",
+        "from": "security@system.nwo",
+        "to": "operator04227@system.nwo",
+        "date": "2026-03-13 12:10",
+        "snippet": "Postanowilismy w najblizszy po..."
+      },
+      "message_details": {
+        "ok": true,
+        "action": "getMessages",
+        "count": 1,
+        "items": [
+          {
+            "rowID": 1,
+            "messageID": "8cde00eb4cb11534cc0f3e1b08e5bcdb",
+            "threadID": 62045,
+            "subject": "Re: Przyjęliśmy Twoje zgłoszenie - Ticket SEC-41248",
+            "message": "Postanowilismy w najblizszy poniedzialek (tj. 2026-03-23) zbombardowac ten obiekt. Nie ma sensu wysylac tam sluzb zwiadowczych. Zrzucenie bomby niewiele kosztuje.\n    kod potwierdzenia przyjęcia akcji: SEC-c1e598764329cc9c377ef1d029be8ce (confirmation code)",
+            "from": "security@system.nwo",
+            "to": "operator04227@system.nwo",
+            "date": "2026-03-13 12:10",
+            "request": 3
+          }
+        ],
+        "notFound": []
+      }
+    },
+    {
+      "search_item": {
+        "rowID": 133,
+        "messageID": "2af61a357faab63789aa59bcae721ab1",
+        "threadID": 62070,
+        "subject": "Zapis z kamer w obiekcie PWR6132PL - pilne!",
+        "from": "monitoring.wideo@security-node.nwo",
+        "to": "operator04227@system.nwo",
+        "date": "2026-03-12 23:59",
+        "snippet": "https://www.youtube.com/watch?..."
+      },
+      "message_details": {
+        "ok": true,
+        "action": "getMessages",
+        "count": 1,
+        "items": [
+          {
+            "rowID": 133,
+            "messageID": "2af61a357faab63789aa59bcae721ab1",
+            "threadID": 62070,
+            "subject": "Zapis z kamer w obiekcie PWR6132PL - pilne!",
+            "message": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "from": "monitoring.wideo@security-node.nwo",
+            "to": "operator04227@system.nwo",
+            "date": "2026-03-12 23:59",
+            "request": 1
+          }
+        ],
+        "notFound": []
+      }
+    },
+    {
+      "search_item": {
+        "rowID": 132,
+        "messageID": "e44a9452f38f95780ff41914fe5f3659",
+        "threadID": 62069,
+        "subject": "Przegląd świadczeń pozapłacowych",
+        "from": "benefity@corp-system.nwo",
+        "to": "operator04227@system.nwo",
+        "date": "2026-03-12 14:36",
+        "snippet": "W marcu rozpoczynamy przegląd ..."
+      },
+      "message_details": {
+        "ok": true,
+        "action": "getMessages",
+        "count": 1,
+        "items": [
+          {
+            "rowID": 132,
+            "messageID": "e44a9452f38f95780ff41914fe5f3659",
+            "threadID": 62069,
+            "subject": "Przegląd świadczeń pozapłacowych",
+            "message": "W marcu rozpoczynamy przegląd świadczeń pozapłacowych i ich ujednolicenie między jednostkami. Priorytetem jest spójność zasad i czytelna komunikacja dla pracowników.",
+            "from": "benefity@corp-system.nwo",
+            "to": "operator04227@system.nwo",
+            "date": "2026-03-12 14:36",
+            "request": 1
+          }
+        ],
+        "notFound": []
+      }
+    }
+  ]
+}

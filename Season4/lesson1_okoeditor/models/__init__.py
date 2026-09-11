@@ -1,0 +1,2 @@
+"""Pakiet modeli danych aplikacji."""
+

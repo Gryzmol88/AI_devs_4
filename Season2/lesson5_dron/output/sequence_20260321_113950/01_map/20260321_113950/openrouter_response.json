@@ -1,0 +1,53 @@
+{
+  "id": "gen-1774089590-OTXCrMYvpBV2unWUATe9",
+  "object": "chat.completion",
+  "created": 1774089590,
+  "model": "google/gemini-3-flash-preview-20251217",
+  "provider": "Google",
+  "system_fingerprint": null,
+  "choices": [
+    {
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "stop",
+      "native_finish_reason": "STOP",
+      "message": {
+        "role": "assistant",
+        "content": "```json\n{\n  \"col\": 1,\n  \"row\": 1,\n  \"grid_cols\": 1,\n  \"grid_rows\": 1,\n  \"confidence\": 0.1,\n  \"reasoning_short\": \"Na obrazie nie wykryto czerwonych linii siatki podziału sektorów. W przypadku braku siatki, cały obraz traktowany jest jako pojedynczy sektor (1,1). Obiekt przypominający tamę/śluzy znajduje się w dolnej części kadru.\"\n}\n```",
+        "refusal": null,
+        "reasoning": null,
+        "reasoning_details": [
+          {
+            "type": "reasoning.encrypted",
+            "data": "CiEBjz1rX5nryRE+R/W4ghVou+WwWddhYm00i2adiXLCLXI=",
+            "format": "google-gemini-v1",
+            "index": 0
+          }
+        ]
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1256,
+    "completion_tokens": 123,
+    "total_tokens": 1379,
+    "cost": 0.000997,
+    "is_byok": false,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "cache_write_tokens": 0,
+      "audio_tokens": 0,
+      "video_tokens": 0
+    },
+    "cost_details": {
+      "upstream_inference_cost": 0.000997,
+      "upstream_inference_prompt_cost": 0.000628,
+      "upstream_inference_completions_cost": 0.000369
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "image_tokens": 0,
+      "audio_tokens": 0
+    }
+  }
+}

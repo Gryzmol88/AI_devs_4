@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "ls //bin",
+  "response": {
+    "code": 120,
+    "message": "Directory listing.",
+    "path": "/bin",
+    "data": [
+      "bash",
+      "flaggengenerator",
+      "ls"
+    ]
+  },
+  "detected_success_code": null
+}

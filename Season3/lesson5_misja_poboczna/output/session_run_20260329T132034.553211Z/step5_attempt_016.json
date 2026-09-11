@@ -1,0 +1,23 @@
+{
+  "attempt": 16,
+  "task": "side",
+  "route_name": "waterline_rocket",
+  "answer": [
+    "rocket",
+    "down",
+    "right",
+    "right",
+    "right",
+    "right",
+    "right",
+    "up",
+    "up",
+    "up",
+    "up",
+    "dismount",
+    "right",
+    "right",
+    "right"
+  ],
+  "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+}

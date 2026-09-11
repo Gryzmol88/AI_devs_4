@@ -1,0 +1,7 @@
+{
+  "ok": false,
+  "blocked": true,
+  "command": "ls /home/operator",
+  "reason": "Najpierw odczytaj /home/operator/.gitignore przed pracą w tym katalogu",
+  "required_bootstrap_command": "cat /home/operator/.gitignore"
+}

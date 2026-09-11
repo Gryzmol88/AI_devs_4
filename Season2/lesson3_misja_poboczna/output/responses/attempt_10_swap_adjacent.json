@@ -1,0 +1,4 @@
+{
+  "code": -944,
+  "message": "You did not send the information in chronological order. First offending log line: \"[2026-03-19 06:53] [INFO] FIRMWARE Nominal response during routine poll; sequence execution continues.\"."
+}

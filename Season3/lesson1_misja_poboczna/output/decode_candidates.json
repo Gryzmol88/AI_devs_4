@@ -1,0 +1,24 @@
+{
+  "candidates": [
+    {
+      "method": "raw",
+      "text": "# But for which JSON file is it?\nBEGIN { FS = \"\\\"\" }\nNR==3 { a = substr($2, 1, 4) }\nNR==9 { s = $4; b = substr(s,44,1) substr(s,60,1) substr(s,66,1) substr(s,74,1) substr(s,76,1) }\nEND   { printf \"{FLG:%s%s}\\n\", toupper(a), toupper(b) }"
+    },
+    {
+      "method": "base64",
+      "text": "\u0006�_��!��IH�_�W��+A\u0010b\r\u0015#Qݫ.n�k�^\rG�"
+    },
+    {
+      "method": "rot13",
+      "text": "# Ohg sbe juvpu WFBA svyr vf vg?\nORTVA { SF = \"\\\"\" }\nAE==3 { n = fhofge($2, 1, 4) }\nAE==9 { f = $4; o = fhofge(f,44,1) fhofge(f,60,1) fhofge(f,66,1) fhofge(f,74,1) fhofge(f,76,1) }\nRAQ   { cevags \"{SYT:%f%f}\\a\", gbhccre(n), gbhccre(o) }"
+    },
+    {
+      "method": "reversed",
+      "text": "} )b(reppuot ,)a(reppuot ,\"n\\}s%s%:GLF{\" ftnirp {   DNE\n} )1,67,s(rtsbus )1,47,s(rtsbus )1,66,s(rtsbus )1,06,s(rtsbus )1,44,s(rtsbus = b ;4$ = s { 9==RN\n} )4 ,1 ,2$(rtsbus = a { 3==RN\n} \"\"\\\" = SF { NIGEB\n?ti si elif NOSJ hcihw rof tuB #"
+    },
+    {
+      "method": "ascii_codes",
+      "text": ",<BJL"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "step": 2,
+  "state": "ask_roads",
+  "outbound_text": "Jak tam RD224, RD472 i RD820, mamy pilny transport.",
+  "inbound_text": null,
+  "selected_road": null
+}

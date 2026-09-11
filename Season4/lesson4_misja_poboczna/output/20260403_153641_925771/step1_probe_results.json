@@ -1,0 +1,557 @@
+[
+  {
+    "id": "step01_help",
+    "description": "Pobierz dokumentację API.",
+    "ok": true,
+    "response": {
+      "code": 5,
+      "message": "Filesystem usage manual.",
+      "limits": {
+        "max_directory_name_length": 30,
+        "max_file_name_length": 20,
+        "max_directory_depth": 3,
+        "allowed_name_pattern": "^[a-z0-9_]+$",
+        "global_unique_names": true
+      },
+      "batch_mode": {
+        "description": "You can send answer as an array of actions executed sequentially.",
+        "allowed_actions": [
+          "createFile",
+          "createDirectory",
+          "deleteFile",
+          "deleteDirectory",
+          "reset"
+        ],
+        "example": [
+          {
+            "action": "createDirectory",
+            "path": "/docs"
+          },
+          {
+            "action": "createFile",
+            "path": "/docs/readme",
+            "content": "hello"
+          },
+          {
+            "action": "deleteFile",
+            "path": "/docs/readme"
+          }
+        ]
+      },
+      "actions": [
+        {
+          "action": "createFile",
+          "description": "Creates a new file or overwrites an existing one at the same path.",
+          "params": [
+            "path",
+            "content"
+          ],
+          "rules": [
+            "only markdown syntax is accepted in file content",
+            "markdown links must point to existing files"
+          ],
+          "example": {
+            "action": "createFile",
+            "path": "/docs/readme",
+            "content": "Hello"
+          }
+        },
+        {
+          "action": "createDirectory",
+          "description": "Creates a new directory under an existing parent directory.",
+          "params": [
+            "path"
+          ],
+          "example": {
+            "action": "createDirectory",
+            "path": "/docs"
+          }
+        },
+        {
+          "action": "deleteFile",
+          "description": "Deletes an existing file at the given path.",
+          "params": [
+            "path"
+          ],
+          "example": {
+            "action": "deleteFile",
+            "path": "/docs/readme"
+          }
+        },
+        {
+          "action": "deleteDirectory",
+          "description": "Deletes an existing directory together with all nested files and folders.",
+          "params": [
+            "path"
+          ],
+          "example": {
+            "action": "deleteDirectory",
+            "path": "/docs"
+          }
+        },
+        {
+          "action": "listFiles",
+          "description": "Lists files from a directory with their names, creation timestamps and sizes.",
+          "params": [
+            "path (optional, default: /)"
+          ],
+          "example": {
+            "action": "listFiles",
+            "path": "/docs"
+          }
+        },
+        {
+          "action": "reset",
+          "description": "Clears the whole virtual filesystem and restores only the root directory.",
+          "params": [],
+          "example": {
+            "action": "reset"
+          }
+        },
+        {
+          "action": "done",
+          "description": "Runs final validation of the filesystem against all task rules.",
+          "params": [],
+          "example": {
+            "action": "done"
+          }
+        },
+        {
+          "action": "help",
+          "description": "Returns a compact manual with available actions and parameter examples.",
+          "params": [],
+          "example": {
+            "action": "help"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "step02_reset",
+    "description": "Wyczyść filesystem przed testem.",
+    "ok": true,
+    "response": {
+      "code": 47,
+      "message": "Filesystem reset completed.",
+      "removed_files": 4,
+      "removed_directories": 1
+    }
+  },
+  {
+    "id": "step03_create_miasta",
+    "description": "Utwórz /miasta.",
+    "ok": true,
+    "response": {
+      "code": 10,
+      "message": "Directory created.",
+      "path": "/miasta"
+    }
+  },
+  {
+    "id": "step04_create_osoby",
+    "description": "Utwórz /osoby.",
+    "ok": true,
+    "response": {
+      "code": 10,
+      "message": "Directory created.",
+      "path": "/osoby"
+    }
+  },
+  {
+    "id": "step05_create_towary",
+    "description": "Utwórz /towary.",
+    "ok": true,
+    "response": {
+      "code": 10,
+      "message": "Directory created.",
+      "path": "/towary"
+    }
+  },
+  {
+    "id": "step06_create_flag_dir",
+    "description": "Utwórz /flag.",
+    "ok": true,
+    "response": {
+      "code": 10,
+      "message": "Directory created.",
+      "path": "/flag"
+    }
+  },
+  {
+    "id": "step07_city_brudzewo",
+    "description": "Utwórz plik miasta /miasta/brudzewo.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/miasta/brudzewo"
+    }
+  },
+  {
+    "id": "step08_city_celbowo",
+    "description": "Utwórz plik miasta /miasta/celbowo.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/miasta/celbowo"
+    }
+  },
+  {
+    "id": "step09_city_darzlubie",
+    "description": "Utwórz plik miasta /miasta/darzlubie.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/miasta/darzlubie"
+    }
+  },
+  {
+    "id": "step10_city_domatowo",
+    "description": "Utwórz plik miasta /miasta/domatowo.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/miasta/domatowo"
+    }
+  },
+  {
+    "id": "step11_city_karlinkowo",
+    "description": "Utwórz plik miasta /miasta/karlinkowo.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/miasta/karlinkowo"
+    }
+  },
+  {
+    "id": "step12_city_mechowo",
+    "description": "Utwórz plik miasta /miasta/mechowo.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/miasta/mechowo"
+    }
+  },
+  {
+    "id": "step13_city_opalino",
+    "description": "Utwórz plik miasta /miasta/opalino.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/miasta/opalino"
+    }
+  },
+  {
+    "id": "step14_city_puck",
+    "description": "Utwórz plik miasta /miasta/puck.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/miasta/puck"
+    }
+  },
+  {
+    "id": "step15_person_damian_kroll",
+    "description": "Utwórz plik osoby /osoby/damian_kroll.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/osoby/damian_kroll"
+    }
+  },
+  {
+    "id": "step16_person_eliza_redmann",
+    "description": "Utwórz plik osoby /osoby/eliza_redmann.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/osoby/eliza_redmann"
+    }
+  },
+  {
+    "id": "step17_person_iga_kapecka",
+    "description": "Utwórz plik osoby /osoby/iga_kapecka.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/osoby/iga_kapecka"
+    }
+  },
+  {
+    "id": "step18_person_lena_konkel",
+    "description": "Utwórz plik osoby /osoby/lena_konkel.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/osoby/lena_konkel"
+    }
+  },
+  {
+    "id": "step19_person_marta_frantz",
+    "description": "Utwórz plik osoby /osoby/marta_frantz.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/osoby/marta_frantz"
+    }
+  },
+  {
+    "id": "step20_person_natan_rams",
+    "description": "Utwórz plik osoby /osoby/natan_rams.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/osoby/natan_rams"
+    }
+  },
+  {
+    "id": "step21_person_oskar_radtke",
+    "description": "Utwórz plik osoby /osoby/oskar_radtke.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/osoby/oskar_radtke"
+    }
+  },
+  {
+    "id": "step22_person_rafal_kisiel",
+    "description": "Utwórz plik osoby /osoby/rafal_kisiel.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/osoby/rafal_kisiel"
+    }
+  },
+  {
+    "id": "step23_item_chleb",
+    "description": "Utwórz plik towaru /towary/chleb.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/chleb"
+    }
+  },
+  {
+    "id": "step24_item_kapusta",
+    "description": "Utwórz plik towaru /towary/kapusta.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/kapusta"
+    }
+  },
+  {
+    "id": "step25_item_kilof",
+    "description": "Utwórz plik towaru /towary/kilof.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/kilof"
+    }
+  },
+  {
+    "id": "step26_item_kurczak",
+    "description": "Utwórz plik towaru /towary/kurczak.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/kurczak"
+    }
+  },
+  {
+    "id": "step27_item_lopata",
+    "description": "Utwórz plik towaru /towary/lopata.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/lopata"
+    }
+  },
+  {
+    "id": "step28_item_maka",
+    "description": "Utwórz plik towaru /towary/maka.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/maka"
+    }
+  },
+  {
+    "id": "step29_item_makaron",
+    "description": "Utwórz plik towaru /towary/makaron.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/makaron"
+    }
+  },
+  {
+    "id": "step30_item_marchew",
+    "description": "Utwórz plik towaru /towary/marchew.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/marchew"
+    }
+  },
+  {
+    "id": "step31_item_mlotek",
+    "description": "Utwórz plik towaru /towary/mlotek.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/mlotek"
+    }
+  },
+  {
+    "id": "step32_item_ryz",
+    "description": "Utwórz plik towaru /towary/ryz.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/ryz"
+    }
+  },
+  {
+    "id": "step33_item_wiertarka",
+    "description": "Utwórz plik towaru /towary/wiertarka.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/wiertarka"
+    }
+  },
+  {
+    "id": "step34_item_wolowina",
+    "description": "Utwórz plik towaru /towary/wolowina.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/wolowina"
+    }
+  },
+  {
+    "id": "step35_item_ziemniak",
+    "description": "Utwórz plik towaru /towary/ziemniak.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/towary/ziemniak"
+    }
+  },
+  {
+    "id": "step36_create_f",
+    "description": "Utwórz pierwszy plik /flag/a o rozmiarze 70.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/flag/a"
+    }
+  },
+  {
+    "id": "step37_create_l",
+    "description": "Utwórz drugi plik /flag/b o rozmiarze 76.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/flag/b"
+    }
+  },
+  {
+    "id": "step38_create_a",
+    "description": "Utwórz trzeci plik /flag/c o rozmiarze 65.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/flag/c"
+    }
+  },
+  {
+    "id": "step39_create_g",
+    "description": "Utwórz czwarty plik /flag/d o rozmiarze 71.",
+    "ok": true,
+    "response": {
+      "code": 20,
+      "message": "File created or overwritten.",
+      "path": "/flag/d"
+    }
+  },
+  {
+    "id": "step40_list_flag",
+    "description": "Pobierz listing /flag do walidacji.",
+    "ok": true,
+    "response": {
+      "code": 50,
+      "message": "Listing completed.",
+      "path": "/flag",
+      "entries": [
+        {
+          "name": "01_that",
+          "created_at": 1775223402,
+          "size": 24
+        },
+        {
+          "name": "02_was",
+          "created_at": 1775223402,
+          "size": 43
+        },
+        {
+          "name": "03_really",
+          "created_at": 1775223402,
+          "size": 16
+        },
+        {
+          "name": "04_good",
+          "created_at": 1775223402,
+          "size": 43
+        },
+        {
+          "name": "click_here",
+          "created_at": 1775223402,
+          "size": 22
+        }
+      ]
+    }
+  },
+  {
+    "id": "step41_done",
+    "description": "Wyślij done po zbudowaniu pełnej struktury.",
+    "ok": true,
+    "response": {
+      "code": 0,
+      "message": "{FLG:DEALWITHIT}"
+    }
+  }
+]

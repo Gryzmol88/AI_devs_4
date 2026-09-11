@@ -1,0 +1,4 @@
+{"ts": "2026-03-21T11:38:14", "step": "init", "summary": "Start agenta sterowania dronem", "details": {"run_dir": "M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season2\\lesson5_dron\\output\\sequence_20260321_113810\\02_pilot\\20260321_113814"}}
+{"ts": "2026-03-21T11:38:14", "step": "docs_loaded", "summary": "Pobrano dokumentację API drona", "details": {"url": "https://hub.ag3nts.org/dane/drone.html", "chars": 10264}}
+{"ts": "2026-03-21T11:38:20", "step": "verify_attempt", "summary": "Wysłano instrukcje do /verify", "details": {"attempt": 1, "status_code": 200, "instructions_count": 9}}
+{"ts": "2026-03-21T11:38:20", "step": "done", "summary": "Otrzymano flagę końcową", "details": {"flag": "{FLG:LETSFLY}"}}

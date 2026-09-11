@@ -1,0 +1,24 @@
+{
+  "timestamp": "2026-03-26T18:30:46.437715Z",
+  "candidates": [
+    "{FLG:INSTALLED}",
+    "there",
+    "tam",
+    "there and back again",
+    "tam i z powrotem",
+    "to the lonely mountain",
+    "samotna gora",
+    "erebor",
+    "mordor",
+    "shire",
+    "rivendell",
+    "INSTALLED"
+  ],
+  "answer_keys": [
+    "answer",
+    "location",
+    "destination",
+    "flag",
+    "where"
+  ]
+}

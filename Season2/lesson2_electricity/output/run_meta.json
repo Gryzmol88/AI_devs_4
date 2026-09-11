@@ -1,0 +1,14 @@
+{
+  "ts": "2026-03-19T14:52:31",
+  "dry_run": false,
+  "orchestrator_model": "openai/gpt-4.1-mini",
+  "vision_models": [
+    "google/gemini-3-flash-preview"
+  ],
+  "vision_reads_current": 2,
+  "vision_reads_target": 3,
+  "vision_reads_repair": 3,
+  "tiles_binarize_threshold": 190,
+  "verify_url": "https://hub.ag3nts.org/verify",
+  "task_name": "electricity"
+}

@@ -1,0 +1,174 @@
+{
+  "toolsearch": [
+    {
+      "query": "I need a map for the savethem mission, including start and Skolwin destination.",
+      "response": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "I need a map for the savethem mission, including start and Skolwin destination.",
+        "tools": [
+          {
+            "name": "maps",
+            "url": "/api/maps",
+            "description": "Terrain maps and map-related location resources.",
+            "parameter": "query",
+            "score": 5,
+            "matched_keywords": [
+              "map"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": "I need movement rules for terrain, obstacles and legal moves in savethem.",
+      "response": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "I need movement rules for terrain, obstacles and legal moves in savethem.",
+        "tools": [
+          {
+            "name": "maps",
+            "url": "/api/maps",
+            "description": "Terrain maps and map-related location resources.",
+            "parameter": "query",
+            "score": 5,
+            "matched_keywords": [
+              "terrain"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": "I need vehicle list with speed, fuel usage and food usage per move in savethem.",
+      "response": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "I need vehicle list with speed, fuel usage and food usage per move in savethem.",
+        "tools": [
+          {
+            "name": "wehicles",
+            "url": "/api/wehicles",
+            "description": "Information about vehicles and means of transportation.",
+            "parameter": "query",
+            "score": 5,
+            "matched_keywords": [
+              "vehicle"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": "I need resource constraints, especially initial fuel and food amounts in savethem.",
+      "response": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "I need resource constraints, especially initial fuel and food amounts in savethem.",
+        "tools": [
+          {
+            "name": "wehicles",
+            "url": "/api/wehicles",
+            "description": "Information about vehicles and means of transportation.",
+            "parameter": "query",
+            "score": 2,
+            "matched_keywords": [
+              "train"
+            ]
+          },
+          {
+            "name": "maps",
+            "url": "/api/maps",
+            "description": "Terrain maps and map-related location resources.",
+            "parameter": "query",
+            "score": 1,
+            "matched_keywords": [
+              "resource"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": "map data for routing puzzle",
+      "response": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "map data for routing puzzle",
+        "tools": [
+          {
+            "name": "maps",
+            "url": "/api/maps",
+            "description": "Terrain maps and map-related location resources.",
+            "parameter": "query",
+            "score": 5,
+            "matched_keywords": [
+              "map"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": "map legend details",
+      "response": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "map legend details",
+        "tools": [
+          {
+            "name": "maps",
+            "url": "/api/maps",
+            "description": "Terrain maps and map-related location resources.",
+            "parameter": "query",
+            "score": 5,
+            "matched_keywords": [
+              "map"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": "movement rules for routing puzzle",
+      "response": {
+        "code": 210,
+        "message": "No matching tools found.",
+        "query": "movement rules for routing puzzle",
+        "tools": []
+      }
+    },
+    {
+      "query": "list of available vehicles",
+      "response": {
+        "code": 210,
+        "message": "Matching tools found.",
+        "query": "list of available vehicles",
+        "tools": [
+          {
+            "name": "wehicles",
+            "url": "/api/wehicles",
+            "description": "Information about vehicles and means of transportation.",
+            "parameter": "query",
+            "score": 7,
+            "matched_keywords": [
+              "vehicle",
+              "vehicles"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "query": "costs for food and fuel",
+      "response": {
+        "code": 210,
+        "message": "No matching tools found.",
+        "query": "costs for food and fuel",
+        "tools": []
+      }
+    }
+  ],
+  "tools": []
+}

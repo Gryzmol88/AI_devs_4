@@ -1,0 +1,23 @@
+{
+  "attempt": 29,
+  "task": "northernbeavers",
+  "route_name": "north_river_patrol_rocket",
+  "answer": [
+    "rocket",
+    "up",
+    "up",
+    "up",
+    "up",
+    "up",
+    "up",
+    "up",
+    "right",
+    "left",
+    "right",
+    "dismount",
+    "left",
+    "right",
+    "left"
+  ],
+  "error": "HTTP 404 for https://hub.ag3nts.org/verify: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}"
+}

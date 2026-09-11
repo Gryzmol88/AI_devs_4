@@ -1,0 +1,11 @@
+{
+  "ok": false,
+  "blocked": false,
+  "command": "/opt/firmware/cooler/cooler.bin admin1",
+  "error": "HTTP 400 dla https://hub.ag3nts.org/api/shell: {\n    \"code\": -691,\n    \"message\": \"Configuration check failed: SAFETY_CHECK is not set in settings.ini.\"\n}",
+  "http_status": 400,
+  "error_code": -691,
+  "ban": null,
+  "is_ban": false,
+  "is_retryable": false
+}

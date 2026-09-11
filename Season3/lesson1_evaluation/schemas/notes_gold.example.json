@@ -1,0 +1,13 @@
+{
+  "labels": [
+    {
+      "note": "Readings look stable and within expected range.",
+      "expected_stance": "ok"
+    },
+    {
+      "note": "Temperature is out of range. Sensor might be faulty.",
+      "expected_stance": "anomaly"
+    }
+  ]
+}
+

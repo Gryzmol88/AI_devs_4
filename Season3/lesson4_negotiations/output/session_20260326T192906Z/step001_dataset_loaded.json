@@ -1,0 +1,138 @@
+{
+  "records_count": 5349,
+  "known_items_count": 2136,
+  "sample_known_items": [
+    "Akumulator kwasowy 12V 200Ah",
+    "Antena Bluetooth 2.4 GHz PCB",
+    "Antena GPS ceramiczna 25x25 mm",
+    "Antena GSM 1800 MHz 3 dBi",
+    "Antena GSM 900 MHz 2 dBi",
+    "Antena LoRa 868 MHz 2 dBi",
+    "Antena LoRa 915 MHz 2 dBi",
+    "Antena NFC 13.56 MHz cewka",
+    "Antena UHF 433 MHz spiralna",
+    "Antena VHF 144 MHz teleskopowa",
+    "Antena Wi-Fi 2.4 GHz 2 dBi",
+    "Antena Wi-Fi 2.4 GHz 5 dBi",
+    "Antena Wi-Fi 5 GHz 3 dBi",
+    "Bezpiecznik polimerowy 1 A",
+    "Bezpiecznik polimerowy 2 A",
+    "Bezpiecznik polimerowy 250 mA",
+    "Bezpiecznik polimerowy 3.15 A",
+    "Bezpiecznik polimerowy 5 A",
+    "Bezpiecznik polimerowy 500 mA",
+    "Bezpiecznik samochodowy 1 A",
+    "Bezpiecznik samochodowy 2 A",
+    "Bezpiecznik samochodowy 250 mA",
+    "Bezpiecznik samochodowy 3.15 A",
+    "Bezpiecznik samochodowy 5 A",
+    "Bezpiecznik samochodowy 500 mA",
+    "Bezpiecznik SMD 1 A",
+    "Bezpiecznik SMD 2 A",
+    "Bezpiecznik SMD 250 mA",
+    "Bezpiecznik SMD 3.15 A",
+    "Bezpiecznik SMD 5 A"
+  ],
+  "sample_records": [
+    {
+      "city": "Slupsk",
+      "item": "Dioda LED zielona 5 mm dyfuzyjna",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/connections.csv"
+    },
+    {
+      "city": "Torun",
+      "item": "Tranzystor MOSFET P-kanal IRLML6402 SOT-23 logic level",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/connections.csv"
+    },
+    {
+      "city": "Przemysl",
+      "item": "Dioda LED zielona 0805 standard",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/connections.csv"
+    },
+    {
+      "city": "Jaworzno",
+      "item": "Mikrokontroler PIC16F877A TQFP 16 MHz",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/connections.csv"
+    },
+    {
+      "city": "Krakow",
+      "item": "Kondensator foliowy 47 nF 250 V PPS",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/connections.csv"
+    },
+    {
+      "city": "Warszawa",
+      "item": "Kondensator ceramiczny 10 pF 100 V NP0",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/connections.csv"
+    },
+    {
+      "city": "Bialystok",
+      "item": "Przycisk podswietlany niebieski",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/connections.csv"
+    },
+    {
+      "city": "Inowroclaw",
+      "item": "Kondensator ceramiczny 220 pF 100 V X7R",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/connections.csv"
+    },
+    {
+      "city": "Gdansk",
+      "item": "Kondensator foliowy 2.2 nF 100 V MKP",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/connections.csv"
+    },
+    {
+      "city": "Plock",
+      "item": "Kondensator elektrolityczny 10 uF 25 V Low ESR",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/connections.csv"
+    },
+    {
+      "city": "Bialystok",
+      "item": "Tranzystor PNP PN2907 SOT-23 uniwersalny",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/connections.csv"
+    },
+    {
+      "city": "Kalisz",
+      "item": "Uklad logiczny 74HC04 DIP-14 standard",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/connections.csv"
+    },
+    {
+      "city": "Tychy",
+      "item": "Stabilizator napiecia AMS1117-5.0 TO-220 liniowy",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/connections.csv"
+    },
+    {
+      "city": "Kalisz",
+      "item": "Cewka SMD ekranowana 220 uH 0.5 A",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/connections.csv"
+    },
+    {
+      "city": "Ostroleka",
+      "item": "Tranzystor PNP BC558 TO-18 wysokie wzmocnienie",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/connections.csv"
+    },
+    {
+      "city": "Bielsko-Biala",
+      "item": "Kondensator ceramiczny 100 pF 100 V X7R",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/connections.csv"
+    },
+    {
+      "city": "Domatowo",
+      "item": "Tranzystor PNP S8550 TO-92 uniwersalny",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/connections.csv"
+    },
+    {
+      "city": "Kielce",
+      "item": "Tranzystor PNP S8550 TO-92 niskoszumny",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/connections.csv"
+    },
+    {
+      "city": "Tarnow",
+      "item": "Rezonator kwarcowy 24 MHz SMD 3225 30 ppm",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/connections.csv"
+    },
+    {
+      "city": "Olsztyn",
+      "item": "Wentylator 5 V 30 mm",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/connections.csv"
+    }
+  ]
+}

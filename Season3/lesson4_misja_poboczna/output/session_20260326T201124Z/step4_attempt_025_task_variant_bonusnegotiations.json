@@ -1,0 +1,20 @@
+{
+  "attempt_index": 25,
+  "label": "task_variant_bonusnegotiations",
+  "payload": {
+    "apikey": "52b65cf5-2d1a-4fd2-ac76-7063b66b10fc",
+    "task": "bonusnegotiations",
+    "answer": {
+      "action": "check",
+      "show_uncensored": true
+    }
+  },
+  "response": {
+    "error": "HTTP 404: {\n    \"code\": -30,\n    \"message\": \"Task not found - is file exists?\",\n    \"error\": \"Task not found - is file exists?\"\n}",
+    "status_code": 404
+  },
+  "found_flag": null,
+  "notes": [
+    "http_error"
+  ]
+}

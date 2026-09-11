@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "ls",
+  "response": {
+    "code": 120,
+    "message": "Directory listing.",
+    "path": "/",
+    "data": [
+      "bin/",
+      "dev/",
+      "etc/",
+      "home/",
+      "opt/",
+      "proc/",
+      "root/",
+      "tmp/"
+    ]
+  },
+  "detected_confirmation_code": null
+}

@@ -1,0 +1,7 @@
+{
+  "task": "savethem",
+  "toolsearch_url": "https://hub.ag3nts.org/api/toolsearch",
+  "verify_url": "https://hub.ag3nts.org/verify",
+  "openrouter_model": "openai/gpt-4.1-mini",
+  "discovery_iterations": 4
+}

@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "ls /opt/firmware/cooler/.git",
+  "response": {
+    "code": 122,
+    "message": "Directory listing.",
+    "path": "/opt/firmware/cooler/.git",
+    "data": "🍕+🍍=❤️"
+  },
+  "detected_confirmation_code": null
+}

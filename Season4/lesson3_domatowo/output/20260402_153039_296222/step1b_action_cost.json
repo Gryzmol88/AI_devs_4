@@ -1,0 +1,74 @@
+{
+  "code": 67,
+  "message": "Action costs loaded.",
+  "costs": [
+    {
+      "action": "create",
+      "variant": "scout",
+      "cost": 5
+    },
+    {
+      "action": "create",
+      "variant": "transporter",
+      "base_cost": 5,
+      "cost_per_passenger": 5,
+      "formula": "5 + (passengers * 5)"
+    },
+    {
+      "action": "move",
+      "variant": "scout",
+      "cost_per_field": 7,
+      "formula": "steps * 7"
+    },
+    {
+      "action": "move",
+      "variant": "transporter",
+      "cost_per_field": 1,
+      "formula": "steps * 1"
+    },
+    {
+      "action": "inspect",
+      "cost": 1
+    },
+    {
+      "action": "dismount",
+      "cost": 0
+    },
+    {
+      "action": "reset",
+      "cost": 0
+    },
+    {
+      "action": "getLogs",
+      "cost": 0
+    },
+    {
+      "action": "getObjects",
+      "cost": 0
+    },
+    {
+      "action": "getMap",
+      "cost": 0
+    },
+    {
+      "action": "searchSymbol",
+      "cost": 0
+    },
+    {
+      "action": "expenses",
+      "cost": 0
+    },
+    {
+      "action": "actionCost",
+      "cost": 0
+    },
+    {
+      "action": "callHelicopter",
+      "cost": 0
+    },
+    {
+      "action": "help",
+      "cost": 0
+    }
+  ]
+}

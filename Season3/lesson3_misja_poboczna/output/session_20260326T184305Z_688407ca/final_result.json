@@ -1,0 +1,198 @@
+{
+  "timestamp": "2026-03-26T18:43:08.012943Z",
+  "success": true,
+  "message": "Zrealizowano trase tam i z powrotem.",
+  "steps": 15,
+  "best_flag": null,
+  "final_phase": "to_start",
+  "final_state": {
+    "robot": {
+      "col": 1,
+      "row": 5
+    },
+    "goal": {
+      "col": 7,
+      "row": 5
+    },
+    "board_rows": [
+      "....BB.",
+      ".B.BBB.",
+      ".BBB...",
+      "..B....",
+      "P.....G"
+    ],
+    "blocks": [
+      {
+        "column": 2,
+        "top_row": 2,
+        "direction": "up",
+        "cells": [
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "column": 3,
+        "top_row": 3,
+        "direction": "down",
+        "cells": [
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "column": 4,
+        "top_row": 2,
+        "direction": "up",
+        "cells": [
+          [
+            4,
+            2
+          ],
+          [
+            4,
+            3
+          ]
+        ]
+      },
+      {
+        "column": 5,
+        "top_row": 1,
+        "direction": "down",
+        "cells": [
+          [
+            5,
+            1
+          ],
+          [
+            5,
+            2
+          ]
+        ]
+      },
+      {
+        "column": 6,
+        "top_row": 1,
+        "direction": "down",
+        "cells": [
+          [
+            6,
+            1
+          ],
+          [
+            6,
+            2
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      "board_rows_extracted"
+    ],
+    "at_goal": false
+  },
+  "last_response": {
+    "code": 100,
+    "message": "Player moved left.",
+    "board": [
+      [
+        ".",
+        ".",
+        ".",
+        ".",
+        "B",
+        "B",
+        "."
+      ],
+      [
+        ".",
+        "B",
+        ".",
+        "B",
+        "B",
+        "B",
+        "."
+      ],
+      [
+        ".",
+        "B",
+        "B",
+        "B",
+        ".",
+        ".",
+        "."
+      ],
+      [
+        ".",
+        ".",
+        "B",
+        ".",
+        ".",
+        ".",
+        "."
+      ],
+      [
+        "P",
+        ".",
+        ".",
+        ".",
+        ".",
+        ".",
+        "G"
+      ]
+    ],
+    "player": {
+      "col": 1,
+      "row": 5
+    },
+    "goal": {
+      "col": 7,
+      "row": 5
+    },
+    "blocks": [
+      {
+        "col": 2,
+        "top_row": 2,
+        "bottom_row": 3,
+        "direction": "up"
+      },
+      {
+        "col": 3,
+        "top_row": 3,
+        "bottom_row": 4,
+        "direction": "down"
+      },
+      {
+        "col": 4,
+        "top_row": 2,
+        "bottom_row": 3,
+        "direction": "up"
+      },
+      {
+        "col": 5,
+        "top_row": 1,
+        "bottom_row": 2,
+        "direction": "down"
+      },
+      {
+        "col": 6,
+        "top_row": 1,
+        "bottom_row": 2,
+        "direction": "down"
+      }
+    ],
+    "reached_goal": false
+  }
+}

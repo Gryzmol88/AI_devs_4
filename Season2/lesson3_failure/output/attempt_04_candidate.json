@@ -1,0 +1,10 @@
+{
+  "attempt": 4,
+  "estimated_tokens": 1067,
+  "required_devices": [
+    "FIRMWARE",
+    "PWR01",
+    "STMTURB12"
+  ],
+  "frozen_core_entries": 25
+}

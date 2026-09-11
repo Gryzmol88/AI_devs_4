@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "ls /home/operator/notes",
+  "response": {
+    "code": 120,
+    "message": "Directory listing.",
+    "path": "/home/operator/notes",
+    "data": [
+      "pass.txt"
+    ]
+  },
+  "detected_success_code": null,
+  "bootstrap_applied": true,
+  "bootstrap_command": "cat /home/operator/notes/.gitignore"
+}

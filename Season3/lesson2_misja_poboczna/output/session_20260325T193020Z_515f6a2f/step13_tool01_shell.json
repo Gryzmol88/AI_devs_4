@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "/opt/firmware/cooler/cooler.bin -D",
+  "response": {
+    "code": 197,
+    "message": "Diagnostics.",
+    "data": "[v] Lockfile exists\n[x] Testmode disabled\n[x] Cooling enabled"
+  },
+  "detected_success_code": null
+}

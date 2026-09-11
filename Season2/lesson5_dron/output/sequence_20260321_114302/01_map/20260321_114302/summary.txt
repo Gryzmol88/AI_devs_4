@@ -1,0 +1,6 @@
+Wynik analizy mapy
+- kolumna: 1
+- wiersz: 1
+- siatka: 1x1
+- pewność: 0.1
+- uzasadnienie: Na obrazie nie wykryto czerwonych linii siatki podziału sektorów. W przypadku braku siatki, cały obraz traktowany jest jako pojedynczy sektor (1,1). Obiekt przypominający tamę/śluzy znajduje się w dolnej części kadru.

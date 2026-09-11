@@ -1,0 +1,30 @@
+[
+  {
+    "name": "update_skolwin_report_classification",
+    "payload": {
+      "action": "update",
+      "page": "incydenty",
+      "id": "380792b2c86d9c5be670b3bde48e187b",
+      "content": "Zgłoszenie dotyczy zwierząt zauważonych w rejonie miasta Skolwin."
+    }
+  },
+  {
+    "name": "complete_skolwin_todo",
+    "payload": {
+      "action": "update",
+      "page": "zadania",
+      "id": "8b04cb375286948cbe22b446b81921ba",
+      "content": "W rejonie Skolwin zaobserwowano zwierzęta, m.in. bobry.",
+      "done": "YES"
+    }
+  },
+  {
+    "name": "create_komarowo_incident",
+    "payload": {
+      "action": "update",
+      "page": "incydenty",
+      "id": "380792b2c86d9c5be670b3bde48e187b",
+      "content": "W okolicach miasta Komarowo wykryto ruch ludzi."
+    }
+  }
+]

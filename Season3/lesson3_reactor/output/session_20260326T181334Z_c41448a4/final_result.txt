@@ -1,0 +1,3 @@
+FAIL
+steps=300
+flag_hint={FLG:INSTALLED}

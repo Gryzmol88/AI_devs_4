@@ -1,0 +1,138 @@
+{
+  "records_count": 7537,
+  "known_items_count": 4324,
+  "sample_known_items": [
+    "00FH4V",
+    "00X9JE",
+    "01DPC6",
+    "01R7XA",
+    "01ZCO6",
+    "03G9TC",
+    "040UAH",
+    "06OTEA",
+    "07KEJF",
+    "07PHA7",
+    "082CGH",
+    "0G3YFJ",
+    "0GUI6V",
+    "0H08HI",
+    "0HC1BG",
+    "0HRYQC",
+    "0IPETX",
+    "0K44ZO",
+    "0KKQUN",
+    "0KQMVV",
+    "0KSBMB",
+    "0KVET5",
+    "0L5NAO",
+    "0LVXG6",
+    "0NYT7T",
+    "0OZ0T5",
+    "0P53CO",
+    "0PFWHD",
+    "0PPRGB",
+    "0QEFFE"
+  ],
+  "sample_records": [
+    {
+      "city": "Warszawa",
+      "item": "Warszawa",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/cities.csv"
+    },
+    {
+      "city": "Krakow",
+      "item": "Krakow",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/cities.csv"
+    },
+    {
+      "city": "Lodz",
+      "item": "Lodz",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/cities.csv"
+    },
+    {
+      "city": "Wroclaw",
+      "item": "Wroclaw",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/cities.csv"
+    },
+    {
+      "city": "Poznan",
+      "item": "Poznan",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/cities.csv"
+    },
+    {
+      "city": "Gdansk",
+      "item": "Gdansk",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/cities.csv"
+    },
+    {
+      "city": "Szczecin",
+      "item": "Szczecin",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/cities.csv"
+    },
+    {
+      "city": "Bydgoszcz",
+      "item": "Bydgoszcz",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/cities.csv"
+    },
+    {
+      "city": "Lublin",
+      "item": "Lublin",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/cities.csv"
+    },
+    {
+      "city": "Katowice",
+      "item": "Katowice",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/cities.csv"
+    },
+    {
+      "city": "Bialystok",
+      "item": "Bialystok",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/cities.csv"
+    },
+    {
+      "city": "Gdynia",
+      "item": "Gdynia",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/cities.csv"
+    },
+    {
+      "city": "Domatowo",
+      "item": "Domatowo",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/cities.csv"
+    },
+    {
+      "city": "Czestochowa",
+      "item": "Czestochowa",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/cities.csv"
+    },
+    {
+      "city": "Radom",
+      "item": "Radom",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/cities.csv"
+    },
+    {
+      "city": "Torun",
+      "item": "Torun",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/cities.csv"
+    },
+    {
+      "city": "Sosnowiec",
+      "item": "Sosnowiec",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/cities.csv"
+    },
+    {
+      "city": "Kielce",
+      "item": "Kielce",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/cities.csv"
+    },
+    {
+      "city": "Rzeszow",
+      "item": "Rzeszow",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/cities.csv"
+    },
+    {
+      "city": "Gliwice",
+      "item": "Gliwice",
+      "source_file": "https://hub.ag3nts.org/dane/s03e04_csv/cities.csv"
+    }
+  ]
+}

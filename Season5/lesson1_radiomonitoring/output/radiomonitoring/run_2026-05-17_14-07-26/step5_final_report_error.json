@@ -1,0 +1,74 @@
+{
+  "error": "Brak warehousesCount powiązanego z wybranym miastem.",
+  "cityName": "Skarszewy",
+  "city_area_map_keys": [
+    "Brudzewo",
+    "Celbowo",
+    "Darzlubie",
+    "Domatowo",
+    "Drohiczyn",
+    "Karlikowo",
+    "Mechowo",
+    "Mielnik",
+    "Narew",
+    "Narewka",
+    "Opalino",
+    "Puck",
+    "Skarszewy",
+    "Żarnowiec"
+  ],
+  "snapshot": {
+    "cityName": [
+      "Syjon",
+      "Syjon",
+      "Rabat",
+      "Narewce",
+      "Narewka",
+      "Brudzewo",
+      "Brudzewo",
+      "Narewka",
+      "Narewka",
+      "Tak",
+      "Drohiczyn",
+      "Domatowo",
+      "Brudzewo",
+      "Celbowo",
+      "Darzlubie",
+      "SSsssSszzZZZz",
+      "Skarszewami",
+      "Skarszewy",
+      "Jacek",
+      "Odwiedza",
+      "Domatowem",
+      "Domatowo",
+      "Karlinkowie",
+      "Karlinkowo",
+      "Syjon",
+      "Karlikowo",
+      "Karlikowo",
+      "Narew",
+      "Wys",
+      "Kids",
+      "Pog",
+      "Skarszewy",
+      "Domatowa",
+      "Domatowo",
+      "Syjon",
+      "Syjon",
+      "Pola",
+      "Skarszewy",
+      "Celbowo"
+    ],
+    "cityArea": [
+      "0.5538",
+      "0.5538",
+      "0.7142"
+    ],
+    "phoneNumber": [
+      "644-122-092"
+    ],
+    "warehousesCount": [
+      "11"
+    ]
+  }
+}

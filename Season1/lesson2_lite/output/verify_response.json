@@ -1,0 +1,51 @@
+{
+  "fallbackUsed": true,
+  "strategy": "next_person_after_-910",
+  "selected": {
+    "name": "Wojciech",
+    "surname": "Bielik",
+    "birthYear": 1986,
+    "accessLevel": 7,
+    "powerPlant": "PWR2758PL"
+  },
+  "tried": [
+    {
+      "name": "Wojciech",
+      "surname": "Bielik",
+      "birthYear": 1986,
+      "accessLevel": 7,
+      "powerPlant": "PWR2758PL",
+      "verifyCode": 0
+    }
+  ],
+  "verify": {
+    "status_code": 200,
+    "ok_http": true,
+    "headers": {
+      "Date": "Thu, 12 Mar 2026 18:17:08 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Content-Length": "48",
+      "Connection": "keep-alive",
+      "Server": "cloudflare",
+      "Cache-Control": "no-cache, no-store, must-revalidate",
+      "Pragma": "no-cache",
+      "Expires": "0",
+      "X-Content-Type-Options": "nosniff",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "*",
+      "Access-Control-Request-Headers": "*",
+      "Access-Control-Allow-Headers": "*",
+      "Access-Control-Allow-Credentials": "true",
+      "Nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+      "Report-To": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=NVonMTBiX8dBBqO7Ub1m61BBXDQPbVWsAIJf%2BIIMy98fdKFEz6lTVOW3daybUwTz6m68PtHB8wRu5Ra6Wzml4XvQDPiz%2BK0dIxec%2BvdsoXZtdTfE0y4VuCjV\"}]}",
+      "cf-cache-status": "DYNAMIC",
+      "CF-RAY": "9db4cb429d22e5d6-WAW",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    },
+    "raw_text": "{\n    \"code\": 0,\n    \"message\": \"{FLG:BUSTED}\"\n}",
+    "json": {
+      "code": 0,
+      "message": "{FLG:BUSTED}"
+    }
+  }
+}

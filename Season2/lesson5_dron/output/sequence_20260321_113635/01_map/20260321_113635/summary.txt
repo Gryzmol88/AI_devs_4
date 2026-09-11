@@ -1,0 +1,6 @@
+Wynik analizy mapy
+- kolumna: 2
+- wiersz: 4
+- siatka: 3x4
+- pewność: 0.95
+- uzasadnienie: Tama z błękitną wodą i śluzami znajduje się w dolnej krawędzi środkowej kolumny (x=2, y=4).

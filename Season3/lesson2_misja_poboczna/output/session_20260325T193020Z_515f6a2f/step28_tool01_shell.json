@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "blocked": false,
+  "command": "ls //dev",
+  "response": {
+    "code": 121,
+    "message": "Directory listing.",
+    "path": "/dev",
+    "data": [
+      "null",
+      "zero",
+      "random",
+      "urandom",
+      "tty",
+      "console",
+      "ptmx",
+      "full",
+      "stdin",
+      "stdout",
+      "stderr",
+      "sda",
+      "sda1",
+      "sda2",
+      "loop0",
+      "loop1",
+      "loop2"
+    ]
+  },
+  "detected_success_code": null
+}

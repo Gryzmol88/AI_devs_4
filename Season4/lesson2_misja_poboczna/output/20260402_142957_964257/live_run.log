@@ -1,0 +1,16 @@
+[14:29:57.966] [INFO] Output run: M:\Michal\Programowanie\PYTHON\AI_devs_4\Season4\lesson2_misja_poboczna\output\20260402_142957_964257
+[14:29:57.972] [INFO] Zaladowano 2 case'ow (limit=2).
+[14:29:57.972] [INFO] Case 1/2: P1_sameMirror_2020-02-02_00:00:00_w4.4_p0 (P1_same_mirror)
+[14:29:58.600] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] start -> code=60 source=None msg=Windpower session started.
+[14:29:58.655] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] unlockCodeGenerator -> code=14 source=None msg=Task has been queued. Use getResult to retrieve the response.
+[14:29:58.741] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#1 -> code=11 source=None msg=No completed queued response is available yet.
+[14:29:59.123] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#2 -> code=11 source=None msg=No completed queued response is available yet.
+[14:29:59.472] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#3 -> code=11 source=None msg=No completed queued response is available yet.
+[14:29:59.830] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#4 -> code=11 source=None msg=No completed queued response is available yet.
+[14:30:00.185] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#5 -> code=11 source=None msg=No completed queued response is available yet.
+[14:30:00.185] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] unlock poll ongoing (5 prob).
+[14:30:00.543] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] getResult-unlock-poll#6 -> code=12 source=unlockCodeGenerator msg=Queued response retrieved.
+[14:30:00.544] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] unlock wynik odebrany po 6 pollach.
+[14:30:00.548] [INFO] [P1_sameMirror_2020-02-02_00:00:00_w4.4_p0] Wykryto flage w odpowiedzi unlock.
+[14:30:00.550] [INFO] Wykryto flage - koncze dalsze testy.
+[14:30:00.557] [INFO] Summary: {'generatedAt': '2026-04-02T14:30:00.553', 'totalCasesExecuted': 1, 'flagFound': True, 'flag': '{FLG:LIVENOTONEVIL}', 'matchedCases': ['P1_sameMirror_2020-02-02_00:00:00_w4.4_p0'], 'elapsedSeconds': 2.586, 'outputDir': 'M:\\Michal\\Programowanie\\PYTHON\\AI_devs_4\\Season4\\lesson2_misja_poboczna\\output\\20260402_142957_964257'}

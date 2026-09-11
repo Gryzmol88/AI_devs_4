@@ -1,0 +1,120 @@
+{"ts": "2026-03-20T13:51:02", "step": "getInbox", "cycle": 1, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:51:02", "step": "getInbox", "cycle": 1, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:51:02", "step": "getInbox", "cycle": 1, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:51:02", "step": "getInbox", "cycle": 1, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:51:03", "step": "getMessages", "cycle": 1, "requested": 73, "saved": 73, "ids": ["0403c1df56d3dab40ad4bf6f6cceda8a", "0659fce2e7b2a503ab7173a1b435a050", "0cb942197df6f643a83e4438e8b1d83c", "0d1aa57ac491f567a2afa8d9a7905cb9", "0eb152d28f2b83981951bc3928514033", "1146c48523e480d614dd3bf5a8747205", "11bd7083085799de7a62fac067fa636b", "13271fc3813f0f279a9b57cc962a7421", "15c9629f0cc12b66d8e7c13c0a118296", "17826486cce7c438707e8f808360e4b0", "1782e74842de8f4c4624a719d41f6b2b", "17c0c688fb6bb7eefb81e5278b97c8de", "1c4818b287b35befb5d4bfe0c1de79fd", "1d0a7fe84e4e13e989fef34e3efd0b63", "228999c92244b2dfcd2057673cde6c4f", "2ac6c17f59c877f31d3a771e731bd49b", "2b4592be9a13b064bdd5ca15c239fc60", "2c59eaf70c9b72c0aaf85dd1559e9767", "2c973e96518cdeb0041c74eed56b28d3", "32100a536bb88a502d74a2f599a3fd1a", "38108c7cbc5ec20081a44ed94920d146", "3e3b65b26450ef5f25e47c5174b608b0", "4016aee2867d1578247770d978fa00b7", "4204dfe8400acf3e468aed654fcf09ec", "4277fd6d2642fe98f208caf81c5fd5ee", "43c0f21103837d63e44644fdba77b092", "46749fe4b1f82b2e0656f534a77bff42", "4801de529c054359b9950acfe5e0d0da", "481c3cb718f2dc14f8d9a9dd56b7e2d9", "4edab7bc5a243ffdab111b9faa590c9f", "4f798cbf8a36650830da2ad58d53e4ca", "51792b2a0c639dd7d412d11aa2e3b9b2", "578056cf4581525b99731c98ce8424e1", "580045e13d60bb8417eb5933e68647f0", "594a98038da867a74139e32ed24b6679", "5b9cd855632429f1bed20eae26bb8154", "6691a11c90cd6fcaedad9a274cca116f", "6959fa0a69d998a277ce39d6b1a1b6b4", "6d6131f69a34136b0bdd01da32692c81", "7362e48dd3bcfb8543ac340645fded50", "8a5afdd9ebb4387d1a5b6fbcd51cf5fe", "8b31612cb7146c3cd750801f72a3d49f", "91aeb1af08bc8314fdb3b42b660f41c6", "93dced4d8c527ca2902552b11e5a27f9", "97ef4e4ed7f14e62149a6dae9fe2021f", "9db0316f46e563f41b484daeba1e9da8", "a7353b90b3c7d973255aa6cf36bcba0f", "a824ac12e76bcdfb42cb209c4ed7dd9a", "af35d644226ad13c9c5fb17b89e1bbf1", "b045cc5d007c27937802d6fa4d9a4f53", "b2c9ed51b3ca1ef2a29e459130f12337", "b58aa44cf88a96aca9b6b45b91b244d1", "b5913514211a0a3274dd2582fdcf4549", "b69c5508afd03659f638f16b0d2dbcf8", "b6ab1a6edc7918fb967a6abd35911459", "b771f1209c955af08af5cd21748295e9", "b7ba6514d1c710df86bfa5c358f31b92", "bb46b87f2a203018049ddfac1b62e2cc", "bc1c52905daa82b57b3511f61e6ca358", "c49c64bf37f0153600806d2f440dea2b", "c6c94d0d72290012324714f71767373e", "ced140f7c1cac386932f3ee8aa264e26", "d1de5162340bee4818e001b7e1623d6d", "d391dcd45c7fa30ba3b11c8088d93791", "d5659258bf79f2e0013bec4acc8a21fb", "e076e9343c899fb2ccdfbce5f06389fb", "e285421112cb7c49a1346556c06ee518", "e2bff5dd0a3845a7a8c199e179fcc700", "e44a9452f38f95780ff41914fe5f3659", "f4f3a83b06611bfc3716253753302e7e", "f8ed040352ec80bd6af72e82b36d8a9f", "fcf9cba8c0861b2f036ea163807404ce", "fe408526149c25eb3ec156f5e9220c44"]}
+{"ts": "2026-03-20T13:51:08", "step": "getInbox", "cycle": 2, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:51:08", "step": "getInbox", "cycle": 2, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:51:08", "step": "getInbox", "cycle": 2, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:51:08", "step": "getInbox", "cycle": 2, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:51:13", "step": "getInbox", "cycle": 3, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:51:14", "step": "getInbox", "cycle": 3, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:51:14", "step": "getInbox", "cycle": 3, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:51:14", "step": "getInbox", "cycle": 3, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:51:19", "step": "getInbox", "cycle": 4, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:51:19", "step": "getInbox", "cycle": 4, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:51:19", "step": "getInbox", "cycle": 4, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:51:19", "step": "getInbox", "cycle": 4, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:51:24", "step": "getInbox", "cycle": 5, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:51:25", "step": "getInbox", "cycle": 5, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:51:25", "step": "getInbox", "cycle": 5, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:51:25", "step": "getInbox", "cycle": 5, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:51:30", "step": "getInbox", "cycle": 6, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:51:30", "step": "getInbox", "cycle": 6, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:51:30", "step": "getInbox", "cycle": 6, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:51:30", "step": "getInbox", "cycle": 6, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:51:35", "step": "getInbox", "cycle": 7, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:51:35", "step": "getInbox", "cycle": 7, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:51:35", "step": "getInbox", "cycle": 7, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:51:36", "step": "getInbox", "cycle": 7, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:51:41", "step": "getInbox", "cycle": 8, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:51:41", "step": "getInbox", "cycle": 8, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:51:41", "step": "getInbox", "cycle": 8, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:51:41", "step": "getInbox", "cycle": 8, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:51:46", "step": "getInbox", "cycle": 9, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:51:46", "step": "getInbox", "cycle": 9, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:51:47", "step": "getInbox", "cycle": 9, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:51:47", "step": "getInbox", "cycle": 9, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:51:52", "step": "getInbox", "cycle": 10, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:51:52", "step": "getInbox", "cycle": 10, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:51:52", "step": "getInbox", "cycle": 10, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:51:52", "step": "cycle_error", "cycle": 10, "error": "HTTP 429: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"}
+{"ts": "2026-03-20T13:51:57", "step": "cycle_error", "cycle": 11, "error": "HTTP 429: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"}
+{"ts": "2026-03-20T13:52:02", "step": "cycle_error", "cycle": 12, "error": "HTTP 429: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"}
+{"ts": "2026-03-20T13:52:07", "step": "cycle_error", "cycle": 13, "error": "HTTP 429: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"}
+{"ts": "2026-03-20T13:52:13", "step": "cycle_error", "cycle": 14, "error": "HTTP 429: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"}
+{"ts": "2026-03-20T13:52:18", "step": "cycle_error", "cycle": 15, "error": "HTTP 429: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"}
+{"ts": "2026-03-20T13:52:23", "step": "cycle_error", "cycle": 16, "error": "HTTP 429: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"}
+{"ts": "2026-03-20T13:52:28", "step": "cycle_error", "cycle": 17, "error": "HTTP 429: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"}
+{"ts": "2026-03-20T13:53:28", "step": "getInbox", "cycle": 1, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:53:28", "step": "getInbox", "cycle": 1, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:53:28", "step": "getInbox", "cycle": 1, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:53:28", "step": "getInbox", "cycle": 1, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:53:28", "step": "getMessages", "cycle": 1, "requested": 3, "saved": 3, "ids": ["6e3a1e2085356b5553fcc50ddeb3fe76", "82abd0103cfe75e1e0fba0bf23c51afa", "dc66f8e991804f6162a9cfe0cfad0a6e"]}
+{"ts": "2026-03-20T13:53:43", "step": "getInbox", "cycle": 2, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:53:43", "step": "getInbox", "cycle": 2, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:53:43", "step": "getInbox", "cycle": 2, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:53:43", "step": "getInbox", "cycle": 2, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:53:59", "step": "getInbox", "cycle": 3, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:53:59", "step": "getInbox", "cycle": 3, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:53:59", "step": "getInbox", "cycle": 3, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:53:59", "step": "getInbox", "cycle": 3, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:54:14", "step": "getInbox", "cycle": 4, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:54:14", "step": "getInbox", "cycle": 4, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:54:14", "step": "getInbox", "cycle": 4, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:54:14", "step": "getInbox", "cycle": 4, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:54:14", "step": "getMessages", "cycle": 4, "requested": 3, "saved": 3, "ids": ["20a005a13b0ce957503502ee287ff567", "51ae0cb4cecf25112c5f23c8d95144ec", "d45574a5515b5da3a9735f4a7c1833cb"]}
+{"ts": "2026-03-20T13:54:30", "step": "getInbox", "cycle": 5, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:54:30", "step": "getInbox", "cycle": 5, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:54:30", "step": "getInbox", "cycle": 5, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:54:30", "step": "getInbox", "cycle": 5, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:54:45", "step": "getInbox", "cycle": 6, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:54:45", "step": "getInbox", "cycle": 6, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:54:45", "step": "getInbox", "cycle": 6, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:54:45", "step": "getInbox", "cycle": 6, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:55:01", "step": "getInbox", "cycle": 7, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:55:01", "step": "getInbox", "cycle": 7, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:55:01", "step": "getInbox", "cycle": 7, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:55:01", "step": "getInbox", "cycle": 7, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:55:01", "step": "getMessages", "cycle": 7, "requested": 3, "saved": 3, "ids": ["59b3da65890e654c152b8947c1ba38ee", "6b343345cda8d66432fa2421df321ad8", "fb98cecffd18aced9f563299879c467f"]}
+{"ts": "2026-03-20T13:55:16", "step": "getInbox", "cycle": 8, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:55:16", "step": "getInbox", "cycle": 8, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:55:16", "step": "getInbox", "cycle": 8, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:55:16", "step": "getInbox", "cycle": 8, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:55:32", "step": "getInbox", "cycle": 9, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:55:32", "step": "getInbox", "cycle": 9, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:55:32", "step": "getInbox", "cycle": 9, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:55:32", "step": "getInbox", "cycle": 9, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:55:47", "step": "getInbox", "cycle": 10, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:55:47", "step": "cycle_error", "cycle": 10, "error": "HTTP 429: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"}
+{"ts": "2026-03-20T13:56:32", "step": "cycle_error", "cycle": 11, "error": "HTTP 429: {\n    \"code\": -9999,\n    \"message\": \"Za cz\\u0119sto wykonujesz zapytania. Zwolnij.\"\n}"}
+{"ts": "2026-03-20T13:58:02", "step": "getInbox", "cycle": 12, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:58:03", "step": "getInbox", "cycle": 12, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:58:03", "step": "getInbox", "cycle": 12, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:58:03", "step": "getInbox", "cycle": 12, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:58:03", "step": "getMessages", "cycle": 12, "requested": 3, "saved": 3, "ids": ["040192f3889d8a15ea44ea0f332e2b90", "5315912a10b7b63927ecabd2751f7c15", "8e5a9ae2b54e68ddcb34c8a7f4ab8494"]}
+{"ts": "2026-03-20T13:58:18", "step": "getInbox", "cycle": 13, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:58:18", "step": "getInbox", "cycle": 13, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:58:18", "step": "getInbox", "cycle": 13, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:58:18", "step": "getInbox", "cycle": 13, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:58:34", "step": "getInbox", "cycle": 14, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:58:34", "step": "getInbox", "cycle": 14, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:58:34", "step": "getInbox", "cycle": 14, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:58:34", "step": "getInbox", "cycle": 14, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:58:49", "step": "getInbox", "cycle": 15, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:58:49", "step": "getInbox", "cycle": 15, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:58:49", "step": "getInbox", "cycle": 15, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:58:49", "step": "getInbox", "cycle": 15, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:59:05", "step": "getInbox", "cycle": 16, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:59:05", "step": "getInbox", "cycle": 16, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:59:05", "step": "getInbox", "cycle": 16, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:59:05", "step": "getInbox", "cycle": 16, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:59:05", "step": "getMessages", "cycle": 16, "requested": 3, "saved": 3, "ids": ["361f310fa7a6d1c739bec20672f5a8d9", "4403725f4d28de41290546ba5da4117d", "732f603043c3137590582214d179d4e8"]}
+{"ts": "2026-03-20T13:59:20", "step": "getInbox", "cycle": 17, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:59:20", "step": "getInbox", "cycle": 17, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:59:20", "step": "getInbox", "cycle": 17, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:59:20", "step": "getInbox", "cycle": 17, "page": 4, "count": 13}
+{"ts": "2026-03-20T13:59:36", "step": "getInbox", "cycle": 18, "page": 1, "count": 20}
+{"ts": "2026-03-20T13:59:36", "step": "getInbox", "cycle": 18, "page": 2, "count": 20}
+{"ts": "2026-03-20T13:59:36", "step": "getInbox", "cycle": 18, "page": 3, "count": 20}
+{"ts": "2026-03-20T13:59:36", "step": "getInbox", "cycle": 18, "page": 4, "count": 13}

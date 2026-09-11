@@ -1,0 +1,4 @@
+{
+  "query_text": "{\"have_flag\": false, \"can_send_flag\": false, \"encoded_flag_hex\": \"\"}",
+  "output": "have_flag=maybe;can_send_flag=unknown;encoded_flag_hex=PROVIDE_HEX_ONLY"
+}

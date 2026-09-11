@@ -1,0 +1,55 @@
+{
+  "mode": "check_flag_ord_with_main",
+  "expected_size_order": [
+    70,
+    76,
+    65,
+    71
+  ],
+  "listing_found": true,
+  "size_order_check_ok": false,
+  "details": {
+    "entries": [
+      {
+        "name": "01_that",
+        "size": 24,
+        "created_at": 1775223402
+      },
+      {
+        "name": "02_was",
+        "size": 43,
+        "created_at": 1775223402
+      },
+      {
+        "name": "03_really",
+        "size": 16,
+        "created_at": 1775223402
+      },
+      {
+        "name": "04_good",
+        "size": 43,
+        "created_at": 1775223402
+      },
+      {
+        "name": "click_here",
+        "size": 22,
+        "created_at": 1775223402
+      }
+    ],
+    "observed_sizes_from_listing": [
+      24,
+      43,
+      16,
+      43,
+      22
+    ],
+    "observed_sizes_by_name": [
+      24,
+      43,
+      16,
+      43,
+      22
+    ]
+  },
+  "overall_ok": false
+}

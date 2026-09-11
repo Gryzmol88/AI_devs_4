@@ -1,0 +1,136 @@
+{
+  "cities": [],
+  "people": [
+    {
+      "full_name": "Natan Rams",
+      "city": "Domatowo"
+    },
+    {
+      "full_name": "Iga Kapecka",
+      "city": "Opalino"
+    },
+    {
+      "full_name": "Rafał Kisiel",
+      "city": "Brudzewo"
+    },
+    {
+      "full_name": "Marta Frantz",
+      "city": "Darzlubie"
+    },
+    {
+      "full_name": "Oskar Radtke",
+      "city": "Celbowo"
+    },
+    {
+      "full_name": "Eliza Redmann",
+      "city": "Mechowo"
+    },
+    {
+      "full_name": "Damian Kroll",
+      "city": "Puck"
+    },
+    {
+      "full_name": "Lena Konkel",
+      "city": "Karlinkowo"
+    }
+  ],
+  "offers": [
+    {
+      "item": "ryz",
+      "city": "Darzlubie"
+    },
+    {
+      "item": "marchew",
+      "city": "Puck"
+    },
+    {
+      "item": "chleb",
+      "city": "Domatowo"
+    },
+    {
+      "item": "wolowina",
+      "city": "Opalino"
+    },
+    {
+      "item": "kilof",
+      "city": "Puck"
+    },
+    {
+      "item": "wiertarka",
+      "city": "Karlinkowo"
+    },
+    {
+      "item": "chleb",
+      "city": "Celbowo"
+    },
+    {
+      "item": "maka",
+      "city": "Brudzewo"
+    },
+    {
+      "item": "mlotek",
+      "city": "Karlinkowo"
+    },
+    {
+      "item": "makaron",
+      "city": "Opalino"
+    },
+    {
+      "item": "kapusta",
+      "city": "Celbowo"
+    },
+    {
+      "item": "ziemniak",
+      "city": "Domatowo"
+    },
+    {
+      "item": "ryz",
+      "city": "Opalino"
+    },
+    {
+      "item": "kilof",
+      "city": "Mechowo"
+    },
+    {
+      "item": "chleb",
+      "city": "Brudzewo"
+    },
+    {
+      "item": "ziemniak",
+      "city": "Darzlubie"
+    },
+    {
+      "item": "kurczak",
+      "city": "Darzlubie"
+    },
+    {
+      "item": "ryz",
+      "city": "Karlinkowo"
+    },
+    {
+      "item": "lopata",
+      "city": "Brudzewo"
+    },
+    {
+      "item": "lopata",
+      "city": "Puck"
+    },
+    {
+      "item": "maka",
+      "city": "Mechowo"
+    },
+    {
+      "item": "mlotek",
+      "city": "Mechowo"
+    },
+    {
+      "item": "kilof",
+      "city": "Celbowo"
+    },
+    {
+      "item": "wiertarka",
+      "city": "Domatowo"
+    }
+  ],
+  "notes": "Deterministyczna ekstrakcja bez LLM."
+}

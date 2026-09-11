@@ -1,0 +1,25 @@
+{
+  "model": "google/gemini-3-flash-preview",
+  "temperature": 0,
+  "messages": [
+    {
+      "role": "system",
+      "content": "Jesteś precyzyjnym analitykiem vision. Wykrywaj siatkę wyłącznie po czerwonych liniach podziału sektorów. Zwracasz tylko poprawny JSON."
+    },
+    {
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "Przeanalizuj mapę z siatką sektorów i wskaż sektor tamy. Sektory są podzielone czerwonymi liniami siatki - licz kolumny i wiersze na podstawie tych czerwonych linii. Współrzędne podaj jako kolumna (x) i wiersz (y), indeksowanie od 1. Zwróć WYŁĄCZNIE obiekt JSON z polami: col, row, grid_cols, grid_rows, confidence, reasoning_short."
+        },
+        {
+          "type": "image_url",
+          "image_url": {
+            "url": "https://hub.ag3nts.org/data/52b65cf5-2d1a-4fd2-ac76-7063b66b10fc/drone.png"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "steps": [
+    {
+      "action_name": "update_skolwin_report_classification",
+      "payload": {
+        "action": "update",
+        "page": "incydenty",
+        "id": "380792b2c86d9c5be670b3bde48e187b",
+        "title": "MOVE04 Wykryto zwierzęta w rejonie miasta Skolwin",
+        "content": "Zgłoszenie dotyczy zwierząt zauważonych w rejonie miasta Skolwin."
+      },
+      "response": {
+        "code": 110,
+        "message": "Entry updated successfully.",
+        "status": "success",
+        "operation": {
+          "action": "update",
+          "page": "incydenty",
+          "id": "380792b2c86d9c5be670b3bde48e187b"
+        },
+        "updated": {
+          "title": "MOVE04 Wykryto zwierzęta w rejonie miasta Skolwin",
+          "content": "Zgłoszenie dotyczy zwierząt zauważonych w rejonie miasta Skolwin.",
+          "badge": "01.04.2026 00:01 | radar | obserwacja"
+        }
+      },
+      "ok": true
+    },
+    {
+      "action_name": "complete_skolwin_todo",
+      "payload": {
+        "action": "update",
+        "page": "zadania",
+        "id": "380792b2c86d9c5be670b3bde48e187b",
+        "title": "Zadanie wykonane: obserwacja zwierząt w rejonie Skolwin",
+        "content": "W rejonie Skolwin zaobserwowano zwierzęta, m.in. bobry.",
+        "done": "YES"
+      },
+      "response": {
+        "code": 110,
+        "message": "Entry updated successfully.",
+        "status": "success",
+        "operation": {
+          "action": "update",
+          "page": "zadania",
+          "id": "380792b2c86d9c5be670b3bde48e187b"
+        },
+        "updated": {
+          "title": "Zadanie wykonane: obserwacja zwierząt w rejonie Skolwin",
+          "content": "W rejonie Skolwin zaobserwowano zwierzęta, m.in. bobry.",
+          "badge": "analiza",
+          "done": "YES",
+          "displayStatus": "wykonane"
+        }
+      },
+      "ok": true
+    },
+    {
+      "action_name": "create_komarowo_incident",
+      "payload": {
+        "action": "update",
+        "page": "incydenty",
+        "id": "ff3313a39099222e325f03b378680e3c",
+        "title": "MOVE01 Wykryto ruch ludzi w okolicach miasta Komarowo",
+        "content": "W okolicach miasta Komarowo wykryto ruch ludzi."
+      },
+      "response": {
+        "code": 110,
+        "message": "Entry updated successfully.",
+        "status": "success",
+        "operation": {
+          "action": "update",
+          "page": "incydenty",
+          "id": "ff3313a39099222e325f03b378680e3c"
+        },
+        "updated": {
+          "title": "MOVE01 Wykryto ruch ludzi w okolicach miasta Komarowo",
+          "content": "W okolicach miasta Komarowo wykryto ruch ludzi.",
+          "badge": "27.03.2026 20:12 | internet | krytyczne"
+        }
+      },
+      "ok": true
+    }
+  ],
+  "final_response": {
+    "code": 0,
+    "message": "{FLG:NEWREALITY}"
+  }
+}

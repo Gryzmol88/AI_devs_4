@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "max_dirs": 500,
+  "scanned_dirs": 15,
+  "visited_dirs": 15,
+  "errors": 4,
+  "completed": true,
+  "remaining_queue": 0
+}

@@ -1,0 +1,7 @@
+{
+  "path": "/opt/firmware/cooler/.gitignore",
+  "source_command": "cat /opt/firmware/cooler/.gitignore",
+  "truncated": false,
+  "max_chars": 40000,
+  "content": ".env\nstorage.cfg\nlogs/"
+}

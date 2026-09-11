@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "action": "search",
+  "query": "Wiktor",
+  "pagination": {
+    "page": 1,
+    "perPage": 20,
+    "total": 4,
+    "totalPages": 1
+  },
+  "items": [
+    {
+      "rowID": 92,
+      "messageID": "6624add090a5cb06f5c192653b5a243c",
+      "threadID": 62044,
+      "subject": "Podejrzana aktywność przy obiekcie PWR6132PL",
+      "from": "vik4tor@proton.me",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-05 16:25",
+      "snippet": "Jako obywatel wierny ideałom S..."
+    },
+    {
+      "rowID": 90,
+      "messageID": "0275af42c646b4e01e7c04927e1c4448",
+      "threadID": 62043,
+      "subject": "Sąsiad zaniża raporty wydajności",
+      "from": "w.konieczny@strefa-blok4.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-05 09:16",
+      "snippet": "Nazywam się Wiktor Konieczny. ..."
+    },
+    {
+      "rowID": 88,
+      "messageID": "4e286367ca16ad2be9cc593bd966bf45",
+      "threadID": 62042,
+      "subject": "Sąsiad notorycznie obija się w pracy",
+      "from": "w.bednarek@osiedle-nowa7.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-05 08:06",
+      "snippet": "Tu Wiktor Bednarek. Mój sąsiad..."
+    },
+    {
+      "rowID": 86,
+      "messageID": "631d232bc3ad2c8fe51ec237f7614fbc",
+      "threadID": 62041,
+      "subject": "Sąsiad unika podatku systemowego",
+      "from": "w.sieradzki@obywatel-grid.nwo",
+      "to": "operator04227@system.nwo",
+      "date": "2026-03-05 07:14",
+      "snippet": "Dzień dobry. Nazywam się Wikto..."
+    }
+  ]
+}
